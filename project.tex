@@ -1,0 +1,77 @@
+\section{Lower Atmospheric Signatures of a Solar Flare Associated with Seismicity}
+use old report content + new content in presentation (inc full page plots but better/bigger axis labels)
+\begin{itemize}
+\item Abstract: Mark didn't like the abstract here
+\item Background: Expand and de-itemize background (background should not be covering ground already in previous sections)
+\item Observations: More detailed
+\item Analysis: David Fanning Ladder plots. Analysis section should include more about techniques used to process the data.
+\item Discussion
+\item Future Work
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%555
+%old report content
+
+\section{Project: Lower Atmospheric Signatures of Solar Flares Associated with Seismicity.}\label{PRJ}
+%\begin{abstract}
+%Sunquakes represent the propagation of acoustic waves in the sub-photosphere, responding to an excitation of the photosphere during the impulsive phase of solar flares. The progenitors of sunquakes are thought to be either shocks, radiative backwarming, direct particle collision or sudden magnetic field reconfiguration. Each of these mechanisms relies on the transport of energy from the corona to the photosphere, and the physical conditions existing in the chromosphere such as magnetic configuration and density. To understand sunquakes and their relationship to solar flares, we need to understand how energy moves down through the solar atmosphere and the physical conditions that are present. An X1 solar flare with associated sunquake was observed in active region NOAA 12017 on the 29th of March 2014 at 17:46 UTC, by multiple spacecraft, including SDO (HMI), IRIS and RHESSI. Lightcurves of the flare emission from the photosphere, chromosphere and transition region are analysed providing information about the deposition of energy at different altitudes in the solar atmosphere. Hard X-ray footpoints of coronal loops are shown to align well with an area associated with maximum acoustic power. Balmer continuum emission aligned with maximum acoustic power is shown to increase during the flare, indicating the existence of hydrogen recombination continua in the chromosphere possibly leading to radiative backwarming of the photosphere. 
+%\end{abstract}
+
+\subsection{Background}
+Hard X-ray (HXR) footpoints (1) and UV ribbons (2) observed in the chromosphere directly map to the reconfiguring magnetic fields during the flare: 
+1. HXR footpoints are observed due to the excitation of the lower atmosphere by electron particle beams accelerated by the reconnecting magnetic field in the the corona during the flare \citep{1995ApJ...455..347A}.
+2.According to the standard flare model \citep{1964NASSP..50..451C, 1966Natur.211..695S, 1974SoPh...34..323H, 1976SoPh...50...85K} magnetic reconnection in the corona leads to energy being directed downward in the form of particles, radiation, MHD waves and conduction of heat, which in turn produces chromospheric ribbons.\\
+
+The majority of the energy released by a flare is deposited in the lower solar atmosphere and manifests itself in the form of enhanced hard X-ray, UV and optical radiation. The production of a sunquake requires a fraction of less than 10-3 of the energy budget available during the flare \citep{2005ApJ...630.1168D}. \\
+
+
+Optical emission in the lower atmosphere during a flare can occur via two mechanisms \citep{2007ASPC..368..417D}. 
+1. Continuum emission from the photosphere is enhanced by heating of the temperature minimum region.
+2. Balmer/Paschen continuum emission produced via hydrogen recombination in the chromosphere \\
+
+Balmer/Paschen emission upward (i.e., directly detected) also has a downward component which leads to radiative backwarming of the photosphere \citep{1989SoPh..124..303M}. \\
+
+Sunquakes occur as a result of solar flares depositing energy into the photosphere, stimulating the production of acoustic waves which propagate into the sub-photosphere. These acoustic transients travel into the interior of the sun until they refract back to the surface and are observed as concentric ripples in Dopplergrams \citep{2014arXiv1402.1249K}. \\
+
+The method in which solar flares trigger sunquakes is unknown, although the following mechanisms are thought to be possible progenitors: shocks, radiative backwarming, direct particle collision and sudden magnetic field reconfiguration 
+
+
+
+\subsection{Observations}
+The X1 flare of the 29th of March 2014 at 17:46 UT in active region NOAA 12017, was observed by SDO, IRIS and RHESSI. HXR data from RHESSI, UV and Balmer emission from IRIS slit-jaw/spectrometer, and visible continuum from SDO HMI are observed during the flare.Balmer emission is taken from IRIS spectroscopic data (wavelength range of 2825.7 and 2825.8Å \citep{2014ApJ...794L..23H}. \\
+
+\begin{figure}\label{saxcontours}
+  \begin{center}
+  \includegraphics[width=0.40\textwidth]{saxcontours}
+  \end{center}
+  \caption{From top to bottom shows IRIS Si IV slit-jaw, Mg II slit-jaw and SDO HMI continuum intensity maps.Contours show RHESSI HXR with $E = 25-50$ keV in white or black and HXR with $E = 50-100 keV$ in green, sunspot locations in yellow taken from HMI and 6mHz acoustic power in blue.}
+\end{figure}
+
+
+
+\subsection{Analysis}
+SDO HMI data is subjected to a running difference filter to isolate locations that appear to flare in white light . These enhanced pixels are identified by using a combination of visual inspection and thresholding to eliminate false positives being triggered by noise of similar intensities.Lightcurves are created from SDO HMI continuum processed data. IRIS slit jaw images of Si IV and Mg II are aligned with HMI and lightcurves are created \ref{lcseries} for pixels at the quake and ribbon locations. Lightcurves are created from IRIS spectroscopic data at slit positions aligned with quake and ribbon locations, over a wavelength range within the Balmer continuum. IRIS spectroscopic data are analysed at sunquake, ribbon and non-flaring positions. An egression map of acoustic power is produced  at 6mHz, revealing the position of the sunquake. HXR data from RHESSI and acoustic power data are overlaid on HMI and IRIS slit jaw maps.\\
+
+\begin{figure}\label{lcseries}
+  \begin{center} 
+\includegraphics[width=0.48\textwidth]{lcseries}
+  \end{center}
+  \caption{Left panel shows data over the quake location, right panel shows data over the ribbon location. From top to bottom, plots show lightcurves from IRIS Si IV, Mg II and Balmer wavelengths, with the bottom panel showing the lightcurve from SDO HMI. }
+\end{figure}
+
+\begin{figure}\label{spectra}
+  \begin{center}
+  \includegraphics[width=0.58\textwidth]{spectra}
+  \end{center}
+  \caption{IRIS spectroscopic data ranging in wavelength 2796 - 2830Å with a smaller plot showing a zoom of the region containing the Mg II triplet lines. Black is the spectrum at the quake location (y = 435), red is the spectrum at a point along the ribbon (y = 489) and blue is the spectrum of a non-flaring region (y = 20). Square trough like features represent saturation of the CCD.}
+\end{figure}
+ 
+
+\subsection{First Results and Discussion}
+The location of maximum acoustic power, RHESSI HXR, IRIS and SDO intensity correlate both spatially and temporally \ref{saxcontours}, showing that energy input into the upper chromosphere somehow propagates down to the photosphere. Intensity lightcurves \ref{lcseries} from SDO and IRIS seem to suggest a similar representation of the movement of energy through the chromosphere to lower altitudes, since their impulsive appearance and peak intensity occur within a minute of each 
+other throughout the different regions. Intensity contrast values shown in \ref{lcseries} give an idea of how much energy is being deposited in each part of the atmosphere but energy calculations are needed. A highly impulsive Balmer continuum \ref{lcseries}, at sunquake and ribbon locations, shows that there is likely to be some radiative backwarming involved in passing energy to the photosphere. Spectroscopic data shown in \ref{spectra} show the sunquake emission to be an order of magnitude greater in amplitude than in the ribbon. The spectrum taken from a non-flaring region is around three orders of magnitude smaller than the sunquake location. Lines over the sunquake location are strongly broadened when compared to spectra elsewhere \ref{spectra}. Ribbon and sunquake spectra appear to be slightly redshifted in comparison to the non-flaring region.\\
+
+
+\subsection{Future Work}
+Calculate energy associated with emission captured by HMI to compare with the acoustic power of the sunquake. Calculate energy associated with emission captured by IRIS slit jaw and spectrometer in order to estimate energy deposition in the atmosphere. Calculate energy associated with Balmer emission to assess likely energy contribution of radiative backwarming. Calculate non-thermal electron power via HXR spectra to estimate the initial energy of the electron beam accelerated by the corona. A more detailed analysis of IRIS spectroscopic data to estimate velocity, density and temperature of chromospheric material. Analysis of triplet lines in the wings of Mg II h \& k will be used to determine heating of the lower chromosphere. Compare spectroscopic data taken by EIS with that of IRIS. Magnetogram: Look at HMI/SOT data to analyse the configuration of the magnetic field.\\

@@ -1,0 +1,242 @@
+
+
+\title{Sunquake Literature Review}
+\begin{document}
+
+\section{Papers}
+This section contains the main conclusions of various papers describing observations and theory regarding sunquakes and local helioseismology.
+
+\cite{1993SoPh..147..287A} includes the McClymont Jerk idea of fast magnetic field reconfiguration.
+
+%%%1st Sunquake observation paper
+\subsection{X-ray Flare Sparks Quake Inside Sun, Kosovichev and Zharkova 1998}
+\cite{1998Natur.393..317K} observed an acoustic oscillation of the solar photosphere with an amplitude of three kilometers in altitude, caused by an X-ray flare that occured in July 1996. The seismic wave propagated through the photosphere, to a distance of $1.2\times10^{8}$ kilometers from it's point of origin at a velocity of $50 k..s^{-1}$. Kosovichev and Zharkova commented that observed dopplegrams revealed strong mass flows both upward and downward during the impulsive phase of the flare, of which the maximum flow velocity occurred around 1 minute later. The other interesting comment from this article was that this time delay was consistent with the thick target model of solar flares \ref{EFM}, in that an incident particle beam heats the cooler chromosphere causing a shock front which travels downward, impacting the photosphere, as it stands, this idea is yet to be proven.
+This article also mentions the use of seismograms to track the sunquake, constructed by remapping Doppler images into polar coordinates centred on the point of initial velocity impulse, then applying a Fourier transform with respect to the azimuthal angle. The seismogram will produce a set of ridges with a positive slope, infact the plot produced with this technique showed how the wave packet accelerates over time.
+
+%%%1st sunquake Helioseismology paper
+\subsection{Seismic Images of a Solar Flare, Donea, Braun & Lindsey 1999}
+\cite{1999ApJ...513L.143D} pioneered the use of helioseismic holography to produce seismic images of the solar flare of July 1996 reported to have a sunquake by Kosovichev and Zharkova \citep{1998Natur.393..317K}. Time series egression-power maps at 3.5 and 6 mHz were computed with a 2 mHz bandwidth. It was found that the most powerful acoustic power frequency associated with the flare was centred at 3.5 mHz but had a large signal to noise ratio. Whereas the 6 mHz range has a much lower ambient noise and finer diffraction limit, therefore producing a better rendering of the seismicity of the flare. \emph{it is now standard practice to use the 6 mHz range for egression-power for the reasons just mentioned}. It was also found that the 6mHz range proceeds the 3.5mHz by approximately 4 minutes, the reason for which is unknown. Kosovichev and Zharkov point to phase perturbations by sunspot subphotospheres, but these should only lead to a 1 minute time lag at most
+
+Originally the idea of analysing Doppler images of the solar surface in order to observe acoustic sources was put forward by \cite{1975CRASB.281...93R}. Helioseismic holography was developed further in concept by Lindsey and Braun \citep{1990SoPh..126..101L, 1992ApJ...392..739B, 1997ApJ...485..895L } in an effort to to image the solar interior and far-side of the Sun. From the late 90s helioseismic holography has been used to probe various solar subsurface and surface phenomena but in this report the focus is solely on flares and sunquakes. 
+
+\subsubsection{Acoustic Analysis Method}
+The surface acoustic field $\psi(\vec{r}_{'},t_{'})$ is time-reversed to new spatial and temporal coordinates, $(\vec{r},z,t)$, where $\vec{r}, z$ and $t$ are horizontal distance, depth and time respectively. These new coordinates represent the point of origin of the acoustic source. $z$ is calculated by convolution with a Green's function,$G_{+}$, producing regressed acoustic data, known as the egression, mathematically, the process is as follows:
+
+\begin{equation}\label{helioholo}  
+H_{+}(z,\vec{r},t)= \int dt' = \int_{a<|\vec{r}-\vec{r}'|<b} d^{2}\vec{r}'G_{+}(z,\vec{r},t,\vec{r}',t')\psi(\vec{r}_{'},t_{'}) 
+\end{equation}
+
+Where $a$ and $b$ are the inner radius and outer radii of an annular acoustic pupil. Because $G_{+}$ is considered to be a perfect absorber, the acoustic field is regressed by \ref{helioholo} in a single step. For acoustic disturbances on the solar surface depth is zero and hence $z=0$.
+ %%%TO BE CONTINUED....
+
+%%%1st Sunquake simulation paper
+\subsection{Propagational Aspects of Sunquake Waves, Medrek et al 2000}
+\cite{2000AcA....50..405M} ran 2D numerical simulations of sunquake waves in the subphotosphere based on Euler's compressible fluid dynamics equations therefore, magnetic fields are neglected. The model included two layers of the atmosphere with the photosphere at a constant temperature and the sub-photosphere increasing in temperature linearly with depth. The point of origin of the sunquake is placed just below the photosphere. The simulation produces an initial pulse of enhanced pressure, caused by thermal energy release by the interaction of particles generated by the flare with the subphotosphere in the footpoint, which becomes an acoustic wave. The wave interacts with the photosphere causing perturbations which would be observed as sunquakes. The model reproduced wave signatures and wave acceleration (from epicenter) profiles associated with the observed properties of sunquakes. The model found seismic waves to be dispersive and non-linear.
+%dispersive = spreads out
+%non-linear = what you put in, is not what you get out  
+
+
+%Solar flare paper...spots magnetic transients
+\subsection{MAGNETIC ENERGY RELEASE AND TRANSIENTS IN THE SOLAR FLARE OF 2000 JULy 14}
+\cite{2001ApJ...550L.105K} report observations of magnetic transients on the photosphere during a solar flare, where by impulsive changes in magnetic field strength were observed. These magnetic transients were shown to approximately correlate in time and space with impulsive increases in plasma velocity and emission intensity. The author puts forward the idea that the observed transients are caused by beams of energetic particles reaching the photosphere.   
+
+%Observational Sunquake Paper first paper to mention magnetic transients providing energy for sunquake??? wasn't in conclusion??? 
+\subsection{A new insight into the energy release and transport in solar flares, V. Zharkova, Kosovichev 2002}
+\cite{2002ESASP.477...35Z}, write this paper in reference to their last publication \citep{2001ApJ...550L.105K} concerning
+
+%sunquake simulation paper
+\subsection{Analogy Between Sunquakes and Water Waves, Podesta 2003} 
+\cite{2003SoPh..218..227P} model seismic waves generated at the surface of the convective zone using Euler's incompressible fluid dynamics equations, the same method for simulating water waves. Incompressible fluid dynamics is not realistic in terms of the solar convective zone and sunquakes, it is a oversimplification. This is because compressible wave modes such a p-modes are not possible in an incompressible model, only gravity waves propagating to the surface are possible. Due to acoustic waves in the convective zone being dominated by compressible p-modes, the physics in this model are not sufficient to describe sunquakes. Also, this points to the fundamental difference in the physics of water waves and sunquakes. The reason to study sunquakes in this way is to pave the way for more complicated, compressible fluid models.\\
+That being said, incompressible fluid physics is able to simulate ring waves observed on the surface of the convection zone during a sunquake. Like water waves, sunquake waves can be described by a linear wave theory. The acoustic waves are shown to disperse strongly, which leads to a quadratic time-distance relationship, implying a constant radial acceleration of wave crests, which is a well known property of water wave motion. However, observations show that not only the crests and troughs of the acoustic waves accelerate but so does the entire wave envelope (both move at the same speed), this is were this particular model fails. This is probably due to the compressible nature of the convective zone and the dominace of p-modes in this region.
+
+Basically, sunquakes are not like water waves!
+
+%Sunquake observation paper
+\subsection{Seismic Emission from the Solar Flares of 2003 October 28 and 29, Donea \and Lindsey 2005}
+\cite{2005ApJ...630.1168D} detected acoustic waves associated with the solar flares on October 28th and 29th AR10486 and using helioseismic holography, calculated egression maps to image the seismic sources. Egression-power (6mHz with 2mHz bandwidth) maps revealed compact acoustic sources were well aligned with hard X-ray signatures associated with the footpoints of coronal loops, which suggests a link between accelerated particles during the flare and a hydrodynamic response in the chromosphere or photosphere underneath the footpoints. There was also evidence of high energy protons entering the chromosphere in the viscinity of the acoustic sources. Emission fassociated with the D1 line of neutral sodium observed from the 29th of October flare suggests condensation of chromspheric material at the onset of the flare. GONG also observed the events and intensity data showed enhanced radiative emission with an impulsive profile encompassing the seismic source. Heating of the photosphere by high-energy protons could play a major role in seismic emission from acousitcally active flares.
+
+A plot showing intensity over time shows that the flares have a highly impulsive phase. Further calculations show that the seismic source has relatively low energy compared to that released by the flare. The authors put forward the idea that the existence of an acoustic source, relies more on how suddenly the energy is released rather than the energy budget of the flare.  
+
+This paper had a number of findings; most flares do not have associated seismicity and the energy needed to stimulate the propagation of an acoustic wave in the subphotosphere is a very small fraction of that released by the flare; HXR emission from the footpoints of magnetic loops that indicate the presence of high energy accelerated particles align with the acoustic sources; Sunquakes are the result of energy deposition during the impulsive phase of the flare; there is evidence of energetic chromospheric condensations above the seismic source. The authors stress the importance of high-energy protons reaching the lower altitudes of the chromosphere and even the photosphere where the thick target is more massive compared to the upper chromsphere where elctrons deposit their energy. Due to the extra mass in the lower chromosphere and photosphere, a greater fraction of the protons energy can be used to create an acoustic wave.  
+
+%sunquake 2nd podesta simulation paper
+\subsection{Compressible Fluid Model for the Seismic Waves Generated by A Sunquake, Podesta 2005}
+The abstract for \cite{2005SoPh..232....1P}:\\"The solar convection zone is modeled as a horizontally stratified atmosphere with a constant gravitational field and an adiabatic temperature gradient (a neutrally stratified polytrope). At equilibrium, the gas pressure and density decreases to zero at the solar surface so that the solar surface is treated as a free surface which is bounded by vacuum. The evolution of small amplitude perturbations about the equilibrium state is described by the linearized Euler equations for an inviscid compressible fluid with an adiabatic equation of state. A sunquake is initiated at time zero by means of an initial perturbation with a Gaussian velocity profile and the exact solution of the initial value problem is obtained in terms of a Fourier integral. Comparisons between theory and observations indicate that this highly simplified model is able to predict the propagation of sunquake waves across the solar surface with an error of approximately 10\percent or 20\percent. "
+
+
+
+
+%Sunquake observations...1st paper to mention anisotropy and sunquakes propagating through sunspots
+\subsection{Properties of Flares-Generated Seismic Waves on the Sun, Kosovichev 2006}
+Between 2003 and 2005, \cite{2006SoPh..238....1K} observes four solar flares with associated helioseismic waves using SOHO. Comparing X-ray fluxes from RHESSI data. HXR sources align well with sunquake points of origin which is indicative of impulsive phase driven, high-energy electrons producing compression waves of sufficient strength to generate the sunquake. Data reveals new properties of sunquakes in the anistropy of acoustic waves with the direction of propagation varying the amplitude. The anisotropy of these waves challeges theoretical models \citep{2000AcA....50..405M,2003SoPh..218..227P, 2005SoPh..232....1P} because they assume a concentrated gaussian impulse which is normal to the photosphere predicting an isotropic acoustic response. Anisotropy could be due to a sequential release of energy + complex magnetic field geometry dictating the flow of plasma and direction of accelerated particles. The most interesting point in the conclusion points to the possability that anisotropy could be caused by constructive interference of moving seismic sources, if multiple flare energy impacts are distributed spatially and temporally. Such moving sources could be caused by consecutive hydrodynamic events at the footpoints of neighbouring flux tubes. Waves propagating in the same direction as the expansion of flare ribbons is evidence for this. This could be an observational probe into the more complicated mechanics behind reconnection, given that in reality the standard 2D flare model is an over simplified view of the process.      
+Waves travel through sunspot regions and are left undistorted. P-modes are usually damped by around 50\percent in sunspots, which is attributed to energy escaping along the more radial magnetic field lines as MHD waves, whereas sunquakes seem largely unaffectd. This probably due to sunquakes propagating into the deep interior of the Sun rather than travelling horizontally across the surface.
+
+%Sunquake observations...1st paper to mention that sunquakes are accompanied by WLF, 1st to spot magnetic progenitor 
+\subsection{Seismic Emission from A M9.5-Class Solar Flare, Donea et al 2006}
+\cite{2006SoPh..239..113D} observe a sunquake associated with an M class flare. The seismic source spans 30Mm in the East - West and 15Mm in the North - South and is located in the penumbra of the sunspot in AR9608, this location also shows white light flare kernels. The spatial correlation of white-light enhancement and sunquake provides some evidence that seismic waves are generated by heating of the lower photosphere. Which is tested with a hydrodynamical model of acoustic waves driven by heating the photosphere. \emph{"Where heating of the low photosphere by protons or high energy electrons is unrealistic, strong association between the acoustic source and co-spatial continuum emission can be regarded as evidence for the back-warming hypothesis, in which the low photosphere is heated by radiation from the overlying chromosphere."- Donea et al}. Sudden white light enhancement of the photosphere indicates an energy deposition via heating great enough to contribute to the observed emission released during the flare. 
+
+In summary, the authors list their findings:
+M class flares can have more associated seiamicity than higher energy flares; the flare they studied had a strong spatial and temporal correlation between the sunquake and white light emission enhancement, which is explained by relating acoustic waves with sudden heating of the low photosphere; the energy of the sunquake is only a small fraction of the energy budget available in the flare, which is backed up by calculations approximating the transfer of heat energy to acoustic energy in the photosphere; co-spatial WL and sunquake sources, where there is no evidence of energetic protons, points to radiative backwarming as the progenitor of acoustic activity.
+
+The acoustic source is spatially and temporally aligned with a magnetic transient suggesting that magnetic forces may contribute to seismic emission.  
+
+
+
+This paper has some nice back of the envelope calculations regarding energy of pressure wave caused by heating.
+
+1st paper to argue against direct proton beam progenitor, preferring radiative backwarming of the photosphere caused by particle beam heating of the chromosphere, using the presence of a white light flare as the smoking gun.
+
+    
+\subsection{Helioseismic Analysis of the Solar Flare-Induced Sunquake of 2005, Moradi et al 2007}
+\cite{2007MNRAS.374.1155M}
+
+The sunquake was co-spatial with HXR and WL along the penumbral neutral line.
+
+WL emission was estimated as having energy $E_{WL}=2.0\times10^{23}J$. The sunquake was estimated to have $E_{SQ}\sim4\times10^{20}J$. The energy available in the WL emission is 500 times greater than the sunquake energy. 
+
+Again, the co-spatial nature of white WLE and Sunquake points to the radiative backwarming progenitor for local seismicity, where by the photosphere is heated by Balmer and Paschen continuum radiation from the lower chromosphere. There was no evidence of protons. 
+
+\subsection{On the Origin of Three Seismic Sources in the Proton-Rich flare of 2003 October 28, V. Zharkova and S. Zharkov 2007}
+\cite{2007ApJ...664..573Z} detected three acoustic sources (s1, s2 \and s3) in MDI Dopplergrams using TD diagrams.
+
+TD diagram derived start times and momenta are compared to that which is delivered by high-energy particles associated with HXR and $\gamma$-ray emission, as well as hydrodynamic shocks caused by these particles.
+
+S2 and S3 had signatures of HXR and $\gamma$-rays resulting from energetic protons, which deliver sufficient momentum to cause shocks deep enough in the atmosphere for the shock to propagate down a short distance to the photosphere, whereas a high energy electron beam does not have enough momentum.
+
+S1 was associated with an electron beam with quasi-thermal protons of the seperatrix jets.
+
+\subsection{From Gigahertz to Millihertz: A Multiwavelength study of the Acoustically Active 14 August 2004 M7.4 Solar Flare, Mart{\'{\i}}nez-Oliveros et al 2007}
+\cite{2007SoPh..245..121M}, obersved a sunquake associated with an M class flare.
+
+HXR, WLE and seismic sources are co-spatial, reinforcing the idea that sunquakes are produced by radiative backwarming of the photosphere by the chromospheric source of the continuum emission. 
+
+both radio and hxr are probably caused by the same population of accelerated electrons (HXR of 12-25keV)
+
+1st mention of a possible relationship between coronal loop height and sunquake production.
+
+\subsection{Seismic Emission from a Highly Impulsive M6.7 Solar Flare, Mart{\'{\i}}nez-Oliveros 2008}
+\cite{2008SoPh..251..613M} reports an observation of a sunquake associated with a highly impulsive type 1 white-light flare close to the solar limb.
+
+The flare has a very hard spectrum in the x-ray, is associated with a type II radio burst and CME. 
+
+At the time of release, this flare has the lowest SXR emission to be associated with a sunquake.
+
+HXR, WLE, radio and acoustic power emission are co-spatial, adding weight to sunquake production via radiative backwarming.
+
+Mentions that there maybe an inverse relationship between coronal loop height and sunquake production.
+
+%models
+\subsection{Mechanics of Seismic Emission from Solar Flares, Lindsey \and Donea 2008}
+\cite{2008SoPh..251..627L} makes an effort to list and explain all the current possible sunquake progenitors:
+Chromospheric shocks: Caused by sudden thick target heating in the upper and middle chromosphere. Shocks determined chromospheric from line profiles suggest that there is enough energy to generate seismic waves, however models suggest strong thermal dissapation of shocks which makes it almost impossible for them to reach the photosphere. 
+
+Wave-mechanical transients driven by heating of the photosphere: Evidence is derived from co-spatial alignement of WLE and sunquakes. Photospheric heating gives rise to a pressure wave which induces a seismic transient.
+ 
+Lorentz-force transients resulting from magnetic reconnection in the corona: Transient magnetic signatures have are detected in solar flares with and without acoustic waves. Those discovered to have accompanying seismic activity are calculated to have the correct energy budget for sunquake generation. The author concludes that magnetic measurements after the impulsive phase of the fflare cannot be entirely trusted due to molecular contamination of the sunspot spectrum
+
+Any one model is considered to be an over-simplification
+
+%models
+\subsection{The Mechanisms of Particle Kinetics and Dynamics Leading to Seismic Emission and Sunquakes, V.Zharkova 2008}
+At te same time, \cite{2008SoPh..251..641Z} was also reviewing the possible progenitors of sunquakes. Starting by listing observed properties of sunquakes:
+\begin{itemize}
+\item Always associated with shocks propagating downward observed in Dopplergrams.
+\item There can be many simultaneous or delayed seismic sources in the same flare.
+\item The majority of sunquakes are anisotropic in appearance.
+\item The majority of X class flares are seismically inactive. In high energy flares that do have sunquakes, only a very small fraction (a few thousands of a percent) of the flare's energy is needed to generate the acoustic waves. 
+\item M class flares with large HXR flux seem to be the most seismically active cases.
+\item Sunquakes associated with M class flares are often accompanied by WLE.
+\item Seismic sources are regularily co-spatial with HXR and sometimes $\gamma$-ray emission in the footpoints of coronal magnetic loops, which is an indicator of high energy particles.
+\item The previous point hints at acoustic waves being generated by impulsive heating during the onset of the flare, probably caused by hydrodynamic pressure response due to thermal dissapation of incident high energy particles.
+\end{itemize}
+The author then lists, explains and argues for or against a variety of different processes said to be possible contributers to the generations of seismic waves. The main conclusions drawn from this work are that the point of origin of sunquakes are usually associated with HXR emission and occasionally $\gamma$-rays in the footpoints of magnetic field loops. This points to accelerated high-energy particle beams, formed during X class flares with sunquakes, containing both electrons and protons being capable of transporting energy to the lower regions of the atmosphere. Energy deposited by the beams heats the atmosphere impulsively during the onset of the flare causing a hydrodynamic response propagate downward which impacts the photosphere generating the sunquake. M-class WLFs with associated seismicity are said be also generated by electron beams depositing energy into the chromosphere, which then heats the lower layers via radiative backwarming.
+
+%sunquakes magnetic topology
+\subsection{Helioseismic Analysis of the Solar Flare-Induced Sunquake of 2005 January 15-II. A Magnetoseismic Study, Mart{\'{\i}}nez-Oliveros 2008}
+\cite{2008MNRAS.389.1905M} investigates the magnetic topological structure of a coronal magnetic field associated with seismicity. The motivation of which is to find out if the magnetic field can hinder the spread of sunquake waves from the epicenter of the seismic source, and if there is a particular magnetic field configuration that facilitates seismicity in the photosphere.
+ 
+The area of peak seismicity is shown to exist under a highly twisted magnetic field, therefore the photospheric impact was greatest where the magnetic field had large amounts of stored energy.  
+
+
+
+\subsection{Flare Energy and Magnetic Field Variations, Hudson 2008}
+\cite{2008ASPC..383..221H} explains the magnetic field variation (McClymont Jerk) progenitor
+
+
+
+\subsection{Magnetic Field Variations and Seismicity of Solar ARs, Mart{\'{\i}}nez-Oliveros 2009 }
+\cite{2009MNRAS.395L..39M} analyses the magnetic field variation of the photosphere in many flares, looking for the 'McClymont Jerk' and any correlation with seismicity. The study finds that some flares with seismicity do not have a spatial and temporal correlation between sunquakes and magnetic transients. Some flares have magnetic transients and no seismicity, and some flares have a good co-spatial alignement of acousitc activity and magnetic variability. The author concludes that maybe the impulsiveness of the magnetic field variation could be important as to whether a sunquake is generated. Also, that at the time of the publication, the involvement of magnetic transients is unclear and more work needs to be done.
+
+
+
+\subsection{Seismic Transients from Flares in Solar Cycle 23, Donea 2011}
+\cite{2011SSRv..158..451D}, presents a review of the current understanding of sunquakes, the mechanisms of generation and existing models. The author first lists what is known so far about sunquakes:
+
+\begin{itemize}
+\item They are unusual. The majority of flares do not generate seismic emission observable in the p-mode spectrum.
+\item Only a tiny amount of the radiative flare energy is needed to generate a sunquake.
+\item Sunquakes are the most compact seismic sources observed.
+\item Relatively, sunquake emission is the most intense observed at high frequencies.
+\item Impulsive WLFs generate the majority of sunquakes. 
+\item Multiple seismic sources in the photosphere have been generated by flares simultaneously.
+\item Sunquakes are produced frequently by flares with proton beams but also by flares without proton beams
+\item Lorentz forces created by changing magnetic structures in active regions may have a part to play in facilitating the generation of sunquakes.
+\end{itemize}
+
+This is an extensive review, however these are the points that stood out as being of particular importance. The authors comment that in WLFs, the highest most impulsive concentrations of WLE generate sunquakes with the most efficiency. Of these compact events there is often similar features seen in both the seismic and WL kernels, that is, a bright inner core surrounded by an fainter assymetric halo. The sunquake's point of origin is often located in the penumbra of a sunspot. If photospheric heating is responsible for generating the quake, then the $5-7$mHz acoustic power maps should look similar to intensity continuum power maps of the same band.\\
+The current progenitors associated with this review:
+\begin{itemize}
+\item Explosive ablation of the chromosphere via high-energy electrons causes shocks. The arguement against this idea is the heavy radiative losses that such a shock wave would encounter in the lowest regions of the atmosphere.  
+\item Heating of the low photosphere observed as WLE, i.e., the radiative backwarming method.
+\item Direct proton beam interaction: observed in some flares associated with sunquakes. However, not all seismically active flares exhibit proton beam signatures. 
+\item Reconfiguration of coronal loops via a relaxation to lower altitude flux tubes. The change in magnetic field inclination at the footpoints drives the generation of Lorentz force transients that could cause a sunquake if the "McClymont jerk" is sudden enough.
+\end{itemize}
+
+
+
+\subsection{Comparison of SEismic Signatures of Flares Obtained by SOHO MDI and GONG instruments, Zharkov, Zharkova, Matthews}
+\cite{2011ApJ...739...70Z} develop an updated technique for identifying sunquakes from GONG data, comparing their findings to the same observations made with SOHO/MDI. Egression maps and TD diagrams are computed from bith GONG and MDI data. They find that local helioseismology data derived from GONG is in good agreement with the same data from MDI, in that GONG is capable of capturing local seismic events. Processed GONG data however has a low signal to noise ratio when compared to MDI, which leads to trouble differentiating sunquake sources from sunspots in the egression maps. TD diagrams from GONG are in agreement with MDI regarding locations of sunquakes. The higher resolution data from MDI is able to produce a more detailed TD diagram than GONG, again because of noise and atmospheric turbulence experienced by the Earth based instrument. This work means that it is possible to investigate seismicity associated with flares that happened befoe MDI or SDO HMI observations existed.    
+
+
+\subsection{2011 Febuary 15: Sunquakes Produced by Flux Rope Eruption, Zharkov, Green, Matthews, Zharkova}
+\cite{2011ApJ...741L..35Z} report the observation of two seismic sources associated with a flare that erupts producing a coronal mass ejection (CME). This event is different to most sunquake observations because the seimic sources are not spatially or temporally aligned with HXR emission, meaning they are not associated with energy transport via high-energy particle beams; neither are they associated with white light emission, ruling out radiative backwarming. Instead the two seismic sources are located beneath a large magnetic structure called a sigmoid which indicate the existence of a flux rope. When the flux rope rises due to local magnetic reconfiguration the flare erupts leading to a two ribbon event. The authors raise the question as to how an erupting flux rope could possible cause the two observed quakes? Considering hydrodynamic shocks and magnetic restructuring as possible answers.\\
+Hydrodynamic shocks caused by heating of the lower atmosphere by a small enough population of energetic particles not to generate sufficient HXR emission. These particles can be taken from the corona and separatrix jets and are filtered along arcade field lines until they wrap around the flux rope where they deposit their energy.   \\
+During the eruption, the magnetic field above each seismic source undergoes an abrupt permanent reconfiguration. Over the strongest sunquake there is a definite observable change, whereas over the weaker sunquake the data is more challenging due to the field being in a constant, slower state of change. Both sources are located in penumbral regions, with relatively horizontal magnetic fields which is favourable for the magnetic jerk idea.\\
+ 
+
+
+
+
+\subsection{A Survey of the Hard X-Ray Characteristics of Seismically Active and Quiet White-Light Flares, Pedram & Matthews 2012}
+\cite{2012SoPh..277..317P} perform a statistical survey of WLfs with and without sunquakes. Of the sample of nine WL flares considered in ths study, five had sunquakes and four did not. The authors present a summary of their results in list format:
+\begin{itemize}
+\item In seismically active WL flares, it was found that electron energy deposition occurs at a higher rate than in seismically quiet flares.
+\item The area over which energy is deposited is approximately the same for the entire sample of flares
+\item In flares with sunquakes, the WL kernal is less compact and has lower contrast than in flares without sunquakes.
+\item A flare containing three footpoints had a seismic source that was co-temporal but not co-spatial with it's closest footpoint; and another source which was co-spatial and co-temporal (if errors are considered) with it's nearest footpoint.
+\item Emission in HXR and WL are in good alignment in space and time, often being over the origin of a sunquake. HXR and WL emission of the highest contrast is not always associated with a sunquake. 
+\item There is sufficient energy budget in all measured electron distributions to give up to seismic emission.
+\end{itemize}\\
+
+There are some interesting findings that seem to contradict some earlier observations made by \cite{2011SSRv..158..451D} that WLFs with the highest most impulsive concentrations of WLE generate sunquakes with the most efficiency.
+
+
+\subsection{Magneto-Acoustic Energetics Study of the Seismically Active Flare of 15 Febuary 2011, Alvarado-G{\'o}mez} et al 2011}
+\cite{2012SoPh..280..335A} magnetic stuff
+
+paper needs more reading
+
+
+\subsection{Properties of the 15 Feb 2011 Flare Seismic Sources, by Zharkov, Green, Matthews \and Zharkova}
+\citep{2013SoPh..284..315Z} 
+
+
+paper needs more reading
+
+
+\subsection{On the Origin of a Sunquake During the 2014 March 29 X1 Flare}
+\cite{2014ApJ...796...85J} study the sunquake observed during the flare of 2014, March the 29th and seem to rule out both radiative backwarming and Lorentz-force transients as methods :( 
+
+
+
+\end{document}
