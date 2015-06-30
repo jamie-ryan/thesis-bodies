@@ -55,12 +55,40 @@ Signatures from energy deposition in the lowest regions of atmosphere are captur
 \subsection{Observations}
 More detailed
 
-\begin{figure}\label{sunquake-cartoon}
+
+
+
+The X1 flare of the 29th of March 2014 in active region NOAA 12017, was observed by RHESSI, IRIS and SDO/HMI, collecting HXR, UV and optical emission respectively. The impulsive phase of the flare occurs at 17:46 UT, all mentioned instruments provide good coverage, in particular the IRIS SG slit is aligned directly over chromospheric flare ribbons, and the sunquake point of origin.
+RHESSI  
+
+Balmer emission is taken from IRIS spectroscopic data (wavelength range of 2825.7 and 2825.8Å \citep{2014ApJ...794L..23H}. \\
+
+
+\begin{figure}\label{saxcontours}
   \begin{center}
-  \includegraphics[width=0.40\textwidth]{sunquake-cartoon}
+  \includegraphics[width=0.40\textwidth]{saxcontours}
   \end{center}
-  \caption{shows...}
+  \caption{From top to bottom shows IRIS Si IV slit-jaw, Mg II slit-jaw and SDO HMI continuum intensity maps.Contours show RHESSI HXR with $E = 25-50$ keV in white or black and HXR with $E = 50-100 keV$ in green, sunspot locations in yellow taken from HMI and 6mHz acoustic power in blue.}
 \end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 \subsection{Analysis}
