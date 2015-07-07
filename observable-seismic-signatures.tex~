@@ -6,7 +6,7 @@ Helioseismology is a tool for probing the interior of the Sun. Most techniques i
 \subsubsection{Local Helioseismology}
 %use content from old report...maybe expand a little
 
-The first observation of a sunquake \citep{1998Natur.393..317K} used the time-distance technique to track sunquake wavefronts 
+The first observation of a sunquake \citep{1998Natur.393..317K} used, stimulated the development of new data techniques.  
 
 
  \cite{1999ApJ...513L.143D} pioneered the use of helioseismic holography to produce seismic images of the solar flare of July 1996 reported to have a sunquake by Kosovichev and Zharkova. Time series egression-power maps at 3.5 and 6 mHz were computed with a 2 mHz bandwidth. It was found that the most powerful acoustic power frequency associated with the flare is centred at 3.5 mHz but has a large signal to noise ratio. Whereas the 6 mHz range has a much lower ambient noise, therefore producing a better rendering of the seismicity of the flare. It is now standard practice to use the 6 mHz range for helioseismic holographic calculations of egression-power.
