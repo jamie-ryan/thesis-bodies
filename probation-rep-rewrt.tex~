@@ -39,8 +39,8 @@ Surrey, RH13 6NL, UK\\
 %\include{abstract}
 \include{sunquakes-intro}
 %\include{sunquake-model}
-\include{progenitors-of-sunquakes}
-\include{eruptive-solar-flares}
+%\include{progenitors-of-sunquakes}
+%\include{eruptive-solar-flares}
 \include{observable-seismic-signatures}
 %\include{mhd}
 \include{project}
