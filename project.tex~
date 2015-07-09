@@ -50,7 +50,7 @@ IRIS spectroscopic data are produced at sunquake, ribbon and non-flaring positio
   \begin{center}
   \includegraphics[width=1.0\textwidth]{spectra}
   \end{center}
-  \caption{IRIS spectroscopic data ranging in wavelength 2796 - 2830 \AA. Black is the spectrum at the quake location, red is the spectrum at a point along the ribbon and blue is the spectrum of a non-flaring region. Square trough like features represent saturation of the CCD.}
+  \caption{IRIS spectroscopic data ranging in wavelength 2796 - 2830 \AA. Black is the spectrum at the quake location, red is the spectrum at a point along the ribbon and blue is the spectrum of a non-flaring region. Square trough like features represent saturation of the CCD. The sunquake and ribbon locations have increased amplitude and are strongly redshifted and broadened.}
 \end{figure}\label{spectra}
  
 
