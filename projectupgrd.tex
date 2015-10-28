@@ -30,9 +30,15 @@ The X1 flare of the 29th of March 2014 in active region NOAA 12017, was well obs
 
 Using the \verbatim{opsex} software within SolarSoft (SSWIDL), count data from RHESSI is fit to thermal and non-thermal electron energy models. %insert rhessi section from that paper
 
-White light flares are difficult to see against the bright photospheric background therefore to maximise the insight gained from observations of the flaring photosphere, data must be filtered. Photospheric data captured by IRIS MG II wing slit-jaw and SDO HMI continuum observations are subjected to a running difference filter to isolate locations that are white-light enhanced. The running difference filter effectively removes static features leaving behind those pixels that are changing over short time-scales. However, for removing signatures of those processes occurring over shorter time periods such as granulation and p-mode oscillations, this filtering technique is ineffective. This is not a problem, as for the purpose of white light flare analysis, the data yield a strong contrast between flare-enhanced and background pixels after being filtered by a $i-2$ running difference. The next stage is to determine which pixels in the difference image are those that are enhanced during the flare. For the best result, white-light enhanced pixels are identified using a combination of visual inspection and thresholding. Attempts at automating the process of identification tend to lead to false positives being triggered by noise or granulation features. IRIS SJIs and SG data have no need for filtering.
+White light flares are difficult to see against the bright photospheric background therefore to maximise the insight gained from observations of the flaring photosphere, data must be filtered. Photospheric data captured by IRIS MG II wing slit-jaw and SDO HMI continuum observations are subjected to a running difference filter to isolate locations that are white-light enhanced. The running difference filter effectively removes static features leaving behind those pixels that are changing over short time-scales. However, for removing signatures of those processes occurring over shorter time periods such as granulation and p-mode oscillations, this filtering technique is ineffective. This is not a problem, as for the purpose of white light flare analysis, the data yield a strong contrast between flare-enhanced and background pixels after being filtered by a $i-2$ running difference. The next stage is to determine which pixels in the difference image are those that are enhanced during the flare. For the best result, white-light enhanced pixels are identified using a combination of visual inspection and thresholding. Attempts at automating the identification process tend to lead to false positives being triggered by noise or granulation features. IRIS SJIs and SG data have no need for filtering.
 
 %insert figure showing unfiltered and filtered iris and hmi data. 2x3: 2 unfiltered at the top, 2 filtered at the bottom, 2 thresholded showing only flare pixels.
+\begin{figure}%[H]
+  \begin{center}
+  \includegraphics[width=0.8\textwidth]{29-Mar-14-diff-examples}
+  \end{center}
+  \caption{White light flares are difficult to observe against the bright photosphere requiring processing with a running difference filter to enhance ribbon features. The figure shows IRIS SJ 2832 \AA\ and SDO HMI continuum data before (top) and after (bottom) filtering.}\label{dif_filter}
+\end{figure}
 
 IRIS SJ and SG data are converted from relative intensity (DN per pixel) to energy (erg) units using conversion factors provided in the instrument documentation \citep{}. To perform the same conversion for SDO HMI data required slightly more work as the information was not explicitly presented in the documentation. Using a combination of sources \citep{} the instrument's properties are used to fulfill a conversion factor in the form, $ $.
 
@@ -40,11 +46,23 @@ For the IRIS and SDO HMI data sets, multiple sample points have been chosen base
 
 
 %insert figure showing ribbon coords oplot
+\begin{figure}%[H]
+  \begin{center}
+  \includegraphics[width=0.8\textwidth]{29-Mar-14-HMI-Ribbon-Coord-oplot}
+  \end{center}
+  \caption{Shows SDO HMI continuum with sampled ribbon and sunquake pixel coordinates marked in green and blue respectively. Twenty ribbon sample points are taken from two instances in time. This procedure is also applied to IRIS SJ and SG data, see the Appendix section \ref{ribcoords} for figures.}\label{hmirib}
+\end{figure}
 
 
 IRIS spectroscopic data is sampled over a wavelength range of 2825.7 and 2825.8\AA\ which is within the Balmer continuum. The SG data is sampled at slit positions in heliocentric coordinates that relate to quake and ribbon locations.
 
 %insert figure showing balmer continuum spectrum sample range
+\begin{figure}%[H]
+  \begin{center}
+  \includegraphics[width=0.8\textwidth]{29-Mar-14-Balmer-Continuum}
+  \end{center}
+  \caption{Shows the Balmer continuum component sampled from the IRIS SG data. Balmer emission is an indicator of radiative backwarming of the photosphere. }\label{balmercontinuum}
+\end{figure}
 
 
 
@@ -52,7 +70,12 @@ IRIS SJIs of Si IV, Mg II and Mg II wing, as well as IRIS SG Balmer are aligned 
 
 An egression map of acoustic power at 6mHz, reveals the position of the sunquake. HXR data from RHESSI and acoustic power data are overlaid on HMI and IRIS slit jaw maps to highlight spatial and temporal evolution of data-sets (see Figure \ref{saxcontours-vert}).\\
 
+%insert energy curves, RHESSI
 \begin{figure}%[H]
+  \begin{center}
+  \includegraphics[width=0.8\textwidth]{lcseries-bold}
+  \end{center}
+  \caption{Left panel shows data over the quake location, right panel shows data over the ribbon location. From top to bottom, plots show lightcurves from IRIS Si IV, Mg II, Balmer wavelengths and Mg II wing, with the bottom panel showing the lightn\begin{figure}%[H]
   \begin{center}
   \includegraphics[width=0.8\textwidth]{lcseries-bold}
   \end{center}
@@ -64,15 +87,8 @@ An egression map of acoustic power at 6mHz, reveals the position of the sunquake
   \includegraphics[width=1.0\textwidth]{lcfluxseries}
   \end{center}
   \caption{Left panel shows data over the quake location, right panel shows data over the ribbon location. From top to bottom, plots show lightcurves from IRIS Si IV, Mg II and Balmer wavelengths, with intensity converted into flux units relevant for energy calculations.}\label{lcfluxseries}
+\end{figure}curve from SDO HMI.}\label{lcseries-bold}
 \end{figure}
-
-\begin{figure}%[H]
-  \begin{center}
-  \includegraphics[width=1.0\textwidth]{spectra}
-  \end{center}
-  \caption{IRIS spectroscopic data ranging in wavelength 2796 - 2830 \AA. Black is the spectrum at the quake location, red is the spectrum at a point along the ribbon and blue is the spectrum of a non-flaring region. Square trough like features represent saturation of the CCD. The sunquake and ribbon locations have increased amplitude and are strongly redshifted and broadened.}
-\end{figure}\label{spectra}
-
 
 
 \subsection{First Results and Discussion}
