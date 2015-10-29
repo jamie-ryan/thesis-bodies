@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: upgrade-report.aux
+A level-1 auxiliary file: sunquakes-intro.aux
+A level-1 auxiliary file: projectupgrd.aux
+A level-1 auxiliary file: appendix.aux
+The style file: plainnat.bst
+Database file #1: ../Bibliography/Bibliography.bib
+Warning--I didn't find a database entry for ""
+You've used 33 entries,
+            2773 wiz_defined-function locations,
+            853 strings with 10674 characters,
+and the built_in function-call counts, 14778 in all, are:
+= -- 1331
+> -- 741
+< -- 29
++ -- 253
+- -- 220
+* -- 1212
+:= -- 2297
+add.period$ -- 122
+call.type$ -- 33
+change.case$ -- 168
+chr.to.int$ -- 33
+cite$ -- 66
+duplicate$ -- 701
+empty$ -- 1262
+format.name$ -- 277
+if$ -- 3125
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 35
+newline$ -- 196
+num.names$ -- 136
+pop$ -- 290
+preamble$ -- 1
+purify$ -- 137
+quote$ -- 0
+skip$ -- 488
+stack$ -- 0
+substring$ -- 561
+swap$ -- 92
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 353
+warning$ -- 0
+while$ -- 129
+width$ -- 0
+write$ -- 482
+(There was 1 warning)

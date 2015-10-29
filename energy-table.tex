@@ -1,55 +1,6 @@
-\appendix
-\appendixpage
-\addappheadtotoc
-%
-% \begin{figure}%[H]
-%   \begin{center}
-%   \includegraphics[width=0.8\textwidth]{}
-%   \end{center}
-%   \caption{Left panel shows data over the quake location, right panel shows data over the ribbon location. From top to bottom, plots show lightcurves from IRIS Si IV, Mg II, Balmer wavelengths and Mg II wing, with the bottom panel showing the lightcurve from SDO HMI.}\label{lcseries-bold}
-% \end{figure}
-\section{Ribbon Pixel Coordinates}\label{ribcoords}
-%insert figure showing ribbon coords oplot
-%\graphicspath{ {~/PhD/Thesis/upgrade-plots/}}
-\begin{figure}%[H]
-  \begin{center}
-  \includegraphics[width=0.8\textwidth]{29-Mar-14-SI-Ribbon-Coord-oplot}
-  \end{center}
-  \caption{Shows IRIS Si IV slit-jaw data with sampled ribbon and sunquake pixel coordinates marked in green and blue respectively. Twenty ribbon sample points are taken from two instances in time.}\label{sirib}
-\end{figure}
-
-\begin{figure}%[H]
-  \begin{center}
-  \includegraphics[width=0.8\textwidth]{29-Mar-14-MG-Ribbon-Coord-oplot}
-  \end{center}
-  \caption{Shows IRIS Mg II slit-jaw data with sampled ribbon and sunquake pixel coordinates marked in green and blue respectively. Twenty ribbon sample points are taken from two instances in time.}\label{mgrib}
-\end{figure}
-
-\begin{figure}%[H]
-  \begin{center}
-  \includegraphics[width=0.8\textwidth]{29-Mar-14-MGW-Ribbon-Coord-oplot}
-  \end{center}
-  \caption{Shows IRIS Mg II wing slit-jaw data with sampled ribbon and sunquake pixel coordinates marked in green and blue respectively. Twenty ribbon sample points are taken from two instances in time.}\label{mgwrib}
-\end{figure}
-
-
-%contains energy time plots for quake and ribbon locations
-%also contains energy tables
-\section{Energy}\label{energy}
-
-
-\begin{figure}%[H]
-  \begin{center}
-  \includegraphics[width=0.8\textwidth]{29-Mar-14-Quake-Energy-Ladder}
-  \end{center}
-  \caption{Shows calculated energy values over time of the region thought to be the sunquake epicenter (518.5", 264.0"). Each plot represents an independant data set, in order from top to bottom the sets are; IRIS SJ 1400 \AA\ (Si IV); IRIS SJ 2796 \AA\ (Mg II); IRIS SG  2825.7 to 2825.8 \AA\ (Balmer Continuum);IRIS SJ 2832 \AA\ (Mg II wing); SDO HMI continuum (HMI).}\label{eqk}
-\end{figure}
-
-
-
-\begin{table}%[H]
+\begin{table}[H]
 \centering
-\begin{tabular}{|c|c|c|c|c|c|c|c|}
+\begin{tabular}{|c|c|c|c|}
 Time UT & Sunquake Coords x",y"  & $E_{Si IV}$ & $E_{Mg II}$ & $E_{Balm}$ & $E_{Mg II w}$ & $E_{HMI}$ & $E_{area}$\\
 \hline
 17:45 & 518.5, 264.0 & 9.63E+14 & 4.36E+16 & 2.68E+16 & 3.29E+13 & 8.21E+15 & 7.26E+15\\
@@ -58,11 +9,10 @@ Time UT & Sunquake Coords x",y"  & $E_{Si IV}$ & $E_{Mg II}$ & $E_{Balm}$ & $E_{
 \caption{Pixel coordinates in arcsecs and Energies in ergs at 17:45 and 17:46 for the sunquake pixel and area. *coordinates are the central pixel of a 13 pixel sunquake area}\label{qkenergytab}
 \end{table}
 
-\begin{sidewaystable}[h]
-\tiny
-%\begin{table}[H]
+
+\begin{table}[H]
 \centering
-\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\begin{tabular}{|c|c|c|c|}
 Time & Si IV (x,y) & $E_{Si IV}$ & Mg II (x,y) & $E_{Mg II}$ & Balm (x,y) & $E_{Balm}$ & Mg II w (x,y) & $E_{Mg II w}$ & HMI (x,y) & $E_{HMI}$\\
 \hline
 17:45, 5.18E+02,2.62E+02 & 1.78E+15 & 4.96E+02,2.64E+02 & 2.34E+16 & 5.18E+02,2.60E+02 & 1.26E+16 & 5.17E+02,2.62E+02 & 9.32E+15 & 5.18E+02,2.60E+02 & 5.83E+13\\
@@ -87,5 +37,4 @@ Time & Si IV (x,y) & $E_{Si IV}$ & Mg II (x,y) & $E_{Mg II}$ & Balm (x,y) & $E_{
 17:46, 5.26E+02,2.64E+02 & 1.37E+16 & 5.25E+02,2.63E+02 & 4.36E+16 & 5.11E+02,2.72E+02 & 1.95E+15 & 5.11E+02,2.72E+02 & 3.66E+15 & 5.11E+02,2.72E+02 & 2.14E+13\\
 \end{tabular}
 \caption{Coordinates and Energies at 17:45 and 17:46 for ribbon sample locations.}\label{ribenergytab}
-%\end{table}
-\end{sidewaystable}
+\end{table}

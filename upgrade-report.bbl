@@ -1,0 +1,223 @@
+\begin{thebibliography}{33}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{Aschwanden} et~al.(1995){Aschwanden}, {Benz}, {Dennis}, and
+  {Schwartz}]{1995ApJ...455..347A}
+M.~J. {Aschwanden}, A.~O. {Benz}, B.~R. {Dennis}, and R.~A. {Schwartz}.
+\newblock {Solar Electron Beams Detected in Hard X-Rays and Radio Waves}.
+\newblock \emph{\apj}, 455:\penalty0 347, December 1995.
+\newblock \doi{10.1086/176582}.
+
+\bibitem[{Braun} et~al.(1992){Braun}, {Lindsey}, {Fan}, and
+  {Jefferies}]{1992ApJ...392..739B}
+D.~C. {Braun}, C.~{Lindsey}, Y.~{Fan}, and S.~M. {Jefferies}.
+\newblock {Local acoustic diagnostics of the solar interior}.
+\newblock \emph{\apj}, 392:\penalty0 739--745, June 1992.
+\newblock \doi{10.1086/171477}.
+
+\bibitem[{Brown}(1971)]{1971SoPh...18..489B}
+J.~C. {Brown}.
+\newblock {The Deduction of Energy Spectra of Non-Thermal Electrons in Flares
+  from the Observed Dynamic Spectra of Hard X-Ray Bursts}.
+\newblock \emph{\solphys}, 18:\penalty0 489--502, July 1971.
+\newblock \doi{10.1007/BF00149070}.
+
+\bibitem[{Carmichael}(1964)]{1964NASSP..50..451C}
+H.~{Carmichael}.
+\newblock {A Process for Flares}.
+\newblock \emph{NASA Special Publication}, 50:\penalty0 451, 1964.
+
+\bibitem[{Ding}(2007)]{2007ASPC..368..417D}
+M.~D. {Ding}.
+\newblock {The Origin of Solar White-Light Flares}.
+\newblock In P.~{Heinzel}, I.~{Dorotovi{\v c}}, and R.~J. {Rutten}, editors,
+  \emph{The Physics of Chromospheric Plasmas}, volume 368 of \emph{Astronomical
+  Society of the Pacific Conference Series}, page 417, May 2007.
+
+\bibitem[{Donea} and {Lindsey}(2005)]{2005ApJ...630.1168D}
+A.-C. {Donea} and C.~{Lindsey}.
+\newblock {Seismic Emission from the Solar Flares of 2003 October 28 and 29}.
+\newblock \emph{\apj}, 630:\penalty0 1168--1183, September 2005.
+\newblock \doi{10.1086/432155}.
+
+\bibitem[{Donea} et~al.(1999){Donea}, {Braun}, and
+  {Lindsey}]{1999ApJ...513L.143D}
+A.-C. {Donea}, D.~C. {Braun}, and C.~{Lindsey}.
+\newblock {Seismic Images of a Solar Flare}.
+\newblock \emph{\apjl}, 513:\penalty0 L143--L146, March 1999.
+\newblock \doi{10.1086/311915}.
+
+\bibitem[{Duvall} et~al.(1993){Duvall}, {Jefferies}, {Harvey}, and
+  {Pomerantz}]{1993Natur.362..430D}
+T.~L. {Duvall}, Jr., S.~M. {Jefferies}, J.~W. {Harvey}, and M.~A. {Pomerantz}.
+\newblock {Time-distance helioseismology}.
+\newblock \emph{\nat}, 362:\penalty0 430--432, April 1993.
+\newblock \doi{10.1038/362430a0}.
+
+\bibitem[{Dwivedi} and {Parker}(2003)]{2003dysu.book.....D}
+B.~N. {Dwivedi} and F.~b.~E.~N. {Parker}.
+\newblock \emph{{Dynamic Sun}}.
+\newblock Cambridge University Press, Cambridge, UK, May 2003.
+
+\bibitem[{Fletcher}(2009)]{2009A&A...493..241F}
+L.~{Fletcher}.
+\newblock {Ultra-violet footpoints as tracers of coronal magnetic connectivity
+  and restructuring during a solar flare}.
+\newblock \emph{\aap}, 493:\penalty0 241--250, January 2009.
+\newblock \doi{10.1051/0004-6361:20077972}.
+
+\bibitem[{Foukal}(2004)]{2004soas.book.....F}
+P.~V. {Foukal}.
+\newblock \emph{{Solar Astrophysics, 2nd, Revised Edition}}.
+\newblock Wiley-VCH, 2004.
+
+\bibitem[{Hirayama}(1974)]{1974SoPh...34..323H}
+T.~{Hirayama}.
+\newblock {Theoretical Model of Flares and Prominences. I: Evaporating Flare
+  Model}.
+\newblock \emph{\solphys}, 34:\penalty0 323--338, February 1974.
+\newblock \doi{10.1007/BF00153671}.
+
+\bibitem[{Hudson}(2000)]{2000ApJ...531L..75H}
+H.~S. {Hudson}.
+\newblock {Implosions in Coronal Transients}.
+\newblock \emph{\apjl}, 531:\penalty0 L75--L77, March 2000.
+\newblock \doi{10.1086/312516}.
+
+\bibitem[{Hudson} et~al.(2008){Hudson}, {Fisher}, and
+  {Welsch}]{2008ASPC..383..221H}
+H.~S. {Hudson}, G.~H. {Fisher}, and B.~T. {Welsch}.
+\newblock {Flare Energy and Magnetic Field Variations}.
+\newblock In R.~{Howe}, R.~W. {Komm}, K.~S. {Balasubramaniam}, and G.~J.~D.
+  {Petrie}, editors, \emph{Subsurface and Atmospheric Influences on Solar
+  Activity}, volume 383 of \emph{Astronomical Society of the Pacific Conference
+  Series}, page 221, 2008.
+
+\bibitem[{Kopp} and {Pneuman}(1976)]{1976SoPh...50...85K}
+R.~A. {Kopp} and G.~W. {Pneuman}.
+\newblock {Magnetic reconnection in the corona and the loop prominence
+  phenomenon}.
+\newblock \emph{\solphys}, 50:\penalty0 85--98, October 1976.
+\newblock \doi{10.1007/BF00206193}.
+
+\bibitem[{Kosovichev}(2014)]{2014arXiv1402.1249K}
+A.~G. {Kosovichev}.
+\newblock {Sunquakes: helioseismic response to solar flares}.
+\newblock \emph{ArXiv e-prints}, February 2014.
+
+\bibitem[{Kosovichev} and {Zharkova}(1995)]{1995ESASP.376b.341K}
+A.~G. {Kosovichev} and V.~V. {Zharkova}.
+\newblock {Seismic Response to Solar Flares: Theoretical Predictions}.
+\newblock In \emph{Helioseismology}, volume 376 of \emph{ESA Special
+  Publication}, page 341, 1995.
+
+\bibitem[{Kosovichev} and {Zharkova}(1998)]{1998Natur.393..317K}
+A.~G. {Kosovichev} and V.~V. {Zharkova}.
+\newblock {X-ray flare sparks quake inside Sun}.
+\newblock \emph{\nat}, 393:\penalty0 317--318, May 1998.
+\newblock \doi{10.1038/30629}.
+
+\bibitem[{Kosovichev} and {Zharkova}(2001)]{2001ApJ...550L.105K}
+A.~G. {Kosovichev} and V.~V. {Zharkova}.
+\newblock {Magnetic Energy Release and Transients in the Solar Flare of 2000
+  July 14}.
+\newblock \emph{\apjl}, 550:\penalty0 L105--L108, March 2001.
+\newblock \doi{10.1086/319484}.
+
+\bibitem[{Lindsey} and {Braun}(1990)]{1990SoPh..126..101L}
+C.~{Lindsey} and D.~C. {Braun}.
+\newblock {Helioseismic imaging of sunspots at their antipodes}.
+\newblock \emph{\solphys}, 126:\penalty0 101--115, March 1990.
+\newblock \doi{10.1007/BF00158301}.
+
+\bibitem[{Lindsey} and {Braun}(1997)]{1997ApJ...485..895L}
+C.~{Lindsey} and D.~C. {Braun}.
+\newblock {Helioseismic Holography}.
+\newblock \emph{\apj}, 485:\penalty0 895--903, August 1997.
+
+\bibitem[{Machado} et~al.(1989){Machado}, {Emslie}, and
+  {Avrett}]{1989SoPh..124..303M}
+M.~E. {Machado}, A.~G. {Emslie}, and E.~H. {Avrett}.
+\newblock {Radiative backwarming in white-light flares}.
+\newblock \emph{\solphys}, 124:\penalty0 303--317, September 1989.
+\newblock \doi{10.1007/BF00156272}.
+
+\bibitem[{Mart{\'{\i}}nez-Oliveros} and {Donea}(2009)]{2009MNRAS.395L..39M}
+J.~C. {Mart{\'{\i}}nez-Oliveros} and A.-C. {Donea}.
+\newblock {Magnetic field variations and seismicity of solar active regions}.
+\newblock \emph{\mnras}, 395:\penalty0 L39--L42, May 2009.
+\newblock \doi{10.1111/j.1745-3933.2009.00637.x}.
+
+\bibitem[{Mart{\'{\i}}nez-Oliveros} et~al.(2008){Mart{\'{\i}}nez-Oliveros},
+  {Moradi}, and {Donea}]{2008SoPh..251..613M}
+J.~C. {Mart{\'{\i}}nez-Oliveros}, H.~{Moradi}, and A.-C. {Donea}.
+\newblock {Seismic Emissions from a Highly Impulsive M6.7 Solar Flare}.
+\newblock \emph{\solphys}, 251:\penalty0 613--626, September 2008.
+\newblock \doi{10.1007/s11207-008-9122-y}.
+
+\bibitem[{Pedram} and {Matthews}(2012)]{2012SoPh..277..317P}
+E.~{Pedram} and S.~A. {Matthews}.
+\newblock {A Survey of the Hard X-Ray Characteristics of Seismically Active and
+  Quiet White-Light Flares}.
+\newblock \emph{\solphys}, 277:\penalty0 317--335, April 2012.
+\newblock \doi{10.1007/s11207-011-9922-3}.
+
+\bibitem[{Pereira} et~al.(2015){Pereira}, {Carlsson}, {De Pontieu}, and
+  {Hansteen}]{2015arXiv150401733P}
+T.~M.~D. {Pereira}, M.~{Carlsson}, B.~{De Pontieu}, and V.~{Hansteen}.
+\newblock {The Formation of IRIS diagnostics. IV. The Mg II triplet lines as a
+  new diagnostic for lower chromospheric heating}.
+\newblock \emph{ArXiv e-prints}, April 2015.
+
+\bibitem[{Roddier}(1975)]{1975CRASB.281...93R}
+F.~{Roddier}.
+\newblock {Principle of production of an acoustic hologram of the solar
+  surface}.
+\newblock \emph{Academie des Sciences Paris Comptes Rendus Serie B Sciences
+  Physiques}, 281:\penalty0 93--95, July 1975.
+
+\bibitem[{Shibata} and {Magara}(2011)]{2011LRSP....8....6S}
+K.~{Shibata} and T.~{Magara}.
+\newblock {Solar Flares: Magnetohydrodynamic Processes}.
+\newblock \emph{Living Reviews in Solar Physics}, 8:\penalty0 6, December 2011.
+\newblock \doi{10.12942/lrsp-2011-6}.
+
+\bibitem[{Sturrock}(1966)]{1966Natur.211..695S}
+P.~A. {Sturrock}.
+\newblock {Model of the High-Energy Phase of Solar Flares}.
+\newblock \emph{\nat}, 211:\penalty0 695--697, August 1966.
+\newblock \doi{10.1038/211695a0}.
+
+\bibitem[{Wolff}(1972)]{1972ApJ...176..833W}
+C.~L. {Wolff}.
+\newblock {Free Oscillations of the Sun and Their Possible Stimulation by Solar
+  Flares}.
+\newblock \emph{\apj}, 176:\penalty0 833, September 1972.
+\newblock \doi{10.1086/151680}.
+
+\bibitem[{Zharkov} et~al.(2011){Zharkov}, {Green}, {Matthews}, and
+  {Zharkova}]{2011ApJ...741L..35Z}
+S.~{Zharkov}, L.~M. {Green}, S.~A. {Matthews}, and V.~V. {Zharkova}.
+\newblock {2011 February 15: Sunquakes Produced by Flux Rope Eruption}.
+\newblock \emph{\apjl}, 741:\penalty0 L35, November 2011.
+\newblock \doi{10.1088/2041-8205/741/2/L35}.
+
+\bibitem[{Zharkov} et~al.(2013){Zharkov}, {Green}, {Matthews}, and
+  {Zharkova}]{2013SoPh..284..315Z}
+S.~{Zharkov}, L.~M. {Green}, S.~A. {Matthews}, and V.~V. {Zharkova}.
+\newblock {Properties of the 15 February 2011 Flare Seismic Sources}.
+\newblock \emph{\solphys}, 284:\penalty0 315--327, June 2013.
+\newblock \doi{10.1007/s11207-012-0169-4}.
+
+\bibitem[{Zharkova} and {Zharkov}(2007)]{2007ApJ...664..573Z}
+V.~V. {Zharkova} and S.~I. {Zharkov}.
+\newblock {On the Origin of Three Seismic Sources in the Proton-rich Flare of
+  2003 October 28}.
+\newblock \emph{\apj}, 664:\penalty0 573--585, July 2007.
+\newblock \doi{10.1086/518731}.
+
+\end{thebibliography}
