@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.4)  29 OCT 2015 16:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.4)  31 OCT 2015 00:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -361,7 +361,11 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count124
 )
 (./upgrade-report.aux (./sunquakes-intro.aux) (./projectupgrd.aux)
-(./appendix.aux))
+(./appendix.aux
+
+LaTeX Warning: Label `eqk' multiply defined.
+
+))
 \openout1 = `upgrade-report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
@@ -380,8 +384,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
 \AtBeginShipoutBox=\box32
 Package hyperref Info: Link coloring OFF on input line 35.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -460,7 +463,7 @@ Package caption Info: End \AtBeginDocument code.
 \openout2 = `sunquakes-intro.aux'.
 
  (./sunquakes-intro.tex
-<sunquake-cartoon.png, id=124, 877.679pt x 454.498pt>
+<sunquake-cartoon.png, id=120, 877.679pt x 454.498pt>
 File: sunquake-cartoon.png Graphic file (type png)
 
 <use sunquake-cartoon.png>
@@ -469,7 +472,7 @@ Package pdftex.def Info: sunquake-cartoon.png used on input line 16.
  [2
 
  <./sunquake-cartoon.png>]
-<soho-mdi-quake-96.jpg, id=151, 49.3845pt x 46.37325pt>
+<soho-mdi-quake-96.jpg, id=147, 49.3845pt x 46.37325pt>
 File: soho-mdi-quake-96.jpg Graphic file (type jpg)
 
 <use soho-mdi-quake-96.jpg>
@@ -496,12 +499,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--52
 
  []
 
-
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
-[4]
+
 Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
@@ -511,13 +514,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
-[5] <flare.png, id=248, 387.046pt x 356.532pt>
+[5] <flare.png, id=242, 387.046pt x 356.532pt>
 File: flare.png Graphic file (type png)
  <use flare.png>
 Package pdftex.def Info: flare.png used on input line 84.
 (pdftex.def)             Requested size: 211.57147pt x 194.89635pt.
 
-<2014_03_29_17_19_42_HMI_Int.png, id=252, 632.3625pt x 596.2275pt>
+<2014_03_29_17_19_42_HMI_Int.png, id=246, 632.3625pt x 596.2275pt>
 File: 2014_03_29_17_19_42_HMI_Int.png Graphic file (type png)
 
 <use 2014_03_29_17_19_42_HMI_Int.png>
@@ -525,7 +528,7 @@ Package pdftex.def Info: 2014_03_29_17_19_42_HMI_Int.png used on input line 98.
 
 (pdftex.def)             Requested size: 105.78574pt x 99.73795pt.
 
-<2014_03_29_17_19_42_AIA_304.png, id=253, 632.3625pt x 596.2275pt>
+<2014_03_29_17_19_42_AIA_304.png, id=247, 632.3625pt x 596.2275pt>
 File: 2014_03_29_17_19_42_AIA_304.png Graphic file (type png)
 
 <use 2014_03_29_17_19_42_AIA_304.png>
@@ -533,7 +536,7 @@ Package pdftex.def Info: 2014_03_29_17_19_42_AIA_304.png used on input line 99.
 
 (pdftex.def)             Requested size: 105.78574pt x 99.73795pt.
 
-<2014_03_29_17_19_42_AIA_171.png, id=254, 632.3625pt x 596.2275pt>
+<2014_03_29_17_19_42_AIA_171.png, id=248, 632.3625pt x 596.2275pt>
 File: 2014_03_29_17_19_42_AIA_171.png Graphic file (type png)
 
 <use 2014_03_29_17_19_42_AIA_171.png>
@@ -541,7 +544,7 @@ Package pdftex.def Info: 2014_03_29_17_19_42_AIA_171.png used on input line 100
 .
 (pdftex.def)             Requested size: 105.78574pt x 99.73795pt.
 
-<2014_03_29_17_19_42_AIA_193.png, id=255, 632.3625pt x 596.2275pt>
+<2014_03_29_17_19_42_AIA_193.png, id=249, 632.3625pt x 596.2275pt>
 File: 2014_03_29_17_19_42_AIA_193.png Graphic file (type png)
 
 <use 2014_03_29_17_19_42_AIA_193.png>
@@ -560,229 +563,777 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
-<solar-atm-plot.jpg, id=274, 411.5375pt x 293.095pt>
+<solar-atm-plot.jpg, id=269, 411.5375pt x 293.095pt>
 File: solar-atm-plot.jpg Graphic file (type jpg)
  <use solar-atm-plot.jpg>
 Package pdftex.def Info: solar-atm-plot.jpg used on input line 115.
 (pdftex.def)             Requested size: 317.36526pt x 226.0282pt.
 
-[7 <./solar-atm-plot.jpg>] [8]) [9]
+[7] [8 <./solar-atm-plot.jpg>] [9]) [10]
 \openout2 = `projectupgrd.aux'.
 
  (./projectupgrd.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 1.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-<saxcontours-square.png, id=345, 491.436pt x 485.815pt>
+<count-flux-v-time-crop.pdf, id=346, 565.11125pt x 735.74875pt>
+File: count-flux-v-time-crop.pdf Graphic file (type pdf)
+
+<use count-flux-v-time-crop.pdf>
+Package pdftex.def Info: count-flux-v-time-crop.pdf used on input line 21.
+(pdftex.def)             Requested size: 370.2541pt x 482.0593pt.
+ [11
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+[12 <./count-flux-v-time-crop.pdf>]
+<saxcontours-square.png, id=363, 491.436pt x 485.815pt>
 File: saxcontours-square.png Graphic file (type png)
 
 <use saxcontours-square.png>
-Package pdftex.def Info: saxcontours-square.png used on input line 22.
+Package pdftex.def Info: saxcontours-square.png used on input line 30.
 (pdftex.def)             Requested size: 528.93675pt x 522.94518pt.
- [10
+ [13 <./saxcontours-square.png>]
+<rhessi-energy-curve.png, id=376, 455.5419pt x 593.0958pt>
+File: rhessi-energy-curve.png Graphic file (type png)
 
-
-] [11 <./saxcontours-square.png>]
+<use rhessi-energy-curve.png>
+Package pdftex.def Info: rhessi-energy-curve.png used on input line 58.
+(pdftex.def)             Requested size: 317.36526pt x 413.2004pt.
+ [14]
 Package epstopdf Info: Source file: <29-Mar-14-diff-examples.eps>
 (epstopdf)                    date: 2015-10-28 15:00:42
 (epstopdf)                    size: 2393120 bytes
 (epstopdf)             Output file: <29-Mar-14-diff-examples-eps-converted-to.p
 df>
-(epstopdf)                    date: 2015-10-28 17:13:05
-(epstopdf)                    size: 292774 bytes
+(epstopdf)                    date: 2015-10-30 04:03:12
+(epstopdf)                    size: 292416 bytes
 (epstopdf)             Command: <repstopdf --outfile=29-Mar-14-diff-examples-ep
 s-converted-to.pdf 29-Mar-14-diff-examples.eps>
-(epstopdf)             \includegraphics on input line 39.
+(epstopdf)             \includegraphics on input line 69.
 Package epstopdf Info: Output file is already uptodate.
 
-<29-Mar-14-diff-examples-eps-converted-to.pdf, id=357, 505.89pt x 361.35pt>
+<29-Mar-14-diff-examples-eps-converted-to.pdf, id=388, 437.635pt x 368.37625pt>
 File: 29-Mar-14-diff-examples-eps-converted-to.pdf Graphic file (type pdf)
-
 <use 29-Mar-14-diff-examples-eps-converted-to.pdf>
 Package pdftex.def Info: 29-Mar-14-diff-examples-eps-converted-to.pdf used on i
-nput line 39.
-(pdftex.def)             Requested size: 423.151pt x 302.25826pt.
-Package epstopdf Info: Source file: <29-Mar-14-HMI-Ribbon-Coord-oplot.eps>
-(epstopdf)                    date: 2015-10-28 15:00:44
-(epstopdf)                    size: 59182 bytes
-(epstopdf)             Output file: <29-Mar-14-HMI-Ribbon-Coord-oplot-eps-conve
-rted-to.pdf>
-(epstopdf)                    date: 2015-10-28 17:13:06
-(epstopdf)                    size: 36733 bytes
-(epstopdf)             Command: <repstopdf --outfile=29-Mar-14-HMI-Ribbon-Coord
--oplot-eps-converted-to.pdf 29-Mar-14-HMI-Ribbon-Coord-oplot.eps>
-(epstopdf)             \includegraphics on input line 52.
-Package epstopdf Info: Output file is already uptodate.
-
-<29-Mar-14-HMI-Ribbon-Coord-oplot-eps-converted-to.pdf, id=358, 505.89pt x 361.
-35pt>
-File: 29-Mar-14-HMI-Ribbon-Coord-oplot-eps-converted-to.pdf Graphic file (type 
-pdf)
- <use 29-Mar-14-HMI-Ribbon-Coord-oplot-eps-converted-to.pdf>
-Package pdftex.def Info: 29-Mar-14-HMI-Ribbon-Coord-oplot-eps-converted-to.pdf 
-used on input line 52.
-(pdftex.def)             Requested size: 423.151pt x 302.25826pt.
-Package epstopdf Info: Source file: <29-Mar-14-Balmer-Continuum.eps>
-(epstopdf)                    date: 2015-10-28 15:00:38
-(epstopdf)                    size: 18115 bytes
-(epstopdf)             Output file: <29-Mar-14-Balmer-Continuum-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2015-10-28 17:13:07
-(epstopdf)                    size: 10674 bytes
-(epstopdf)             Command: <repstopdf --outfile=29-Mar-14-Balmer-Continuum
--eps-converted-to.pdf 29-Mar-14-Balmer-Continuum.eps>
-(epstopdf)             \includegraphics on input line 63.
-Package epstopdf Info: Output file is already uptodate.
-
-<29-Mar-14-Balmer-Continuum-eps-converted-to.pdf, id=361, 505.89pt x 361.35pt>
-File: 29-Mar-14-Balmer-Continuum-eps-converted-to.pdf Graphic file (type pdf)
-
-<use 29-Mar-14-Balmer-Continuum-eps-converted-to.pdf>
-Package pdftex.def Info: 29-Mar-14-Balmer-Continuum-eps-converted-to.pdf used o
-n input line 63.
-(pdftex.def)             Requested size: 423.151pt x 302.25826pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--94
-
- []
-
-[12 <./29-Mar-14-diff-examples-eps-converted-to.pdf>] [13 <./29-Mar-14-HMI-Ribb
-on-Coord-oplot-eps-converted-to.pdf> <./29-Mar-14-Balmer-Continuum-eps-converte
-d-to.pdf>]
-
-LaTeX Warning: Reference `lcseries-bold' on page 14 undefined on input line 108
-.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
-
- []
-
-[14]) [15]
-\openout2 = `appendix.aux'.
-
- (./appendix.tex
+nput line 69.
+(pdftex.def)             Requested size: 423.151pt x 356.18909pt.
+ [15 <./rhessi-energy-curve.png>] [16 <./29-Mar-14-diff-examples-eps-converted-
+to.pdf>]
 Package epstopdf Info: Source file: <29-Mar-14-SI-Ribbon-Coord-oplot.eps>
 (epstopdf)                    date: 2015-10-28 15:01:22
 (epstopdf)                    size: 363099 bytes
 (epstopdf)             Output file: <29-Mar-14-SI-Ribbon-Coord-oplot-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2015-10-29 15:40:13
-(epstopdf)                    size: 113732 bytes
+(epstopdf)                    date: 2015-10-30 04:03:35
+(epstopdf)                    size: 113374 bytes
 (epstopdf)             Command: <repstopdf --outfile=29-Mar-14-SI-Ribbon-Coord-
 oplot-eps-converted-to.pdf 29-Mar-14-SI-Ribbon-Coord-oplot.eps>
-(epstopdf)             \includegraphics on input line 16.
+(epstopdf)             \includegraphics on input line 92.
 Package epstopdf Info: Output file is already uptodate.
 
-<29-Mar-14-SI-Ribbon-Coord-oplot-eps-converted-to.pdf, id=399, 505.89pt x 361.3
-5pt>
+<29-Mar-14-SI-Ribbon-Coord-oplot-eps-converted-to.pdf, id=433, 493.845pt x 237.
+88875pt>
 File: 29-Mar-14-SI-Ribbon-Coord-oplot-eps-converted-to.pdf Graphic file (type p
 df)
  <use 29-Mar-14-SI-Ribbon-Coord-oplot-eps-converted-to.pdf>
 Package pdftex.def Info: 29-Mar-14-SI-Ribbon-Coord-oplot-eps-converted-to.pdf u
-sed on input line 16.
-(pdftex.def)             Requested size: 423.151pt x 302.25826pt.
+sed on input line 92.
+(pdftex.def)             Requested size: 423.151pt x 203.83257pt.
 Package epstopdf Info: Source file: <29-Mar-14-MG-Ribbon-Coord-oplot.eps>
 (epstopdf)                    date: 2015-10-28 15:00:46
 (epstopdf)                    size: 371587 bytes
 (epstopdf)             Output file: <29-Mar-14-MG-Ribbon-Coord-oplot-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2015-10-29 15:40:15
-(epstopdf)                    size: 81329 bytes
+(epstopdf)                    date: 2015-10-30 04:03:14
+(epstopdf)                    size: 80971 bytes
 (epstopdf)             Command: <repstopdf --outfile=29-Mar-14-MG-Ribbon-Coord-
 oplot-eps-converted-to.pdf 29-Mar-14-MG-Ribbon-Coord-oplot.eps>
-(epstopdf)             \includegraphics on input line 23.
+(epstopdf)             \includegraphics on input line 99.
 Package epstopdf Info: Output file is already uptodate.
 
-<29-Mar-14-MG-Ribbon-Coord-oplot-eps-converted-to.pdf, id=400, 505.89pt x 361.3
-5pt>
+<29-Mar-14-MG-Ribbon-Coord-oplot-eps-converted-to.pdf, id=434, 493.845pt x 237.
+88875pt>
 File: 29-Mar-14-MG-Ribbon-Coord-oplot-eps-converted-to.pdf Graphic file (type p
 df)
  <use 29-Mar-14-MG-Ribbon-Coord-oplot-eps-converted-to.pdf>
 Package pdftex.def Info: 29-Mar-14-MG-Ribbon-Coord-oplot-eps-converted-to.pdf u
-sed on input line 23.
-(pdftex.def)             Requested size: 423.151pt x 302.25826pt.
+sed on input line 99.
+(pdftex.def)             Requested size: 423.151pt x 203.83257pt.
 Package epstopdf Info: Source file: <29-Mar-14-MGW-Ribbon-Coord-oplot.eps>
 (epstopdf)                    date: 2015-10-28 15:00:48
 (epstopdf)                    size: 289389 bytes
 (epstopdf)             Output file: <29-Mar-14-MGW-Ribbon-Coord-oplot-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2015-10-29 15:40:16
-(epstopdf)                    size: 125507 bytes
+(epstopdf)                    date: 2015-10-30 04:03:16
+(epstopdf)                    size: 125151 bytes
 (epstopdf)             Command: <repstopdf --outfile=29-Mar-14-MGW-Ribbon-Coord
 -oplot-eps-converted-to.pdf 29-Mar-14-MGW-Ribbon-Coord-oplot.eps>
-(epstopdf)             \includegraphics on input line 30.
+(epstopdf)             \includegraphics on input line 106.
 Package epstopdf Info: Output file is already uptodate.
 
-<29-Mar-14-MGW-Ribbon-Coord-oplot-eps-converted-to.pdf, id=401, 505.89pt x 361.
-35pt>
+<29-Mar-14-MGW-Ribbon-Coord-oplot-eps-converted-to.pdf, id=435, 504.88625pt x 2
+37.88875pt>
 File: 29-Mar-14-MGW-Ribbon-Coord-oplot-eps-converted-to.pdf Graphic file (type 
 pdf)
  <use 29-Mar-14-MGW-Ribbon-Coord-oplot-eps-converted-to.pdf>
 Package pdftex.def Info: 29-Mar-14-MGW-Ribbon-Coord-oplot-eps-converted-to.pdf 
-used on input line 30.
-(pdftex.def)             Requested size: 423.151pt x 302.25826pt.
+used on input line 106.
+(pdftex.def)             Requested size: 423.151pt x 199.3787pt.
+
+[17 <./29-Mar-14-SI-Ribbon-Coord-oplot-eps-converted-to.pdf> <./29-Mar-14-MG-Ri
+bbon-Coord-oplot-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <29-Mar-14-HMI-Ribbon-Coord-oplot.eps>
+(epstopdf)                    date: 2015-10-28 15:00:44
+(epstopdf)                    size: 59182 bytes
+(epstopdf)             Output file: <29-Mar-14-HMI-Ribbon-Coord-oplot-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2015-10-30 04:03:13
+(epstopdf)                    size: 36380 bytes
+(epstopdf)             Command: <repstopdf --outfile=29-Mar-14-HMI-Ribbon-Coord
+-oplot-eps-converted-to.pdf 29-Mar-14-HMI-Ribbon-Coord-oplot.eps>
+(epstopdf)             \includegraphics on input line 113.
+Package epstopdf Info: Output file is already uptodate.
+
+<29-Mar-14-HMI-Ribbon-Coord-oplot-eps-converted-to.pdf, id=456, 493.845pt x 250
+.9375pt>
+File: 29-Mar-14-HMI-Ribbon-Coord-oplot-eps-converted-to.pdf Graphic file (type 
+pdf)
+ <use 29-Mar-14-HMI-Ribbon-Coord-oplot-eps-converted-to.pdf>
+Package pdftex.def Info: 29-Mar-14-HMI-Ribbon-Coord-oplot-eps-converted-to.pdf 
+used on input line 113.
+(pdftex.def)             Requested size: 423.151pt x 215.01326pt.
+Package epstopdf Info: Source file: <29-Mar-14-Balmer-Continuum.eps>
+(epstopdf)                    date: 2015-10-28 15:00:38
+(epstopdf)                    size: 18115 bytes
+(epstopdf)             Output file: <29-Mar-14-Balmer-Continuum-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2015-10-30 04:03:11
+(epstopdf)                    size: 10329 bytes
+(epstopdf)             Command: <repstopdf --outfile=29-Mar-14-Balmer-Continuum
+-eps-converted-to.pdf 29-Mar-14-Balmer-Continuum.eps>
+(epstopdf)             \includegraphics on input line 124.
+Package epstopdf Info: Output file is already uptodate.
+
+<29-Mar-14-Balmer-Continuum-eps-converted-to.pdf, id=458, 483.8075pt x 368.3762
+5pt>
+File: 29-Mar-14-Balmer-Continuum-eps-converted-to.pdf Graphic file (type pdf)
+ <use 29-Mar-14-Balmer-Continuum-eps-converted-to.pdf>
+Package pdftex.def Info: 29-Mar-14-Balmer-Continuum-eps-converted-to.pdf used o
+n input line 124.
+(pdftex.def)             Requested size: 423.151pt x 322.20474pt.
+ [18 <./29-Mar-14-MGW-Ribbon-Coord-oplot-eps-converted-to.pdf> <./29-Mar-14-HMI
+-Ribbon-Coord-oplot-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <29-Mar-14-Quake-Energy-Ladder.eps>
 (epstopdf)                    date: 2015-10-29 05:16:16
 (epstopdf)                    size: 31861 bytes
 (epstopdf)             Output file: <29-Mar-14-Quake-Energy-Ladder-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2015-10-29 15:40:17
-(epstopdf)                    size: 17415 bytes
+(epstopdf)                    date: 2015-10-30 04:03:16
+(epstopdf)                    size: 17704 bytes
 (epstopdf)             Command: <repstopdf --outfile=29-Mar-14-Quake-Energy-Lad
 der-eps-converted-to.pdf 29-Mar-14-Quake-Energy-Ladder.eps>
-(epstopdf)             \includegraphics on input line 43.
+(epstopdf)             \includegraphics on input line 135.
 Package epstopdf Info: Output file is already uptodate.
 
-<29-Mar-14-Quake-Energy-Ladder-eps-converted-to.pdf, id=402, 505.89pt x 361.35p
+<29-Mar-14-Quake-Energy-Ladder-eps-converted-to.pdf, id=487, 208.78pt x 313.17p
 t>
 File: 29-Mar-14-Quake-Energy-Ladder-eps-converted-to.pdf Graphic file (type pdf
 )
  <use 29-Mar-14-Quake-Energy-Ladder-eps-converted-to.pdf>
 Package pdftex.def Info: 29-Mar-14-Quake-Energy-Ladder-eps-converted-to.pdf use
-d on input line 43.
-(pdftex.def)             Requested size: 423.151pt x 302.25826pt.
+d on input line 135.
+(pdftex.def)             Requested size: 317.36526pt x 476.11412pt.
+ [19 <./29-Mar-14-Balmer-Continuum-eps-converted-to.pdf>] [20 <./29-Mar-14-Quak
+e-Energy-Ladder-eps-converted-to.pdf>] [21] [22]) [23]
+\openout2 = `appendix.aux'.
 
-Overfull \hbox (10.02173pt too wide) in paragraph at lines 52--58
+ (./appendix.tex
+Package epstopdf Info: Source file: <29-Mar-14-Quake-Energy-Ladder.eps>
+(epstopdf)                    date: 2015-10-29 05:16:16
+(epstopdf)                    size: 31861 bytes
+(epstopdf)             Output file: <29-Mar-14-Quake-Energy-Ladder-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2015-10-30 04:03:16
+(epstopdf)                    size: 17704 bytes
+(epstopdf)             Command: <repstopdf --outfile=29-Mar-14-Quake-Energy-Lad
+der-eps-converted-to.pdf 29-Mar-14-Quake-Energy-Ladder.eps>
+(epstopdf)             \includegraphics on input line 24.
+Package epstopdf Info: Output file is already uptodate.
+File: 29-Mar-14-Quake-Energy-Ladder-eps-converted-to.pdf Graphic file (type pdf
+)
+
+<use 29-Mar-14-Quake-Energy-Ladder-eps-converted-to.pdf>
+Package pdftex.def Info: 29-Mar-14-Quake-Energy-Ladder-eps-converted-to.pdf use
+d on input line 24.
+(pdftex.def)             Requested size: 317.36526pt x 476.11412pt.
+Package epstopdf Info: Source file: <29-Mar-14-Ribbon-xyPosition-517-260-Frame-
+1-Energy-Ladder.eps>
+(epstopdf)                    date: 2015-10-29 05:16:34
+(epstopdf)                    size: 32005 bytes
+(epstopdf)             Output file: <29-Mar-14-Ribbon-xyPosition-517-260-Frame-
+1-Energy-Ladder-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-30 04:03:27
+(epstopdf)                    size: 18594 bytes
+(epstopdf)             Command: <repstopdf --outfile=29-Mar-14-Ribbon-xyPositio
+n-517-260-Frame-1-Energy-Ladder-eps-converted-to.pdf 29-Mar-14-Ribbon-xyPositio
+n-517-260-Frame-1-Energy-Ladder.eps>
+(epstopdf)             \includegraphics on input line 32.
+Package epstopdf Info: Output file is already uptodate.
+
+<29-Mar-14-Ribbon-xyPosition-517-260-Frame-1-Energy-Ladder-eps-converted-to.pdf
+, id=575, 212.795pt x 313.17pt>
+File: 29-Mar-14-Ribbon-xyPosition-517-260-Frame-1-Energy-Ladder-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use 29-Mar-14-Ribbon-xyPosition-517-260-Frame-1-Energy-Ladder-eps-converted-to
+.pdf>
+Package pdftex.def Info: 29-Mar-14-Ribbon-xyPosition-517-260-Frame-1-Energy-Lad
+der-eps-converted-to.pdf used on input line 32.
+(pdftex.def)             Requested size: 317.36526pt x 467.09215pt.
+ [24
+
+
+]
+Package epstopdf Info: Source file: <29-Mar-14-Ribbon-xyPosition-518-261-Frame-
+1-Energy-Ladder.eps>
+(epstopdf)                    date: 2015-10-29 05:16:36
+(epstopdf)                    size: 32888 bytes
+(epstopdf)             Output file: <29-Mar-14-Ribbon-xyPosition-518-261-Frame-
+1-Energy-Ladder-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-30 04:03:28
+(epstopdf)                    size: 18941 bytes
+(epstopdf)             Command: <repstopdf --outfile=29-Mar-14-Ribbon-xyPositio
+n-518-261-Frame-1-Energy-Ladder-eps-converted-to.pdf 29-Mar-14-Ribbon-xyPositio
+n-518-261-Frame-1-Energy-Ladder.eps>
+(epstopdf)             \includegraphics on input line 40.
+Package epstopdf Info: Output file is already uptodate.
+
+<29-Mar-14-Ribbon-xyPosition-518-261-Frame-1-Energy-Ladder-eps-converted-to.pdf
+, id=580, 212.795pt x 313.17pt>
+File: 29-Mar-14-Ribbon-xyPosition-518-261-Frame-1-Energy-Ladder-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use 29-Mar-14-Ribbon-xyPosition-518-261-Frame-1-Energy-Ladder-eps-converted-to
+.pdf>
+Package pdftex.def Info: 29-Mar-14-Ribbon-xyPosition-518-261-Frame-1-Energy-Lad
+der-eps-converted-to.pdf used on input line 40.
+(pdftex.def)             Requested size: 317.36526pt x 467.09215pt.
+ [25 <./29-Mar-14-Ribbon-xyPosition-517-260-Frame-1-Energy-Ladder-eps-converted
+-to.pdf>]
+Package epstopdf Info: Source file: <29-Mar-14-Ribbon-xyPosition-519-261-Frame-
+1-Energy-Ladder.eps>
+(epstopdf)                    date: 2015-10-29 05:16:40
+(epstopdf)                    size: 31456 bytes
+(epstopdf)             Output file: <29-Mar-14-Ribbon-xyPosition-519-261-Frame-
+1-Energy-Ladder-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-30 04:03:30
+(epstopdf)                    size: 18312 bytes
+(epstopdf)             Command: <repstopdf --outfile=29-Mar-14-Ribbon-xyPositio
+n-519-261-Frame-1-Energy-Ladder-eps-converted-to.pdf 29-Mar-14-Ribbon-xyPositio
+n-519-261-Frame-1-Energy-Ladder.eps>
+(epstopdf)             \includegraphics on input line 49.
+Package epstopdf Info: Output file is already uptodate.
+
+<29-Mar-14-Ribbon-xyPosition-519-261-Frame-1-Energy-Ladder-eps-converted-to.pdf
+, id=597, 212.795pt x 313.17pt>
+File: 29-Mar-14-Ribbon-xyPosition-519-261-Frame-1-Energy-Ladder-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use 29-Mar-14-Ribbon-xyPosition-519-261-Frame-1-Energy-Ladder-eps-converted-to
+.pdf>
+Package pdftex.def Info: 29-Mar-14-Ribbon-xyPosition-519-261-Frame-1-Energy-Lad
+der-eps-converted-to.pdf used on input line 49.
+(pdftex.def)             Requested size: 317.36526pt x 467.09215pt.
+ [26 <./29-Mar-14-Ribbon-xyPosition-518-261-Frame-1-Energy-Ladder-eps-converted
+-to.pdf>]
+Package epstopdf Info: Source file: <29-Mar-14-Ribbon-xyPosition-520-262-Frame-
+1-Energy-Ladder.eps>
+(epstopdf)                    date: 2015-10-29 05:16:42
+(epstopdf)                    size: 31113 bytes
+(epstopdf)             Output file: <29-Mar-14-Ribbon-xyPosition-520-262-Frame-
+1-Energy-Ladder-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-30 04:03:31
+(epstopdf)                    size: 18162 bytes
+(epstopdf)             Command: <repstopdf --outfile=29-Mar-14-Ribbon-xyPositio
+n-520-262-Frame-1-Energy-Ladder-eps-converted-to.pdf 29-Mar-14-Ribbon-xyPositio
+n-520-262-Frame-1-Energy-Ladder.eps>
+(epstopdf)             \includegraphics on input line 57.
+Package epstopdf Info: Output file is already uptodate.
+
+<29-Mar-14-Ribbon-xyPosition-520-262-Frame-1-Energy-Ladder-eps-converted-to.pdf
+, id=612, 212.795pt x 313.17pt>
+File: 29-Mar-14-Ribbon-xyPosition-520-262-Frame-1-Energy-Ladder-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use 29-Mar-14-Ribbon-xyPosition-520-262-Frame-1-Energy-Ladder-eps-converted-to
+.pdf>
+Package pdftex.def Info: 29-Mar-14-Ribbon-xyPosition-520-262-Frame-1-Energy-Lad
+der-eps-converted-to.pdf used on input line 57.
+(pdftex.def)             Requested size: 317.36526pt x 467.09215pt.
+ [27 <./29-Mar-14-Ribbon-xyPosition-519-261-Frame-1-Energy-Ladder-eps-converted
+-to.pdf>]
+Package epstopdf Info: Source file: <29-Mar-14-Ribbon-xyPosition-521-262-Frame-
+1-Energy-Ladder.eps>
+(epstopdf)                    date: 2015-10-29 05:16:48
+(epstopdf)                    size: 32909 bytes
+(epstopdf)             Output file: <29-Mar-14-Ribbon-xyPosition-521-262-Frame-
+1-Energy-Ladder-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-30 04:03:33
+(epstopdf)                    size: 18973 bytes
+(epstopdf)             Command: <repstopdf --outfile=29-Mar-14-Ribbon-xyPositio
+n-521-262-Frame-1-Energy-Ladder-eps-converted-to.pdf 29-Mar-14-Ribbon-xyPositio
+n-521-262-Frame-1-Energy-Ladder.eps>
+(epstopdf)             \includegraphics on input line 65.
+Package epstopdf Info: Output file is already uptodate.
+
+<29-Mar-14-Ribbon-xyPosition-521-262-Frame-1-Energy-Ladder-eps-converted-to.pdf
+, id=627, 212.795pt x 313.17pt>
+File: 29-Mar-14-Ribbon-xyPosition-521-262-Frame-1-Energy-Ladder-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use 29-Mar-14-Ribbon-xyPosition-521-262-Frame-1-Energy-Ladder-eps-converted-to
+.pdf>
+Package pdftex.def Info: 29-Mar-14-Ribbon-xyPosition-521-262-Frame-1-Energy-Lad
+der-eps-converted-to.pdf used on input line 65.
+(pdftex.def)             Requested size: 317.36526pt x 467.09215pt.
+ [28 <./29-Mar-14-Ribbon-xyPosition-520-262-Frame-1-Energy-Ladder-eps-converted
+-to.pdf>]
+Package epstopdf Info: Source file: <29-Mar-14-Ribbon-xyPosition-500-262-Frame-
+1-Energy-Ladder.eps>
+(epstopdf)                    date: 2015-10-29 05:16:20
+(epstopdf)                    size: 32965 bytes
+(epstopdf)             Output file: <29-Mar-14-Ribbon-xyPosition-500-262-Frame-
+1-Energy-Ladder-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-30 04:03:19
+(epstopdf)                    size: 19118 bytes
+(epstopdf)             Command: <repstopdf --outfile=29-Mar-14-Ribbon-xyPositio
+n-500-262-Frame-1-Energy-Ladder-eps-converted-to.pdf 29-Mar-14-Ribbon-xyPositio
+n-500-262-Frame-1-Energy-Ladder.eps>
+(epstopdf)             \includegraphics on input line 73.
+Package epstopdf Info: Output file is already uptodate.
+
+<29-Mar-14-Ribbon-xyPosition-500-262-Frame-1-Energy-Ladder-eps-converted-to.pdf
+, id=642, 212.795pt x 313.17pt>
+File: 29-Mar-14-Ribbon-xyPosition-500-262-Frame-1-Energy-Ladder-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use 29-Mar-14-Ribbon-xyPosition-500-262-Frame-1-Energy-Ladder-eps-converted-to
+.pdf>
+Package pdftex.def Info: 29-Mar-14-Ribbon-xyPosition-500-262-Frame-1-Energy-Lad
+der-eps-converted-to.pdf used on input line 73.
+(pdftex.def)             Requested size: 317.36526pt x 467.09215pt.
+ [29 <./29-Mar-14-Ribbon-xyPosition-521-262-Frame-1-Energy-Ladder-eps-converted
+-to.pdf>]
+Package epstopdf Info: Source file: <29-Mar-14-Ribbon-xyPosition-503-265-Frame-
+1-Energy-Ladder.eps>
+(epstopdf)                    date: 2015-10-29 05:16:22
+(epstopdf)                    size: 32441 bytes
+(epstopdf)             Output file: <29-Mar-14-Ribbon-xyPosition-503-265-Frame-
+1-Energy-Ladder-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-30 04:03:21
+(epstopdf)                    size: 18719 bytes
+(epstopdf)             Command: <repstopdf --outfile=29-Mar-14-Ribbon-xyPositio
+n-503-265-Frame-1-Energy-Ladder-eps-converted-to.pdf 29-Mar-14-Ribbon-xyPositio
+n-503-265-Frame-1-Energy-Ladder.eps>
+(epstopdf)             \includegraphics on input line 81.
+Package epstopdf Info: Output file is already uptodate.
+
+<29-Mar-14-Ribbon-xyPosition-503-265-Frame-1-Energy-Ladder-eps-converted-to.pdf
+, id=657, 212.795pt x 313.17pt>
+File: 29-Mar-14-Ribbon-xyPosition-503-265-Frame-1-Energy-Ladder-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use 29-Mar-14-Ribbon-xyPosition-503-265-Frame-1-Energy-Ladder-eps-converted-to
+.pdf>
+Package pdftex.def Info: 29-Mar-14-Ribbon-xyPosition-503-265-Frame-1-Energy-Lad
+der-eps-converted-to.pdf used on input line 81.
+(pdftex.def)             Requested size: 317.36526pt x 467.09215pt.
+ [30 <./29-Mar-14-Ribbon-xyPosition-500-262-Frame-1-Energy-Ladder-eps-converted
+-to.pdf>]
+Package epstopdf Info: Source file: <29-Mar-14-Ribbon-xyPosition-506-268-Frame-
+1-Energy-Ladder.eps>
+(epstopdf)                    date: 2015-10-29 05:16:26
+(epstopdf)                    size: 32181 bytes
+(epstopdf)             Output file: <29-Mar-14-Ribbon-xyPosition-506-268-Frame-
+1-Energy-Ladder-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-30 04:03:22
+(epstopdf)                    size: 18630 bytes
+(epstopdf)             Command: <repstopdf --outfile=29-Mar-14-Ribbon-xyPositio
+n-506-268-Frame-1-Energy-Ladder-eps-converted-to.pdf 29-Mar-14-Ribbon-xyPositio
+n-506-268-Frame-1-Energy-Ladder.eps>
+(epstopdf)             \includegraphics on input line 89.
+Package epstopdf Info: Output file is already uptodate.
+
+<29-Mar-14-Ribbon-xyPosition-506-268-Frame-1-Energy-Ladder-eps-converted-to.pdf
+, id=672, 212.795pt x 313.17pt>
+File: 29-Mar-14-Ribbon-xyPosition-506-268-Frame-1-Energy-Ladder-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use 29-Mar-14-Ribbon-xyPosition-506-268-Frame-1-Energy-Ladder-eps-converted-to
+.pdf>
+Package pdftex.def Info: 29-Mar-14-Ribbon-xyPosition-506-268-Frame-1-Energy-Lad
+der-eps-converted-to.pdf used on input line 89.
+(pdftex.def)             Requested size: 317.36526pt x 467.09215pt.
+ [31 <./29-Mar-14-Ribbon-xyPosition-503-265-Frame-1-Energy-Ladder-eps-converted
+-to.pdf>]
+Package epstopdf Info: Source file: <29-Mar-14-Ribbon-xyPosition-509-268-Frame-
+1-Energy-Ladder.eps>
+(epstopdf)                    date: 2015-10-29 05:16:28
+(epstopdf)                    size: 33067 bytes
+(epstopdf)             Output file: <29-Mar-14-Ribbon-xyPosition-509-268-Frame-
+1-Energy-Ladder-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-30 04:03:24
+(epstopdf)                    size: 19115 bytes
+(epstopdf)             Command: <repstopdf --outfile=29-Mar-14-Ribbon-xyPositio
+n-509-268-Frame-1-Energy-Ladder-eps-converted-to.pdf 29-Mar-14-Ribbon-xyPositio
+n-509-268-Frame-1-Energy-Ladder.eps>
+(epstopdf)             \includegraphics on input line 97.
+Package epstopdf Info: Output file is already uptodate.
+
+<29-Mar-14-Ribbon-xyPosition-509-268-Frame-1-Energy-Ladder-eps-converted-to.pdf
+, id=688, 212.795pt x 313.17pt>
+File: 29-Mar-14-Ribbon-xyPosition-509-268-Frame-1-Energy-Ladder-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use 29-Mar-14-Ribbon-xyPosition-509-268-Frame-1-Energy-Ladder-eps-converted-to
+.pdf>
+Package pdftex.def Info: 29-Mar-14-Ribbon-xyPosition-509-268-Frame-1-Energy-Lad
+der-eps-converted-to.pdf used on input line 97.
+(pdftex.def)             Requested size: 317.36526pt x 467.09215pt.
+ [32 <./29-Mar-14-Ribbon-xyPosition-506-268-Frame-1-Energy-Ladder-eps-converted
+-to.pdf>]
+Package epstopdf Info: Source file: <29-Mar-14-Ribbon-xyPosition-514-270-Frame-
+1-Energy-Ladder.eps>
+(epstopdf)                    date: 2015-10-29 05:16:32
+(epstopdf)                    size: 32752 bytes
+(epstopdf)             Output file: <29-Mar-14-Ribbon-xyPosition-514-270-Frame-
+1-Energy-Ladder-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-30 04:03:26
+(epstopdf)                    size: 18991 bytes
+(epstopdf)             Command: <repstopdf --outfile=29-Mar-14-Ribbon-xyPositio
+n-514-270-Frame-1-Energy-Ladder-eps-converted-to.pdf 29-Mar-14-Ribbon-xyPositio
+n-514-270-Frame-1-Energy-Ladder.eps>
+(epstopdf)             \includegraphics on input line 105.
+Package epstopdf Info: Output file is already uptodate.
+
+<29-Mar-14-Ribbon-xyPosition-514-270-Frame-1-Energy-Ladder-eps-converted-to.pdf
+, id=703, 212.795pt x 313.17pt>
+File: 29-Mar-14-Ribbon-xyPosition-514-270-Frame-1-Energy-Ladder-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use 29-Mar-14-Ribbon-xyPosition-514-270-Frame-1-Energy-Ladder-eps-converted-to
+.pdf>
+Package pdftex.def Info: 29-Mar-14-Ribbon-xyPosition-514-270-Frame-1-Energy-Lad
+der-eps-converted-to.pdf used on input line 105.
+(pdftex.def)             Requested size: 317.36526pt x 467.09215pt.
+ [33 <./29-Mar-14-Ribbon-xyPosition-509-268-Frame-1-Energy-Ladder-eps-converted
+-to.pdf>]
+Package epstopdf Info: Source file: <29-Mar-14-Ribbon-xyPosition-518-259-Frame-
+2-Energy-Ladder.eps>
+(epstopdf)                    date: 2015-10-29 05:16:34
+(epstopdf)                    size: 32613 bytes
+(epstopdf)             Output file: <29-Mar-14-Ribbon-xyPosition-518-259-Frame-
+2-Energy-Ladder-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-30 04:03:27
+(epstopdf)                    size: 18941 bytes
+(epstopdf)             Command: <repstopdf --outfile=29-Mar-14-Ribbon-xyPositio
+n-518-259-Frame-2-Energy-Ladder-eps-converted-to.pdf 29-Mar-14-Ribbon-xyPositio
+n-518-259-Frame-2-Energy-Ladder.eps>
+(epstopdf)             \includegraphics on input line 113.
+Package epstopdf Info: Output file is already uptodate.
+
+<29-Mar-14-Ribbon-xyPosition-518-259-Frame-2-Energy-Ladder-eps-converted-to.pdf
+, id=718, 212.795pt x 313.17pt>
+File: 29-Mar-14-Ribbon-xyPosition-518-259-Frame-2-Energy-Ladder-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use 29-Mar-14-Ribbon-xyPosition-518-259-Frame-2-Energy-Ladder-eps-converted-to
+.pdf>
+Package pdftex.def Info: 29-Mar-14-Ribbon-xyPosition-518-259-Frame-2-Energy-Lad
+der-eps-converted-to.pdf used on input line 113.
+(pdftex.def)             Requested size: 317.36526pt x 467.09215pt.
+ [34 <./29-Mar-14-Ribbon-xyPosition-514-270-Frame-1-Energy-Ladder-eps-converted
+-to.pdf>]
+Package epstopdf Info: Source file: <29-Mar-14-Ribbon-xyPosition-519-259-Frame-
+2-Energy-Ladder.eps>
+(epstopdf)                    date: 2015-10-29 05:16:38
+(epstopdf)                    size: 31957 bytes
+(epstopdf)             Output file: <29-Mar-14-Ribbon-xyPosition-519-259-Frame-
+2-Energy-Ladder-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-30 04:03:29
+(epstopdf)                    size: 18384 bytes
+(epstopdf)             Command: <repstopdf --outfile=29-Mar-14-Ribbon-xyPositio
+n-519-259-Frame-2-Energy-Ladder-eps-converted-to.pdf 29-Mar-14-Ribbon-xyPositio
+n-519-259-Frame-2-Energy-Ladder.eps>
+(epstopdf)             \includegraphics on input line 121.
+Package epstopdf Info: Output file is already uptodate.
+
+<29-Mar-14-Ribbon-xyPosition-519-259-Frame-2-Energy-Ladder-eps-converted-to.pdf
+, id=733, 212.795pt x 313.17pt>
+File: 29-Mar-14-Ribbon-xyPosition-519-259-Frame-2-Energy-Ladder-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use 29-Mar-14-Ribbon-xyPosition-519-259-Frame-2-Energy-Ladder-eps-converted-to
+.pdf>
+Package pdftex.def Info: 29-Mar-14-Ribbon-xyPosition-519-259-Frame-2-Energy-Lad
+der-eps-converted-to.pdf used on input line 121.
+(pdftex.def)             Requested size: 317.36526pt x 467.09215pt.
+ [35 <./29-Mar-14-Ribbon-xyPosition-518-259-Frame-2-Energy-Ladder-eps-converted
+-to.pdf>]
+Package epstopdf Info: Source file: <29-Mar-14-Ribbon-xyPosition-520-259-Frame-
+2-Energy-Ladder.eps>
+(epstopdf)                    date: 2015-10-29 05:16:42
+(epstopdf)                    size: 31674 bytes
+(epstopdf)             Output file: <29-Mar-14-Ribbon-xyPosition-520-259-Frame-
+2-Energy-Ladder-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-30 04:03:31
+(epstopdf)                    size: 18406 bytes
+(epstopdf)             Command: <repstopdf --outfile=29-Mar-14-Ribbon-xyPositio
+n-520-259-Frame-2-Energy-Ladder-eps-converted-to.pdf 29-Mar-14-Ribbon-xyPositio
+n-520-259-Frame-2-Energy-Ladder.eps>
+(epstopdf)             \includegraphics on input line 129.
+Package epstopdf Info: Output file is already uptodate.
+
+<29-Mar-14-Ribbon-xyPosition-520-259-Frame-2-Energy-Ladder-eps-converted-to.pdf
+, id=749, 212.795pt x 313.17pt>
+File: 29-Mar-14-Ribbon-xyPosition-520-259-Frame-2-Energy-Ladder-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use 29-Mar-14-Ribbon-xyPosition-520-259-Frame-2-Energy-Ladder-eps-converted-to
+.pdf>
+Package pdftex.def Info: 29-Mar-14-Ribbon-xyPosition-520-259-Frame-2-Energy-Lad
+der-eps-converted-to.pdf used on input line 129.
+(pdftex.def)             Requested size: 317.36526pt x 467.09215pt.
+ [36 <./29-Mar-14-Ribbon-xyPosition-519-259-Frame-2-Energy-Ladder-eps-converted
+-to.pdf>]
+Package epstopdf Info: Source file: <29-Mar-14-Ribbon-xyPosition-521-259-Frame-
+2-Energy-Ladder.eps>
+(epstopdf)                    date: 2015-10-29 05:16:46
+(epstopdf)                    size: 31590 bytes
+(epstopdf)             Output file: <29-Mar-14-Ribbon-xyPosition-521-259-Frame-
+2-Energy-Ladder-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-30 04:03:32
+(epstopdf)                    size: 18094 bytes
+(epstopdf)             Command: <repstopdf --outfile=29-Mar-14-Ribbon-xyPositio
+n-521-259-Frame-2-Energy-Ladder-eps-converted-to.pdf 29-Mar-14-Ribbon-xyPositio
+n-521-259-Frame-2-Energy-Ladder.eps>
+(epstopdf)             \includegraphics on input line 137.
+Package epstopdf Info: Output file is already uptodate.
+
+<29-Mar-14-Ribbon-xyPosition-521-259-Frame-2-Energy-Ladder-eps-converted-to.pdf
+, id=764, 212.795pt x 313.17pt>
+File: 29-Mar-14-Ribbon-xyPosition-521-259-Frame-2-Energy-Ladder-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use 29-Mar-14-Ribbon-xyPosition-521-259-Frame-2-Energy-Ladder-eps-converted-to
+.pdf>
+Package pdftex.def Info: 29-Mar-14-Ribbon-xyPosition-521-259-Frame-2-Energy-Lad
+der-eps-converted-to.pdf used on input line 137.
+(pdftex.def)             Requested size: 317.36526pt x 467.09215pt.
+ [37 <./29-Mar-14-Ribbon-xyPosition-520-259-Frame-2-Energy-Ladder-eps-converted
+-to.pdf>]
+Package epstopdf Info: Source file: <29-Mar-14-Ribbon-xyPosition-524-259-Frame-
+2-Energy-Ladder.eps>
+(epstopdf)                    date: 2015-10-29 05:16:48
+(epstopdf)                    size: 32230 bytes
+(epstopdf)             Output file: <29-Mar-14-Ribbon-xyPosition-524-259-Frame-
+2-Energy-Ladder-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-30 04:03:34
+(epstopdf)                    size: 18489 bytes
+(epstopdf)             Command: <repstopdf --outfile=29-Mar-14-Ribbon-xyPositio
+n-524-259-Frame-2-Energy-Ladder-eps-converted-to.pdf 29-Mar-14-Ribbon-xyPositio
+n-524-259-Frame-2-Energy-Ladder.eps>
+(epstopdf)             \includegraphics on input line 145.
+Package epstopdf Info: Output file is already uptodate.
+
+<29-Mar-14-Ribbon-xyPosition-524-259-Frame-2-Energy-Ladder-eps-converted-to.pdf
+, id=780, 212.795pt x 313.17pt>
+File: 29-Mar-14-Ribbon-xyPosition-524-259-Frame-2-Energy-Ladder-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use 29-Mar-14-Ribbon-xyPosition-524-259-Frame-2-Energy-Ladder-eps-converted-to
+.pdf>
+Package pdftex.def Info: 29-Mar-14-Ribbon-xyPosition-524-259-Frame-2-Energy-Lad
+der-eps-converted-to.pdf used on input line 145.
+(pdftex.def)             Requested size: 317.36526pt x 467.09215pt.
+ [38 <./29-Mar-14-Ribbon-xyPosition-521-259-Frame-2-Energy-Ladder-eps-converted
+-to.pdf>]
+Package epstopdf Info: Source file: <29-Mar-14-Ribbon-xyPosition-499-264-Frame-
+2-Energy-Ladder.eps>
+(epstopdf)                    date: 2015-10-29 05:16:18
+(epstopdf)                    size: 32671 bytes
+(epstopdf)             Output file: <29-Mar-14-Ribbon-xyPosition-499-264-Frame-
+2-Energy-Ladder-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-30 04:03:18
+(epstopdf)                    size: 18920 bytes
+(epstopdf)             Command: <repstopdf --outfile=29-Mar-14-Ribbon-xyPositio
+n-499-264-Frame-2-Energy-Ladder-eps-converted-to.pdf 29-Mar-14-Ribbon-xyPositio
+n-499-264-Frame-2-Energy-Ladder.eps>
+(epstopdf)             \includegraphics on input line 153.
+Package epstopdf Info: Output file is already uptodate.
+
+<29-Mar-14-Ribbon-xyPosition-499-264-Frame-2-Energy-Ladder-eps-converted-to.pdf
+, id=795, 212.795pt x 313.17pt>
+File: 29-Mar-14-Ribbon-xyPosition-499-264-Frame-2-Energy-Ladder-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use 29-Mar-14-Ribbon-xyPosition-499-264-Frame-2-Energy-Ladder-eps-converted-to
+.pdf>
+Package pdftex.def Info: 29-Mar-14-Ribbon-xyPosition-499-264-Frame-2-Energy-Lad
+der-eps-converted-to.pdf used on input line 153.
+(pdftex.def)             Requested size: 317.36526pt x 467.09215pt.
+ [39 <./29-Mar-14-Ribbon-xyPosition-524-259-Frame-2-Energy-Ladder-eps-converted
+-to.pdf>]
+Package epstopdf Info: Source file: <29-Mar-14-Ribbon-xyPosition-502-263-Frame-
+2-Energy-Ladder.eps>
+(epstopdf)                    date: 2015-10-29 05:16:22
+(epstopdf)                    size: 31691 bytes
+(epstopdf)             Output file: <29-Mar-14-Ribbon-xyPosition-502-263-Frame-
+2-Energy-Ladder-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-30 04:03:20
+(epstopdf)                    size: 18227 bytes
+(epstopdf)             Command: <repstopdf --outfile=29-Mar-14-Ribbon-xyPositio
+n-502-263-Frame-2-Energy-Ladder-eps-converted-to.pdf 29-Mar-14-Ribbon-xyPositio
+n-502-263-Frame-2-Energy-Ladder.eps>
+(epstopdf)             \includegraphics on input line 161.
+Package epstopdf Info: Output file is already uptodate.
+
+<29-Mar-14-Ribbon-xyPosition-502-263-Frame-2-Energy-Ladder-eps-converted-to.pdf
+, id=810, 208.78pt x 313.17pt>
+File: 29-Mar-14-Ribbon-xyPosition-502-263-Frame-2-Energy-Ladder-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use 29-Mar-14-Ribbon-xyPosition-502-263-Frame-2-Energy-Ladder-eps-converted-to
+.pdf>
+Package pdftex.def Info: 29-Mar-14-Ribbon-xyPosition-502-263-Frame-2-Energy-Lad
+der-eps-converted-to.pdf used on input line 161.
+(pdftex.def)             Requested size: 317.36526pt x 476.11412pt.
+ [40 <./29-Mar-14-Ribbon-xyPosition-499-264-Frame-2-Energy-Ladder-eps-converted
+-to.pdf>]
+Package epstopdf Info: Source file: <29-Mar-14-Ribbon-xyPosition-504-267-Frame-
+2-Energy-Ladder.eps>
+(epstopdf)                    date: 2015-10-29 05:16:24
+(epstopdf)                    size: 32252 bytes
+(epstopdf)             Output file: <29-Mar-14-Ribbon-xyPosition-504-267-Frame-
+2-Energy-Ladder-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-30 04:03:22
+(epstopdf)                    size: 18481 bytes
+(epstopdf)             Command: <repstopdf --outfile=29-Mar-14-Ribbon-xyPositio
+n-504-267-Frame-2-Energy-Ladder-eps-converted-to.pdf 29-Mar-14-Ribbon-xyPositio
+n-504-267-Frame-2-Energy-Ladder.eps>
+(epstopdf)             \includegraphics on input line 169.
+Package epstopdf Info: Output file is already uptodate.
+
+<29-Mar-14-Ribbon-xyPosition-504-267-Frame-2-Energy-Ladder-eps-converted-to.pdf
+, id=825, 208.78pt x 313.17pt>
+File: 29-Mar-14-Ribbon-xyPosition-504-267-Frame-2-Energy-Ladder-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use 29-Mar-14-Ribbon-xyPosition-504-267-Frame-2-Energy-Ladder-eps-converted-to
+.pdf>
+Package pdftex.def Info: 29-Mar-14-Ribbon-xyPosition-504-267-Frame-2-Energy-Lad
+der-eps-converted-to.pdf used on input line 169.
+(pdftex.def)             Requested size: 317.36526pt x 476.11412pt.
+ [41 <./29-Mar-14-Ribbon-xyPosition-502-263-Frame-2-Energy-Ladder-eps-converted
+-to.pdf>]
+Package epstopdf Info: Source file: <29-Mar-14-Ribbon-xyPosition-508-269-Frame-
+2-Energy-Ladder.eps>
+(epstopdf)                    date: 2015-10-29 05:16:28
+(epstopdf)                    size: 32447 bytes
+(epstopdf)             Output file: <29-Mar-14-Ribbon-xyPosition-508-269-Frame-
+2-Energy-Ladder-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-30 04:03:23
+(epstopdf)                    size: 18845 bytes
+(epstopdf)             Command: <repstopdf --outfile=29-Mar-14-Ribbon-xyPositio
+n-508-269-Frame-2-Energy-Ladder-eps-converted-to.pdf 29-Mar-14-Ribbon-xyPositio
+n-508-269-Frame-2-Energy-Ladder.eps>
+(epstopdf)             \includegraphics on input line 177.
+Package epstopdf Info: Output file is already uptodate.
+
+<29-Mar-14-Ribbon-xyPosition-508-269-Frame-2-Energy-Ladder-eps-converted-to.pdf
+, id=840, 212.795pt x 313.17pt>
+File: 29-Mar-14-Ribbon-xyPosition-508-269-Frame-2-Energy-Ladder-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use 29-Mar-14-Ribbon-xyPosition-508-269-Frame-2-Energy-Ladder-eps-converted-to
+.pdf>
+Package pdftex.def Info: 29-Mar-14-Ribbon-xyPosition-508-269-Frame-2-Energy-Lad
+der-eps-converted-to.pdf used on input line 177.
+(pdftex.def)             Requested size: 317.36526pt x 467.09215pt.
+ [42 <./29-Mar-14-Ribbon-xyPosition-504-267-Frame-2-Energy-Ladder-eps-converted
+-to.pdf>]
+Package epstopdf Info: Source file: <29-Mar-14-Ribbon-xyPosition-511-272-Frame-
+2-Energy-Ladder.eps>
+(epstopdf)                    date: 2015-10-29 05:16:30
+(epstopdf)                    size: 31555 bytes
+(epstopdf)             Output file: <29-Mar-14-Ribbon-xyPosition-511-272-Frame-
+2-Energy-Ladder-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-10-30 04:03:25
+(epstopdf)                    size: 18346 bytes
+(epstopdf)             Command: <repstopdf --outfile=29-Mar-14-Ribbon-xyPositio
+n-511-272-Frame-2-Energy-Ladder-eps-converted-to.pdf 29-Mar-14-Ribbon-xyPositio
+n-511-272-Frame-2-Energy-Ladder.eps>
+(epstopdf)             \includegraphics on input line 185.
+Package epstopdf Info: Output file is already uptodate.
+
+<29-Mar-14-Ribbon-xyPosition-511-272-Frame-2-Energy-Ladder-eps-converted-to.pdf
+, id=855, 208.78pt x 313.17pt>
+File: 29-Mar-14-Ribbon-xyPosition-511-272-Frame-2-Energy-Ladder-eps-converted-t
+o.pdf Graphic file (type pdf)
+
+<use 29-Mar-14-Ribbon-xyPosition-511-272-Frame-2-Energy-Ladder-eps-converted-to
+.pdf>
+Package pdftex.def Info: 29-Mar-14-Ribbon-xyPosition-511-272-Frame-2-Energy-Lad
+der-eps-converted-to.pdf used on input line 185.
+(pdftex.def)             Requested size: 317.36526pt x 476.11412pt.
+ [43 <./29-Mar-14-Ribbon-xyPosition-508-269-Frame-2-Energy-Ladder-eps-converted
+-to.pdf>]
+Overfull \hbox (2.72174pt too wide) in paragraph at lines 213--219
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [16
-
-
- <./29-Mar-14-SI-Ribbon-Coord-oplot-eps-converted-to.pdf>] [17 <./29-Mar-14-MG-
-Ribbon-Coord-oplot-eps-converted-to.pdf> <./29-Mar-14-MGW-Ribbon-Coord-oplot-ep
-s-converted-to.pdf>] [18 <./29-Mar-14-Quake-Energy-Ladder-eps-converted-to.pdf>
-] [19] (./upgrade-report.bbl [20
+) [44 <./29-Mar-14-Ribbon-xyPosition-511-272-Frame-2-Energy-Ladder-eps-converte
+d-to.pdf>] [45] (./upgrade-report.bbl [46
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
- [21]
+ [47]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
  (./upgrade-report.aux
 (./sunquakes-intro.aux) (./projectupgrd.aux) (./appendix.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
 Package rerunfilecheck Info: File `upgrade-report.out' has not changed.
-(rerunfilecheck)             Checksum: 99D873D84829DF8AE685FE814D2940E9;1295.
+(rerunfilecheck)             Checksum: D05CFEC081D6BB121299C535F444F0BB;1271.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
  ) 
 Here is how much of TeX's memory you used:
- 8838 strings out of 493109
- 135007 string characters out of 6135011
- 248337 words of memory out of 5000000
- 12074 multiletter control sequences out of 15000+600000
+ 9040 strings out of 493109
+ 144349 string characters out of 6135011
+ 258175 words of memory out of 5000000
+ 12198 multiletter control sequences out of 15000+600000
  11986 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,12n,43p,2335b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,12n,43p,2335b,468s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
@@ -801,10 +1352,10 @@ ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2014/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on upgrade-report.pdf (21 pages, 2320574 bytes).
+Output written on upgrade-report.pdf (47 pages, 2842327 bytes).
 PDF statistics:
- 534 PDF objects out of 1000 (max. 8388607)
- 450 compressed objects within 5 object streams
- 99 named destinations out of 1000 (max. 500000)
- 233 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 995 PDF objects out of 1000 (max. 8388607)
+ 764 compressed objects within 8 object streams
+ 155 named destinations out of 1000 (max. 500000)
+ 335 words of extra memory for PDF output out of 10000 (max. 10000000)
 
