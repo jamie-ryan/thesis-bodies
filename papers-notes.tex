@@ -1,0 +1,62 @@
+\documentclass[11pt]{article}
+\usepackage{aas_macros}
+\usepackage{hyperref}
+\usepackage{appendix}
+\usepackage[hmargin=1.5cm, vmargin=0.55cm]{geometry}
+\usepackage{amsmath}
+\usepackage{caption}
+\usepackage{mathtools}
+\usepackage{fancyhdr}
+\usepackage{float}%Places the float at precisely the location in the LaTeX code...i.e, [H]
+\usepackage{wrapfig}
+\usepackage{rotating}
+%\usepackage[pdftex]{graphicx}%includegraphics
+%converts eps to pdf
+ \usepackage[update,prepend]{epstopdf}
+%\usepackage{subcaption} %need to find subcaption.sty for this to work!
+%\usepackage{epstopdf}
+
+%\graphicspath{ {~/PhD/Thesis/upgrade-plots/} {./} }
+\DeclareGraphicsExtensions{.pdf,.png,.jpg,.eps,.gif,.ps}
+\renewcommand{\vec}[1]{\mathbf{#1}}
+\usepackage[round]{natbib}  %use the "Natbib" style for the references in the Bibliography
+%\usepackage{aastex}%defines journal abbreviations in bib file
+%\newcommand{name}[num]{definition}
+
+
+
+\title{A collection of Notes from Important Papers Relating to Sunquakes and Solar Flares.}
+\author{Jamie Ryan \\
+Mullard Space Science Laboratory \\
+University College London \\
+Surrey, RH13 6NL, UK\\
+\href{mailto:jamie.ryan.14@ucl.ac.uk}{jamie.ryan.14@ucl.ac.uk}
+\date{}}
+\begin{document}
+\maketitle
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Prelude}
+This document contains a collection of notes taken whilst reading various papers. Each section relates to one specific paper, although there maybe references to other papers included within said section. Any notes that are \emph{emphasized} are my own thoughts, and are not statements that are contained in the paper. All notes are written in my own words, therefore, all notes can be used as text bodies for my own papers or thesis write up.
+
+
+\section{Hydrogen Balmer Continuum In Solar Flares Detected By The Interface Region Imaging Spectrometer (IRIS)}
+The following notes are taken from: \cite{2014ApJ...794L..23H,}. \\
+
+\textbf{On page 1, in the introduction: } As described by the collisional thick target model (CTTM \cite{1971SoPh...18..489B}), electrons accelerated by the reconnecting coronal magnetic field, penetrate the into the lower atmosphere depositing energy along the way. Emission in the lower atmosphere is due to heating, causing various line and continua emission, and collisions by non-thermal electrons exciting and ionizing the local plasma. If emission is of a wavelength comparable to the visible spectrum then the term white light flare is used to describe it. \emph{That being said, white light flares also emit in wavelengths at the extremes of the visible range, such as NUV.} Continua emission contributing to white light flares are thought to occur via two processes, heating of the temperature minimum region, and hydrogen recombination at chromospheric altitudes \cite{2007ASPC..368..417D}. Downward directed hydrogen recombination continuum emission is associated with radiative backwarming of the photosphere, with the upward component being detectable by IRIS. The same hydrogen population also emits in EUV continuum below 912\AA\ due to atomic Lyman transitions, emission which has been observed recently using the SDO/EVE instrument \citep{2012ApJ...748L..14M, 2014ApJ...793...70M} \emph{searching for Milligan et al papers I stumbled across a paper that attempts to constrain plasma densities during a smaple of X class flares. Might be very useful as a reference to draw upon for my own density approximations.} An estimate of the radiative energy in the optical has recently been made by \cite{2013ApJ...776..123W, 2014ApJ...783...98K} and \cite{2014ApJ...793...70M} using Hinode/SOT. The range of the spectrum covered by these estimates is small, and data is converted to energy units via fitting to a blackbody (BB) curve. This approach is not ideal, as the BB predicts low levels of emission in the Balmer continuum which contradicts increased levels produced using numerical simulations of the hydrogen recombination process. \emph{There is no reference for the pape containing these hydrogen recombination simulations???? I found a nice paper by Adam Kowalski \cite{2015SoPh..tmp...61K}, which may contain such simulations. May be it's worth emailing Adam to see if he wants to collaborate by running simulations based on my observations. Also, \cite{2014ApJ...793...70M} may contain a reference to such simulations.}
+
+
+
+
+
+
+
+
+\label{Bibliography}
+\lhead{\emph{Bibliography}}  % Change the left side page header to "Bibliography"
+%\bibliographystyle{unsrtnat}  % Use the "unsrtnat" BibTeX style for formatting the Bibliography
+\bibliographystyle{plainnat}%abbrv}
+\bibliography{../Bibliography/Bibliography}  % The references (bibliography) information are stored in the file named "Bibliography.bib"
+%\bibliography{Bibliography}
+\end{document}
