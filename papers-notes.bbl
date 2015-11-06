@@ -1,0 +1,86 @@
+\begin{thebibliography}{10}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{Brown}(1971)]{1971SoPh...18..489B}
+J.~C. {Brown}.
+\newblock {The Deduction of Energy Spectra of Non-Thermal Electrons in Flares
+  from the Observed Dynamic Spectra of Hard X-Ray Bursts}.
+\newblock \emph{\solphys}, 18:\penalty0 489--502, July 1971.
+\newblock \doi{10.1007/BF00149070}.
+
+\bibitem[{Ding}(2007)]{2007ASPC..368..417D}
+M.~D. {Ding}.
+\newblock {The Origin of Solar White-Light Flares}.
+\newblock In P.~{Heinzel}, I.~{Dorotovi{\v c}}, and R.~J. {Rutten}, editors,
+  \emph{The Physics of Chromospheric Plasmas}, volume 368 of \emph{Astronomical
+  Society of the Pacific Conference Series}, page 417, May 2007.
+
+\bibitem[{Donati-Falchi} et~al.(1985){Donati-Falchi}, {Falciani}, and
+  {Smaldone}]{1985A&A...152..165D}
+A.~{Donati-Falchi}, R.~{Falciani}, and L.~A. {Smaldone}.
+\newblock {Analysis of the optical spectra of solar flares. IV - The 'blue'
+  continuum of white light flares}.
+\newblock \emph{\aap}, 152:\penalty0 165--169, November 1985.
+
+\bibitem[{Heinzel} and {Kleint}(2014)]{2014ApJ...794L..23H}
+P.~{Heinzel} and L.~{Kleint}.
+\newblock {Hydrogen Balmer Continuum in Solar Flares Detected by the Interface
+  Region Imaging Spectrograph (IRIS)}.
+\newblock \emph{\apjl}, 794:\penalty0 L23, October 2014.
+\newblock \doi{10.1088/2041-8205/794/2/L23}.
+
+\bibitem[{Kerr} and {Fletcher}(2014)]{2014ApJ...783...98K}
+G.~S. {Kerr} and L.~{Fletcher}.
+\newblock {Physical Properties of White-light Sources in the 2011 February 15
+  Solar Flare}.
+\newblock \emph{\apj}, 783:\penalty0 98, March 2014.
+\newblock \doi{10.1088/0004-637X/783/2/98}.
+
+\bibitem[{Kowalski} et~al.(2015){Kowalski}, {Hawley}, {Carlsson}, {Allred},
+  {Uitenbroek}, {Osten}, and {Holman}]{2015SoPh..tmp...61K}
+A.~F. {Kowalski}, S.~L. {Hawley}, M.~{Carlsson}, J.~C. {Allred},
+  H.~{Uitenbroek}, R.~A. {Osten}, and G.~{Holman}.
+\newblock {New Insights into White-Light Flare Emission from
+  Radiative-Hydrodynamic Modeling of a Chromospheric Condensation}.
+\newblock \emph{\solphys}, June 2015.
+\newblock \doi{10.1007/s11207-015-0708-x}.
+
+\bibitem[{Milligan} et~al.(2012){Milligan}, {Chamberlin}, {Hudson}, {Woods},
+  {Mathioudakis}, {Fletcher}, {Kowalski}, and {Keenan}]{2012ApJ...748L..14M}
+R.~O. {Milligan}, P.~C. {Chamberlin}, H.~S. {Hudson}, T.~N. {Woods},
+  M.~{Mathioudakis}, L.~{Fletcher}, A.~F. {Kowalski}, and F.~P. {Keenan}.
+\newblock {Observations of Enhanced Extreme Ultraviolet Continua during an
+  X-Class Solar Flare Using SDO/EVE}.
+\newblock \emph{\apjl}, 748:\penalty0 L14, March 2012.
+\newblock \doi{10.1088/2041-8205/748/1/L14}.
+
+\bibitem[{Milligan} et~al.(2014){Milligan}, {Kerr}, {Dennis}, {Hudson},
+  {Fletcher}, {Allred}, {Chamberlin}, {Ireland}, {Mathioudakis}, and
+  {Keenan}]{2014ApJ...793...70M}
+R.~O. {Milligan}, G.~S. {Kerr}, B.~R. {Dennis}, H.~S. {Hudson}, L.~{Fletcher},
+  J.~C. {Allred}, P.~C. {Chamberlin}, J.~{Ireland}, M.~{Mathioudakis}, and
+  F.~P. {Keenan}.
+\newblock {The Radiated Energy Budget of Chromospheric Plasma in a Major Solar
+  Flare Deduced from Multi-wavelength Observations}.
+\newblock \emph{\apj}, 793:\penalty0 70, October 2014.
+\newblock \doi{10.1088/0004-637X/793/2/70}.
+
+\bibitem[{Neidig}(1989)]{1989SoPh..121..261N}
+D.~F. {Neidig}.
+\newblock {The importance of solar white-light flares}.
+\newblock \emph{\solphys}, 121:\penalty0 261--269, March 1989.
+\newblock \doi{10.1007/BF00161699}.
+
+\bibitem[{Watanabe} et~al.(2013){Watanabe}, {Shimizu}, {Masuda}, {Ichimoto},
+  and {Ohno}]{2013ApJ...776..123W}
+K.~{Watanabe}, T.~{Shimizu}, S.~{Masuda}, K.~{Ichimoto}, and M.~{Ohno}.
+\newblock {Emission Height and Temperature Distribution of White-light Emission
+  Observed by Hinode/SOT from the 2012 January 27 X-class Solar Flare}.
+\newblock \emph{\apj}, 776:\penalty0 123, October 2013.
+\newblock \doi{10.1088/0004-637X/776/2/123}.
+
+\end{thebibliography}
