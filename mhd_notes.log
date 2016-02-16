@@ -1,8 +1,8 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.3.6)  10 NOV 2015 16:53
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.3.6)  6 JAN 2016 12:16
 entering extended mode
  %&-line parsing enabled.
-**papers-notes.tex
-(./papers-notes.tex
+**mhd_notes.tex
+(./mhd_notes.tex
 LaTeX2e <2005/12/01>
 Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
 yphenation, arabic, basque, bulgarian, coptic, welsh, czech, slovak, german, ng
@@ -256,24 +256,24 @@ Package: natbib 2007/02/05 8.0 (PWD)
 \bibsep=\skip59
 LaTeX Info: Redefining \cite on input line 602.
 \c@NAT@ctr=\count120
-) (./papers-notes.aux)
-\openout1 = `papers-notes.aux'.
+) (./mhd_notes.aux)
+\openout1 = `mhd_notes.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-Package hyperref Info: Link coloring OFF on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+Package hyperref Info: Link coloring OFF on input line 42.
 
 (/usr/share/texmf/tex/latex/hyperref/nameref.sty
 Package: nameref 2006/12/27 v2.28 Cross-referencing by name of section
@@ -283,12 +283,12 @@ Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
 )
 \c@section@level=\count121
 )
-LaTeX Info: Redefining \ref on input line 35.
-LaTeX Info: Redefining \pageref on input line 35.
- (./papers-notes.out)
-(./papers-notes.out)
+LaTeX Info: Redefining \ref on input line 42.
+LaTeX Info: Redefining \pageref on input line 42.
+ (./mhd_notes.out)
+(./mhd_notes.out)
 \@outlinefile=\write3
-\openout3 = `papers-notes.out'.
+\openout3 = `mhd_notes.out'.
 
 -------------------- Geometry parameters
 paper: class default
@@ -351,43 +351,35 @@ LaTeX Info: Redefining \selectfont on input line 125.
 \RaggedRightParindent=\skip72
 \JustifyingParindent=\skip73
 )
-Package caption Info: float package v1.3 (or newer) detected on input line 35.
-Package caption Info: rotating package v2.0 (or newer) detected on input line 3
-5.
- (./papers-notes.toc)
-\tf@toc=\write4
-\openout4 = `papers-notes.toc'.
+Package caption Info: float package v1.3 (or newer) detected on input line 42.
+Package caption Info: rotating package v2.0 (or newer) detected on input line 4
+2.
+ [1
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
-
- []
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 52.
-
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./papers-notes.bbl
-[2]) [3] (./papers-notes.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] (./mhd_notes.bbl) 
+[4] (./mhd_notes.aux) ) 
 Here is how much of TeX's memory you used:
- 4990 strings out of 256216
- 69356 string characters out of 1917073
- 156306 words of memory out of 1500000
- 8194 multiletter control sequences out of 10000+200000
- 9748 words of font info for 35 fonts, out of 1200000 for 2000
+ 5032 strings out of 256216
+ 69566 string characters out of 1917073
+ 146306 words of memory out of 1500000
+ 8217 multiletter control sequences out of 10000+200000
+ 10676 words of font info for 38 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 35i,6n,43p,3202b,342s stack positions out of 5000i,500n,6000p,200000b,15000s
-</usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.
-pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts
-/type1/bluesky/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb
-></usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/texmf/fonts/typ
-e1/bluesky/cm/cmr17.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr8.pfb></usr
-/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bl
-uesky/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb>
-Output written on papers-notes.pdf (3 pages, 101068 bytes).
+ 35i,6n,43p,884b,364s stack positions out of 5000i,500n,6000p,200000b,15000s
+</usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></us
+r/share/texmf/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/b
+luesky/cm/cmbx8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmex10.pfb></usr/s
+hare/texmf/fonts/type1/bluesky/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/blue
+sky/cm/cmmi6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmmi8.pfb></usr/share
+/texmf/fonts/type1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/c
+m/cmr12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr17.pfb></usr/share/texm
+f/fonts/type1/bluesky/cm/cmr6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr8
+.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/texmf/font
+s/type1/bluesky/cm/cmsy6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy8.pfb
+></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb>
+Output written on mhd_notes.pdf (4 pages, 112929 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 131072)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 183 PDF objects out of 1000 (max. 8388607)
+ 40 named destinations out of 1000 (max. 131072)
+ 49 words of extra memory for PDF output out of 10000 (max. 10000000)
 

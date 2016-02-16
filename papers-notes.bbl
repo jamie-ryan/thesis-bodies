@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{12}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -69,11 +69,24 @@ R.~O. {Milligan}, G.~S. {Kerr}, B.~R. {Dennis}, H.~S. {Hudson}, L.~{Fletcher},
 \newblock \emph{\apj}, 793:\penalty0 70, October 2014.
 \newblock \doi{10.1088/0004-637X/793/2/70}.
 
+\bibitem[{Morrill} and {Korendyke}(2008)]{2008ApJ...687..646M}
+J.~S. {Morrill} and C.~M. {Korendyke}.
+\newblock {High-Resolution Center-to-Limb Variation of the Quiet Solar Spectrum
+  near Mg II}.
+\newblock \emph{\apj}, 687:\penalty0 646--657, November 2008.
+\newblock \doi{10.1086/591305}.
+
 \bibitem[{Neidig}(1989)]{1989SoPh..121..261N}
 D.~F. {Neidig}.
 \newblock {The importance of solar white-light flares}.
 \newblock \emph{\solphys}, 121:\penalty0 261--269, March 1989.
 \newblock \doi{10.1007/BF00161699}.
+
+\bibitem[{Ricchiazzi} and {Canfield}(1983)]{1983ApJ...272..739R}
+P.~J. {Ricchiazzi} and R.~C. {Canfield}.
+\newblock {A static model of chromospheric heating in solar flares}.
+\newblock \emph{\apj}, 272:\penalty0 739--755, September 1983.
+\newblock \doi{10.1086/161336}.
 
 \bibitem[{Watanabe} et~al.(2013){Watanabe}, {Shimizu}, {Masuda}, {Ichimoto},
   and {Ohno}]{2013ApJ...776..123W}

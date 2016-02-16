@@ -1,0 +1,18 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{Dwivedi} and {Parker}(2003)]{2003dysu.book.....D}
+B.~N. {Dwivedi} and F.~b.~E.~N. {Parker}.
+\newblock \emph{{Dynamic Sun}}.
+\newblock Cambridge University Press, Cambridge, UK, May 2003.
+
+\bibitem[{Priest}(1982)]{1982soma.book.....P}
+E.~R. {Priest}.
+\newblock \emph{{Solar magneto-hydrodynamics}}.
+\newblock D.Reidel Publishing Company, Dordrecht, Holland, 1982.
+
+\end{thebibliography}
