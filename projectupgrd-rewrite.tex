@@ -1,14 +1,14 @@
 \section{Data and Methodology}
 %THIS SHOULD DESCRIBE THE SATELLITE DATA AND THE TECHNIQUES USED TO PROCESS AND ANALYSE THESES DATA.
 \subsection{Observations}
-The X1 flare of the 29th of March 2014 in active region NOAA 12017, was well observed by RHESSI, IRIS and SDO/HMI, collecting HXR, UV and optical emission respectively (see Figure \ref{saxcontours-vert}). The peak of the impulsive phase of the flare occurs at 17:48 UT, at which point all mentioned instruments provide good coverage. 
+The X1 flare of the 29th of March 2014 in active region NOAA 12017, was well observed by RHESSI, IRIS and SDO/HMI, collecting HXR, UV and optical emission respectively. The peak of the impulsive phase of the flare occurs at 17:48 UT, at which point all mentioned instruments provide good coverage. 
 
 \subsubsection{RHESSI}
 The RHESSI spacecraft is capable of observing a wide range of high energy emission from solar flares, covering soft x-ray to gamma-rays. 
 %insert RHESSI background info
 
 
-RHESSI captured a wide range of high energy emission throughout the flare, see Figure \ref{rhessicft}, however, for this project, only the 10 to 100 keV HXR range are sampled. During the impulsive phase of a flare, high energy x-ray emission is an indicator that accelerated particles are present. Assuming that the chromosphere is a thick target \citep{1971SoPh...18..489B}, the deposition of energy by accelerated particles is due to collisions between charged particles and ions producing hard X-ray bremsstrahlung emission. Using equation \ref{pnth} one can calculate the power, $P$, injected into the atmosphere by non-thermal electrons.  
+RHESSI captured a wide range of high energy emission throughout the flare, however, for this project, only the 10 to 100 keV HXR range are sampled. During the impulsive phase of a flare, high energy x-ray emission is an indicator that accelerated particles are present. Assuming that the chromosphere is a thick target \citep{1971SoPh...18..489B}, the deposition of energy by accelerated particles is due to collisions between charged particles and ions producing hard X-ray bremsstrahlung emission. Using equation \ref{pnth} one can calculate the power, $P$, injected into the atmosphere by non-thermal electrons.  
  
 \begin{equation}\label{pnth}
 P(E \geq E_{c}) = \int_{E_{C}}^{\infty} EF(E)dE
@@ -42,7 +42,7 @@ E = \frac{F_{DN}  C_{d2p} E_{\lambda}}{E_{erg}}
 
 
 \subsubsection{SDO HMI}
-The HMI instrument onboard SDO observes the entire solar photosphere, collecting 6173 \AA\ (Fe I) continuum intensity data. HMI has 4k resolution with a pixel size relating to 0.505" spatial resolution, with each image having a cadence of 45 seconds. The data is calibrated to negate cosmic-rays, dark currents, flat-field and spacecraft rotational effects. HMI continuum data is used primarily to observe White light flares, which are difficult to see against the bright photospheric background. To highlight the positions of flare ribbons in the photosphere, data must be filtered. Silimarly to \cite{2014ApJ...783...98K}, photospheric continuum data captured by HMI is put through a two stage filtering porcedure. First the data has an unsharp filter applied, $Img_{filtered}=Img-smooth(Img,10), where the function smooth relates to a 10 pixel boxcar smoothing filter, this is to remove small features such as granulation. The technique is not perfect meaning that some granulation is still visible after the unsharp filter. Second, $Img_{filtered}$ is subjected to a running difference filter to isolate locations that are white-light enhanced. The running difference filter effectively removes static features leaving behind those pixels that are changing over short time-scales. However, for removing signatures of those processes occurring over shorter time periods such as the remaining granulation and also p-mode oscillations, this filtering technique is ineffective. This is not a problem, as for the purpose of white light flare analysis, the data yield a strong contrast between flare-enhanced and background pixels after being filtered by a $i-2$ running difference. The next stage is to determine which pixels in the difference image are those that are enhanced during the flare. For the best result, white-light enhanced pixels are identified using a combination of visual inspection and thresholding. Attempts at automating the identification process tend to lead to false positives being triggered by noise or granulation features. \\
+The HMI instrument onboard SDO observes the entire solar photosphere, collecting 6173 \AA\ (Fe I) continuum intensity data. HMI has 4k resolution with a pixel size relating to 0.505" spatial resolution, with each image having a cadence of 45 seconds. The data is calibrated to negate cosmic-rays, dark currents, flat-field and spacecraft rotational effects. HMI continuum data is used primarily to observe White light flares, which are difficult to see against the bright photospheric background. To highlight the positions of flare ribbons in the photosphere, data must be filtered. Silimarly to \cite{2014ApJ...783...98K}, photospheric continuum data captured by HMI is put through a two stage filtering porcedure. First the data has an unsharp filter applied, so that the filtered image, $I_{filt}=I-$ smooth($I$,10), where $I$ is the original image and the function smooth relates to a 10 pixel boxcar smoothing filter, this is to remove small features such as granulation. The technique is not perfect meaning that some granulation is still visible after the unsharp filter. Second, $I_{filt}$ is subjected to a running difference filter to isolate locations that are white-light enhanced. The running difference filter effectively removes static features leaving behind those pixels that are changing over short time-scales. However, for removing signatures of those processes occurring over shorter time periods such as the remaining granulation and also p-mode oscillations, this filtering technique is ineffective. This is not a problem, as for the purpose of white light flare analysis, the data yield a strong contrast between flare-enhanced and background pixels after being filtered by a $i-2$ running difference. The next stage is to determine which pixels in the difference image are those that are enhanced during the flare. For the best result, white-light enhanced pixels are identified using a combination of visual inspection and thresholding. Attempts at automating the identification process tend to lead to false positives being triggered by noise or granulation features. \\
 HMI Dopplergrams are used in conjunction with holography techniques to produce a 6mHZ acoustic egression power map (supplied via private communication by Sergei Zharkov) revealing the location of the sunquake. 
 As with the IRIS data, the next stage of processing is to calculate and energy. To perform the energy conversion for SDO HMI data a combination of sources \citep{2012SoPh..275...41B, 2012SoPh..275..285C} have been used to find the instrument's properties which are used to fulfil a conversion factor in the form of equation \ref{hmiradiometriccal}. Where $g$ is the instrument gain, $QE$ is the quantum efficiency of the charged couple device and $A_{ap}$ is the instrument aperture area, all other terms hold the same meaning as in equation \ref{irisradiometriccal}.
 
@@ -51,9 +51,12 @@ E = \frac{F_{DN} E_{\lambda}}{g QE A_{ap} E_{erg}}
 \end{equation}
 
 \subsection{Data Sampling}
-For the IRIS SJI, IRIS SG and SDO HMI data sets, multiple sample points have been chosen based on the moment in time when the IRIS SG slit is directly over the southern flare ribbon and sunquake impact location. These coordinates are sampled across all data sets except RHESSI which has limited spatial resolution. Figure \ref{mgwrib} shows the sample coordinates, RHESSI HXR and the 6mHz sunquake egression map, plotted over IRIS SJI MG II data in an effort to demonstrate the spatial alignment between HXR (particle beam), UV ribbons and sunquake impact. Table \ref{coordtab} shows how each sample number relates to a heliocentric position in arcseconds.
+For the IRIS SJI, IRIS SG and SDO HMI data sets, multiple sample points have been chosen based on the moment in time when the IRIS SG slit is directly over the southern flare ribbon and sunquake impact location. These coordinates are sampled across all data sets except RHESSI due to the limited spatial resolution of the instrument. Figure \ref{mgrib} shows the sample coordinates, RHESSI HXR and the 6mHz sunquake egression map, plotted over IRIS SJI MG II data in an effort to demonstrate the spatial alignment between HXR (particle beam), UV ribbons and sunquake impact. Table \ref{coordtab} shows how each sample number relates to a heliocentric position in arcseconds.
 \centering
-\begin{tabular}{|c|c|}[H]
+
+\begin{table}
+\begin{tabular}{|c|c|}
+\hline
 Sample Number & Heliocentric Position (x,y)\\
 \hline
 1 & 518.219", 262.000"\\
@@ -62,14 +65,16 @@ Sample Number & Heliocentric Position (x,y)\\
 4 & 522.212", 265.000"\\
 5 & 524.256", 265.000"\\
 6 & 526.252", 263.818"\\
+\hline
 \end{tabular}
-\caption{Sampleoordinates and Energies at 17:45 and 17:46 for ribbon sample locations.}\label{coordtab}
+\caption{Sample number and the corresponding coordinates in heliocentric units (arcsec).}\label{coordtab}
+\end{table}
 
 \begin{figure}[H]
   \begin{center}
-  \includegraphics[width=0.8\textwidth]{29-Mar-14-MG-Ribbon-Coord-oplot}
+  \includegraphics[width=0.8\textwidth]{29-Mar-14-MGII-Sunquake-Context-Plots-xx-Zoom-crop}
   \end{center}
-  \caption{The image on the left shows IRIS Mg II slit-jaw data with contours representing HXR emission and 6mHz sunquake power. The image on the right shows IRIS Mg II slit-jaw data zoomed in on the southern ribbon, with sample coordinates (see table \ref{coordtab}) and 6mHz sunquake power contours. The six ribbon sample points relate to the IRIS SG slit position at 17:46. Each of the IRIS SJ and SDO HMI data sets are sampled at the exact same coordinates in heliocentric units.}\label{mgrib}
+  \caption{The images show IRIS Mg II slit-jaw data with contours representing HXR emission and 6mHz sunquake power. The black box highlights the area contained in the zoomed plot on the right. The cyan contours show the 6mHz egression power, with the location of the sunquake shown in red on the right. The green and red contours on the left plot show RHESSI HXR data at 25 - 50 and 50 - 100 keV. The green crosses on the right plot show sample positions numbered in accordance with table \ref{coordtab} Each of the IRIS SJ and SDO HMI data sets are sampled at the exact same coordinates in heliocentric units.}\label{mgrib}
 \end{figure}
 
 
