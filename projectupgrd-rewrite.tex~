@@ -4,31 +4,25 @@
 The X1 flare of the 29th of March 2014 in active region NOAA 12017, was well observed by RHESSI, IRIS and SDO/HMI, collecting HXR, UV and optical emission respectively (see Figure \ref{saxcontours-vert}). The peak of the impulsive phase of the flare occurs at 17:48 UT, at which point all mentioned instruments provide good coverage. 
 
 \subsubsection{RHESSI}
-RHESSI captured a wide range of high energy emission throughout the flare, see Figure \ref{rhessicft}, however, for this project, only the 10 to 100 keV HXR range are sampled.
+The RHESSI spacecraft is capable of observing a wide range of high energy emission from solar flares, covering soft x-ray to gamma-rays. 
+%insert RHESSI background info
 
-\begin{figure}[H]
-  \begin{center}
-  \includegraphics[width=0.7\textwidth]{count-flux-v-time-crop}
-  \end{center}
-  \caption{Shows RHESSI counts per area for multiple energy ranges. 3 to 6 keV in black, 6 to 12 keV in pink, 12 to 25 keV in green, 25 to 49 keV in turquoise, 49 to 100 keV in yellow and 100 to 250 keV in red. This range covers both thermal and non-thermal electron processes.}\label{rhessicft}
-\end{figure}
 
-During the impulsive phase of a flare, high energy emission is an indicator that accelerated particles are present. Assuming that the chromosphere is a thick target \citep{1971SoPh...18..489B}, then the deposition of energy by accelerated particles will be by collisions between charged particles and ions producing hard X-ray bremsstrahlung emission.
+RHESSI captured a wide range of high energy emission throughout the flare, see Figure \ref{rhessicft}, however, for this project, only the 10 to 100 keV HXR range are sampled. During the impulsive phase of a flare, high energy x-ray emission is an indicator that accelerated particles are present. Assuming that the chromosphere is a thick target \citep{1971SoPh...18..489B}, the deposition of energy by accelerated particles is due to collisions between charged particles and ions producing hard X-ray bremsstrahlung emission. Using equation \ref{pnth} one can calculate the power, $P$, injected into the atmosphere by non-thermal electrons.  
  
 \begin{equation}\label{pnth}
 P(E \geq E_{c}) = \int_{E_{C}}^{\infty} EF(E)dE
 \end{equation}
 
-The thick target model allows for the integration of the total non-thermal electron power $P$ via equation \ref{pnth}. The electron distribution $F(E)$ is controlled by the power law $AE^{-\delta}$, where $E$ is the electron energy, $A$ is the total injected electron rate normalisation factor, $E_{C}$ is the low energy cut off and $\delta$ is the electron distribution spectral index.   
-Performing the integral gives the total non-thermal electron power in the form of equation \ref{pnth1} .
+The electron distribution $F(E)$ is controlled by the power law $AE^{-\delta}$, where $E$ is the electron energy, $A$ is the total injected electron rate normalisation factor, $E_{C}$ is the low energy cut off and $\delta$ is the electron distribution spectral index. The value of $E_{C}$ represents the upper boundary between thermal and non-thermal energy contributions to the x-ray spectrum. This means that the total energy associated with non-thermal electron power is a lower limit.  Performing the integral in equation \ref{pnth} gives the total non-thermal electron power in the form of equation \ref{pnth1}.
 
 \begin{equation}\label{pnth1}
 P(E \geq E_{c}) = \frac{AE_{C}^{(2-\delta)}}{(\delta - 2)}
 \end{equation}
 
-The value of $E_{C}$ represents the upper boundary between thermal and non-thermal energy contributions to the x-ray spectrum. This means that the total energy associated with non-thermal electron power calculated by equation \ref{pnth1} is a lower limit.
+Once $P$ has been determined, a total energy can be calculated by multiplying the power by the time period over which the data covers. In this case that would be the impulsive phase of the flare.
   
-Using the \texttt{ospex} software within SolarSoft (SSWIDL) RHESSI data are fit using the thick target non-thermal electron model. The entire data set has to be split into short intervals to improve the accuracy of fitting and the detail of resulting plots. Also the attenuator state of the instrument has to be taken into account due to differences in sensitivity to incoming photons. Therefore it is important to define intervals for fitting first by the attenuator state as \texttt{ospex} will mitigate for the differences in count sensitivity. Shown in Figure \ref{erhessi} is the resulting fit over the majority of the impulsive phase of the flare. At the peak of the impulsive phase between 17:46 and 17:47 the RHESSI fit shows an energy ranging from $1.0{\times}10^{28}$ to $2.5{\times}10^{29}$ erg. Assuming the fitting model is correct then the release of this energy is due to non-thermal electrons being accelerated and depositing energy into the chromosphere. 
+Practically applying a thick target model fit to RHESSI data is acheived by using the \texttt{ospex} software within SolarSoft (SSWIDL). The entire data set has to be split into short intervals to improve the accuracy of fitting and the detail of resulting plots. The attenuator state of the instrument has to be taken into account due to differences in sensitivity to incoming photons. Therefore it is important to define intervals for fitting first by the attenuator state as \texttt{ospex} will mitigate for the differences in count sensitivity. Then each attenuator time period can be split further in to smaller time increments. Shown in Figure \ref{erhessi} is the resulting fit over the impulsive phase of the flare. At the peak of the impulsive phase between 17:46 and 17:48 the RHESSI fit shows an energy ranging from $1.0{\times}10^{28}$ to $2.5{\times}10^{29}$ erg. Assuming the fitting model is correct then the release of this energy is due to non-thermal electrons being accelerated by magnetic reconnection, depositing their energy into the chromosphere. 
 
 \begin{figure}[H]
   \begin{center}
@@ -40,12 +34,49 @@ Using the \texttt{ospex} software within SolarSoft (SSWIDL) RHESSI data are fit 
 
 
 \subsubsection{IRIS}
-The IRIS spacecraft captured the temporal evolution of the flare between 14:09 and 17:54 UT via it's slit-jaw imager and spectrograph instruments at solar coordinates of 491", 282" with a spatial resolution of 0.1667" per pixel. The slit-jaw imager data provides coverage of a field of view spanning 167" by 174", of passbands that including 1403, 2796 and 2832 \AA\ at 26, 19 and 75 second cadence respectively. The spectrograph slit is aligned directly over chromospheric flare ribbons, and the sunquake point of origin, with a field of view spanning 14" by 174". The spectrograph slit is exposed for $\sim9$ seconds at 8 slit locations for a total of 72 seconds cadence. Wavelengths observed over three channels include FUV1: 1331.7 - 1358.4 \AA, FUV2: 1389.0 - 1407.0 \AA\ and NUV: 2782.7 - 2851.1 \AA, associated with the upper-chromosphere down to the upper-photosphere. Spectral lines include C II, Si IV and Mg II h and k. IRIS data is the standard level 2 data product provided for scientific research, which has been calibrated to negate dark currents, flat-field and spacecraft rotational effects. 
+The IRIS spacecraft captured the temporal evolution of the flare between 14:09 and 17:54 UT via it's slit-jaw imager and spectrograph at solar coordinates 491", 282", with a spatial resolution of 0.1667" per pixel. The slit-jaw imager data provides coverage of a field of view spanning 167" by 174", of passbands that including 1403, 2796 and 2832 \AA\ at 26, 19 and 75 second cadence respectively. The spectrograph slit has a field of view spanning 14" by 174" and is aligned directly over chromospheric flare ribbons, and the sunquake point of origin. For the majority of the observation, the spectrograph slit is exposed for $\sim9$ seconds at 8 slit locations for a total of 72 seconds cadence per raster. However, during the impulsive phase the IRIS SG shortens it's exposure time to around 2.4 seconds in order to mitigate against saturation of the CCD. Wavelengths observed over three channels include FUV1: 1331.7 - 1358.4 \AA, FUV2: 1389.0 - 1407.0 \AA\ and NUV: 2782.7 - 2851.1 \AA, associated with the transition region, chromosphere and the upper-photosphere. Spectral lines include C II, Si IV and Mg II h and k. IRIS SJI data is the standard level 2 data product provided for scientific research, which has been calibrated to negate dark currents, flat-field and spacecraft rotational effects. In order to observe flare ribbons in the photospheric data captured by IRIS SJI MG II wing channel, a running difference filter is applyed. This effectively removes unwanted background features, highlighting the UV ribbons. IRIS SG data is manually corrected for changing exposure times and wavelength shifts caused by the orbital motions of the spacecraft. IRIS SG data is sampled over a wavelength range of 2825.7 and 2825.8\AA\ which represents a sample of Balmer pseudo-continuum. The next stage of the processing requires that IRIS SJ and SG data are converted from relative intensity (DN per pixel) to energy (erg) units. This is acheived by using a method provided in the instrument documentation \citep{2014SoPh..289.2733D} which calculates the conversion factors between DN and erg units in SSWIDL. It is then a case of inserting IRIS DN per pixel intensity values into the equation \ref{irisradiometriccal} converting them into energy units. $F_{DN}$ is flux in units of DN per pixel, $C_{d2p}$ is the DN to photon conversion factor, $E_{\lambda}$ is the photon energy and $E_{erg}$ is to put the result into erg units.  
+
+\begin{equation}\label{irisradiometriccal}
+E = \frac{F_{DN}  C_{d2p} E_{\lambda}}{E_{erg}}
+\end{equation}
 
 
 \subsubsection{SDO HMI}
-The HMI instrument onboard SDO observed the entire solar photosphere, collecting 6173 \AA\ continuum intensity data throughout the flare event. HMI has a pixel size of 0.505 " providing reasonable spatial resolution at a cadence of 45 seconds. HMI data is calibrated to negate cosmic-rays, dark currents, flat-field and spacecraft rotational effects. A 6mHZ acoustic egression power map revealing the location of the sunquake is generated via holography techniques (supplied via private communication by Sergei Zharkov). HXR data from RHESSI and acoustic power data are overlaid on HMI and IRIS slit jaw maps for context, see Figure \ref{saxcontours-vert}.\\
+The HMI instrument onboard SDO observes the entire solar photosphere, collecting 6173 \AA\ (Fe I) continuum intensity data. HMI has 4k resolution with a pixel size relating to 0.505" spatial resolution, with each image having a cadence of 45 seconds. The data is calibrated to negate cosmic-rays, dark currents, flat-field and spacecraft rotational effects. HMI continuum data is used primarily to observe White light flares, which are difficult to see against the bright photospheric background. To highlight the positions of flare ribbons in the photosphere, data must be filtered. Silimarly to \cite{2014ApJ...783...98K}, photospheric continuum data captured by HMI is put through a two stage filtering porcedure. First the data has an unsharp filter applied, $Img_{filtered}=Img-smooth(Img,10), where the function smooth relates to a 10 pixel boxcar smoothing filter, this is to remove small features such as granulation. The technique is not perfect meaning that some granulation is still visible after the unsharp filter. Second, $Img_{filtered}$ is subjected to a running difference filter to isolate locations that are white-light enhanced. The running difference filter effectively removes static features leaving behind those pixels that are changing over short time-scales. However, for removing signatures of those processes occurring over shorter time periods such as the remaining granulation and also p-mode oscillations, this filtering technique is ineffective. This is not a problem, as for the purpose of white light flare analysis, the data yield a strong contrast between flare-enhanced and background pixels after being filtered by a $i-2$ running difference. The next stage is to determine which pixels in the difference image are those that are enhanced during the flare. For the best result, white-light enhanced pixels are identified using a combination of visual inspection and thresholding. Attempts at automating the identification process tend to lead to false positives being triggered by noise or granulation features. \\
+HMI Dopplergrams are used in conjunction with holography techniques to produce a 6mHZ acoustic egression power map (supplied via private communication by Sergei Zharkov) revealing the location of the sunquake. 
+As with the IRIS data, the next stage of processing is to calculate and energy. To perform the energy conversion for SDO HMI data a combination of sources \citep{2012SoPh..275...41B, 2012SoPh..275..285C} have been used to find the instrument's properties which are used to fulfil a conversion factor in the form of equation \ref{hmiradiometriccal}. Where $g$ is the instrument gain, $QE$ is the quantum efficiency of the charged couple device and $A_{ap}$ is the instrument aperture area, all other terms hold the same meaning as in equation \ref{irisradiometriccal}.
 
+\begin{equation}\label{hmiradiometriccal}
+E = \frac{F_{DN} E_{\lambda}}{g QE A_{ap} E_{erg}}
+\end{equation}
+
+\subsection{Data Sampling}
+For the IRIS SJI, IRIS SG and SDO HMI data sets, multiple sample points have been chosen based on the moment in time when the IRIS SG slit is directly over the southern flare ribbon and sunquake impact location. These coordinates are sampled across all data sets except RHESSI which has limited spatial resolution. Figure \ref{mgwrib} shows the sample coordinates, RHESSI HXR and the 6mHz sunquake egression map, plotted over IRIS SJI MG II data in an effort to demonstrate the spatial alignment between HXR (particle beam), UV ribbons and sunquake impact. Table \ref{coordtab} shows how each sample number relates to a heliocentric position in arcseconds.
+\centering
+\begin{tabular}{|c|c|}[H]
+Sample Number & Heliocentric Position (x,y)\\
+\hline
+1 & 518.219", 262.000"\\
+2 & 520.215", 263.000"\\
+3 & 522.212", 262.000"\\
+4 & 522.212", 265.000"\\
+5 & 524.256", 265.000"\\
+6 & 526.252", 263.818"\\
+\end{tabular}
+\caption{Sampleoordinates and Energies at 17:45 and 17:46 for ribbon sample locations.}\label{coordtab}
+
+\begin{figure}[H]
+  \begin{center}
+  \includegraphics[width=0.8\textwidth]{29-Mar-14-MG-Ribbon-Coord-oplot}
+  \end{center}
+  \caption{The image on the left shows IRIS Mg II slit-jaw data with contours representing HXR emission and 6mHz sunquake power. The image on the right shows IRIS Mg II slit-jaw data zoomed in on the southern ribbon, with sample coordinates (see table \ref{coordtab}) and 6mHz sunquake power contours. The six ribbon sample points relate to the IRIS SG slit position at 17:46. Each of the IRIS SJ and SDO HMI data sets are sampled at the exact same coordinates in heliocentric units.}\label{mgrib}
+\end{figure}
+
+
+
+
+
+HXR data from RHESSI and acoustic power data are overlaid on HMI and IRIS slit jaw maps for context, see Figure \ref{saxcontours-vert}.
 \begin{figure}[H]
   \begin{center}
   \includegraphics[width=1.0\textwidth]{saxcontours-square}
@@ -54,170 +85,7 @@ The HMI instrument onboard SDO observed the entire solar photosphere, collecting
 \end{figure}
 
 
-White light flares are difficult to see against the bright photospheric background therefore to maximise the insight gained from observations of the flaring photosphere, data must be filtered. Silimarly to \cite{2014ApJ...783...98K}, photospheric data captured by IRIS MG II wing slit-jaw and SDO HMI continuum observations are subjected to a running difference filter to isolate locations that are white-light enhanced. The running difference filter effectively removes static features leaving behind those pixels that are changing over short time-scales. However, for removing signatures of those processes occurring over shorter time periods such as granulation and p-mode oscillations, this filtering technique is ineffective. This is not a problem, as for the purpose of white light flare analysis, the data yield a strong contrast between flare-enhanced and background pixels after being filtered by a $i-2$ running difference. The next stage is to determine which pixels in the difference image are those that are enhanced during the flare. For the best result, white-light enhanced pixels are identified using a combination of visual inspection and thresholding. Attempts at automating the identification process tend to lead to false positives being triggered by noise or granulation features. IRIS SJIs and SG data have no need for filtering.
-
-%insert figure showing unfiltered and filtered iris and hmi data. 2x3: 2 unfiltered at the top, 2 filtered at the bottom, 2 thresholded showing only flare pixels.
-%\graphicspath{ {~/PhD/Thesis/upgrade-plots/} }
-\begin{figure}[H]
-  \begin{center}
-  \includegraphics[width=0.8\textwidth]{29-Mar-14-diff-examples}
-  \end{center}
-  \caption{White light flares are difficult to observe against the bright photosphere requiring processing with a running difference filter to enhance ribbon features. The figure shows IRIS SJ 2832 \AA\ and SDO HMI continuum data before (top) and after (bottom) filtering.}\label{dif_filter}
-\end{figure}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%BELOW THIS LINE IS OLD%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%\begin{itemize}
-%\end{itemize}
-
-
-
-
-
-
-
-IRIS SJ and SG data are converted from relative intensity (DN per pixel) to energy (erg) units using conversion factors. Provided in the instrument documentation \citep{2014SoPh..289.2733D} is a method for acquiring the conversion factors in SSWIDL. It is then a case of inserting IRIS DN per pixel intensity values into the equation \ref{irisradiometriccal}. $F_{DN}$ is flux in units of DN per pixel, $C_{d2p}$ is the DN to photon conversion factor, $E_{\lambda}$ is the photon energy and $E_{erg}$ is to put the result into erg units.  
-
-\begin{equation}\label{irisradiometriccal}
-E = \frac{F_{DN}  C_{d2p} E_{\lambda}}{E_{erg}}
-\end{equation}
-
-To perform the same conversion for SDO HMI data required a slightly different approach due to the non-existent DN to photon conversion factor. Using a combination of sources \citep{2012SoPh..275...41B, 2012SoPh..275..285C} the instrument's properties are used to fulfil a conversion factor in the form of equation \ref{hmiradiometriccal}. Where $g$ is the instrument gain, $QE$ is the quantum efficiency of the charged couple device and $A_{ap}$ is the instrument aperture area, all other terms hold the same meaning as in equation \ref{irisradiometriccal}.
-
-\begin{equation}\label{hmiradiometriccal}
-E = \frac{F_{DN} E_{\lambda}}{g QE A_{ap} E_{erg}}
-\end{equation}
-
-
-For the IRIS and SDO HMI data sets, multiple sample points have been chosen based on locations specific to the sunquake and ribbon activity. Figures \ref{sirib}, \ref{mgrib}, \ref{mgwrib} and \ref{hmirib} show the ribbon coordinates sampled from each data set. Studying the flare in this way allows the energy distribution along the ribbon to be analysed and provides a point of comparison for the sunquake location. Each data set has five sample points per ribbon, a procedure which is repeated at two time frames, 17:45 and 17:46, providing twenty individual energy measurements per data set. The number of sample points will likely be increased in the future to provide better spatial resolution for ribbon energy distribution analysis. The problem with defining multiple ribbon samples over five different data sets comes when one considers the morphology of the local magnetic field. Accelerated charged material can only travel along the magnetic field, so the shape of those field lines will dictate the location of emission therefore the morphology of the ribbon. With this in mind the sample of coordinates chosen is based on matching common morphological features seen in each data set.
-
-%insert figures showing ribbon coords oplot
-\begin{figure}[H]
-  \begin{center}
-  \includegraphics[width=0.8\textwidth]{29-Mar-14-SI-Ribbon-Coord-oplot}
-  \end{center}
-  \caption{Shows IRIS Si IV slit-jaw data with sampled ribbon and sunquake pixel coordinates marked in green and blue respectively. Twenty ribbon sample points are taken from two instances in time.}\label{sirib}
-\end{figure}
-
-\begin{figure}[H]
-  \begin{center}
-  \includegraphics[width=0.8\textwidth]{29-Mar-14-MG-Ribbon-Coord-oplot}
-  \end{center}
-  \caption{Shows IRIS Mg II slit-jaw data with sampled ribbon and sunquake pixel coordinates marked in green and blue respectively. Twenty ribbon sample points are taken from two instances in time.}\label{mgrib}
-\end{figure}
-
-\begin{figure}[H]
-  \begin{center}
-  \includegraphics[width=0.8\textwidth]{29-Mar-14-MGW-Ribbon-Coord-oplot}
-  \end{center}
-  \caption{Shows IRIS Mg II wing slit-jaw data with sampled ribbon and sunquake pixel coordinates marked in green and blue respectively. Twenty ribbon sample points are taken from two instances in time.}\label{mgwrib}
-\end{figure}
-
-\begin{figure}[H]
-  \begin{center}
-  \includegraphics[width=0.8\textwidth]{29-Mar-14-HMI-Ribbon-Coord-oplot}
-  \end{center}
-  \caption{Shows SDO HMI continuum with sampled ribbon and sunquake pixel coordinates marked in green and blue respectively. Twenty ribbon sample points are taken from two instances in time. This procedure is also applied to IRIS SJ and SG data, see the Appendix for more figures.}\label{hmirib}
-\end{figure}
-
-
-IRIS spectroscopic data is sampled over a wavelength range of 2825.7 and 2825.8\AA\ (see \ref{balmercontinuum}) which is within the Balmer continuum. Balmer Data is sampled at slit positions and pixels that relate to one quake position and twenty ribbon samples, as with the other data sets. 
-
-%insert figure showing balmer continuum spectrum sample range
-\begin{figure}[H]
-  \begin{center}
-  \includegraphics[width=0.8\textwidth]{29-Mar-14-Balmer-Continuum}
-  \end{center}
-  \caption{Shows the Balmer continuum component sampled from the IRIS SG data. Balmer emission is an indicator of radiative backwarming of the photosphere. }\label{balmercontinuum}
-\end{figure}
-
-
-Once all energies are calculated for each location and data set, time series energy-curves are created, see Figures \ref{erhessi} and \ref{eqk} (the Appendix contains the energy curves taken from ribbon locations). Each energy-time ladder plot contains energy curves from IRIS SJ 1400 \AA\, 2796 \AA\, SG Balmer, SJ 2832 \AA\ and SDO HMI continuum aligned in time. From top to bottom, the order of the plots in the ladder represents descending plasma temperature in the solar atmosphere see Tables \ref{iris-sg} and \ref{iris-sj}. Tables \ref{qkenergytab} and \ref{ribenergytab} display energy values taken from each pixel location and data set, except RHESSI, at two times corresponding to maximum WLF ribbon intensity at 17:45 and 17:46. Figure \ref{eqk} contains plots for the sunquake epicentre pixel, peak energies from each data set range from $9.63{\times}10^{14}$ erg from IRIS 1400 \AA\, $4.36{\times}10^{16}$ erg from IRIS 2796 \AA\ which is a lower limit due to over saturation of the instrument CCD, $2.68{\times}10^{16}$ erg from IRIS Balmer, $8.21{\times}10^{15}$ erg from IRIS 2832 \AA\ and $3.29{\times}10^{13}$ erg from SDO HMI continuum. 
-
-\begin{figure}[H]
-  \begin{center}
-  \textbf{Quake Location Energy Over Time}\par\medskip
-  \includegraphics[width=0.6\textwidth]{29-Mar-14-Quake-Energy-Ladder}
-  \end{center}
-  \caption{Shows calculated energy values over time of the region thought to be the sunquake epicentre (518.5", 264.0"). Each plot represents an independent data set, in order from top to bottom the sets are; IRIS SJ 1400 \AA\ (Si IV); IRIS SJ 2796 \AA\ (Mg II); IRIS SG  2825.7 to 2825.8 \AA\ (Balmer Continuum);IRIS SJ 2832 \AA\ (Mg II wing); SDO HMI continuum (HMI). The dotted line running vertically through each plot signifies a the onset time of the eruptive phase of the flare}\label{eqk}
-\end{figure}
-
-Ribbon plots show a wide range of properties. In an order dictated by Table \ref{ribenergytab}. The following is a bulletized summary of each ribbon position ladder-plot. The ribbon location is based on the HMI coordinates.
-
-\begin{itemize}
-\item Figure \ref{erb1} shows ribbon location 517.800, 260.500. Comparing peak energies from each data set to the sunquake pixel, this location shows; Si IV has 1.9 times more energy ; Mg II has 2 times more energy; Balmer has 0.47 of the energy; Mg II wing has 1.1 times more energy; HMI continuum has 2 times more energy. 
-
-%less balmer seems to correspond with more hmi?    
-
-\item Figure \ref{erb2} shows ribbon location 518.800, 261.000. Comparing peak energies from each data set to the sunquake pixel, this location shows; Si IV has 0.4 of the energy; Mg II has 0.65 of the energy; Balmer has 0.74 of the energy; Mg II wing has 1.03 times more energy; HMI continuum has 3.5 times more energy. 
-
-
-\item Figure \ref{erb3} shows ribbon location 519.700, 261.700. Comparing peak energies from each data set to the sunquake pixel, this location shows; Si IV is saturated; Mg II is saturated; Balmer has 0.33 of the energy; Mg II wing has 2.8 times more energy; HMI continuum has 4.98 times more energy. 
-
-
-\item Figure \ref{erb4} shows ribbon location 520.600, 262.300. Comparing peak energies from each data set to the sunquake pixel, this location shows; Si IV is saturated; Mg II has 0.36 of the energy; Balmer has 0.26 of the energy; Mg II wing has 0.94 of the energy; HMI continuum has 4.50 times more energy. 
-
-
-\item Figure \ref{erb5} shows ribbon location 521.700, 262.600. Comparing peak energies from each data set to the sunquake pixel, this location shows; Si IV is saturated but shows at least 14.2 times more energy; Mg II is saturated; Balmer has 0.21 of the energy; Mg II wing has 1.08 times more energy; HMI continuum has 3.56 times more energy. 
-
-
-\item Figure \ref{erb6} shows ribbon location 500.700, 262.700. Comparing peak energies from each data set to the sunquake pixel, this location shows; Si IV is saturated; Mg II is saturated; Balmer has 0.42 of the energy; Mg II wing has 0.72 of the energy; HMI continuum has 2.02 times more energy. 
-
-
-
-\item Figure \ref{erb7} shows ribbon location 503.800, 265.000. Comparing peak energies from each data set to the sunquake pixel, this location shows; Si IV has 2.79; Mg II is saturated; Balmer has 0.21 of the energy; Mg II wing has 1.08 times more energy; HMI continuum has 3.56 times more energy. 
-
-
-
-\item Figure \ref{erb8} shows ribbon location 506.900, 268.100. Comparing peak energies from each data set to the sunquake pixel, this location shows; Si IV is saturated; Mg II is saturated; Balmer has 0.13 of the energy; Mg II wing has 0.54 of the energy; HMI continuum has 2.40 times more energy. 
-
-
-\item Figure \ref{erb9} shows ribbon location 509.277, 268.792. Comparing peak energies from each data set to the sunquake pixel, this location shows; Si IV is saturated; Mg II is saturated; Balmer has 0.07 of the energy; Mg II wing has 0.48 of the energy; HMI continuum has 3.04 times more energy. 
-
-
-\item Figure \ref{erb10} shows ribbon location 514.400, 270.100. Comparing peak energies from each data set to the sunquake pixel, this location shows; Si IV is saturated; Mg II is saturated; Balmer has 0.12 of the energy; Mg II wing has 0.85 of the energy; HMI continuum has 1.5 times more energy. 
-
-
-\item Figure \ref{erb11} shows ribbon location 518.600, 259.100. Comparing peak energies from each data set to the sunquake pixel, this location shows; Si IV has 2.50 times more energy; Mg II is saturated; Balmer has 0.82 of the energy; Mg II wing has 2.02 times more energy; HMI continuum has 1.68 times more energy. 
-
-
-\item Figure \ref{erb12} shows ribbon location 519.600, 259.300. Comparing peak energies from each data set to the sunquake pixel, this location shows; Si IV has 0.5 of the energy; Mg II has 0.3 of the energy; Balmer has 1.01 times more energy; Mg II wing has 3.01 times more energy; HMI continuum has 2.51 times more energy. 
-
-
-\item Figure \ref{erb13} shows ribbon location 520.600, 259.500. Comparing peak energies from each data set to the sunquake pixel, this location shows; Si IV has 2.3 times more energy; Mg II has 0.4 of the energy; Balmer has 1.80 times more energy; Mg II wing has 2.15 times more energy; HMI continuum has 3.77 times more energy.
-
-
-\item Figure \ref{erb14} shows ribbon location 521.600, 259.900. Comparing peak energies from each data set to the sunquake pixel, this location shows; Si IV has 0.63 of the energy; Mg II has 0.28 of the energy; Balmer has 0.60 of the energy; Mg II wing has 2.37 times more energy; HMI continuum has 5.25 times more energy.
-
-
-
-\item Figure \ref{erb15} shows ribbon location 524.100, 259.700. Comparing peak energies from each data set to the sunquake pixel, this location shows; Si IV is saturated; Mg II has 0.55 of the energy; Balmer has 1.26 times more energy; Mg II wing has 1.74 times more energy; HMI continuum has 3.27 times more energy.
-
-
-\item Figure \ref{erb16} shows ribbon location 499.100, 264.700. Comparing peak energies from each data set to the sunquake pixel, this location shows; Si IV is saturated; Mg II has 0.15 of the energy; Balmer has 0.9 of the energy; Mg II wing has 2.84 times more energy; HMI continuum has 1.90 times more energy.
-
-
-\item Figure \ref{erb17} shows ribbon location 502.100, 263.800. Comparing peak energies from each data set to the sunquake pixel, this location shows; Si IV is saturated; Mg II is saturated; Balmer has 0.72 of the energy; Mg II wing has 1.65 times more energy; HMI continuum has 2.32 times more energy.
-
-
-\item Figure \ref{erb18} shows ribbon location 504.600, 267.000. Comparing peak energies from each data set to the sunquake pixel, this location shows; Si IV is saturated; Mg II is saturated; Balmer has 0.79 of the energy; Mg II wing has 2.11 times more energy; HMI continuum has 2.48 times more energy.
-
-
-
-\item Figure \ref{erb19} shows ribbon location 508.400, 269.800. Comparing peak energies from each data set to the sunquake pixel, this location shows; Si IV is saturated; Mg II is saturated; Balmer has 0.41 of the energy; Mg II wing has 0.98 times more energy; HMI continuum has 1.71 times more energy.
-
-
-
-\item Figure \ref{erb20} shows ribbon location 511.000, 272.000. Comparing peak energies from each data set to the sunquake pixel, this location shows; Si IV is saturated; Mg II is saturated; Balmer has 0.39 of the energy; Mg II wing has 0.67 of the energy; HMI continuum has 0.67 times more energy.
-\end{itemize}
-
-Another consideration is that Figure \ref{eqk} only relates to one pixel, therefore to analyse the energy emitted from an area comparable to the sunquake origin area would provide a better estimate of the radiative energy available. This has been calculated for HMI continuum data only, based on the sunquake area $2.6{\times}10^{16}$ $cm^{2}$ as stated in \cite{2014ApJ...796...85J}. Based on this area value 13 HMI pixels are sampled, summed and converted to energy, producing an upper limit of $2.54{\times}10^{17}$ erg. Comparing this to the sunquake energy, $1.3\pm0.05{\times}10^{26}$ $erg.s^{-1}$, also stated in \cite{2014ApJ...796...85J} to the hmi area estimate shows that the sunquake contains $10^{9}$ times more energy. 
-
-
-
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{Results and Discussion}
 
