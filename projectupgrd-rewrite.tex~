@@ -1,20 +1,10 @@
-\section{Lower Atmospheric Signatures in a Solar Flare \\ Associated with Seismicity}
-
-
-%\begin{itemize}
-%\end{itemize}
-
-
-\subsection{Background}
-A sunquake is the propagation of acoustic waves in the sub-photosphere, responding to an excitation of the photosphere during the impulsive phase of solar flares. Sunquakes form when energy is deposited in the sub-photosphere, so where does this energy come from? The current view is that the energy required to generate a sunquake is probably delivered by a combination of shocks, radiative backwarming, direct proton collision of the photosphere or sudden magnetic field reconfiguration, see Section \ref{sunprog}. Each of these mechanisms relies on the transport of energy from the corona to the photosphere, and the physical conditions existing in the chromosphere such as magnetic field configuration and plasma density. To understand sunquakes and their relationship to solar flares, we need to understand how energy moves down through the solar atmosphere and the physical conditions that are present. \\
-
-The majority of the energy released by a flare is deposited in the lower solar atmosphere and manifests itself in the form of enhanced hard X-ray, UV and optical radiation. During the impulsive phase of a solar flare, energy in the form of energetic particles, shocks and MHD waves flow along newly formed coronal magnetic loops, down through the stratified solar atmosphere. As energy is deposited through the differing environments of each atmospheric layer, telltale emission signatures are released. Hard X-ray (HXR) footpoints are observed due to the excitation of the chromosphere by energetic particle beams accelerated by coronal magnetic reconnection during the flare \citep{1995ApJ...455..347A}. According to the standard flare model \citep{1964NASSP..50..451C, 1966Natur.211..695S, 1974SoPh...34..323H, 1976SoPh...50...85K} magnetic reconnection in the corona leads to energy being directed downward in the form of particles, radiation, MHD waves and conduction of heat, which in turn produces ultra-violet (UV) ribbons in the chromosphere. This means that HXR footpoints and UV ribbons observed in the chromosphere directly map to the reconfiguring magnetic field during the flare. When energy is deposited at lower altitudes such as the photosphere, emission becomes visible in the optical, known as a white light flare (WLF). The processes governing WLF emission in the lower solar atmosphere are detailed by \cite{2007ASPC..368..417D} whereby two main mechanisms are highlighted; Balmer/Paschen continuum emission produced via hydrogen recombination in the lower chromosphere; and enhancement of photospheric continuum emission due to heating of the temperature minimum region. According to \cite{1989SoPh..124..303M}, Balmer/Paschen emission upward (i.e., directly detected) also has a downward component which leads to impulsive radiative backwarming of the photosphere which in-turn can generate a sunquake.
-
-
-
-
+\section{Data and Methodology}
+%THIS SHOULD DESCRIBE THE SATELLITE DATA AND THE TECHNIQUES USED TO PROCESS AND ANALYSE THESES DATA.
 \subsection{Observations}
-The X1 flare of the 29th of March 2014 in active region NOAA 12017, was well observed by RHESSI, IRIS and SDO/HMI, collecting HXR, UV and optical emission respectively (see Figure \ref{saxcontours-vert}). The peak of the impulsive phase of the flare occurs at 17:48 UT, at which point all mentioned instruments provide good coverage. RHESSI captured a wide range of high energy emission throughout the flare, see Figure \ref{rhessicft}. Rhessi flare data from energy bins between 10 and 100 keV are captured from a wide field of view.%elaborate  
+The X1 flare of the 29th of March 2014 in active region NOAA 12017, was well observed by RHESSI, IRIS and SDO/HMI, collecting HXR, UV and optical emission respectively (see Figure \ref{saxcontours-vert}). The peak of the impulsive phase of the flare occurs at 17:48 UT, at which point all mentioned instruments provide good coverage. 
+
+\subsubsection{RHESSI}
+RHESSI captured a wide range of high energy emission throughout the flare, see Figure \ref{rhessicft}, however, for this project, only the 10 to 100 keV HXR range are sampled.
 
 \begin{figure}[H]
   \begin{center}
@@ -22,18 +12,6 @@ The X1 flare of the 29th of March 2014 in active region NOAA 12017, was well obs
   \end{center}
   \caption{Shows RHESSI counts per area for multiple energy ranges. 3 to 6 keV in black, 6 to 12 keV in pink, 12 to 25 keV in green, 25 to 49 keV in turquoise, 49 to 100 keV in yellow and 100 to 250 keV in red. This range covers both thermal and non-thermal electron processes.}\label{rhessicft}
 \end{figure}
-
-The IRIS spacecraft captured the temporal evolution of the flare between 14:09 and 17:54 UT via it's slit-jaw imager and spectrograph instruments at solar coordinates of 491", 282" with a spatial resolution of 0.1667" per pixel. The slit-jaw imager data provides coverage of a field of view spanning 167" by 174", of passbands that including 1403, 2796 and 2832 \AA\ at 26, 19 and 75 second cadence respectively. The spectrograph slit is aligned directly over chromospheric flare ribbons, and the sunquake point of origin, with a field of view spanning 14" by 174". The spectrograph slit is exposed for $\sim9$ seconds at 8 slit locations for a total of 72 seconds cadence. Wavelengths observed over three channels include FUV1: 1331.7 - 1358.4 \AA, FUV2: 1389.0 - 1407.0 \AA\ and NUV: 2782.7 - 2851.1 \AA, associated with the upper-chromosphere down to the upper-photosphere. Spectral lines include C II, Si IV and Mg II h and k. IRIS data is the standard level 2 data product provided for scientific research, which has been calibrated to negate dark currents, flat-field and spacecraft rotational effects. The HMI instrument onboard SDO observed the entire solar photosphere, collecting 6173 \AA\ continuum intensity data throughout the flare event. HMI has a pixel size of 0.6 " providing reasonable spatial resolution at a cadence of 45 seconds. HMI data is calibrated to negate cosmic-rays, dark currents, flat-field and spacecraft rotational effects. A 6mHZ acoustic egression power map revealing the location of the sunquake is generated via holography techniques (supplied via private communication by Sergei Zharkov). HXR data from RHESSI and acoustic power data are overlaid on HMI and IRIS slit jaw maps for context, see Figure \ref{saxcontours-vert}.\\
-
-\begin{figure}[H]
-  \begin{center}
-  \includegraphics[width=1.0\textwidth]{saxcontours-square}
-  \end{center}
-  \caption{From top left to bottom right, images represent regions of the solar atmosphere at descending altitudes. The top two and bottom left images show IRIS SJ intensity maps of $1403$\AA\ (transition Region), $2796$\AA\ (chromosphere) and $2832$\AA\ (upper-photosphere) data. The bottom right image is SDO HMI $6173$\AA\ continuum intensity from the photosphere. Contours show RHESSI HXR with $E = 25-50$ keV in white or black and HXR with $E = 50-100 keV$ in green, sunspot locations in yellow taken from HMI and 6mHz acoustic power in blue.}\label{saxcontours-vert}
-\end{figure}
-
-
-\subsection{Analysis}
 
 During the impulsive phase of a flare, high energy emission is an indicator that accelerated particles are present. Assuming that the chromosphere is a thick target \citep{1971SoPh...18..489B}, then the deposition of energy by accelerated particles will be by collisions between charged particles and ions producing hard X-ray bremsstrahlung emission.
  
@@ -60,6 +38,22 @@ Using the \texttt{ospex} software within SolarSoft (SSWIDL) RHESSI data are fit 
   \caption{Shows the energy evolution of hard x-ray emission collected by RHESSI 10 to 100 keV bins. Energy units are calculated by fitting a non-thermal electron model to the data. }\label{erhessi}
 \end{figure}
 
+
+\subsubsection{IRIS}
+The IRIS spacecraft captured the temporal evolution of the flare between 14:09 and 17:54 UT via it's slit-jaw imager and spectrograph instruments at solar coordinates of 491", 282" with a spatial resolution of 0.1667" per pixel. The slit-jaw imager data provides coverage of a field of view spanning 167" by 174", of passbands that including 1403, 2796 and 2832 \AA\ at 26, 19 and 75 second cadence respectively. The spectrograph slit is aligned directly over chromospheric flare ribbons, and the sunquake point of origin, with a field of view spanning 14" by 174". The spectrograph slit is exposed for $\sim9$ seconds at 8 slit locations for a total of 72 seconds cadence. Wavelengths observed over three channels include FUV1: 1331.7 - 1358.4 \AA, FUV2: 1389.0 - 1407.0 \AA\ and NUV: 2782.7 - 2851.1 \AA, associated with the upper-chromosphere down to the upper-photosphere. Spectral lines include C II, Si IV and Mg II h and k. IRIS data is the standard level 2 data product provided for scientific research, which has been calibrated to negate dark currents, flat-field and spacecraft rotational effects. 
+
+
+\subsubsection{SDO HMI}
+The HMI instrument onboard SDO observed the entire solar photosphere, collecting 6173 \AA\ continuum intensity data throughout the flare event. HMI has a pixel size of 0.505 " providing reasonable spatial resolution at a cadence of 45 seconds. HMI data is calibrated to negate cosmic-rays, dark currents, flat-field and spacecraft rotational effects. A 6mHZ acoustic egression power map revealing the location of the sunquake is generated via holography techniques (supplied via private communication by Sergei Zharkov). HXR data from RHESSI and acoustic power data are overlaid on HMI and IRIS slit jaw maps for context, see Figure \ref{saxcontours-vert}.\\
+
+\begin{figure}[H]
+  \begin{center}
+  \includegraphics[width=1.0\textwidth]{saxcontours-square}
+  \end{center}
+  \caption{From top left to bottom right, images represent regions of the solar atmosphere at descending altitudes. The top two and bottom left images show IRIS SJ intensity maps of $1403$\AA\ (transition Region), $2796$\AA\ (chromosphere) and $2832$\AA\ (upper-photosphere) data. The bottom right image is SDO HMI $6173$\AA\ continuum intensity from the photosphere. Contours show RHESSI HXR with $E = 25-50$ keV in white or black and HXR with $E = 50-100 keV$ in green, sunspot locations in yellow taken from HMI and 6mHz acoustic power in blue.}\label{saxcontours-vert}
+\end{figure}
+
+
 White light flares are difficult to see against the bright photospheric background therefore to maximise the insight gained from observations of the flaring photosphere, data must be filtered. Silimarly to \cite{2014ApJ...783...98K}, photospheric data captured by IRIS MG II wing slit-jaw and SDO HMI continuum observations are subjected to a running difference filter to isolate locations that are white-light enhanced. The running difference filter effectively removes static features leaving behind those pixels that are changing over short time-scales. However, for removing signatures of those processes occurring over shorter time periods such as granulation and p-mode oscillations, this filtering technique is ineffective. This is not a problem, as for the purpose of white light flare analysis, the data yield a strong contrast between flare-enhanced and background pixels after being filtered by a $i-2$ running difference. The next stage is to determine which pixels in the difference image are those that are enhanced during the flare. For the best result, white-light enhanced pixels are identified using a combination of visual inspection and thresholding. Attempts at automating the identification process tend to lead to false positives being triggered by noise or granulation features. IRIS SJIs and SG data have no need for filtering.
 
 %insert figure showing unfiltered and filtered iris and hmi data. 2x3: 2 unfiltered at the top, 2 filtered at the bottom, 2 thresholded showing only flare pixels.
@@ -70,6 +64,19 @@ White light flares are difficult to see against the bright photospheric backgrou
   \end{center}
   \caption{White light flares are difficult to observe against the bright photosphere requiring processing with a running difference filter to enhance ribbon features. The figure shows IRIS SJ 2832 \AA\ and SDO HMI continuum data before (top) and after (bottom) filtering.}\label{dif_filter}
 \end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%BELOW THIS LINE IS OLD%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\begin{itemize}
+%\end{itemize}
+
+
+
+
+
+
 
 IRIS SJ and SG data are converted from relative intensity (DN per pixel) to energy (erg) units using conversion factors. Provided in the instrument documentation \citep{2014SoPh..289.2733D} is a method for acquiring the conversion factors in SSWIDL. It is then a case of inserting IRIS DN per pixel intensity values into the equation \ref{irisradiometriccal}. $F_{DN}$ is flux in units of DN per pixel, $C_{d2p}$ is the DN to photon conversion factor, $E_{\lambda}$ is the photon energy and $E_{erg}$ is to put the result into erg units.  
 
