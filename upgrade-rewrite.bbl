@@ -1,0 +1,80 @@
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{Boerner} et~al.(2012){Boerner}, {Edwards}, {Lemen}, {Rausch},
+  {Schrijver}, {Shine}, {Shing}, {Stern}, {Tarbell}, {Title}, {Wolfson},
+  {Soufli}, {Spiller}, {Gullikson}, {McKenzie}, {Windt}, {Golub}, {Podgorski},
+  {Testa}, and {Weber}]{2012SoPh..275...41B}
+P.~{Boerner}, C.~{Edwards}, J.~{Lemen}, A.~{Rausch}, C.~{Schrijver},
+  R.~{Shine}, L.~{Shing}, R.~{Stern}, T.~{Tarbell}, A.~{Title}, C.~J.
+  {Wolfson}, R.~{Soufli}, E.~{Spiller}, E.~{Gullikson}, D.~{McKenzie},
+  D.~{Windt}, L.~{Golub}, W.~{Podgorski}, P.~{Testa}, and M.~{Weber}.
+\newblock {Initial Calibration of the Atmospheric Imaging Assembly (AIA) on the
+  Solar Dynamics Observatory (SDO)}.
+\newblock \emph{\solphys}, 275:\penalty0 41--66, January 2012.
+\newblock \doi{10.1007/s11207-011-9804-8}.
+
+\bibitem[{Brown}(1971)]{1971SoPh...18..489B}
+J.~C. {Brown}.
+\newblock {The Deduction of Energy Spectra of Non-Thermal Electrons in Flares
+  from the Observed Dynamic Spectra of Hard X-Ray Bursts}.
+\newblock \emph{\solphys}, 18:\penalty0 489--502, July 1971.
+\newblock \doi{10.1007/BF00149070}.
+
+\bibitem[{Couvidat} et~al.(2012){Couvidat}, {Schou}, {Shine}, {Bush}, {Miles},
+  {Scherrer}, and {Rairden}]{2012SoPh..275..285C}
+S.~{Couvidat}, J.~{Schou}, R.~A. {Shine}, R.~I. {Bush}, J.~W. {Miles}, P.~H.
+  {Scherrer}, and R.~L. {Rairden}.
+\newblock {Wavelength Dependence of the Helioseismic and Magnetic Imager (HMI)
+  Instrument onboard the Solar Dynamics Observatory (SDO)}.
+\newblock \emph{\solphys}, 275:\penalty0 285--325, January 2012.
+\newblock \doi{10.1007/s11207-011-9723-8}.
+
+\bibitem[{De Pontieu} et~al.(2014){De Pontieu}, {Title}, {Lemen}, {Kushner},
+  {Akin}, {Allard}, {Berger}, {Boerner}, {Cheung}, {Chou}, {Drake}, {Duncan},
+  {Freeland}, {Heyman}, {Hoffman}, {Hurlburt}, {Lindgren}, {Mathur}, {Rehse},
+  {Sabolish}, {Seguin}, {Schrijver}, {Tarbell}, {W{\"u}lser}, {Wolfson},
+  {Yanari}, {Mudge}, {Nguyen-Phuc}, {Timmons}, {van Bezooijen}, {Weingrod},
+  {Brookner}, {Butcher}, {Dougherty}, {Eder}, {Knagenhjelm}, {Larsen},
+  {Mansir}, {Phan}, {Boyle}, {Cheimets}, {DeLuca}, {Golub}, {Gates}, {Hertz},
+  {McKillop}, {Park}, {Perry}, {Podgorski}, {Reeves}, {Saar}, {Testa}, {Tian},
+  {Weber}, {Dunn}, {Eccles}, {Jaeggli}, {Kankelborg}, {Mashburn}, {Pust},
+  {Springer}, {Carvalho}, {Kleint}, {Marmie}, {Mazmanian}, {Pereira}, {Sawyer},
+  {Strong}, {Worden}, {Carlsson}, {Hansteen}, {Leenaarts}, {Wiesmann},
+  {Aloise}, {Chu}, {Bush}, {Scherrer}, {Brekke}, {Martinez-Sykora}, {Lites},
+  {McIntosh}, {Uitenbroek}, {Okamoto}, {Gummin}, {Auker}, {Jerram}, {Pool}, and
+  {Waltham}]{2014SoPh..289.2733D}
+B.~{De Pontieu}, A.~M. {Title}, J.~R. {Lemen}, G.~D. {Kushner}, D.~J. {Akin},
+  B.~{Allard}, T.~{Berger}, P.~{Boerner}, M.~{Cheung}, C.~{Chou}, J.~F.
+  {Drake}, D.~W. {Duncan}, S.~{Freeland}, G.~F. {Heyman}, C.~{Hoffman}, N.~E.
+  {Hurlburt}, R.~W. {Lindgren}, D.~{Mathur}, R.~{Rehse}, D.~{Sabolish},
+  R.~{Seguin}, C.~J. {Schrijver}, T.~D. {Tarbell}, J.-P. {W{\"u}lser}, C.~J.
+  {Wolfson}, C.~{Yanari}, J.~{Mudge}, N.~{Nguyen-Phuc}, R.~{Timmons}, R.~{van
+  Bezooijen}, I.~{Weingrod}, R.~{Brookner}, G.~{Butcher}, B.~{Dougherty},
+  J.~{Eder}, V.~{Knagenhjelm}, S.~{Larsen}, D.~{Mansir}, L.~{Phan}, P.~{Boyle},
+  P.~N. {Cheimets}, E.~E. {DeLuca}, L.~{Golub}, R.~{Gates}, E.~{Hertz},
+  S.~{McKillop}, S.~{Park}, T.~{Perry}, W.~A. {Podgorski}, K.~{Reeves},
+  S.~{Saar}, P.~{Testa}, H.~{Tian}, M.~{Weber}, C.~{Dunn}, S.~{Eccles}, S.~A.
+  {Jaeggli}, C.~C. {Kankelborg}, K.~{Mashburn}, N.~{Pust}, L.~{Springer},
+  R.~{Carvalho}, L.~{Kleint}, J.~{Marmie}, E.~{Mazmanian}, T.~M.~D. {Pereira},
+  S.~{Sawyer}, J.~{Strong}, S.~P. {Worden}, M.~{Carlsson}, V.~H. {Hansteen},
+  J.~{Leenaarts}, M.~{Wiesmann}, J.~{Aloise}, K.-C. {Chu}, R.~I. {Bush}, P.~H.
+  {Scherrer}, P.~{Brekke}, J.~{Martinez-Sykora}, B.~W. {Lites}, S.~W.
+  {McIntosh}, H.~{Uitenbroek}, T.~J. {Okamoto}, M.~A. {Gummin}, G.~{Auker},
+  P.~{Jerram}, P.~{Pool}, and N.~{Waltham}.
+\newblock {The Interface Region Imaging Spectrograph (IRIS)}.
+\newblock \emph{\solphys}, 289:\penalty0 2733--2779, July 2014.
+\newblock \doi{10.1007/s11207-014-0485-y}.
+
+\bibitem[{Kerr} and {Fletcher}(2014)]{2014ApJ...783...98K}
+G.~S. {Kerr} and L.~{Fletcher}.
+\newblock {Physical Properties of White-light Sources in the 2011 February 15
+  Solar Flare}.
+\newblock \emph{\apj}, 783:\penalty0 98, March 2014.
+\newblock \doi{10.1088/0004-637X/783/2/98}.
+
+\end{thebibliography}

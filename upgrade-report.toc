@@ -5,17 +5,16 @@
 \contentsline {section}{\numberline {2}Eruptive Solar Flares}{5}{section.2}
 \contentsline {subsection}{\numberline {2.1}An Introduction to the Standard Eruptive Flare Model}{5}{subsection.2.1}
 \contentsline {subsubsection}{\numberline {2.1.1}Solar Atmosphere}{6}{subsubsection.2.1.1}
-\contentsline {subsection}{\numberline {2.2}Observing Solar Flares}{7}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Observable Seismic Signatures}{8}{subsection.2.3}
-\contentsline {subsubsection}{\numberline {2.3.1}Local Helioseismology}{8}{subsubsection.2.3.1}
-\contentsline {paragraph}{Helioseismic Holography}{8}{section*.10}
-\contentsline {paragraph}{Time-Distance}{9}{section*.11}
-\contentsline {section}{\numberline {3}Lower Atmospheric Signatures in a Solar Flare Associated with Seismicity}{10}{section.3}
-\contentsline {subsection}{\numberline {3.1}Background}{10}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Observations}{10}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Analysis}{11}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}First Results and Discussion}{14}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Future Work}{14}{subsection.3.5}
-\contentsline {section}{Appendices}{16}{section*.16}
-\contentsline {section}{\numberline {A}Ribbon Pixel Coordinates}{16}{appendix.A}
-\contentsline {section}{\numberline {B}Energy}{16}{appendix.B}
+\contentsline {subsection}{\numberline {2.2}Observing Solar Flares}{8}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Observable Seismic Signatures}{9}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Local Helioseismology}{9}{subsubsection.2.3.1}
+\contentsline {paragraph}{Helioseismic Holography}{9}{section*.10}
+\contentsline {paragraph}{Time-Distance}{10}{section*.11}
+\contentsline {section}{\numberline {3}Lower Atmospheric Signatures in a Solar Flare \\ Associated with Seismicity}{11}{section.3}
+\contentsline {subsection}{\numberline {3.1}Background}{11}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Observations}{11}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Analysis}{13}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Results and Discussion}{22}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Future Work}{23}{subsection.3.5}
+\contentsline {subsubsection}{\numberline {3.5.1}In the Last Few Months}{23}{subsubsection.3.5.1}
+\contentsline {section}{Appendices}{24}{section*.22}
