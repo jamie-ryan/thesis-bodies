@@ -12,9 +12,9 @@
 \usepackage{rotating}
 
 %for quotes
-\epigraphfontsize{\small\itshape}
-\setlength\epigraphwidth{8cm}
-\setlength\epigraphrule{0pt}
+%\epigraphfontsize{\small\itshape}
+%\setlength\epigraphwidth{8cm}
+%\setlength\epigraphrule{0pt}
 
 
 %\usepackage[pdftex]{graphicx}%includegraphics
