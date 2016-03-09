@@ -71,15 +71,31 @@ The corona is the outer most layer of the atmosphere extending out into interpla
   \end{center}
 \end{figure}
 
+\include{mhd} %\subsection{Magnetohydrodynamics (MHD)}
 
-\subsection{Introduction to Eruptive Solar Flares}
+\subsubsection{Flux Emergence}
+The exact physical processes governing the trigger mechanism of solar flares are not well understood, however, magnetic reconnection is the commonly accepted theory. So how does magnetic reconnection occur? The process begins with magnetic energy being transported from the solar interior to the atmosphere via flux emergence. At the beginning of a bi-polar active regions life-cycle, a magnetic flux tube emerges from deep in the convective zone. This is due to a high magnetic field strength creating a situation where the plasma density in the flux tube is lower than that of the surrounding plasma. At this point the flux tube becomes bouyant and rises up through the convective zone, emerging at the photosphere. The newly emerged flux rope expands into the atmosphere, driven by a lorentz force exerted by the act of strong electric currents flowing transversally across magnetic field lines. Currents that are aligned to the magnectic field in the flux tube do not generate a lorentz force and thus play no part in the early expansion. Instead, the field-aligned current is fed into the upper portion of the expanded magnetic structure high up in the corona. In the corona, magnetic pressure is much greater than the plasma pressure and as a result this region has low density and high conductivity. If conductivity is high then resitivity is low meaning that dissipation of electric current does not occur, instead the current is stored as an energy, which is released during a solar flare. So as a result of flux emergence, a situation has arisen whereby a magnetic flux loop exists that stretches from the sub-photosphere out into the corona. 
 
-Solar flares are the manifestation of magnetic energy release in the Sun's atmosphere. These events are the most energetic observed solar phenomena, with some of the larger flares releasing up to $10^{37}$ erg of energy. Flares are classified by the the Geostationary Operational Environmental Satellite (GOES) see Table \ref{goes}, in this sytem, the base 10 magnitude of 1 to 8 \AA\ X-ray flux produced by the flare determines it's classification. The GOES system classes flares from X to A-class, in order of high to low flux, so an X-class flare event would be more powerful than an M-class and so on.   \\
+\subsubsection{Magnetic Reconnection}
+Magnetic reconnection is a fundamental process associated with a magnetic field and it's ability to reconfigure from a high to a low energy state, as a result, it is thought to occur in many situations throughout the universe. In the context of solar physics, consider a flux tube tethered to the photosphere, which has expanded into the corona forming a loop. These extended magnetic loops can become stressed by processes such as convective motions, differential rotation, flux emergence and sun-interplanetary magnetic reconnection. The stressing of a magnetic field is a method of storing magnetic free energy, which can be released via reconnection which reconfigures the magnetic field to a lower (potential) energy state. Magnetic free energy released by reconnection, manifests as accelerated particles, kinetic mass motions, heating and MHD waves, which leads to some of the most spectacular phenomena observed on the Sun. 
+
+\paragraph{A Basic 2D model of Magnetic Reconnection.}
+When an electrically charged plasma exists in combination with a frozen-in magnetic field, reconnection is not possible because $R_{m} >> 1$ (see equation \ref{reynolds}), meaning the diffusion term in the induction equation becomes negligable and conductivity is high. Magnetic reconnection is only possible if electric currents are able to dissipate electric currents and thus conductivity has to drop which can happen when scale length $l$ is decreased, if diffusivity $\nu$ increases or if both occur. If any of these situations exists, then the time derivative of the magnetic field (induction equation \ref{}) will be dominated by the diffusion term, at which point, magnetic flux will break out of the frozen-in condition and reconnection can occur. The location where reconnection happens is known as a magnetic null, which is a region where magnetic field strength drops to zero. This being the 2D case, the magnetic null takes on an 'X' type structure whereby two in-flowing magnetic field lines reconnect to form two out-flowing magnetic field lines. 
+
+At the moment of reconnection, the meeting of two anti-parallel magnetic field lines causes a magnetically neutral region of continuous change from negative to positive field. This condition is sustained by the conservation of the magnetic and plasma pressure contributions from the anti-parallel field lines on either side of the continuous neutral region. Inflowing magnetic field reconnects in the diffusion region with a configuration of increased magnetic tension or curvature, which drives post-reconnection outflow of the newly connected field. Also, because the frozen-in condition is broken, plasma can move freely without the magnetic field and is ejected out along the neutral region.
+
+The Lorentz force generated by inflowing magnetic field lines has an associated electric field which induces high currents in the form of a current sheet in the diffusion region. ????????????WHY IS THIS IMPORTANT?????????????? 
+
+
+
+\subsection{Eruptive Solar Flares}
+
+Solar flares are the explosive conversion of magnetic energy into mass motions, radiation, electric currents and MHD waves. These events are the most energetic of solar phenomena and can be observed throughout the entire solar atmosphere, with some of the larger flares releasing up to $10^{37}$ erg of energy. Flares are classified by the the Geostationary Operational Environmental Satellite (GOES) see Table \ref{goes}, in this sytem, the logarithmic measure of 1 to 8 \AA\ X-ray flux produced by the flare determines it's classification. The GOES system classes flares from X to A-class, in order of high to low flux, so an X-class flare event would be more powerful than an M-class and so on. \\
 
 \begin{table}[h]
 \centering
 \begin{tabular}{|c|c|}\label{GOES}
-Classification & Peak Flux Range at 1 to 8 \AA\ ($W.m^{-2}$)\\
+Classification & Peak Flux Range at 1 to 8 \AA\ ($W.m^{-2}$) \\
 \hline
 X & $10^{-3}$ - $10^{-4}$\\
 M & $10^{-4}$ - $10^{-5}$\\
@@ -90,14 +106,14 @@ A & $<10^{-7}$\\
 \caption{shows the GOES flare classification, which is based on the order of magnitude of hard x-ray flux. X class flares produce a flux of $10^{-3}$ - $10^{-4}$ $W.m^{-2}$ and are the most powerful, whilst a weak A class flare can produce less than $10^{-7}$ $W.m^{-2}$.}\label{goes}
 \end{table}
 
-\subsubsection{Flux Emergence}
-The exact physical processes governing the trigger mechanism of solar flares are not well understood, however, magnetic reconnection is the commonly accepted theory. So how does magnetic reconnection occur? The process begins with magnetic energy being transported from the solar interior to the atmosphere via flux emergence. At the beginning of a bi-polar active regions life-cycle, a magnetic flux tube emerges from deep in the convective zone. This is due to a high magnetic field strength creating a situation where the plasma density in the flux tube is lower than that of the surrounding plasma. At this point the flux tube becomes bouyant and rises up through the convective zone, emerging at the photosphere. The newly emerged flux rope expands into the atmosphere, driven by a lorentz force exerted by the act of strong electric currents flowing transversally across magnetic field lines. Currents that are aligned to the magnectic field in the flux tube do not generate a lorentz force and thus play no part in the early expansion. Instead, the field-aligned current is fed into the upper portion of the expanded magnetic structure high up in the corona. In the corona, magnetic pressure is much greater than the plasma pressure and as a result this region has low density and high conductivity. If conductivity is high then resitivity is low meaning that dissipation of electric current does not occur, instead the current is stored as an energy, which is released during a solar flare. So as a result of flux emergence, a situation has arisen whereby a magnetic flux loop exists that stretches from the sub-photosphere out into the corona. 
+The standard solar flare theory, also known as the CSHKP model, is the culmination of research by many authors,\citep{1964NASSP..50..451C, 1966Natur.211..695S, 1974SoPh...34..323H, 1976SoPh...50...85K}, describing the formation and evolution of two-ribbon flares. In this model, magnetic free energy is stored high up in the corona, built up by a filament rising through the atmosphere. A filament is cool dense plasma suspended in the corona overlying an active region's polarity inversion line \citep{BABCOCK 1955}. It is thought that filaments are help up in the corona by magnetic fields in the form of either a sheared arcade or a flux rope which is the focus of the CSHKP model. As the filament (flux rope) rises, it drags the surrounding magnetic loops along with it, which creates a situation where the legs of the loops start to flow inward. Once the   
 
-\subsubsection{Magnetic Reconnection}
-Magnetic reconnection is a fundamental process associated with a magnetic field and it's ability to reconfigure from a high to a low energy state, as a result, it is thought to occur in many situations throughout the universe. In the context of solar physics, consider a flux tube tethered which has expanded into the corona   
+If a filament is not present, \cite{} describes the build up of magnetic free energy as being caused by the evolution of the associated active region, whereby photospheric plasma motions shear and stress the magnetic field. 
 
 
-\subsubsection{2D Flare Model}
+
+
+
 
 \paragraph{Mass Ejection}
 \paragraph{Particle Acceleration}
@@ -113,11 +129,8 @@ WLF:
 \paragraph{Shocks and Heating}
 
 
-The standard 2D flare model is the culmination of research by many authors,\citep{1964NASSP..50..451C, 1966Natur.211..695S, 1974SoPh...34..323H, 1976SoPh...50...85K}, and is still an ongoing area of research that is not entirely understood \citep{2011LRSP....8....6S}. In an active region, a closed magnetic field harbouring a flux rope suddenly opens. As a result, plasma flows along the open field lines from the chromosphere to the corona. This flowing chromospheric material experiences a reduction in plasma pressure which draws together open magnetic field lines of opposing polarity causing reconnection and forming new magnetic loops at lower altitudes. Reconnection causes excess heating at the peaks of newly connected loops which conducts down toward the chromosphere. Also, particles are accelerated by the new magnetic configuration, flowing to the chromosphere. This injection of thermal energy and accelerated particles heats the chromosphere causing HXR footpoints \citep{1995ApJ...455..347A} and UV ribbons \citep{2009A&A...493..241F}. As a result, some chromospheric material evaporates upward into newly created flare loops, whilst some material propagates downward toward the lower chromosphere. The flare loop cools and the process starts again in the next consecutive loop until the unstable magnetic field has relaxed to a state that is closer to it's stable,  potential state.
 
- In eruptive flares, energy is released every time a new reconnection of a neighbouring loop occurs, this is the reason that flare ribbons appear move away from each other as the flare evolves. \\
-
-White light flares (WLFs) are associated with the most energetic of solar flares. They occur when flare energy is transported deep into the dense lower atmosphere causing an enhancement in optical wavelengths. It is thought this happens due to an energetic particle beam transporting energy to the lower atmosphere where it's energy dissipates into the dense chromospheric or photospheric material. The collisional thick target model by \cite{1971SoPh...18..489B} says that almost all of the flare energy is carried by the particle beam, therefore, energy dissipated in the lower atmosphere represents a large portion of the flare energy budget. White light enhancement from the lower atmosphere can be explained by either Balmer \& Paschen continuum emission from the chromosphere caused by hydrogen recombination, or direct photospheric heating \citep{2007ASPC..368..417D} by radiative backwarming \citep{1989SoPh..124..303M}.
+White light flares (WLFs) are associated with the most energetic of solar flares. They occur when flare energy is transported deep into the dense lower atmosphere causing an enhancement in optical wavelengths. It is thought this happens due to an energetic particle beam transporting energy to the lower atmosphere where the non-thermal energy dissipates into the dense chromospheric or photospheric material. The collisional thick target model by \cite{1971SoPh...18..489B} says that almost all of the flare energy is carried by the particle beam, therefore, energy dissipated in the lower atmosphere represents a large portion of the flare energy budget. White light enhancement from the lower atmosphere can be explained by either Balmer \& Paschen continuum emission from the chromosphere caused by hydrogen recombination, or direct photospheric heating \citep{2007ASPC..368..417D} by radiative backwarming \citep{1989SoPh..124..303M}.
 
 
 \begin{figure}[H]
@@ -128,7 +141,7 @@ White light flares (WLFs) are associated with the most energetic of solar flares
 \end{figure}
 
 
-\include{mhd} %\subsection{Magnetohydrodynamics (MHD)} 
+ 
 
 
 
