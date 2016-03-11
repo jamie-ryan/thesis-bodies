@@ -22,7 +22,7 @@
 \usepackage[update,prepend]{epstopdf}
 %\usepackage{subcaption} %need to find subcaption.sty for this to work!
 %\usepackage{epstopdf}
-
+\newcommand{\Lagr}{\mathcal{L}}
 %\graphicspath{ {~/PhD/Thesis/upgrade-plots/} {./} }
 \DeclareGraphicsExtensions{.pdf,.png,.jpg,.eps,.gif,.ps}
 \renewcommand{\vec}[1]{\mathbf{#1}}
@@ -50,14 +50,14 @@ Surrey, RH13 6NL, UK\\
 %\include{thesis-intro} %Introduction
 %\include{sunquakes-intro} %Introduction
 \include{thesis-intro-rewrite} %Introduction
-\include{lit-review}
+\include{lit-review}%sunquake literature review
 %\include{sunquake-model}
 %\include{progenitors-of-sunquakes}
 %\include{eruptive-solar-flares}
 %\include{observable-seismic-signatures}
 %\include{mhd}
 %\include{projectupgrd}
-\include{projectupgrd-rewrite}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\include{projectupgrd-rewrite}
 %\include{appendix}
 \include{appendix-rewrite}
 
