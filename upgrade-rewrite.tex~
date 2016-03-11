@@ -10,6 +10,7 @@
 \usepackage{float}%Places the float at precisely the location in the LaTeX code...i.e, [H]
 \usepackage{wrapfig}
 \usepackage{rotating}
+\usepackage{pdfpages}
 
 %for quotes
 %\epigraphfontsize{\small\itshape}
@@ -32,15 +33,15 @@
 
 
 
-\title{Lower Atmospheric Signatures During Solar Flares \\ Associated with Seismicity}
-\author{Jamie Ryan \\
-Mullard Space Science Laboratory \\
-University College London \\
-Surrey, RH13 6NL, UK\\
-\href{mailto:jamie.ryan.14@ucl.ac.uk}{jamie.ryan.14@ucl.ac.uk}
-\date{}}
+%\title{Lower Atmospheric Signatures During Solar Flares \\ Associated with Seismicity}
+%\author{Jamie Ryan \\
+%Mullard Space Science Laboratory \\
+%University College London \\
+%Surrey, RH13 6NL, UK\\
+%\href{mailto:jamie.ryan.14@ucl.ac.uk}{jamie.ryan.14@ucl.ac.uk}
+%\date{}}
 \begin{document}
-\maketitle
+\include{upgrade-title-page}
 \tableofcontents
 
 %%%%%%%%%%%%%%%%%files containing bodies of text%%%%%%%%%%%%%%%%%%
@@ -58,8 +59,9 @@ Surrey, RH13 6NL, UK\\
 %\include{mhd}
 %\include{projectupgrd}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\include{projectupgrd-rewrite}
-%\include{appendix}
-\include{appendix-rewrite}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\include{appendix}
+\include{intro-appendix}
+%\include{appendix-rewrite}
 
 \label{Bibliography}
 \lhead{\emph{Bibliography}}  % Change the left side page header to "Bibliography"

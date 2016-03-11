@@ -1,47 +1,51 @@
 This is BibTeX, Version 0.99d (TeX Live 2014)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: upgrade-rewrite.aux
-A level-1 auxiliary file: projectupgrd-rewrite.aux
+A level-1 auxiliary file: thesis-intro-rewrite.aux
+A level-1 auxiliary file: lit-review.aux
+A level-1 auxiliary file: intro-appendix.aux
 The style file: plainnat.bst
 Database file #1: ../Bibliography/Bibliography.bib
-You've used 5 entries,
+Warning--empty publisher in 2005psci.book.....A
+You've used 44 entries,
             2773 wiz_defined-function locations,
-            632 strings with 7908 characters,
-and the built_in function-call counts, 7633 in all, are:
-= -- 530
-> -- 1075
-< -- 2
-+ -- 359
-- -- 354
-* -- 841
-:= -- 1324
-add.period$ -- 20
-call.type$ -- 5
-change.case$ -- 133
-chr.to.int$ -- 5
-cite$ -- 10
-duplicate$ -- 103
-empty$ -- 191
-format.name$ -- 361
-if$ -- 1438
+            933 strings with 12490 characters,
+and the built_in function-call counts, 19659 in all, are:
+= -- 1771
+> -- 975
+< -- 39
++ -- 335
+- -- 291
+* -- 1599
+:= -- 3050
+add.period$ -- 163
+call.type$ -- 44
+change.case$ -- 223
+chr.to.int$ -- 44
+cite$ -- 89
+duplicate$ -- 940
+empty$ -- 1684
+format.name$ -- 363
+if$ -- 4162
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 5
-newline$ -- 38
-num.names$ -- 20
-pop$ -- 252
+missing$ -- 48
+newline$ -- 259
+num.names$ -- 180
+pop$ -- 394
 preamble$ -- 1
-purify$ -- 128
+purify$ -- 183
 quote$ -- 0
-skip$ -- 176
+skip$ -- 658
 stack$ -- 0
-substring$ -- 94
-swap$ -- 10
-text.length$ -- 0
+substring$ -- 750
+swap$ -- 128
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 55
-warning$ -- 0
-while$ -- 19
+type$ -- 464
+warning$ -- 1
+while$ -- 171
 width$ -- 0
-write$ -- 82
+write$ -- 640
+(There was 1 warning)

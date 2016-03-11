@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.4)  24 FEB 2016 22:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.4)  11 MAR 2016 17:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -330,6 +330,37 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \rot@float@box=\box31
 \rot@mess@toks=\toks24
 )
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2013/08/25 v0.4v Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box32
+\AM@toc@title=\toks25
+\c@AM@survey=\count124
+\AM@templatesizebox=\box33
+)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
@@ -358,39 +389,52 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip62
 \bibsep=\skip63
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count124
+\c@NAT@ctr=\count125
 )
-(./upgrade-rewrite.aux (./projectupgrd-rewrite.aux))
+(./upgrade-rewrite.aux (./thesis-intro-rewrite.aux) (./lit-review.aux)
+(./intro-appendix.aux
+
+LaTeX Warning: Label `max1:ampere' multiply defined.
+
+
+LaTeX Warning: Label `max2:faraday' multiply defined.
+
+
+LaTeX Warning: Label `max3:gauss' multiply defined.
+
+
+LaTeX Warning: Label `max4:nomonopole' multiply defined.
+
+))
 \openout1 = `upgrade-rewrite.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-\AtBeginShipoutBox=\box32
-Package hyperref Info: Link coloring OFF on input line 42.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+\AtBeginShipoutBox=\box34
+Package hyperref Info: Link coloring OFF on input line 43.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count125
+\c@section@level=\count126
 )
-LaTeX Info: Redefining \ref on input line 42.
-LaTeX Info: Redefining \pageref on input line 42.
-LaTeX Info: Redefining \nameref on input line 42.
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
 
 (./upgrade-rewrite.out) (./upgrade-rewrite.out)
 \@outlinefile=\write3
@@ -438,84 +482,283 @@ Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count126
+\scratchcounter=\count127
 \scratchdimen=\dimen144
-\scratchbox=\box33
-\nofMPsegments=\count127
-\nofMParguments=\count128
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count129
+\scratchbox=\box35
+\nofMPsegments=\count128
+\nofMParguments=\count129
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count130
 \MPscratchDim=\dimen145
-\MPnumerator=\count130
-\makeMPintoPDFobject=\count131
-\everyMPtoPDFconversion=\toks26
-) (./upgrade-rewrite.toc)
+\MPnumerator=\count131
+\makeMPintoPDFobject=\count132
+\everyMPtoPDFconversion=\toks27
+) <upgrade-title-page.pdf, id=108, 597.50829pt x 845.0471pt>
+File: upgrade-title-page.pdf Graphic file (type pdf)
+
+<use upgrade-title-page.pdf>
+Package pdftex.def Info: upgrade-title-page.pdf used on input line 44.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: upgrade-title-page.pdf Graphic file (type pdf)
+ <use upgrade-title-page.pdf>
+Package pdftex.def Info: upgrade-title-page.pdf used on input line 44.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+<upgrade-title-page.pdf, id=111, page=1, 597.50829pt x 845.0471pt>
+File: upgrade-title-page.pdf Graphic file (type pdf)
+
+<use upgrade-title-page.pdf, page 1>
+Package pdftex.def Info: upgrade-title-page.pdf, page1 used on input line 44.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: upgrade-title-page.pdf Graphic file (type pdf)
+ <use upgrade-title-page.pdf, page 1>
+Package pdftex.def Info: upgrade-title-page.pdf, page1 used on input line 44.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: upgrade-title-page.pdf Graphic file (type pdf)
+
+<use upgrade-title-page.pdf, page 1>
+Package pdftex.def Info: upgrade-title-page.pdf, page1 used on input line 44.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: upgrade-title-page.pdf Graphic file (type pdf)
+ <use upgrade-title-page.pdf, page 1>
+Package pdftex.def Info: upgrade-title-page.pdf, page1 used on input line 44.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+File: upgrade-title-page.pdf Graphic file (type pdf)
+
+<use upgrade-title-page.pdf, page 1>
+Package pdftex.def Info: upgrade-title-page.pdf, page1 used on input line 44.
+(pdftex.def)             Requested size: 562.12285pt x 795.00201pt.
+ [1
+
+ <./upgrade-title-page.pdf{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/u
+pdmap/pdftex.map}>]
+(./upgrade-rewrite.toc)
 \tf@toc=\write4
 \openout4 = `upgrade-rewrite.toc'.
 
- [1
+ [2]
+\openout2 = `thesis-intro-rewrite.aux'.
 
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-\openout2 = `projectupgrd-rewrite.aux'.
+ (./thesis-intro-rewrite.tex
+<2014_03_29_17_19_42_HMI_Int.png, id=183, 632.3625pt x 596.2275pt>
+File: 2014_03_29_17_19_42_HMI_Int.png Graphic file (type png)
 
- (./projectupgrd-rewrite.tex
-<rhessi-energy-curve.png, id=67, 455.5419pt x 593.0958pt>
-File: rhessi-energy-curve.png Graphic file (type png)
+<use 2014_03_29_17_19_42_HMI_Int.png>
+Package pdftex.def Info: 2014_03_29_17_19_42_HMI_Int.png used on input line 39.
 
-<use rhessi-energy-curve.png>
-Package pdftex.def Info: rhessi-energy-curve.png used on input line 30.
-(pdftex.def)             Requested size: 317.36526pt x 413.2004pt.
- [2
+(pdftex.def)             Requested size: 105.78574pt x 99.73795pt.
 
-] [3 <./rhessi-energy-curve.png>]
-<29-Mar-14-MGII-Sunquake-Context-Plots-xx-Zoom-crop.pdf, id=103, 445.665pt x 19
-2.72pt>
-File: 29-Mar-14-MGII-Sunquake-Context-Plots-xx-Zoom-crop.pdf Graphic file (type
- pdf)
- <use 29-Mar-14-MGII-Sunquake-Context-Plots-xx-Zoom-crop.pdf>
-Package pdftex.def Info: 29-Mar-14-MGII-Sunquake-Context-Plots-xx-Zoom-crop.pdf
- used on input line 75.
-(pdftex.def)             Requested size: 423.151pt x 182.9859pt.
- [4])
-[5 <./29-Mar-14-MGII-Sunquake-Context-Plots-xx-Zoom-crop.pdf>]
-(./upgrade-rewrite.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 69.
- [6
+<2014_03_29_17_19_42_AIA_304.png, id=184, 632.3625pt x 596.2275pt>
+File: 2014_03_29_17_19_42_AIA_304.png Graphic file (type png)
+
+<use 2014_03_29_17_19_42_AIA_304.png>
+Package pdftex.def Info: 2014_03_29_17_19_42_AIA_304.png used on input line 40.
+
+(pdftex.def)             Requested size: 105.78574pt x 99.73795pt.
+
+<2014_03_29_17_19_42_AIA_171.png, id=185, 632.3625pt x 596.2275pt>
+File: 2014_03_29_17_19_42_AIA_171.png Graphic file (type png)
+
+<use 2014_03_29_17_19_42_AIA_171.png>
+Package pdftex.def Info: 2014_03_29_17_19_42_AIA_171.png used on input line 41.
+
+(pdftex.def)             Requested size: 105.78574pt x 99.73795pt.
+
+<2014_03_29_17_19_42_AIA_193.png, id=186, 632.3625pt x 596.2275pt>
+File: 2014_03_29_17_19_42_AIA_193.png Graphic file (type png)
+
+<use 2014_03_29_17_19_42_AIA_193.png>
+Package pdftex.def Info: 2014_03_29_17_19_42_AIA_193.png used on input line 42.
+
+(pdftex.def)             Requested size: 105.78574pt x 99.73795pt.
+
+
+LaTeX Warning: Reference `solar-atm-plot' on page 3 undefined on input line 48.
+
+
+
+LaTeX Warning: Reference `' on page 3 undefined on input line 52.
+
+[3
+
+ <./2014_03_29_17_19_42_HMI_Int.png> <./2014_03_29_17_19_42_AIA_304.png> <./201
+4_03_29_17_19_42_AIA_171.png> <./2014_03_29_17_19_42_AIA_193.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
+
+ []
+
+<solar-atm-plot.jpg, id=210, 411.5375pt x 293.095pt>
+File: solar-atm-plot.jpg Graphic file (type jpg)
+ <use solar-atm-plot.jpg>
+Package pdftex.def Info: solar-atm-plot.jpg used on input line 63.
+(pdftex.def)             Requested size: 317.36526pt x 226.0282pt.
+
+[4 <./solar-atm-plot.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
+
+ []
+
+[6] <2d-reconnection.png, id=255, 825.0825pt x 600.2425pt>
+File: 2d-reconnection.png Graphic file (type png)
+
+<use 2d-reconnection.png>
+Package pdftex.def Info: 2d-reconnection.png used on input line 176.
+(pdftex.def)             Requested size: 211.57147pt x 153.91617pt.
+ [7]
+
+LaTeX Warning: Reference `2dreconnection' on page 8 undefined on input line 180
+.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
+
+ []
+
+<flare.png, id=271, 387.046pt x 356.532pt>
+File: flare.png Graphic file (type png)
+ <use flare.png>
+Package pdftex.def Info: flare.png used on input line 209.
+(pdftex.def)             Requested size: 211.57147pt x 194.89635pt.
+ [8 <./2d-reconnection.png>] [9 <./flare.png>]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no … in font cmr10!
+ [10]
+<sunquake-cartoon.png, id=355, 877.679pt x 454.498pt>
+File: sunquake-cartoon.png Graphic file (type png)
+
+<use sunquake-cartoon.png>
+Package pdftex.def Info: sunquake-cartoon.png used on input line 255.
+(pdftex.def)             Requested size: 523.65028pt x 271.18211pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 269.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 269.
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+
+ []
+
+[11 <./sunquake-cartoon.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 271--273
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
+
+ []
+
+[12]) [13]
+\openout2 = `lit-review.aux'.
+
+ (./lit-review.tex
+<soho-mdi-quake-96.jpg, id=438, 49.3845pt x 46.37325pt>
+File: soho-mdi-quake-96.jpg Graphic file (type jpg)
+
+<use soho-mdi-quake-96.jpg>
+Package pdftex.def Info: soho-mdi-quake-96.jpg used on input line 8.
+(pdftex.def)             Requested size: 423.151pt x 397.42436pt.
+ [14
+
+
+ <./soho-mdi-quake-96.jpg>]) [15]
+\openout2 = `intro-appendix.aux'.
+
+
+(./intro-appendix.tex
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+Missing character: There is no Ã in font cmbx10!
+Missing character: There is no ¨ in font cmbx10!
+
+LaTeX Warning: Reference `new1' on page 16 undefined on input line 78.
+
+[16
+
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 69.
- (./upgrade-rewrite.aux (./projectupgrd-rewrite.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 69.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 69.
+Missing character: There is no Ã in font cmbx10!
+Missing character: There is no ¨ in font cmbx10!
+) [17] (./upgrade-rewrite.bbl [18
+
+])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 73.
+ [19]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
+ (./upgrade-rewrite.aux
+(./thesis-intro-rewrite.aux) (./lit-review.aux) (./intro-appendix.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 73.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 73.
 Package rerunfilecheck Info: File `upgrade-rewrite.out' has not changed.
-(rerunfilecheck)             Checksum: A5DB01D2A5475572EC5DABA7E7D4481D;597.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 69.
+(rerunfilecheck)             Checksum: 77CB4F26DD4F9B81A3EF13034710AB99;1903.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
  ) 
 Here is how much of TeX's memory you used:
- 8539 strings out of 493109
- 128059 string characters out of 6135011
- 231719 words of memory out of 5000000
- 11879 multiletter control sequences out of 15000+600000
- 10223 words of font info for 37 fonts, out of 8000000 for 9000
+ 9896 strings out of 493109
+ 149522 string characters out of 6135011
+ 259705 words of memory out of 5000000
+ 13083 multiletter control sequences out of 15000+600000
+ 10144 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,8n,43p,2512b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,18n,45p,2239b,477s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
-local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
-l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/
-texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
-live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
-ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
-e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on upgrade-rewrite.pdf (6 pages, 308583 bytes).
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
+l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
+texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/tex
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
+e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
+/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/201
+4/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2014
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on upgrade-rewrite.pdf (19 pages, 1312857 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
- 153 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 603 PDF objects out of 1000 (max. 8388607)
+ 538 compressed objects within 6 object streams
+ 139 named destinations out of 1000 (max. 500000)
+ 274 words of extra memory for PDF output out of 10000 (max. 10000000)
 
