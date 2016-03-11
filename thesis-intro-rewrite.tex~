@@ -129,8 +129,9 @@ The electron distribution $F(E)$ is controlled by the power law $AE^{-\delta}$, 
 P(E \geq E_{c}) = \frac{AE_{C}^{(2-\delta)}}{(\delta - 2)}
 \end{equation}
 
-\paragraph{Shocks}
-One consequence of MR dumping vast amounts of energy into the chromosphere is the production of a hydrodynamic response in the from of shocks.  
+\paragraph{Hydrodynamic Response}
+During the impulsive phase of a solar flare, high energy nonthermal electrons are accelerated into the chromosphere. These particles transfer energy to the ambient chromospheric plasma in the form of heat. A consequence of this is the production of a hydrodynamic response in the from of coronal upflows and chromospheric downflows. The upflow is hot chromospheric plasma responding to an increase in temperature by expanding up into the flare loop coined as \emph{chromospheric evaporation}. Coronal upflows emit in soft x-rays. The downflow or \emph{chromospheric condensation} is formed when a steep temperature jump propagating into the chromosphere forms a downward moving shock front. The shock front contains dense, cool plasma which emits H$\alpha$ \citep{1981SoPh...73..269L, 1990ApJ...348..333C, 2015SoPh..tmp...61K}. 
+
 
 
 \paragraph{White Light Flares}
