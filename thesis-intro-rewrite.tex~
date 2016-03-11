@@ -75,7 +75,92 @@ The corona is the outer most layer of the atmosphere extending out into interpla
   \end{center}
 \end{figure}
 
-\include{mhd-rewrite} %\subsection{Magnetohydrodynamics (MHD)}
+%%%%%%%%%%%%%%%%%%%%%%%%%%MHD of solar flares%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\subsection{Solar Magnetohydrodynamics}\label{MHD}
+Most structures observed in the solar atmosphere are a direct result of interplay between plasma and the Sun's dynamic magnetic field. Understanding the relationship between a magnetic field and a plasma is important for describing many observed phenomena. Magnetohydrodynamics (MHD) is a method to determine the continuous macroscopic behaviour of plasma in a magnetic field, thus individual particles are not considered \citep{1982soma.book.....P}. A plasma can be treated as a continuous material if distances between particles are much larger than the mean-free path, or larger than the ion gyro-radius. Where $T$ is plasma temperature, $\lambda_{MFP}$ is mean-free path and $n$ is number of particles in the plasma, equation \ref{meanfreepath} describes the mean-free path. 
+
+\begin{equation}\label{meanfreepath}
+\lambda_{MFP}\approx300(\frac{T}{10^{6}K})^{2}(\frac{n}{10^{17}m^{-3}})^{-1}m
+\end{equation}
+
+Equation \ref{iongyroradius} is the relationship between particle mass $m$, velocity perpendicular to the magnetic field $v_{\bot}$, charge $q$ and magnetic field strength $B$  which governs the circular motion of a charged particle around a uniform magnetic field or the ion gyro radius. 
+
+\begin{equation}\label{iongyroradius}
+r_{g}=\frac{mv_{\bot}}{|q|B}
+\end{equation}
+
+In the context of the Sun, and the importance of magnetic fields for processes such as solar flares, MHD builds on the following physical assumptions; a magnetic field can manipulate a plasma by exerting a force on it. Leading to the formation of structure or movement via acceleration; a magnetic field can store the energy required for later release as a solar flare; material wrapped in a magnetic field is thermally protected from it's surroundings; a magnetic field can act as a funnel for plasma and fast particles; and finally, a magnetic field can drive instabilities and support waves \citep{2003dysu.book.....D}.
+
+%\subsubsection{Magnetic Structure}\label{MHDeqns}
+\subsubsection{Flux Tubes}
+Magnetic fields are made up of discreet bundles of magnetic flux known as \emph{flux tubes}. A magnetic flux tube can be thought of as cylindrical in geometry and containing magnetic field lines parallel in orientation to the length of the cylinder. The cross-sectional radius of the tube and magnetic field strength are both variant, magnetic flux contained within the tube however, is constant. Where $\vec{B}$ is magnetic field vector and $\vec{dS}$ is a cross-sectional surface element of the tube, flux $F$ follows the relationship.
+
+\begin{equation}\label{fluxtube}       
+F = \int_{S} \vec{B}.\vec{dS}
+\end{equation}
+
+
+\subsubsection{MHD Equations}
+The basics of MHD are a built from a combination of Maxwell's electromagnetic equations, material equations, Ohm's law and the fluid dynamics relations. Please see section \ref{mhdeqns} in the appendices. Maxwell's equations and Ohm's law describe electromagnetism in terms of magnetic induction $\vec{B}$, magnetic permeability of free space $\mu$, electric field $\vec{E}$, electrical permittivity of free space $\epsilon_{0}$, charge density $\rho_{c}$ and electric current density $\vec{j}$ \\ 
+
+ 
+\subsubsection{Induction Equation and the Magnetic Reynolds Number}
+The induction equation expresses the time derivative of the magnetic field in terms of its diffusion $\eta\nabla^{2}\vec{B}$ and advection $\nabla\times(\vec{v}\times\vec{B})$ in the form, 
+
+\textbf{Induction Equation}
+\begin{equation}\label{induction}
+\frac{\partial \vec{B}}{\partial t}=\nabla\times(\vec{v}\times\vec{B})+\eta\nabla^{2}\vec{B}  
+\end{equation}
+
+where magnetic diffusivity $=\eta =\frac{1}{\mu_{0}\sigma}$. \\
+
+The magnetic Reynolds number, $R_m$, is the ratio of diffusion to advection in a magnetic field. Where $l$, $v$ and $\sigma$ are typical length-scale, velocity and conductivity respectively, $R_m$ can be written,  
+
+\begin{equation}\label{reynolds}
+R_{m} = \frac{l_{0}v_{0}}{\eta} \sim \frac{\nabla\times(\vec{v}\times\vec{B})}{\eta\nabla^{2}\vec{B}}=\mu_{0}\sigma v l
+\end{equation}
+
+This ratio can be used to diagnose which part of the induction equation is dominating the MHD of the system. \\
+
+If $R_m >> 1$ then advection is the major force changing the magnetic field, hence:
+\begin{equation}\label{r>>1}
+\frac{\partial \vec{B}}{\partial t}=\nabla\times(\vec{v}\times\vec{B}),
+\end{equation}
+\\
+
+Whereas, if $R_m << 1$ then diffusion is the dominant force acting on the magnetic field, leading to:
+\begin{equation}\label{r<<1}
+\frac{\partial \vec{B}}{\partial t}=\eta\nabla^{2}\vec{B},
+\end{equation}
+
+If diffusion is dominant, the magnetic field $\vec{B}$ will be varying on a length-scale $L_0$, and so will diffuse with velocity \ref{diffvel}, over the time-scale \ref{difftime}.
+
+\begin{equation}\label{diffvel}
+v_d=\frac{L_0}{\tau_d} = \frac{\eta}{L_0}
+\end{equation}
+
+
+\begin{equation}\label{difftime}
+\tau_d = \frac{L_{0}^{2}}{\eta}
+\end{equation}
+
+%check Foukal pg 125 in the pdf
+\citep{2003dysu.book.....D}
+
+%puts .tex file here
+%\include{example}
+\subsubsection{Plasma Beta}
+The plasma $\beta$ is the ratio of plasma pressure, $p_{plasma}$, and magnetic pressure, $p_{mag}$. A measure of dominance of plasma or magnetic pressure in an MHD system can be expressed as, 
+
+\begin{equation}\label{beta}
+\beta=\frac{p_{plasma}}{p_mag} = \frac{2p_{0}\mu}{B_{0}^2}
+\end{equation}
+
+so if $\beta << 1$ then magnetic pressure is dominant and if $\beta >> 1$ then plasma pressure is dominant. In the context of the solar atmosphere, the magnetic domain of the corona has $\beta << 1$ and the dense plasma domain of the photosphere has $\beta >> 1$.
+
+\subsubsection{Pressure Scale Height}
+Another useful relationship to use is pressure scale height, where $g$ is acceleration due to gravity and $T_0$ is uniform temperature, pressure scale height, $H=\frac{P_0}{\rho_{0}g} = \frac{\Re T_{0}}{g}$. When combined with pressure, $p$ for a magneto static plasma with uniform temperature, $p=p_{0}\exp^{\frac{-z}{H}}$, where $z$ is altitude, we have a measure of the height, $H$, over which the pressure of a plasma fall off by a factor of $\exp$. 
+
 
 \subsubsection{Flux Emergence}\label{flux-emerge}
 The exact physical processes governing the trigger mechanism of solar flares are not well understood, however, magnetic reconnection (MR) is the commonly accepted theory. So how does MR occur? The process begins with magnetic energy being transported from the solar interior to the atmosphere via flux emergence. At the beginning of a bi-polar active regions life-cycle, a magnetic flux tube emerges from the convective zone. This is due to a high magnetic field strength creating a situation where the plasma density in the flux tube is lower than that of the surrounding plasma. At this point the flux tube becomes bouyant and rises up through the convective zone, emerging at the photosphere. The newly emerged flux rope expands into the atmosphere, driven by a lorentz force exerted by strong electric currents flowing transversally across the magnetic field lines. Currents that are flowing along the magnectic field in the flux tube do not generate a lorentz force and thus play no part in the early expansion. Instead, the field-aligned current is fed into the upper portion of the expanding magnetic field, high up in the corona. In this region, magnetic pressure is much greater than the plasma pressure which leads to high conductivity. If conductivity is high then resitivity is low meaning that dissipation of electric current does not occur, instead the current is stored as energy, which is released during a solar flare. So as a result of flux emergence, a situation has arisen whereby a magnetic flux tube exists that stretches from the sub-photosphere out into the corona. 
@@ -176,7 +261,7 @@ and are then observed on the solar surface as a sunquake (see Figure \ref{sunqua
 The progenitors of sunquakes are still unknown and as a result this is an exciting area of research with discoveries still to be made. The general consensus, in terms of valid mechanisms that could cause this phenomenon is an area of contention, however the following progenitors are thought to be at least partly responsible. \\
 
 \begin{itemize}
-\item \textbf{Radiative backwarming} as a mechanism for producing sunquakes, was first put forward by \cite{2005ApJ...630.1168D} to account for a spatial correlation between seismic sources and white light emission from the lower atmosphere. During a solar flare, high energy electrons and impulsively heat the chromosphere and photosphere leading to an enhancement in white light emission \citep{1989SoPh..124..303M}. This WL enhancement can be generated by either; Balmer continuum generated by hydrogen bound-free emission in the upper-chromosphere, which irradiates the photosphere increasing local plasma temperature; $H^{-}$ emission at deeper altitudes, near the temperature minimum region. In both cases, an impulsive increase in radiation pressure and gas pressure exerted on the photosphere could generate acoustic waves which propagate into the sub-photosphere. Therefore a clear radiative energy contribution from Balmer continuum and general white light emission are considered signatures of radiative backwarming. For backwarming to be responisible for the sunquake, a comparable radiative energy budget in a Balmer or white-light signature would be required.\\
+\item \textbf{Radiative backwarming} as a mechanism for producing sunquakes, was first put forward by \cite{2005ApJ...630.1168D} to account for a spatial correlation between seismic sources and white light emission from the lower atmosphere. During a solar flare, high energy electrons and photons impulsively heat the chromosphere and photosphere leading to an enhancement in white light emission \citep{1989SoPh..124..303M}. This WL enhancement can be generated by either; Balmer continuum generated by hydrogen bound-free emission in the upper-chromosphere, which irradiates the photosphere increasing local plasma temperature; $H^{-}$ emission at deeper altitudes, near the temperature minimum region. In both cases, an impulsive increase in radiation pressure and gas pressure exerted on the photosphere could generate acoustic waves which propagate into the sub-photosphere. Therefore a clear radiative energy contribution from Balmer continuum and general white light emission are considered signatures of radiative backwarming. For backwarming to be responisible for the sunquake, a comparable radiative energy budget in a Balmer or white-light signature would be required.\\
 
 \item \textbf{Sudden magnetic field reconfiguration} was first detailed by \cite{2008ASPC..383..221H}. Solar flares are violent physical processes dictated by the interplay between reconnecting magnetic fields and charged solar plasma.
 If the magnetic field close to the photosphere relaxes to a more horizontal alignment it can impart a Lorentz force on the local plasma environment, resulting in the production of acoustic waves in the sub-photosphere. The key parameter for this mechanism seems to be that the field has to reconfigure in an sufficiently impulsive manner to generate enough force to induce seismic waves. An observable signature of this progenitor would be impulsive changes in magnetic field strength close to the sunquake. \\

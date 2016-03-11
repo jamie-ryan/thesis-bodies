@@ -19,7 +19,8 @@ r_{g}=\frac{mv_{\bot}}{|q|B}
 
 In the context of the Sun, and the importance of magnetic fields for processes such as solar flares, MHD builds on the following physical assumptions; a magnetic field can manipulate a plasma by exerting a force on it. Leading to the formation of structure or movement via acceleration; a magnetic field can store the energy required for later release as a solar flare; material wrapped in a magnetic field is thermally protected from it's surroundings; a magnetic field can act as a funnel for plasma and fast particles; and finally, a magnetic field can drive instabilities and support waves \citep{2003dysu.book.....D}.
 
-\subsubsection{MHD Equations}\label{MHDeqns}
+%\subsubsection{Magnetic Structure}\label{MHDeqns}
+\subsubsection{Flux Tubes}
 Magnetic fields are made up of discreet bundles of magnetic flux known as \emph{flux tubes}. A magnetic flux tube can be thought of as cylindrical in geometry and containing magnetic field lines parallel in orientation to the length of the cylinder. The cross-sectional radius of the tube and magnetic field strength are both variant, magnetic flux contained within the tube however, is constant. Where $\vec{B}$ is magnetic field vector and $\vec{dS}$ is a cross-sectional surface element of the tube, flux $F$ follows the relationship.
 
 \begin{equation}\label{fluxtube}       
@@ -27,112 +28,42 @@ F = \int_{S} \vec{B}.\vec{dS}
 \end{equation}
 
 
-The basics of MHD are a built from a combination of Maxwell's electromagnetic equations, material equations, Ohm's law and the fluid dynamics relations. Maxwell's equations and Ohm's law describe electromagnetism in terms of magnetic field $\vec{H}$, magnetic induction $\vec{B}$, magnetic permeability of free space $\mu$, electric field $\vec{E}$, electric displacement $\vec{D}$, electrical permittivity of free space $\epsilon$, charge density $\rho_{c}$ and electric current density $\vec{j}$ 
+\subsubsection{MHD Equations}
+The basics of MHD are a built from a combination of Maxwell's electromagnetic equations, material equations, Ohm's law and the fluid dynamics relations. Please see section \ref{mhdeqns} in the appendices. Maxwell's equations and Ohm's law describe electromagnetism in terms of magnetic induction $\vec{B}$, magnetic permeability of free space $\mu$, electric field $\vec{E}$, electrical permittivity of free space $\epsilon_{0}$, charge density $\rho_{c}$ and electric current density $\vec{j}$ \\ 
 
-
-\begin{equation}\label{max1:ampere}
-\nabla\times\vec{H}=\vec{j}+\frac{\partial \vec{D}}{\partial t}
-\end{equation}
-
-
-\begin{equation}\label{max2:faraday}
-\nabla\times\vec{E}=-\frac{\partial \vec{B}}{\partial t}
-\end{equation}
-
-
-\begin{equation}\label{max3:gauss}
-\nabla\cdot\vec{D}=\rho_{c}
-\end{equation}
-
-
-\begin{equation}\label{max4:nomonopole}
-\nabla\cdot\vec{B}=0
-\end{equation}
-
-with Ohm's law as,
-
-\begin{equation}\label{ohmslaw}
-\vec{E}=\frac{\vec{j}}{\sigma}
-\end{equation}
-
-where $\sigma$ is electrical conductivity. The fluid dynamics relations are written in terms of density $\rho$, velocity $\vec{v}$, time $t$, pressure $p$, gas constant $\Re$ and temperature $T$. 
-%$\frac{d}{dt}=\frac{\partial}{\partial t}+ \vec{v}\cdot\nabla$, sometimes reffered to as the material derivative, is a way of stating the rate of change with respect to time of the  
-
-\begin{equation}\label{motion}
-\rho\frac{d\vec{v}}{dt}=-\nabla p
-\end{equation}
  
-\begin{equation}\label{masscontinuity}
-\frac{d\rho}{dt}+\rho\nabla\cdot\vec{v}=0
-\end{equation}
+\subsubsection{Induction Equation}
+The induction equation expresses the time derivative of the magnetic field in terms of its diffusion $\eta\nabla^{2}\vec{B}$ and advection $\nabla\times(\vec{v}\times\vec{B})$ in the form, 
 
-\begin{equation}\label{perfectgaslaw}
-p=\Re\rho T
-\end{equation}
-
-Equation \ref{motion} is the eqn. of motion describing how the forces are exerted on the fluid are equal to the negative gradient of plasma pressure. Equation \ref{masscontinuity} is the eqn. of mass continuity (mass is conserved), whilst equation \ref{perfectgaslaw} is the perfect gas law relating plasma pressure, density and temperature. The fluid dynamics equations are re-written in terms of MHD by building on the following assumptions: Plasma in a magnetic field experiences the Lorentz force $(\vec{j}\times\vec{B})$, such that a plasma volume element $dV$ carrying a current density $\vec{j}$ per unit volume has the force $\vec{j}dV\times\vec{B}$ exerted on it in a perpendicular direction to the magnetic field. In order to cater for the extra force, equation \ref{motion} has the term $\vec{j}\times\vec{B}$ added to the right hand side.   
-Ohm's law states that an electric field in the plasma's frame of reference is proportional to the current, however, the total electric field associated with the movement of plasma is $\vec{E}+\vec{v}\times\vec{B}$ ($\vec{E}$ is the electric field acting on the plasma at rest) therefore, equation \ref{ohmslaw} has the term $\vec{v}\times\vec{B}$ added to it's left hand side.The displacement current term $\frac{\partial \vec{D}}{\partial t}$ in equation \ref{max1:ampere} is neglected due to plasma speeds being much slower than the speed of light.
-
-\subsubsection{Induction Equation}\label{inductioneqn}  
-Rewriting equations \ref{max1:ampere}, \ref{max2:faraday} and \ref{ohmslaw} using the assumptions from section \ref{MHDeqns}, with $\nabla\cdot\vec{B} = 0$,
-
-\begin{equation}\label{new1}
-\vec{j}=\nabla\times\frac{\vec{B}}{\mu}
-\end{equation}
-
-\begin{equation}\label{new2}
-\frac{\partial \vec{B}}{\partial t} = - \nabla\times\vec{E}
-\end{equation}
-
-\begin{equation}\label{new3}
-\vec{E}=-\vec{v}\times\vec{B}+\frac{\vec{j}}{\sigma}
-\end{equation}
-
-then substituting \ref{new1} solved for $\vec{j}$ into \ref{new2} we have,
-
-\begin{equation}\label{new4} 
-\vec{E}=-\vec{v}\times\vec{B}+\nabla\times\frac{\vec{B}}{\eta} 
-\end{equation}
-
-where magnetic diffusivity $=\eta =\frac{1}{\mu\sigma}$.
-
-Substituting \ref{new4}, solved for $\vec{E}$, into \ref{new2},
-
-\begin{equation}\label{new5}
-\frac{\partial \vec{B}}{\partial t}=-\nabla\times(-\vec{v}\times\vec{B} + \nabla\times\vec{B}\eta)
-                                   =\nabla\times(\vec{v}\times\vec{B})-\nabla\eta\times(\nabla\times\vec{B})
-\end{equation}
-
-using the vector identity, $\nabla\times(\nabla\times\vec{A})=\nabla(\nabla\cdot\vec{A})-\nabla^{2}\vec{A}$ the last term in equation \ref{new5} becomes $\nabla(\nabla\cdot\vec{B})-\nabla^{2}\vec{B}$, of which the $\nabla\cdot\vec{B}$ term reduces to zero due to equation \ref{max4:nomonopole}, thus we are left with the induction equation \ref{induction} below. 
-
-
-
+\textbf{Induction Equation}
 \begin{equation}\label{induction}
 \frac{\partial \vec{B}}{\partial t}=\nabla\times(\vec{v}\times\vec{B})+\eta\nabla^{2}\vec{B}  
 \end{equation}
 
-This equation \ref{induction} can be used to determine $\vec{B}$ if $\vec{v}$ is known. The magnetic Reynolds number,
+where magnetic diffusivity $=\eta =\frac{1}{\mu_{0}\sigma}$. \\
+
+
+\textbf{The Magnetic Reynolds Number}
+The magnetic Reynolds number, $R_m$, is the ratio of diffusion to advection in a magnetic field. Where $l$, $v$ and $\sigma$ are typical length-scale, velocity and conductivity respectively, $R_m$ can be written,  
 
 \begin{equation}\label{reynolds}
-R_{m} = \frac{l_{0}v_{0}}{\eta} \sim \frac{\nabla\times(\vec{v}\times\vec{B})}{\eta\nabla^{2}\vec{B}}
+R_{m} = \frac{l_{0}v_{0}}{\eta} \sim \frac{\nabla\times(\vec{v}\times\vec{B})}{\eta\nabla^{2}\vec{B}}=\mu_{0}\sigma v l
 \end{equation}
 
-is an approximation of the ratio between the first and second terms on the RHS of the induction equation \ref{induction} if $v_0$ and $l_0$ are typical of the velocity and length-scales over which the system is changing. This ratio can be used to diagnose which part of the induction equation is dominating the MHD of the system. For example if $R_m >> 1$ then the $\nabla\times(\vec{v}\times\vec{B})$ term is large and the second term is negligible, so the induction equation becomes,
+This ratio can be used to diagnose which part of the induction equation is dominating the MHD of the system. \\
 
+If $R_m >> 1$ then advection is the major force changing the magnetic field, hence:
 \begin{equation}\label{r>>1}
 \frac{\partial \vec{B}}{\partial t}=\nabla\times(\vec{v}\times\vec{B}),
 \end{equation}
+\\
 
-thus induction is dominant and Ohm's law \ref{ohmslaw} becomes $\vec{E} +\vec{v}\times\vec{B}$ meaning the total electric field becomes zero.
-
-
-
-If $R_m << 1$ then the $\eta\nabla^{2}\vec{B}$ term is large meaning the induction equation becomes,
+Whereas, if $R_m << 1$ then diffusion is the dominant force acting on the magnetic field, leading to:
 \begin{equation}\label{r<<1}
 \frac{\partial \vec{B}}{\partial t}=\eta\nabla^{2}\vec{B},
 \end{equation}
 
-thus diffusion is dominant so the magnetic field $\vec{B}$ will be varying on a length-scale $L_0$, and so will diffuse with velocity \ref{diffvel}, over the time-scale \ref{difftime}.
+If diffusion is dominant, the magnetic field $\vec{B}$ will be varying on a length-scale $L_0$, and so will diffuse with velocity \ref{diffvel}, over the time-scale \ref{difftime}.
 
 \begin{equation}\label{diffvel}
 v_d=\frac{L_0}{\tau_d} = \frac{\eta}{L_0}
@@ -149,40 +80,14 @@ v_d=\frac{L_0}{\tau_d} = \frac{\eta}{L_0}
 %puts .tex file here
 %\include{example}
 \subsubsection{Plasma Beta}
-Another way to write the relationship between $\vec{B}$ and $\vec{v}$ is the equation of motion \ref{motion} modified by the Lorentz force.
-
-\begin{equation}\label{motion1}
-\rho\frac{d\vec{v}}{dt}=-\nabla p+\vec{j}\times\vec{B}
-\end{equation}
-
-The pressure gradient $-\nabla p$ describes the change from high to low plasma pressure. The Lorentz force, $\vec{j}\times\vec{B}$ acts perpendicularly to the magnetic field, therefore accelerated plasma in a direction parallel to the magnetic field is caused by other forces. If equation \ref{new1} is substituted into the Lorentz force,
-\begin{equation}\label{lorentzsub1}
-\vec{j}\times\vec{B} = (\nabla\times\frac{\vec{B}}{\mu})\times\vec{B}
-\end{equation}
-
-then using the triple vector identity, 
-\begin{equation}
-\frac{1}2{}\nabla(\vec{B}\cdot\vec{B})=\vec{B}\times(\nabla\times\vec{B})+(\vec{B}\cdot\nabla)\vec{B}
-\end{equation}
-
-equation \ref{lorentzsub1} becomes,
-\begin{equation}
-\vec{j}\times\vec{B} = (\vec{B}\cdot\nabla)\frac{\vec{B}}{\mu}-\nabla(\frac{B^2}{2\mu}) 
-\end{equation}
-
-therefore \ref{motion1} becomes:
-
-\begin{equation}\label{maghydstat}
-\rho\frac{d\vec{v}}{dt}= -\nabla p + (\vec{B}\cdot\nabla)\frac{\vec{B}}{\mu}-\nabla(\frac{B^2}{2\mu}) 
-\end{equation}
-
-Because $-\nabla(\frac{B^2}{2\mu}$ is in the same form as $-\nabla p$ it can be said to be the \emph{magnetic pressure}, providing a force pointing from high to low magnetic pressure as $B^2$ changes with position.A measure of dominance of plasma or magnetic pressure in the motion of plasma is known as the plasma beta, 
+The plasma $\beta$ is the ratio of plasma pressure, $p_{plasma}$, and magnetic pressure, $p_{mag}$. A measure of dominance of plasma or magnetic pressure in an MHD system can be expressed as, 
 
 \begin{equation}\label{beta}
 \beta=\frac{p_{plasma}}{p_mag} = \frac{2p_{0}\mu}{B_{0}^2}
 \end{equation}
 
-so if $\beta << 1$ then magnetic pressure is dominant and if $\beta >> 1$ then plasma pressure is dominant.
+so if $\beta << 1$ then magnetic pressure is dominant and if $\beta >> 1$ then plasma pressure is dominant. In the context of the solar atmosphere, the magnetic domain of the corona has $\beta << 1$ and the dense plasma domain of the photosphere has $\beta >> 1$.
 
+\subsubsection{Pressure Scale Height}
 Another useful relationship to use is pressure scale height, where $g$ is acceleration due to gravity and $T_0$ is uniform temperature, pressure scale height, $H=\frac{P_0}{\rho_{0}g} = \frac{\Re T_{0}}{g}$. When combined with pressure, $p$ for a magneto static plasma with uniform temperature, $p=p_{0}\exp^{\frac{-z}{H}}$, where $z$ is altitude, we have a measure of the height, $H$, over which the pressure of a plasma fall off by a factor of $\exp$. 
 
