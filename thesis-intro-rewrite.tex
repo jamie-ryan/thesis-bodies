@@ -17,6 +17,10 @@
 %*Sunquakes
 %*My science question
 
+
+%angstrom Å
+
+
 \section{Introduction}
 %Chronological soft intro; use some of the lit review,
 %making sure to emphasize the connection to solar flares;Look at early papers predicting sunquakes(Wolff 70s and Kosovichev and Zharkova);the importance of sunquakes
@@ -113,7 +117,7 @@ The standard solar flare theory, also known as the CSHKP model, is the culminati
 The impulsive phase of a solar flare occurs when energy near the reconnection X-point is transported along the magnetic field into the chromosphere. The two basic methods of energy transport during this phase are thermal and non-thermal. \\
 In the thermal case, plasma in the top of a flare loop is heated by MR or shocks. In the non-thermal case, particles are imparted enough energy to no longer be described by the thermal Maxwellian distribution, instead exhibiting nonthermal energies. The energy source for nonthermal particles is thought to be MR. During the impulsive phase of a flare, electrons are accelerated to high energies, down newly reconfigured flare loops. These high energy electrons are fed into the dense plasma of the chromosphere and photosphere where they deposit their energy. The collisional thick target model by \cite{1971SoPh...18..489B} says that almost all of the flare energy is carried by the particle beam, therefore, energy dissipated in the lower atmosphere represents a large portion of the flare energy budget.
 
-\paragraph{Thick Target Model} Assuming that the chromosphere is a thick target \citep{1971SoPh...18..489B}, the deposition of energy by accelerated particles is due to collisions between charged particles and ions producing hard X-ray bremsstrahlung emission. Using equation \ref{pnth} one can calculate the power, $P$, injected into the atmosphere by non-thermal electrons.  
+\paragraph{Thick Target Model} Assuming that the chromosphere is a thick target , the deposition of energy by accelerated particles is due to collisions between charged particles and ions producing hard X-ray bremsstrahlung emission \citep{1967SvA....11..258K}. Using the thick target model \citep{1971SoPh...18..489B} one can calculate the power, $P$, injected into the atmosphere by non-thermal electrons.  
  
 \begin{equation}\label{pnth}
 P(E \geq E_{c}) = \int_{E_{C}}^{\infty} EF(E)dE
@@ -125,16 +129,17 @@ The electron distribution $F(E)$ is controlled by the power law $AE^{-\delta}$, 
 P(E \geq E_{c}) = \frac{AE_{C}^{(2-\delta)}}{(\delta - 2)}
 \end{equation}
 
+\paragraph{Shocks}
+One consequence of MR dumping vast amounts of energy into the chromosphere is the production of a hydrodynamic response in the from of shocks.  
+
+
 \paragraph{White Light Flares}
-
-\paragraph{Radiative Backwarming}
-UV:
-    Hydrogen recombination in the chromosphere?
-
+In 1859 the first white light flare (WLF) was observed by \cite{}. 
+WLFs occur when energy is transported deep into the dense lower atmosphere causing a continuum enhancement in wavelengths with $\lambda > 3600$ Å \citep{1983SoPh...88..275N}. 
+Once thought as rare, work by \cite{2003A&A...409.1107M} helped to show that WLFs are not only associated with the most energetic of solar flares but many of the smaller events as well. Since that first glimpse, the frequency of observations of WLFs have become common mainly due to ever increasing resolution of solar data. 
 
 
-White light flares (WLFs) are associated with the most energetic of solar flares. They occur when flare energy is transported deep into the dense lower atmosphere causing an enhancement in optical wavelengths. It is thought this happens due to an energetic particle beam transporting energy to the chromosphere or photosphere where the  White light enhancement from the lower atmosphere can be explained by either Balmer \& Paschen continuum emission from the chromosphere caused by hydrogen recombination, or direct photospheric heating \citep{2007ASPC..368..417D} by radiative backwarming \citep{1989SoPh..124..303M}.
-
+Theories that have been put forward to explain WLFs credit Balmer and Paschen continuum emission from free-bound transitions in hydrogen or H$^{-}$ processes \citep{1976GAM.....8.....S}. In fact the emission process producing the white light enhancement dictates where in the atmosphere the emission is coming from. If the WLF is due to hydrogen free-bound emission, this is caused by a temperature increase of $\sim10^{4}$ K in a plasma with a hydrogen number density of $n_{H}>10^{14}$ cm$^{-3}$ meaning WL must be coming from deep in the chromosphere. These conditions produce the opacity required to outshine the background photosphere emission. Whereas, if the WLF is due to H$^{-}$ processes the emission is coming from the photosphere where a modest temperature increase of $\sim10^{2]$ K and a hydrogen number density of $n_{H}>10^{16}$ cm$^{-3}$ are sufficient to satisfy opacity requirements. It is also possible that both WLF flare processes can occur simultaneously, so called radiative backwarming. Balmer/Paschen continua photons emitted in the chromosphere  irradiate the photosphere and are absorbed by H$^{-}$ ions which release emission causing the $10^{2}$ K temperature increase in the upper photosphere \citep{1989SoPh..124..303M}. It is also thought that it is possible to produce WLFs by heating of the upper photosphere by energetic electron beam \citep{1972SoPh...24..414H} and proton beam \citep{1978SoPh...58..363M}.  
 
 \begin{figure}[H]
   \begin{center}
@@ -161,24 +166,6 @@ and are then observed on the solar surface as a sunquake (see Figure \ref{sunqua
 \end{center}
 \end{figure}
 
-\subsubsection{Sunquake Observations}
-The idea that solar flares can cause acoustic waves inside the Sun was originally put forward by \citep{1972ApJ...176..833W}. Wolff made the connection that a large solar flare releasing enough energy to heat the photosphere, would generate expansion of photospheric material, which could lead to an impulsive stimulation of oscillations in the Sun's interior. Wolff also commented that it would be difficult to observe interior oscillations with current (in the 1970s) solar velocity measurement techniques.
-
-A little over twenty years later and Wolff's idea was built upon by \cite{1995ESASP.376b.341K}, who showed theoretically that acoustic waves in the solar interior could be generated by a large solar flare, and that they may be detectable. A year later and the first detection of a sunquake was made by \cite{1998Natur.393..317K} during an X class solar flare on July the 9th 1996. Their observational data came from the Solar and Heliospheric Observatory (SOHO) via the Michelson Doppler Imager (MDI) which images the movement of photospheric material by analysing shifts in wavelength of the emitted light. They observed a prominent impulsive downward signature in the Dopplergrams directly over a compact point source which subsequently emanates a set of concentric acoustic waves (see Figure \ref{mdiquake96}). The timing of maximum downward velocity of material derived from the Dopplergrams was out of sync with peak hard x-ray measurements by around a minute. This time delay, coupled with white-light enhancement in the lower atmosphere led to the conclusion that during the flare, accelerated energetic particles heat the cool dense chromosphere causing a shock front which travels downward, depositing energy in lower atmospheric layers, generating a sunquake.
-
-\begin{figure}[hb]
-  \begin{center}
-  \includegraphics[width=0.80\textwidth]{soho-mdi-quake-96}
-\caption{\cite{1998Natur.393..317K} produced SOHO MDI Dopplergrams from the 1996 July 9th, X class solar flare showing the sunquake expanding outward from it's seismic epicentre to a radial distance of $1.2\times10^{8}$ metres. Wave-fronts accelerate from a velocity of 30km/s to 100km/s}\label{mdiquake96}
-\end{center}
-\end{figure}
-
-
-The first sunquake observation opened up a whole new area of solar physics, leading to subsequent detections associated other flares. The majority of observations show that sunquakes are often the product of highly impulsive flares, with the acoustic source aligning spatially with white light enhancement in the lower solar atmosphere and hard x-ray emission in the upper-atmosphere \citep{2005ApJ...630.1168D, 2007ApJ...664..573Z}. \cite{2005ApJ...630.1168D} went on to calculate the energy needed to stimulate the propagation of an acoustic wave in the sub-photosphere, finding that only $\sim10^{-3}$ of the energy released by a flare is enough to generate a sunquake. This was an important calculation because it forced the solar community to consider that it might be possible for low energy flares to produce sunquakes, leading to subsequent work by \cite{2008SoPh..251..613M} looking at seismicity of M-class flares.
-
-A paper by \cite{2000ApJ...531L..75H} put forward for the first time, that sunquake production may depend on the changing configuration of the local magnetic field. This idea was further reinforced by \cite{2001ApJ...550L.105K} reporting observations of impulsive changes in magnetic field strength at the photosphere during a solar flare. These magnetic transients were shown to approximately correlate in time and space with hard x-rays, impulsive increases in plasma velocity and increased emission. This line of study was continued \citep{2009MNRAS.395L..39M}, investigating the magnetic field variation of the photosphere in many flares. The study found that some flares with seismicity do not have a spatial and temporal correlation between sunquakes and magnetic transients. Some flares have magnetic transients and no seismicity, and some flares have a good co-spatial alignment of acoustic activity and magnetic variability. It was noted that the impulsiveness of the magnetic field variation could be important as to whether a sunquake is generated.
-
-Some of the most intriguing of sunquake observations are those that do not abide by the usual set of observable features, in that they are not necessarily associated with hard x-rays and excess white-light emission. For example, a statistical survey carried out by \cite{2012SoPh..277..317P}, highlighted a flare containing three footpoints with a seismic source that was co-temporal but not co-spatial with it's closest HXR footpoint; and another source which was co-spatial and co-temporal with its nearest HXR footpoint. This showed that a sunquake does not necessarily correlate with locations of peak emission. Another example by \cite{2011ApJ...741L..35Z} reports an observation of two seismic sources associated with footpoints of an erupting flux rope. During the eruption, the magnetic field above each seismic source undergoes an abrupt permanent reconfiguration. The authors cite the possibility that there exists particle beams low enough in population that HXR emission is undetectable. Further papers investigating the same event \citep{2013SoPh..284..315Z} show that there are downward motions of material above the seismic sources and that energy provided by magnetic transients may not be able to account for the acoustic power generated. These observational oddities prove that mechanisms that generate sunquakes are not well understood and there is much research to be done to classify the different progenitors.
 
 \subsubsection{Sunquake Progenitors}\label{sunprog}
 %list and explain current theories of sunquake generation

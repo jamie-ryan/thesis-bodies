@@ -49,7 +49,8 @@ Surrey, RH13 6NL, UK\\
 %\include{abstract}
 %\include{thesis-intro} %Introduction
 %\include{sunquakes-intro} %Introduction
-%%%%%%%%%%%%%NEED TO UNCOMMENT \include{thesis-intro-rewrite} %Introduction
+\include{thesis-intro-rewrite} %Introduction
+\include{lit-review}
 %\include{sunquake-model}
 %\include{progenitors-of-sunquakes}
 %\include{eruptive-solar-flares}
@@ -58,7 +59,7 @@ Surrey, RH13 6NL, UK\\
 %\include{projectupgrd}
 \include{projectupgrd-rewrite}
 %\include{appendix}
-%%%%%%%%%%%%%NEED TO UNCOMMENT\include{appendix-rewrite}
+\include{appendix-rewrite}
 
 \label{Bibliography}
 \lhead{\emph{Bibliography}}  % Change the left side page header to "Bibliography"
