@@ -41,7 +41,8 @@
 %\href{mailto:jamie.ryan.14@ucl.ac.uk}{jamie.ryan.14@ucl.ac.uk}
 %\date{}}
 \begin{document}
-\include{upgrade-title-page}
+\includepdf{upgrade-title-page}
+
 \tableofcontents
 
 %%%%%%%%%%%%%%%%%files containing bodies of text%%%%%%%%%%%%%%%%%%
@@ -52,6 +53,10 @@
 %\include{sunquakes-intro} %Introduction
 \include{thesis-intro-rewrite} %Introduction
 \include{lit-review}%sunquake literature review
+\include{data-and-methodology}
+\include{results}
+\include{interpretation-and-discussion}
+\include{conclusions-and-thesis-plan}
 %\include{sunquake-model}
 %\include{progenitors-of-sunquakes}
 %\include{eruptive-solar-flares}
