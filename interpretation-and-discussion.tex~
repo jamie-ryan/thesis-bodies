@@ -7,4 +7,4 @@ Energy estimates from IRIS are not always useful due to over saturation of the i
 The 2832 \AA\ IRIS channel is harder to summarise due to the fact that comparing ribbon locations to that of the sunquake show that there is a 50:50 chance that the ribbon could have greater or lower energy output.
 SDO HMI continuum data is probably the most revealing, in that almost all of the ribbon locations have far greater energy output than the sunquake location. This could be explained by the sunquake being only partially under a white light ribbon. 
 
-
+$p_{sqk}$ is at least three orders of magnitude higher than electron and proton beam momenta $p_e$ and $p_p$. This means that direct particle collision is unlikely to be causing the sunquake. 

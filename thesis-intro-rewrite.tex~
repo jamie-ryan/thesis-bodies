@@ -202,7 +202,7 @@ Classification & Peak Flux Range at 1 to 8 \AA\ ($W.m^{-2}$) \\
 X & $10^{-3}$ - $10^{-4}$\\
 M & $10^{-4}$ - $10^{-5}$\\
 C & $10^{-5}$ - $10^{-6}$\\
-B & $10^{-6}$ - $10^{-7}$\\
+B3 & $10^{-6}$ - $10^{-7}$\\
 A & $<10^{-7}$\\
 \end{tabular}
 \caption{shows the GOES flare classification, which is based on the order of magnitude of hard x-ray flux. X class flares produce a flux of $10^{-3}$ - $10^{-4}$ $W.m^{-2}$ and are the most powerful, whilst a weak A class flare can produce less than $10^{-7}$ $W.m^{-2}$.}\label{goes}
