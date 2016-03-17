@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.4)  11 MAR 2016 17:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.4)  17 MAR 2016 18:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -392,20 +392,7 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count125
 )
 (./upgrade-rewrite.aux (./thesis-intro-rewrite.aux) (./lit-review.aux)
-(./intro-appendix.aux
-
-LaTeX Warning: Label `max1:ampere' multiply defined.
-
-
-LaTeX Warning: Label `max2:faraday' multiply defined.
-
-
-LaTeX Warning: Label `max3:gauss' multiply defined.
-
-
-LaTeX Warning: Label `max4:nomonopole' multiply defined.
-
-))
+(./data-and-methodology.aux) (./results.aux))
 \openout1 = `upgrade-rewrite.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
@@ -424,7 +411,8 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
 LaTeX Font Info:    ... okay on input line 43.
 \AtBeginShipoutBox=\box34
 Package hyperref Info: Link coloring OFF on input line 43.
- (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -493,7 +481,7 @@ Package caption Info: End \AtBeginDocument code.
 \MPnumerator=\count131
 \makeMPintoPDFobject=\count132
 \everyMPtoPDFconversion=\toks27
-) <upgrade-title-page.pdf, id=108, 597.50829pt x 845.0471pt>
+) <upgrade-title-page.pdf, id=120, 597.50829pt x 845.0471pt>
 File: upgrade-title-page.pdf Graphic file (type pdf)
 
 <use upgrade-title-page.pdf>
@@ -504,7 +492,7 @@ File: upgrade-title-page.pdf Graphic file (type pdf)
 Package pdftex.def Info: upgrade-title-page.pdf used on input line 44.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
-<upgrade-title-page.pdf, id=111, page=1, 597.50829pt x 845.0471pt>
+<upgrade-title-page.pdf, id=123, page=1, 597.50829pt x 845.0471pt>
 File: upgrade-title-page.pdf Graphic file (type pdf)
 
 <use upgrade-title-page.pdf, page 1>
@@ -540,225 +528,717 @@ pdmap/pdftex.map}>]
 \openout2 = `thesis-intro-rewrite.aux'.
 
  (./thesis-intro-rewrite.tex
-<2014_03_29_17_19_42_HMI_Int.png, id=183, 632.3625pt x 596.2275pt>
-File: 2014_03_29_17_19_42_HMI_Int.png Graphic file (type png)
 
-<use 2014_03_29_17_19_42_HMI_Int.png>
-Package pdftex.def Info: 2014_03_29_17_19_42_HMI_Int.png used on input line 39.
-
-(pdftex.def)             Requested size: 105.78574pt x 99.73795pt.
-
-<2014_03_29_17_19_42_AIA_304.png, id=184, 632.3625pt x 596.2275pt>
-File: 2014_03_29_17_19_42_AIA_304.png Graphic file (type png)
-
-<use 2014_03_29_17_19_42_AIA_304.png>
-Package pdftex.def Info: 2014_03_29_17_19_42_AIA_304.png used on input line 40.
-
-(pdftex.def)             Requested size: 105.78574pt x 99.73795pt.
-
-<2014_03_29_17_19_42_AIA_171.png, id=185, 632.3625pt x 596.2275pt>
-File: 2014_03_29_17_19_42_AIA_171.png Graphic file (type png)
-
-<use 2014_03_29_17_19_42_AIA_171.png>
-Package pdftex.def Info: 2014_03_29_17_19_42_AIA_171.png used on input line 41.
-
-(pdftex.def)             Requested size: 105.78574pt x 99.73795pt.
-
-<2014_03_29_17_19_42_AIA_193.png, id=186, 632.3625pt x 596.2275pt>
-File: 2014_03_29_17_19_42_AIA_193.png Graphic file (type png)
-
-<use 2014_03_29_17_19_42_AIA_193.png>
-Package pdftex.def Info: 2014_03_29_17_19_42_AIA_193.png used on input line 42.
-
-(pdftex.def)             Requested size: 105.78574pt x 99.73795pt.
+Package natbib Warning: Citation `1964NASSP..50..451C' on page 3 undefined on i
+nput line 27.
 
 
-LaTeX Warning: Reference `solar-atm-plot' on page 3 undefined on input line 48.
+Package natbib Warning: Citation `1966Natur.211..695S' on page 3 undefined on i
+nput line 27.
+
+
+Package natbib Warning: Citation `1974SoPh...34..323H' on page 3 undefined on i
+nput line 27.
+
+
+Package natbib Warning: Citation `1976SoPh...50...85K' on page 3 undefined on i
+nput line 27.
+
+
+Package natbib Warning: Citation `2011LRSP....8....6S' on page 3 undefined on i
+nput line 29.
+
+
+LaTeX Warning: Reference `solar-atm-plot' on page 3 undefined on input line 52.
 
 
 
-LaTeX Warning: Reference `' on page 3 undefined on input line 52.
+Package natbib Warning: Citation `2003dysu.book.....D' on page 3 undefined on i
+nput line 52.
 
-[3
 
- <./2014_03_29_17_19_42_HMI_Int.png> <./2014_03_29_17_19_42_AIA_304.png> <./201
-4_03_29_17_19_42_AIA_171.png> <./2014_03_29_17_19_42_AIA_193.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 56--58
+Package natbib Warning: Citation `2004soas.book.....F' on page 3 undefined on i
+nput line 52.
+
+
+LaTeX Warning: Reference `solar-atm-plot' on page 3 undefined on input line 56.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--62
 
  []
 
-<solar-atm-plot.jpg, id=210, 411.5375pt x 293.095pt>
-File: solar-atm-plot.jpg Graphic file (type jpg)
- <use solar-atm-plot.jpg>
-Package pdftex.def Info: solar-atm-plot.jpg used on input line 63.
-(pdftex.def)             Requested size: 317.36526pt x 226.0282pt.
+[3
 
-[4 <./solar-atm-plot.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+] <solar-atm-plot.jpg, id=169, 411.5375pt x 293.095pt>
+File: solar-atm-plot.jpg Graphic file (type jpg)
+
+<use solar-atm-plot.jpg>
+Package pdftex.def Info: solar-atm-plot.jpg used on input line 67.
+(pdftex.def)             Requested size: 317.36526pt x 226.0282pt.
+ [4 <./solar-atm-plot.jpg>]
+
+Package natbib Warning: Citation `1982soma.book.....P' on page 5 undefined on i
+nput line 85.
+
+
+Package natbib Warning: Citation `2003dysu.book.....D' on page 5 undefined on i
+nput line 97.
+
+
+LaTeX Warning: Reference `mhdeqns' on page 5 undefined on input line 109.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--131
+Underfull \hbox (badness 10000) in paragraph at lines 133--135
 
  []
 
-[6] <2d-reconnection.png, id=255, 825.0825pt x 600.2425pt>
-File: 2d-reconnection.png Graphic file (type png)
 
-<use 2d-reconnection.png>
-Package pdftex.def Info: 2d-reconnection.png used on input line 176.
-(pdftex.def)             Requested size: 211.57147pt x 153.91617pt.
- [7]
+Package natbib Warning: Citation `2003dysu.book.....D' on page 6 undefined on i
+nput line 141.
 
-LaTeX Warning: Reference `2dreconnection' on page 8 undefined on input line 180
-.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--189
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
 
  []
 
-<flare.png, id=271, 387.046pt x 356.532pt>
+
+Package natbib Warning: Citation `1964NASSP..50..451C' on page 7 undefined on i
+nput line 212.
+
+
+Package natbib Warning: Citation `1966Natur.211..695S' on page 7 undefined on i
+nput line 212.
+
+
+Package natbib Warning: Citation `1974SoPh...34..323H' on page 7 undefined on i
+nput line 212.
+
+
+Package natbib Warning: Citation `1976SoPh...50...85K' on page 7 undefined on i
+nput line 212.
+
+<flare.png, id=207, 387.046pt x 356.532pt>
 File: flare.png Graphic file (type png)
  <use flare.png>
-Package pdftex.def Info: flare.png used on input line 209.
+Package pdftex.def Info: flare.png used on input line 216.
 (pdftex.def)             Requested size: 211.57147pt x 194.89635pt.
- [8 <./2d-reconnection.png>] [9 <./flare.png>]
+ [7]
+
+Package natbib Warning: Citation `1955ApJ...121..349B' on page 8 undefined on i
+nput line 221.
+
+
+Package natbib Warning: Citation `2005psci.book.....A' on page 8 undefined on i
+nput line 221.
+
+
+Package natbib Warning: Citation `1971SoPh...18..489B' on page 8 undefined on i
+nput line 225.
+
+
+Package natbib Warning: Citation `1967SvA....11..258K' on page 8 undefined on i
+nput line 227.
+
+
+Package natbib Warning: Citation `1971SoPh...18..489B' on page 8 undefined on i
+nput line 227.
+
+[8 <./flare.png>]
+
+Package natbib Warning: Citation `1981SoPh...73..269L' on page 9 undefined on i
+nput line 240.
+
+
+Package natbib Warning: Citation `1990ApJ...348..333C' on page 9 undefined on i
+nput line 240.
+
+
+Package natbib Warning: Citation `2015SoPh..tmp...61K' on page 9 undefined on i
+nput line 240.
+
+
+Package natbib Warning: Citation `1859MNRAS..20...13C' on page 9 undefined on i
+nput line 245.
+
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no … in font cmr10!
- [10]
-<sunquake-cartoon.png, id=355, 877.679pt x 454.498pt>
+
+Package natbib Warning: Citation `1983SoPh...88..275N' on page 9 undefined on i
+nput line 246.
+
+
+Package natbib Warning: Citation `2003A&A...409.1107M' on page 9 undefined on i
+nput line 247.
+
+
+Package natbib Warning: Citation `1976GAM.....8.....S' on page 9 undefined on i
+nput line 250.
+
+
+Package natbib Warning: Citation `1989SoPh..124..303M' on page 9 undefined on i
+nput line 250.
+
+
+Package natbib Warning: Citation `1972SoPh...24..414H' on page 9 undefined on i
+nput line 250.
+
+
+Package natbib Warning: Citation `1978SoPh...58..363M' on page 9 undefined on i
+nput line 250.
+
+
+Package natbib Warning: Citation `2014arXiv1402.1249K' on page 9 undefined on i
+nput line 257.
+
+
+Package natbib Warning: Citation `1998Natur.393..317K' on page 9 undefined on i
+nput line 257.
+
+
+Package natbib Warning: Citation `2006ESASP.624E.134K' on page 9 undefined on i
+nput line 257.
+
+[9] <sunquake-cartoon.png, id=237, 877.679pt x 454.498pt>
 File: sunquake-cartoon.png Graphic file (type png)
 
 <use sunquake-cartoon.png>
-Package pdftex.def Info: sunquake-cartoon.png used on input line 255.
+Package pdftex.def Info: sunquake-cartoon.png used on input line 262.
 (pdftex.def)             Requested size: 523.65028pt x 271.18211pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
+
+Package natbib Warning: Citation `2014arXiv1402.1249K' on page 10 undefined on 
+input line 263.
+
+
+Package natbib Warning: Citation `2014arXiv1402.1249K' on page 10 undefined on 
+input line 263.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 269.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 276.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 269.
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
-
- []
-
-[11 <./sunquake-cartoon.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 271--273
-
- []
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 276.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
+Package natbib Warning: Citation `2005ApJ...630.1168D' on page 10 undefined on 
+input line 276.
 
- []
+
+Package natbib Warning: Citation `1989SoPh..124..303M' on page 10 undefined on 
+input line 276.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 276--277
 
  []
 
-[12]) [13]
+
+Package natbib Warning: Citation `2008ASPC..383..221H' on page 10 undefined on 
+input line 278.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--280
+
+ []
+
+[10 <./sunquake-cartoon.png>]
+
+Package natbib Warning: Citation `1995ESASP.376b.341K' on page 11 undefined on 
+input line 281.
+
+
+Package natbib Warning: Citation `1998Natur.393..317K' on page 11 undefined on 
+input line 281.
+
+
+Package natbib Warning: Citation `1989SoPh..124..303M' on page 11 undefined on 
+input line 281.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
+
+ []
+
+
+Package natbib Warning: Citation `2007ApJ...664..573Z' on page 11 undefined on 
+input line 283.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
+
+ []
+
+
+Package natbib Warning: Citation `2009AIPC.1170..547K' on page 11 undefined on 
+input line 306.
+
+
+Package natbib Warning: Citation `1999ApJ...513L.143D' on page 11 undefined on 
+input line 309.
+
+
+Package natbib Warning: Citation `1975CRASB.281...93R' on page 11 undefined on 
+input line 310.
+
+
+Package natbib Warning: Citation `1990SoPh..126..101L' on page 11 undefined on 
+input line 310.
+
+
+Package natbib Warning: Citation `1992ApJ...392..739B' on page 11 undefined on 
+input line 310.
+
+
+Package natbib Warning: Citation `1997ApJ...485..895L' on page 11 undefined on 
+input line 310.
+
+[11]
+
+Package natbib Warning: Citation `1998Natur.393..317K' on page 12 undefined on 
+input line 332.
+
+
+Package natbib Warning: Citation `1993Natur.362..430D' on page 12 undefined on 
+input line 332.
+
+) [12]
 \openout2 = `lit-review.aux'.
 
  (./lit-review.tex
-<soho-mdi-quake-96.jpg, id=438, 49.3845pt x 46.37325pt>
+
+Package natbib Warning: Citation `1972ApJ...176..833W' on page 13 undefined on 
+input line 2.
+
+
+Package natbib Warning: Citation `1995ESASP.376b.341K' on page 13 undefined on 
+input line 4.
+
+
+Package natbib Warning: Citation `1998Natur.393..317K' on page 13 undefined on 
+input line 4.
+
+<soho-mdi-quake-96.jpg, id=265, 49.3845pt x 46.37325pt>
 File: soho-mdi-quake-96.jpg Graphic file (type jpg)
 
 <use soho-mdi-quake-96.jpg>
 Package pdftex.def Info: soho-mdi-quake-96.jpg used on input line 8.
 (pdftex.def)             Requested size: 423.151pt x 397.42436pt.
- [14
 
 
- <./soho-mdi-quake-96.jpg>]) [15]
+Package natbib Warning: Citation `1998Natur.393..317K' on page 13 undefined on 
+input line 9.
+
+
+Package natbib Warning: Citation `1998Natur.393..317K' on page 13 undefined on 
+input line 9.
+
+
+Package natbib Warning: Citation `2005ApJ...630.1168D' on page 13 undefined on 
+input line 14.
+
+
+Package natbib Warning: Citation `2007ApJ...664..573Z' on page 13 undefined on 
+input line 14.
+
+
+Package natbib Warning: Citation `2005ApJ...630.1168D' on page 13 undefined on 
+input line 14.
+
+
+Package natbib Warning: Citation `2008SoPh..251..613M' on page 13 undefined on 
+input line 14.
+
+[13
+
+
+ <./soho-mdi-quake-96.jpg>]
+
+Package natbib Warning: Citation `2000ApJ...531L..75H' on page 14 undefined on 
+input line 16.
+
+
+Package natbib Warning: Citation `2001ApJ...550L.105K' on page 14 undefined on 
+input line 16.
+
+
+Package natbib Warning: Citation `2009MNRAS.395L..39M' on page 14 undefined on 
+input line 16.
+
+
+Package natbib Warning: Citation `2012SoPh..277..317P' on page 14 undefined on 
+input line 18.
+
+
+Package natbib Warning: Citation `2011ApJ...741L..35Z' on page 14 undefined on 
+input line 18.
+
+
+Package natbib Warning: Citation `2013SoPh..284..315Z' on page 14 undefined on 
+input line 18.
+
+) [14]
+\openout2 = `data-and-methodology.aux'.
+
+ (./data-and-methodology.tex
+
+Package natbib Warning: Citation `2014ApJ...796...85J' on page 15 undefined on 
+input line 4.
+
+<rhessi-energy-curve.png, id=276, 455.5419pt x 593.0958pt>
+File: rhessi-energy-curve.png Graphic file (type png)
+
+<use rhessi-energy-curve.png>
+Package pdftex.def Info: rhessi-energy-curve.png used on input line 20.
+(pdftex.def)             Requested size: 317.36526pt x 413.2004pt.
+ [15
+
+
+] [16 <./rhessi-energy-curve.png>]
+
+Package natbib Warning: Citation `2014SoPh..289.2733D' on page 17 undefined on 
+input line 58.
+
+
+Package natbib Warning: Citation `2014ApJ...783...98K' on page 17 undefined on 
+input line 67.
+
+
+Package natbib Warning: Citation `2012SoPh..275...41B' on page 17 undefined on 
+input line 69.
+
+
+Package natbib Warning: Citation `2012SoPh..275..285C' on page 17 undefined on 
+input line 69.
+
+[17]
+<29-Mar-14-MGII-Sunquake-Context-Plots-xx-Zoom-crop.pdf, id=303, 445.665pt x 19
+2.72pt>
+File: 29-Mar-14-MGII-Sunquake-Context-Plots-xx-Zoom-crop.pdf Graphic file (type
+ pdf)
+ <use 29-Mar-14-MGII-Sunquake-Context-Plots-xx-Zoom-crop.pdf>
+Package pdftex.def Info: 29-Mar-14-MGII-Sunquake-Context-Plots-xx-Zoom-crop.pdf
+ used on input line 97.
+(pdftex.def)             Requested size: 423.151pt x 182.9859pt.
+ [18])
+[19 <./29-Mar-14-MGII-Sunquake-Context-Plots-xx-Zoom-crop.pdf>]
+\openout2 = `results.aux'.
+
+ (./results.tex
+
+LaTeX Warning: Reference `' on page 20 undefined on input line 3.
+
+
+LaTeX Warning: Reference `electron-momentum' on page 20 undefined on input line
+ 13.
+
+
+LaTeX Warning: Reference `proton-momentum' on page 20 undefined on input line 1
+9.
+
+
+! LaTeX Error: File `29-Mar-14-A_sqk-Power-Ladder' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...6\textwidth]{29-Mar-14-A_sqk-Power-Ladder}
+                                                  
+? 
+
+LaTeX Warning: Reference `' on page 20 undefined on input line 43.
+
+
+LaTeX Warning: Reference `' on page 20 undefined on input line 43.
+
+
+LaTeX Warning: Reference `eimp' on page 20 undefined on input line 62.
+
+)
+Runaway argument?
+{Energies integrated over the flare impulsive phase, 17:44 to 17:48 f\ETC.
+! File ended while scanning use of \caption@xdblarg.
+<inserted text> 
+                \par 
+l.57 \include{results}
+                      
+? 
+\openout2 = `interpretation-and-discussion.aux'.
+
+(./interpretation-and-discussion.tex
+
+LaTeX Warning: Reference `saxcontours-vert' on page 20 undefined on input line 
+3.
+
+)
+\openout2 = `conclusions-and-thesis-plan.aux'.
+
+ (./conclusions-and-thesis-plan.tex)
 \openout2 = `intro-appendix.aux'.
 
-
-(./intro-appendix.tex
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-
- []
-
-Missing character: There is no Ã in font cmbx10!
-Missing character: There is no ¨ in font cmbx10!
-
-LaTeX Warning: Reference `new1' on page 16 undefined on input line 78.
-
-[16
+ (./intro-appendix.tex
+Missing character: There is no Ã in font cmbx6!
+Missing character: There is no ¨ in font cmbx6!
 
 
-]
-Missing character: There is no Ã in font cmbx10!
-Missing character: There is no ¨ in font cmbx10!
-) [17] (./upgrade-rewrite.bbl [18
+LaTeX Warning: Reference `motion' on page 20 undefined on input line 69.
 
-])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 73.
- [19]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
- (./upgrade-rewrite.aux
-(./thesis-intro-rewrite.aux) (./lit-review.aux) (./intro-appendix.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 73.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 73.
+
+LaTeX Warning: Reference `masscontinuity' on page 20 undefined on input line 69
+.
+
+
+LaTeX Warning: Reference `perfectgaslaw' on page 20 undefined on input line 69.
+
+
+
+LaTeX Warning: Reference `motion' on page 20 undefined on input line 72.
+
+
+LaTeX Warning: Reference `new1' on page 20 undefined on input line 78.
+
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 93.
+Missing character: There is no Ã in font cmbx6!
+Missing character: There is no ¨ in font cmbx6!
+! Misplaced alignment tab character &.
+l.120 1 &
+          518.219", 262.000"\\
+? 
+! Misplaced alignment tab character &.
+l.121 2 &
+          520.215", 263.000"\\
+? 
+! Misplaced alignment tab character &.
+l.122 3 &
+          522.212", 262.000"\\
+? 
+! Misplaced alignment tab character &.
+l.123 4 &
+          522.212", 265.000"\\
+? 
+! Misplaced alignment tab character &.
+l.124 5 &
+          524.256", 265.000"\\
+? 
+! Misplaced alignment tab character &.
+l.125 6 &
+          526.252", 263.818"\\
+? 
+
+<29-Mar-14-Ribbon-Area-1-Sunquake-Area-Power-Ladder.pdf, id=325, 632.04932pt x 
+818.80305pt>
+File: 29-Mar-14-Ribbon-Area-1-Sunquake-Area-Power-Ladder.pdf Graphic file (type
+ pdf)
+ <use 29-Mar-14-Ribbon-Area-1-Sunquake-Area-Power-Ladder.pdf>
+Package pdftex.def Info: 29-Mar-14-Ribbon-Area-1-Sunquake-Area-Power-Ladder.pdf
+ used on input line 129.
+(pdftex.def)             Requested size: 458.20773pt x 593.61076pt.
+
+<29-Mar-14-Ribbon-Area-2-Sunquake-Area-Power-Ladder.pdf, id=326, 632.04932pt x 
+818.80305pt>
+File: 29-Mar-14-Ribbon-Area-2-Sunquake-Area-Power-Ladder.pdf Graphic file (type
+ pdf)
+ <use 29-Mar-14-Ribbon-Area-2-Sunquake-Area-Power-Ladder.pdf>
+Package pdftex.def Info: 29-Mar-14-Ribbon-Area-2-Sunquake-Area-Power-Ladder.pdf
+ used on input line 136.
+(pdftex.def)             Requested size: 458.20773pt x 593.61076pt.
+
+<29-Mar-14-Ribbon-Area-3-Sunquake-Area-Power-Ladder.pdf, id=327, 632.04932pt x 
+818.80305pt>
+File: 29-Mar-14-Ribbon-Area-3-Sunquake-Area-Power-Ladder.pdf Graphic file (type
+ pdf)
+ <use 29-Mar-14-Ribbon-Area-3-Sunquake-Area-Power-Ladder.pdf>
+Package pdftex.def Info: 29-Mar-14-Ribbon-Area-3-Sunquake-Area-Power-Ladder.pdf
+ used on input line 145.
+(pdftex.def)             Requested size: 458.20773pt x 593.61076pt.
+
+<29-Mar-14-Ribbon-Area-4-Sunquake-Area-Power-Ladder.pdf, id=328, 632.04932pt x 
+818.80305pt>
+File: 29-Mar-14-Ribbon-Area-4-Sunquake-Area-Power-Ladder.pdf Graphic file (type
+ pdf)
+ <use 29-Mar-14-Ribbon-Area-4-Sunquake-Area-Power-Ladder.pdf>
+Package pdftex.def Info: 29-Mar-14-Ribbon-Area-4-Sunquake-Area-Power-Ladder.pdf
+ used on input line 153.
+(pdftex.def)             Requested size: 458.20773pt x 593.61076pt.
+
+<29-Mar-14-Ribbon-Area-5-Sunquake-Area-Power-Ladder.pdf, id=329, 632.04932pt x 
+818.80305pt>
+File: 29-Mar-14-Ribbon-Area-5-Sunquake-Area-Power-Ladder.pdf Graphic file (type
+ pdf)
+ <use 29-Mar-14-Ribbon-Area-5-Sunquake-Area-Power-Ladder.pdf>
+Package pdftex.def Info: 29-Mar-14-Ribbon-Area-5-Sunquake-Area-Power-Ladder.pdf
+ used on input line 161.
+(pdftex.def)             Requested size: 458.20773pt x 593.61076pt.
+
+<29-Mar-14-Ribbon-Area-6-Sunquake-Area-Power-Ladder.pdf, id=330, 632.04932pt x 
+818.80305pt>
+File: 29-Mar-14-Ribbon-Area-6-Sunquake-Area-Power-Ladder.pdf Graphic file (type
+ pdf)
+ <use 29-Mar-14-Ribbon-Area-6-Sunquake-Area-Power-Ladder.pdf>
+Package pdftex.def Info: 29-Mar-14-Ribbon-Area-6-Sunquake-Area-Power-Ladder.pdf
+ used on input line 169.
+(pdftex.def)             Requested size: 458.20773pt x 593.61076pt.
+)
+(./upgrade-rewrite.bbl)
+
+Package natbib Warning: There were undefined citations.
+
+
+! LaTeX Error: \begin{minipage} on input line 75 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.77 \end{document}
+                   
+? 
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 77.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 77.
+(./upgrade-rewrite.aux (./thesis-intro-rewrite.aux) (./lit-review.aux)
+(./data-and-methodology.aux) (./results.aux)
+(./interpretation-and-discussion.aux) (./conclusions-and-thesis-plan.aux)
+(./intro-appendix.aux)
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 77.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 77.
 Package rerunfilecheck Info: File `upgrade-rewrite.out' has not changed.
-(rerunfilecheck)             Checksum: 77CB4F26DD4F9B81A3EF13034710AB99;1903.
+(rerunfilecheck)             Checksum: F74647104475AAD4DDCE72294E9111A2;2270.
 
 
 LaTeX Warning: There were undefined references.
 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 77.
+! You can't use `\end' in internal vertical mode.
+\enddocument ...es \z@ \Call@AtVeryVeryEnd \@@end 
+                                                  
+l.77 \end{document}
+                   
+? 
 
-LaTeX Warning: There were multiply-defined labels.
+! LaTeX Error: \begin{minipage} on input line 75 ended by \end{document}.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
- ) 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.77 \end{document}
+                   
+? 
+)
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*x
+
+*\end
+
+*x
+
+! LaTeX Error: \begin{minipage} on input line 75 ended by \end{x}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+<*> x
+     
+? x
+ 
 Here is how much of TeX's memory you used:
- 9896 strings out of 493109
- 149522 string characters out of 6135011
- 259705 words of memory out of 5000000
- 13083 multiletter control sequences out of 15000+600000
- 10144 words of font info for 36 fonts, out of 8000000 for 9000
+ 9898 strings out of 493109
+ 150665 string characters out of 6135011
+ 301739 words of memory out of 5000000
+ 13108 multiletter control sequences out of 15000+600000
+ 11197 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,18n,45p,2239b,477s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
-sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
-local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
-cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
-l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/
-texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/tex
-live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
-e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2
-014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/201
-4/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2014
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on upgrade-rewrite.pdf (19 pages, 1312857 bytes).
+ 39i,18n,45p,2513b,709s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
+/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loca
+l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/
+texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texli
+ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
+2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/201
+4/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2014/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2014/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on upgrade-rewrite.pdf (19 pages, 706226 bytes).
 PDF statistics:
- 603 PDF objects out of 1000 (max. 8388607)
- 538 compressed objects within 6 object streams
- 139 named destinations out of 1000 (max. 500000)
- 274 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 402 PDF objects out of 1000 (max. 8388607)
+ 334 compressed objects within 4 object streams
+ 83 named destinations out of 1000 (max. 500000)
+ 313 words of extra memory for PDF output out of 10000 (max. 10000000)
 
