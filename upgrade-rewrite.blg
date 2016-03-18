@@ -12,45 +12,45 @@ The style file: plainnat.bst
 Database file #1: ../Bibliography/Bibliography.bib
 Warning--I didn't find a database entry for ""
 Warning--empty publisher in 2005psci.book.....A
-You've used 52 entries,
+You've used 53 entries,
             2773 wiz_defined-function locations,
-            992 strings with 16219 characters,
-and the built_in function-call counts, 28826 in all, are:
-= -- 2432
-> -- 2187
-< -- 41
-+ -- 739
-- -- 687
-* -- 2592
-:= -- 4621
-add.period$ -- 195
-call.type$ -- 52
-change.case$ -- 379
+            1000 strings with 16467 characters,
+and the built_in function-call counts, 29376 in all, are:
+= -- 2476
+> -- 2219
+< -- 44
++ -- 750
+- -- 696
+* -- 2638
+:= -- 4699
+add.period$ -- 198
+call.type$ -- 53
+change.case$ -- 384
 chr.to.int$ -- 52
-cite$ -- 105
-duplicate$ -- 1106
-empty$ -- 1969
-format.name$ -- 771
-if$ -- 5914
-int.to.chr$ -- 1
+cite$ -- 107
+duplicate$ -- 1137
+empty$ -- 2015
+format.name$ -- 783
+if$ -- 6036
+int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 56
-newline$ -- 307
-num.names$ -- 212
-pop$ -- 682
+missing$ -- 57
+newline$ -- 312
+num.names$ -- 218
+pop$ -- 695
 preamble$ -- 1
-purify$ -- 331
+purify$ -- 335
 quote$ -- 0
-skip$ -- 882
+skip$ -- 904
 stack$ -- 0
-substring$ -- 847
-swap$ -- 144
-text.length$ -- 8
+substring$ -- 855
+swap$ -- 157
+text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 552
+type$ -- 563
 warning$ -- 1
-while$ -- 199
+while$ -- 204
 width$ -- 0
-write$ -- 760
+write$ -- 774
 (There were 2 warnings)

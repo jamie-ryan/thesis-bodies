@@ -1,0 +1,123 @@
+\begin{thebibliography}{11}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{Boerner} et~al.(2012){Boerner}, {Edwards}, {Lemen}, {Rausch},
+  {Schrijver}, {Shine}, {Shing}, {Stern}, {Tarbell}, {Title}, {Wolfson},
+  {Soufli}, {Spiller}, {Gullikson}, {McKenzie}, {Windt}, {Golub}, {Podgorski},
+  {Testa}, and {Weber}]{2012SoPh..275...41B}
+P.~{Boerner}, C.~{Edwards}, J.~{Lemen}, A.~{Rausch}, C.~{Schrijver},
+  R.~{Shine}, L.~{Shing}, R.~{Stern}, T.~{Tarbell}, A.~{Title}, C.~J.
+  {Wolfson}, R.~{Soufli}, E.~{Spiller}, E.~{Gullikson}, D.~{McKenzie},
+  D.~{Windt}, L.~{Golub}, W.~{Podgorski}, P.~{Testa}, and M.~{Weber}.
+\newblock {Initial Calibration of the Atmospheric Imaging Assembly (AIA) on the
+  Solar Dynamics Observatory (SDO)}.
+\newblock \emph{\solphys}, 275:\penalty0 41--66, January 2012.
+\newblock \doi{10.1007/s11207-011-9804-8}.
+
+\bibitem[{Couvidat} et~al.(2012){Couvidat}, {Schou}, {Shine}, {Bush}, {Miles},
+  {Scherrer}, and {Rairden}]{2012SoPh..275..285C}
+S.~{Couvidat}, J.~{Schou}, R.~A. {Shine}, R.~I. {Bush}, J.~W. {Miles}, P.~H.
+  {Scherrer}, and R.~L. {Rairden}.
+\newblock {Wavelength Dependence of the Helioseismic and Magnetic Imager (HMI)
+  Instrument onboard the Solar Dynamics Observatory (SDO)}.
+\newblock \emph{\solphys}, 275:\penalty0 285--325, January 2012.
+\newblock \doi{10.1007/s11207-011-9723-8}.
+
+\bibitem[{De Pontieu} et~al.(2014){De Pontieu}, {Title}, {Lemen}, {Kushner},
+  {Akin}, {Allard}, {Berger}, {Boerner}, {Cheung}, {Chou}, {Drake}, {Duncan},
+  {Freeland}, {Heyman}, {Hoffman}, {Hurlburt}, {Lindgren}, {Mathur}, {Rehse},
+  {Sabolish}, {Seguin}, {Schrijver}, {Tarbell}, {W{\"u}lser}, {Wolfson},
+  {Yanari}, {Mudge}, {Nguyen-Phuc}, {Timmons}, {van Bezooijen}, {Weingrod},
+  {Brookner}, {Butcher}, {Dougherty}, {Eder}, {Knagenhjelm}, {Larsen},
+  {Mansir}, {Phan}, {Boyle}, {Cheimets}, {DeLuca}, {Golub}, {Gates}, {Hertz},
+  {McKillop}, {Park}, {Perry}, {Podgorski}, {Reeves}, {Saar}, {Testa}, {Tian},
+  {Weber}, {Dunn}, {Eccles}, {Jaeggli}, {Kankelborg}, {Mashburn}, {Pust},
+  {Springer}, {Carvalho}, {Kleint}, {Marmie}, {Mazmanian}, {Pereira}, {Sawyer},
+  {Strong}, {Worden}, {Carlsson}, {Hansteen}, {Leenaarts}, {Wiesmann},
+  {Aloise}, {Chu}, {Bush}, {Scherrer}, {Brekke}, {Martinez-Sykora}, {Lites},
+  {McIntosh}, {Uitenbroek}, {Okamoto}, {Gummin}, {Auker}, {Jerram}, {Pool}, and
+  {Waltham}]{2014SoPh..289.2733D}
+B.~{De Pontieu}, A.~M. {Title}, J.~R. {Lemen}, G.~D. {Kushner}, D.~J. {Akin},
+  B.~{Allard}, T.~{Berger}, P.~{Boerner}, M.~{Cheung}, C.~{Chou}, J.~F.
+  {Drake}, D.~W. {Duncan}, S.~{Freeland}, G.~F. {Heyman}, C.~{Hoffman}, N.~E.
+  {Hurlburt}, R.~W. {Lindgren}, D.~{Mathur}, R.~{Rehse}, D.~{Sabolish},
+  R.~{Seguin}, C.~J. {Schrijver}, T.~D. {Tarbell}, J.-P. {W{\"u}lser}, C.~J.
+  {Wolfson}, C.~{Yanari}, J.~{Mudge}, N.~{Nguyen-Phuc}, R.~{Timmons}, R.~{van
+  Bezooijen}, I.~{Weingrod}, R.~{Brookner}, G.~{Butcher}, B.~{Dougherty},
+  J.~{Eder}, V.~{Knagenhjelm}, S.~{Larsen}, D.~{Mansir}, L.~{Phan}, P.~{Boyle},
+  P.~N. {Cheimets}, E.~E. {DeLuca}, L.~{Golub}, R.~{Gates}, E.~{Hertz},
+  S.~{McKillop}, S.~{Park}, T.~{Perry}, W.~A. {Podgorski}, K.~{Reeves},
+  S.~{Saar}, P.~{Testa}, H.~{Tian}, M.~{Weber}, C.~{Dunn}, S.~{Eccles}, S.~A.
+  {Jaeggli}, C.~C. {Kankelborg}, K.~{Mashburn}, N.~{Pust}, L.~{Springer},
+  R.~{Carvalho}, L.~{Kleint}, J.~{Marmie}, E.~{Mazmanian}, T.~M.~D. {Pereira},
+  S.~{Sawyer}, J.~{Strong}, S.~P. {Worden}, M.~{Carlsson}, V.~H. {Hansteen},
+  J.~{Leenaarts}, M.~{Wiesmann}, J.~{Aloise}, K.-C. {Chu}, R.~I. {Bush}, P.~H.
+  {Scherrer}, P.~{Brekke}, J.~{Martinez-Sykora}, B.~W. {Lites}, S.~W.
+  {McIntosh}, H.~{Uitenbroek}, T.~J. {Okamoto}, M.~A. {Gummin}, G.~{Auker},
+  P.~{Jerram}, P.~{Pool}, and N.~{Waltham}.
+\newblock {The Interface Region Imaging Spectrograph (IRIS)}.
+\newblock \emph{\solphys}, 289:\penalty0 2733--2779, July 2014.
+\newblock \doi{10.1007/s11207-014-0485-y}.
+
+\bibitem[{Emslie} and {Sturrock}(1982)]{1982SoPh...80...99E}
+A.~G. {Emslie} and P.~A. {Sturrock}.
+\newblock {Temperature minimum heating in solar flares by resistive dissipation
+  of Alfven waves}.
+\newblock \emph{\solphys}, 80:\penalty0 99--112, September 1982.
+\newblock \doi{10.1007/BF00153426}.
+
+\bibitem[{Judge} et~al.(2014){Judge}, {Kleint}, {Donea}, {Sainz Dalda}, and
+  {Fletcher}]{2014ApJ...796...85J}
+P.~G. {Judge}, L.~{Kleint}, A.~{Donea}, A.~{Sainz Dalda}, and L.~{Fletcher}.
+\newblock {On the Origin of a Sunquake during the 2014 March 29 X1 Flare}.
+\newblock \emph{\apj}, 796:\penalty0 85, December 2014.
+\newblock \doi{10.1088/0004-637X/796/2/85}.
+
+\bibitem[{Kerr} and {Fletcher}(2014)]{2014ApJ...783...98K}
+G.~S. {Kerr} and L.~{Fletcher}.
+\newblock {Physical Properties of White-light Sources in the 2011 February 15
+  Solar Flare}.
+\newblock \emph{\apj}, 783:\penalty0 98, March 2014.
+\newblock \doi{10.1088/0004-637X/783/2/98}.
+
+\bibitem[{Kleint} et~al.(2016){Kleint}, {Heinzel}, {Judge}, and
+  {Krucker}]{2016ApJ...816...88K}
+L.~{Kleint}, P.~{Heinzel}, P.~{Judge}, and S.~{Krucker}.
+\newblock {Continuum Enhancements in the Ultraviolet, the Visible and the
+  Infrared during the X1 Flare on 2014 March 29}.
+\newblock \emph{\apj}, 816:\penalty0 88, January 2016.
+\newblock \doi{10.3847/0004-637X/816/2/88}.
+
+\bibitem[{Kosovichev} and {Zharkova}(1998{\natexlab{a}})]{1998IAUS..185..191K}
+A.~G. {Kosovichev} and V.~V. {Zharkova}.
+\newblock {Observation of seismic effects of solar flares from the SOHO
+  Michelson Doppler Imager}.
+\newblock In F.-L. {Deubner}, J.~{Christensen-Dalsgaard}, and D.~{Kurtz},
+  editors, \emph{New Eyes to See Inside the Sun and Stars}, volume 185 of
+  \emph{IAU Symposium}, page 191, 1998{\natexlab{a}}.
+
+\bibitem[{Kosovichev} and {Zharkova}(1998{\natexlab{b}})]{1998Natur.393..317K}
+A.~G. {Kosovichev} and V.~V. {Zharkova}.
+\newblock {X-ray flare sparks quake inside Sun}.
+\newblock \emph{\nat}, 393:\penalty0 317--318, May 1998{\natexlab{b}}.
+\newblock \doi{10.1038/30629}.
+
+\bibitem[{Machado} et~al.(1989){Machado}, {Emslie}, and
+  {Avrett}]{1989SoPh..124..303M}
+M.~E. {Machado}, A.~G. {Emslie}, and E.~H. {Avrett}.
+\newblock {Radiative backwarming in white-light flares}.
+\newblock \emph{\solphys}, 124:\penalty0 303--317, September 1989.
+\newblock \doi{10.1007/BF00156272}.
+
+\bibitem[{Matthews} et~al.(2015){Matthews}, {Harra}, {Zharkov}, and
+  {Green}]{2015ApJ...812...35M}
+S.~A. {Matthews}, L.~K. {Harra}, S.~{Zharkov}, and L.~M. {Green}.
+\newblock {Spectroscopic Signatures Related to a Sunquake}.
+\newblock \emph{\apj}, 812:\penalty0 35, October 2015.
+\newblock \doi{10.1088/0004-637X/812/1/35}.
+
+\end{thebibliography}

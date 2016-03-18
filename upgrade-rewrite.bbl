@@ -1,4 +1,4 @@
-\begin{thebibliography}{52}
+\begin{thebibliography}{53}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -233,10 +233,18 @@ A.~G. {Kosovichev} and V.~V. {Zharkova}.
 \newblock In \emph{Helioseismology}, volume 376 of \emph{ESA Special
   Publication}, page 341, 1995.
 
-\bibitem[{Kosovichev} and {Zharkova}(1998)]{1998Natur.393..317K}
+\bibitem[{Kosovichev} and {Zharkova}(1998{\natexlab{a}})]{1998IAUS..185..191K}
+A.~G. {Kosovichev} and V.~V. {Zharkova}.
+\newblock {Observation of seismic effects of solar flares from the SOHO
+  Michelson Doppler Imager}.
+\newblock In F.-L. {Deubner}, J.~{Christensen-Dalsgaard}, and D.~{Kurtz},
+  editors, \emph{New Eyes to See Inside the Sun and Stars}, volume 185 of
+  \emph{IAU Symposium}, page 191, 1998{\natexlab{a}}.
+
+\bibitem[{Kosovichev} and {Zharkova}(1998{\natexlab{b}})]{1998Natur.393..317K}
 A.~G. {Kosovichev} and V.~V. {Zharkova}.
 \newblock {X-ray flare sparks quake inside Sun}.
-\newblock \emph{\nat}, 393:\penalty0 317--318, May 1998.
+\newblock \emph{\nat}, 393:\penalty0 317--318, May 1998{\natexlab{b}}.
 \newblock \doi{10.1038/30629}.
 
 \bibitem[{Kosovichev} and {Zharkova}(2001)]{2001ApJ...550L.105K}

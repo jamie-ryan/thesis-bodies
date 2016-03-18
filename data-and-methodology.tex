@@ -6,8 +6,6 @@ Using data collected by spacecraft observing the Sun, energy released during sol
 \subsubsection{The Ramaty High Energy Solar Spectroscopic Imager}\label{rhessi}
 %insert RHESSI background info
 The Ramaty High Energy Solar Spectroscopic Imager (RHESSI) observes solar emission ranging from 1 keV X-rays to 20MeV $\gamma$-rays produced by energetic particles and nuclear interactions. RHESSI was designed with the aim of understanding impulsive energy release, particle acceleration and transportation in the magnetohydrodynamic environment of the solar atmosphere. Isolating the 10 - 100 keV energy data collected by RHESSI can provide information regarding the intensity and spatial origin of a HXR source. This allows the location of magnetic HXR footpoints to be tracked and the calculation of energy depostion by accelerated electrons. 
-
-Once $P$ has been determined, a total energy can be calculated by multiplying the power by the time period over which the data covers. In this case that would be the impulsive phase of the flare.
   
 Practically applying a thick target model fit to RHESSI data is acheived by using the \texttt{ospex} software within SolarSoft (SSWIDL). The entire data set has to be split into short intervals to improve the accuracy of fitting and the detail of resulting plots. The attenuator state of the instrument has to be taken into account due to differences in sensitivity to incoming photons. Therefore it is important to define intervals for fitting first by the attenuator state as \texttt{ospex} will mitigate for the differences in count sensitivity. Then each attenuator time period can be split further in to smaller time increments. 
 
@@ -97,9 +95,9 @@ Sample Number & Heliocentric Position (x,y)\\
 %need to run hmi_context_plot.pro
 \begin{figure}[H]
   \begin{center}
-  \includegraphics[width=0.8\textwidth]{29-Mar-14-HMI-Sunquake-Context-Plots-xx-Zoom}
+  \includegraphics[width=0.8\textwidth]{29-Mar-14-HMI-Sunquake-Context-Plot}
   \end{center}
-  \caption{The images show IRIS Mg II slit-jaw data with contours representing HXR emission and 6mHz sunquake power. The black box highlights the area contained in the zoomed plot on the right. The cyan contours show the 6mHz egression power, with the location of the sunquake shown in red on the right. The green and red contours on the left plot show RHESSI HXR data at 25 - 50 and 50 - 100 keV. The green crosses on the right plot show sample positions numbered in accordance with table \ref{coordtab} Each of the IRIS SJ and SDO HMI data sets are sampled at the exact same coordinates in heliocentric units.}\label{hmicontext}
+  \caption{The images show SDO HMI continuum data in reverse colour scheme; with the left image displayng yellow contours representing 50 to 100 keV HXR emission at 80, 90, 92, 94, 96 and 98$\%$ of maximum and 6mHz sunquake power in cyan; the right image shows sample coordinates as green crosses with their associated number relating to Table \ref{coordtab}. Each of the IRIS SJ, IRIS SG and SDO HMI data sets are sampled at the exact same coordinates in heliocentric units.}\label{hmicontext}
 \end{figure}
 
 

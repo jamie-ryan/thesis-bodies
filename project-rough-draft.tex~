@@ -1,3 +1,47 @@
+\documentclass[11pt]{article}
+\usepackage{aas_macros}
+\usepackage{hyperref}
+\usepackage{appendix}
+\usepackage[hmargin=1.5cm, vmargin=0.55cm]{geometry}
+\usepackage{amsmath}
+\usepackage{caption}
+\usepackage{mathtools}
+\usepackage{fancyhdr}
+\usepackage{float}%Places the float at precisely the location in the LaTeX code...i.e, [H]
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage{pdfpages}
+
+%for quotes
+%\epigraphfontsize{\small\itshape}
+%\setlength\epigraphwidth{8cm}
+%\setlength\epigraphrule{0pt}
+
+
+%\usepackage[pdftex]{graphicx}%includegraphics
+%converts eps to pdf
+\usepackage[update,prepend]{epstopdf}
+%\usepackage{subcaption} %need to find subcaption.sty for this to work!
+%\usepackage{epstopdf}
+\newcommand{\Lagr}{\mathcal{L}}
+%\graphicspath{ {~/PhD/Thesis/upgrade-plots/} {./} }
+\DeclareGraphicsExtensions{.pdf,.png,.jpg,.eps,.gif,.ps}
+\renewcommand{\vec}[1]{\mathbf{#1}}
+\usepackage[round]{natbib}  %use the "Natbib" style for the references in the Bibliography
+%\usepackage{aastex}%defines journal abbreviations in bib file
+%\newcommand{name}[num]{definition}
+
+
+
+%\title{Lower Atmospheric Signatures During Solar Flares \\ Associated with Seismicity}
+%\author{Jamie Ryan \\
+%Mullard Space Science Laboratory \\
+%University College London \\
+%Surrey, RH13 6NL, UK\\
+%\href{mailto:jamie.ryan.14@ucl.ac.uk}{jamie.ryan.14@ucl.ac.uk}
+%\date{}}
+\begin{document}
+
 \section{Data and Methodology}
 %THIS SHOULD DESCRIBE THE SATELLITE DATA AND THE TECHNIQUES USED TO PROCESS AND ANALYSE THESES DATA.
 \subsection{Observations and Data Reduction}
@@ -6,8 +50,6 @@ Using data collected by spacecraft observing the Sun, energy released during sol
 \subsubsection{The Ramaty High Energy Solar Spectroscopic Imager}\label{rhessi}
 %insert RHESSI background info
 The Ramaty High Energy Solar Spectroscopic Imager (RHESSI) observes solar emission ranging from 1 keV X-rays to 20MeV $\gamma$-rays produced by energetic particles and nuclear interactions. RHESSI was designed with the aim of understanding impulsive energy release, particle acceleration and transportation in the magnetohydrodynamic environment of the solar atmosphere. Isolating the 10 - 100 keV energy data collected by RHESSI can provide information regarding the intensity and spatial origin of a HXR source. This allows the location of magnetic HXR footpoints to be tracked and the calculation of energy depostion by accelerated electrons. 
-
-Once $P$ has been determined, a total energy can be calculated by multiplying the power by the time period over which the data covers. In this case that would be the impulsive phase of the flare.
   
 Practically applying a thick target model fit to RHESSI data is acheived by using the \texttt{ospex} software within SolarSoft (SSWIDL). The entire data set has to be split into short intervals to improve the accuracy of fitting and the detail of resulting plots. The attenuator state of the instrument has to be taken into account due to differences in sensitivity to incoming photons. Therefore it is important to define intervals for fitting first by the attenuator state as \texttt{ospex} will mitigate for the differences in count sensitivity. Then each attenuator time period can be split further in to smaller time increments. 
 
@@ -103,3 +145,14 @@ Sample Number & Heliocentric Position (x,y)\\
 \end{figure}
 
 
+
+
+
+
+\label{Bibliography}
+\lhead{\emph{Bibliography}}  % Change the left side page header to "Bibliography"
+%\bibliographystyle{unsrtnat}  % Use the "unsrtnat" BibTeX style for formatting the Bibliography
+\bibliographystyle{plainnat}%abbrv}
+\bibliography{../Bibliography/Bibliography}  % The references (bibliography) information are stored in the file named "Bibliography.bib"
+%\bibliography{Bibliography}
+\end{document}
