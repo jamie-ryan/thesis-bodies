@@ -3,7 +3,7 @@
 \subsection{Observations and Data Reduction}
 Using data collected by spacecraft observing the Sun, energy released during solar flares can be tracked as it is deposited throughout the atmosphere. The X1 flare of the 29th of March 2014 in active region NOAA 12017, was well observed by RHESSI, IRIS and SDO/HMI, collecting HXR, UV and optical emission respectively. The peak of the impulsive phase of the flare occurs at 17:48 UT, at which point all mentioned instruments provide good coverage. The associated sunquake impact is calculated to have area $A_{sqk} \sim 2.6{\times}10^{16}$ $cm^{2}$ and power, $P_{sqk} \sim 1.3\pm0.05{\times}10^{26}$ $erg.s^{-1}$ \citep{2014ApJ...796...85J}.
 
-\subsubsection{The Ramaty High Energy Solar Spectroscopic Imager}
+\subsubsection{The Ramaty High Energy Solar Spectroscopic Imager}\label{rhessi}
 %insert RHESSI background info
 The Ramaty High Energy Solar Spectroscopic Imager (RHESSI) observes solar emission ranging from 1 keV X-rays to 20MeV $\gamma$-rays produced by energetic particles and nuclear interactions. RHESSI was designed with the aim of understanding impulsive energy release, particle acceleration and transportation in the magnetohydrodynamic environment of the solar atmosphere. Isolating the 10 - 100 keV energy data collected by RHESSI can provide information regarding the intensity and spatial origin of a HXR source. This allows the location of magnetic HXR footpoints to be tracked and the calculation of energy depostion by accelerated electrons. 
 
@@ -14,13 +14,6 @@ Practically applying a thick target model fit to RHESSI data is acheived by usin
 
 Shown in Figure \ref{erhessi} is the resulting fit over the impulsive phase of the flare. At the peak of the impulsive phase between 17:46 and 17:48 the RHESSI fit shows an energy ranging from $1.0{\times}10^{28}$ to $2.5{\times}10^{29}$ erg. Assuming the fitting model is correct then the release of this energy is due to non-thermal electrons being accelerated by magnetic reconnection, depositing their energy into the chromosphere. 
 
-\begin{figure}[H]
-  \begin{center}
-  \textbf{RHESSI 10 - 100 keV Hard Xray Energy Over Time}\par\medskip
-  \includegraphics[width=0.6\textwidth]{rhessi-energy-curve}
-  \end{center}
-  \caption{Shows the energy evolution of hard x-ray emission collected by RHESSI 10 to 100 keV bins. Energy units are calculated by fitting a non-thermal electron model to the data. }\label{erhessi}
-\end{figure}
 
 
 \subsubsection{The Interface Region Imaging Spectrograph}
@@ -73,10 +66,11 @@ E = \frac{F_{DN} E_{\lambda}}{g QE A_{ap} E_{erg}}
 \end{equation}
 
 \subsection{Data Sampling}
-For the IRIS SJI, IRIS SG and SDO HMI data sets, multiple sample points have been chosen based on the moment in time when the IRIS SG slit is directly over the southern flare ribbon and sunquake impact location. These coordinates are sampled across all data sets except RHESSI due to the limited spatial resolution of the instrument. Figure \ref{mgrib} shows the sample coordinates, RHESSI HXR and the 6mHz sunquake egression map, plotted over IRIS SJI MG II data in an effort to demonstrate the spatial alignment between HXR (particle beam), UV ribbons and sunquake impact. Table \ref{coordtab} shows how each sample number relates to a heliocentric position in arcseconds.
-\centering
+For the IRIS SJI, IRIS SG and SDO HMI data sets, multiple sample points have been chosen based on the moment in time when the IRIS SG slit is directly over the southern flare ribbon and sunquake impact location. These coordinates are sampled across all data sets except RHESSI due to the limited spatial resolution of the instrument. Figure \ref{hmicontext} shows the sample coordinates, RHESSI HXR and the 6mHz sunquake egression map, plotted over filtered SDO HMI data in an effort to demonstrate the spatial alignment between HXR (particle beam), UV ribbons and sunquake impact. Table \ref{coordtab} shows how each sample number relates to a heliocentric position in arcseconds.
+
 
 \begin{table}
+\centering
 \begin{tabular}{|c|c|}
 \hline
 Sample Number & Heliocentric Position (x,y)\\
@@ -92,10 +86,11 @@ Sample Number & Heliocentric Position (x,y)\\
 \caption{Sample number and the corresponding coordinates in heliocentric units (arcsec).}\label{coordtab}
 \end{table}
 
+%need to run hmi_context_plot.pro
 \begin{figure}[H]
   \begin{center}
-  \includegraphics[width=0.8\textwidth]{29-Mar-14-MGII-Sunquake-Context-Plots-xx-Zoom-crop}
+  \includegraphics[width=0.8\textwidth]{29-Mar-14-HMI-Sunquake-Context-Plots-xx-Zoom}
   \end{center}
-  \caption{The images show IRIS Mg II slit-jaw data with contours representing HXR emission and 6mHz sunquake power. The black box highlights the area contained in the zoomed plot on the right. The cyan contours show the 6mHz egression power, with the location of the sunquake shown in red on the right. The green and red contours on the left plot show RHESSI HXR data at 25 - 50 and 50 - 100 keV. The green crosses on the right plot show sample positions numbered in accordance with table \ref{coordtab} Each of the IRIS SJ and SDO HMI data sets are sampled at the exact same coordinates in heliocentric units.}\label{mgrib}
+  \caption{The images show IRIS Mg II slit-jaw data with contours representing HXR emission and 6mHz sunquake power. The black box highlights the area contained in the zoomed plot on the right. The cyan contours show the 6mHz egression power, with the location of the sunquake shown in red on the right. The green and red contours on the left plot show RHESSI HXR data at 25 - 50 and 50 - 100 keV. The green crosses on the right plot show sample positions numbered in accordance with table \ref{coordtab} Each of the IRIS SJ and SDO HMI data sets are sampled at the exact same coordinates in heliocentric units.}\label{hmicontext}
 \end{figure}
 

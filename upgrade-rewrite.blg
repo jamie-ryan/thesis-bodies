@@ -3,49 +3,54 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: upgrade-rewrite.aux
 A level-1 auxiliary file: thesis-intro-rewrite.aux
 A level-1 auxiliary file: lit-review.aux
+A level-1 auxiliary file: data-and-methodology.aux
+A level-1 auxiliary file: results.aux
+A level-1 auxiliary file: interpretation-and-discussion.aux
+A level-1 auxiliary file: conclusions-and-thesis-plan.aux
 A level-1 auxiliary file: intro-appendix.aux
 The style file: plainnat.bst
 Database file #1: ../Bibliography/Bibliography.bib
+Warning--I didn't find a database entry for ""
 Warning--empty publisher in 2005psci.book.....A
-You've used 44 entries,
+You've used 49 entries,
             2773 wiz_defined-function locations,
-            933 strings with 12490 characters,
-and the built_in function-call counts, 19659 in all, are:
-= -- 1771
-> -- 975
-< -- 39
-+ -- 335
-- -- 291
-* -- 1599
-:= -- 3050
-add.period$ -- 163
-call.type$ -- 44
-change.case$ -- 223
-chr.to.int$ -- 44
-cite$ -- 89
-duplicate$ -- 940
-empty$ -- 1684
-format.name$ -- 363
-if$ -- 4162
+            971 strings with 15597 characters,
+and the built_in function-call counts, 27404 in all, are:
+= -- 2307
+> -- 2088
+< -- 40
++ -- 706
+- -- 657
+* -- 2462
+:= -- 4392
+add.period$ -- 183
+call.type$ -- 49
+change.case$ -- 360
+chr.to.int$ -- 49
+cite$ -- 99
+duplicate$ -- 1044
+empty$ -- 1867
+format.name$ -- 736
+if$ -- 5622
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 48
-newline$ -- 259
-num.names$ -- 180
-pop$ -- 394
+missing$ -- 53
+newline$ -- 289
+num.names$ -- 200
+pop$ -- 653
 preamble$ -- 1
-purify$ -- 183
+purify$ -- 315
 quote$ -- 0
-skip$ -- 658
+skip$ -- 837
 stack$ -- 0
-substring$ -- 750
-swap$ -- 128
+substring$ -- 823
+swap$ -- 138
 text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 464
+type$ -- 519
 warning$ -- 1
-while$ -- 171
+while$ -- 189
 width$ -- 0
-write$ -- 640
-(There was 1 warning)
+write$ -- 715
+(There were 2 warnings)

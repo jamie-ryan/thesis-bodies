@@ -1,4 +1,4 @@
-\begin{thebibliography}{44}
+\begin{thebibliography}{49}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -16,6 +16,19 @@ H.~W. {Babcock} and H.~D. {Babcock}.
 \newblock {The Sun's Magnetic Field, 1952-1954.}
 \newblock \emph{\apj}, 121:\penalty0 349, March 1955.
 \newblock \doi{10.1086/145994}.
+
+\bibitem[{Boerner} et~al.(2012){Boerner}, {Edwards}, {Lemen}, {Rausch},
+  {Schrijver}, {Shine}, {Shing}, {Stern}, {Tarbell}, {Title}, {Wolfson},
+  {Soufli}, {Spiller}, {Gullikson}, {McKenzie}, {Windt}, {Golub}, {Podgorski},
+  {Testa}, and {Weber}]{2012SoPh..275...41B}
+P.~{Boerner}, C.~{Edwards}, J.~{Lemen}, A.~{Rausch}, C.~{Schrijver},
+  R.~{Shine}, L.~{Shing}, R.~{Stern}, T.~{Tarbell}, A.~{Title}, C.~J.
+  {Wolfson}, R.~{Soufli}, E.~{Spiller}, E.~{Gullikson}, D.~{McKenzie},
+  D.~{Windt}, L.~{Golub}, W.~{Podgorski}, P.~{Testa}, and M.~{Weber}.
+\newblock {Initial Calibration of the Atmospheric Imaging Assembly (AIA) on the
+  Solar Dynamics Observatory (SDO)}.
+\newblock \emph{\solphys}, 275:\penalty0 41--66, January 2012.
+\newblock \doi{10.1007/s11207-011-9804-8}.
 
 \bibitem[{Braun} et~al.(1992){Braun}, {Lindsey}, {Fan}, and
   {Jefferies}]{1992ApJ...392..739B}
@@ -49,6 +62,51 @@ R.~C. {Carrington}.
   1859}.
 \newblock \emph{\mnras}, 20:\penalty0 13--15, November 1859.
 \newblock \doi{10.1093/mnras/20.1.13}.
+
+\bibitem[{Couvidat} et~al.(2012){Couvidat}, {Schou}, {Shine}, {Bush}, {Miles},
+  {Scherrer}, and {Rairden}]{2012SoPh..275..285C}
+S.~{Couvidat}, J.~{Schou}, R.~A. {Shine}, R.~I. {Bush}, J.~W. {Miles}, P.~H.
+  {Scherrer}, and R.~L. {Rairden}.
+\newblock {Wavelength Dependence of the Helioseismic and Magnetic Imager (HMI)
+  Instrument onboard the Solar Dynamics Observatory (SDO)}.
+\newblock \emph{\solphys}, 275:\penalty0 285--325, January 2012.
+\newblock \doi{10.1007/s11207-011-9723-8}.
+
+\bibitem[{De Pontieu} et~al.(2014){De Pontieu}, {Title}, {Lemen}, {Kushner},
+  {Akin}, {Allard}, {Berger}, {Boerner}, {Cheung}, {Chou}, {Drake}, {Duncan},
+  {Freeland}, {Heyman}, {Hoffman}, {Hurlburt}, {Lindgren}, {Mathur}, {Rehse},
+  {Sabolish}, {Seguin}, {Schrijver}, {Tarbell}, {W{\"u}lser}, {Wolfson},
+  {Yanari}, {Mudge}, {Nguyen-Phuc}, {Timmons}, {van Bezooijen}, {Weingrod},
+  {Brookner}, {Butcher}, {Dougherty}, {Eder}, {Knagenhjelm}, {Larsen},
+  {Mansir}, {Phan}, {Boyle}, {Cheimets}, {DeLuca}, {Golub}, {Gates}, {Hertz},
+  {McKillop}, {Park}, {Perry}, {Podgorski}, {Reeves}, {Saar}, {Testa}, {Tian},
+  {Weber}, {Dunn}, {Eccles}, {Jaeggli}, {Kankelborg}, {Mashburn}, {Pust},
+  {Springer}, {Carvalho}, {Kleint}, {Marmie}, {Mazmanian}, {Pereira}, {Sawyer},
+  {Strong}, {Worden}, {Carlsson}, {Hansteen}, {Leenaarts}, {Wiesmann},
+  {Aloise}, {Chu}, {Bush}, {Scherrer}, {Brekke}, {Martinez-Sykora}, {Lites},
+  {McIntosh}, {Uitenbroek}, {Okamoto}, {Gummin}, {Auker}, {Jerram}, {Pool}, and
+  {Waltham}]{2014SoPh..289.2733D}
+B.~{De Pontieu}, A.~M. {Title}, J.~R. {Lemen}, G.~D. {Kushner}, D.~J. {Akin},
+  B.~{Allard}, T.~{Berger}, P.~{Boerner}, M.~{Cheung}, C.~{Chou}, J.~F.
+  {Drake}, D.~W. {Duncan}, S.~{Freeland}, G.~F. {Heyman}, C.~{Hoffman}, N.~E.
+  {Hurlburt}, R.~W. {Lindgren}, D.~{Mathur}, R.~{Rehse}, D.~{Sabolish},
+  R.~{Seguin}, C.~J. {Schrijver}, T.~D. {Tarbell}, J.-P. {W{\"u}lser}, C.~J.
+  {Wolfson}, C.~{Yanari}, J.~{Mudge}, N.~{Nguyen-Phuc}, R.~{Timmons}, R.~{van
+  Bezooijen}, I.~{Weingrod}, R.~{Brookner}, G.~{Butcher}, B.~{Dougherty},
+  J.~{Eder}, V.~{Knagenhjelm}, S.~{Larsen}, D.~{Mansir}, L.~{Phan}, P.~{Boyle},
+  P.~N. {Cheimets}, E.~E. {DeLuca}, L.~{Golub}, R.~{Gates}, E.~{Hertz},
+  S.~{McKillop}, S.~{Park}, T.~{Perry}, W.~A. {Podgorski}, K.~{Reeves},
+  S.~{Saar}, P.~{Testa}, H.~{Tian}, M.~{Weber}, C.~{Dunn}, S.~{Eccles}, S.~A.
+  {Jaeggli}, C.~C. {Kankelborg}, K.~{Mashburn}, N.~{Pust}, L.~{Springer},
+  R.~{Carvalho}, L.~{Kleint}, J.~{Marmie}, E.~{Mazmanian}, T.~M.~D. {Pereira},
+  S.~{Sawyer}, J.~{Strong}, S.~P. {Worden}, M.~{Carlsson}, V.~H. {Hansteen},
+  J.~{Leenaarts}, M.~{Wiesmann}, J.~{Aloise}, K.-C. {Chu}, R.~I. {Bush}, P.~H.
+  {Scherrer}, P.~{Brekke}, J.~{Martinez-Sykora}, B.~W. {Lites}, S.~W.
+  {McIntosh}, H.~{Uitenbroek}, T.~J. {Okamoto}, M.~A. {Gummin}, G.~{Auker},
+  P.~{Jerram}, P.~{Pool}, and N.~{Waltham}.
+\newblock {The Interface Region Imaging Spectrograph (IRIS)}.
+\newblock \emph{\solphys}, 289:\penalty0 2733--2779, July 2014.
+\newblock \doi{10.1007/s11207-014-0485-y}.
 
 \bibitem[{Donea} and {Lindsey}(2005)]{2005ApJ...630.1168D}
 A.-C. {Donea} and C.~{Lindsey}.
@@ -107,6 +165,20 @@ H.~S. {Hudson}, G.~H. {Fisher}, and B.~T. {Welsch}.
   {Petrie}, editors, \emph{Subsurface and Atmospheric Influences on Solar
   Activity}, volume 383 of \emph{Astronomical Society of the Pacific Conference
   Series}, page 221, 2008.
+
+\bibitem[{Judge} et~al.(2014){Judge}, {Kleint}, {Donea}, {Sainz Dalda}, and
+  {Fletcher}]{2014ApJ...796...85J}
+P.~G. {Judge}, L.~{Kleint}, A.~{Donea}, A.~{Sainz Dalda}, and L.~{Fletcher}.
+\newblock {On the Origin of a Sunquake during the 2014 March 29 X1 Flare}.
+\newblock \emph{\apj}, 796:\penalty0 85, December 2014.
+\newblock \doi{10.1088/0004-637X/796/2/85}.
+
+\bibitem[{Kerr} and {Fletcher}(2014)]{2014ApJ...783...98K}
+G.~S. {Kerr} and L.~{Fletcher}.
+\newblock {Physical Properties of White-light Sources in the 2011 February 15
+  Solar Flare}.
+\newblock \emph{\apj}, 783:\penalty0 98, March 2014.
+\newblock \doi{10.1088/0004-637X/783/2/98}.
 
 \bibitem[{Kopp} and {Pneuman}(1976)]{1976SoPh...50...85K}
 R.~A. {Kopp} and G.~W. {Pneuman}.
