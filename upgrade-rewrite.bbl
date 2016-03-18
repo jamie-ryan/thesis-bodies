@@ -1,4 +1,4 @@
-\begin{thebibliography}{49}
+\begin{thebibliography}{52}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -133,6 +133,13 @@ B.~N. {Dwivedi} and F.~b.~E.~N. {Parker}.
 \newblock \emph{{Dynamic Sun}}.
 \newblock Cambridge University Press, Cambridge, UK, May 2003.
 
+\bibitem[{Emslie} and {Sturrock}(1982)]{1982SoPh...80...99E}
+A.~G. {Emslie} and P.~A. {Sturrock}.
+\newblock {Temperature minimum heating in solar flares by resistive dissipation
+  of Alfven waves}.
+\newblock \emph{\solphys}, 80:\penalty0 99--112, September 1982.
+\newblock \doi{10.1007/BF00153426}.
+
 \bibitem[{Foukal}(2004)]{2004soas.book.....F}
 P.~V. {Foukal}.
 \newblock \emph{{Solar Astrophysics, 2nd, Revised Edition}}.
@@ -179,6 +186,14 @@ G.~S. {Kerr} and L.~{Fletcher}.
   Solar Flare}.
 \newblock \emph{\apj}, 783:\penalty0 98, March 2014.
 \newblock \doi{10.1088/0004-637X/783/2/98}.
+
+\bibitem[{Kleint} et~al.(2016){Kleint}, {Heinzel}, {Judge}, and
+  {Krucker}]{2016ApJ...816...88K}
+L.~{Kleint}, P.~{Heinzel}, P.~{Judge}, and S.~{Krucker}.
+\newblock {Continuum Enhancements in the Ultraviolet, the Visible and the
+  Infrared during the X1 Flare on 2014 March 29}.
+\newblock \emph{\apj}, 816:\penalty0 88, January 2016.
+\newblock \doi{10.3847/0004-637X/816/2/88}.
 
 \bibitem[{Kopp} and {Pneuman}(1976)]{1976SoPh...50...85K}
 R.~A. {Kopp} and G.~W. {Pneuman}.
@@ -292,6 +307,13 @@ S.~A. {Matthews}, L.~{van Driel-Gesztelyi}, H.~S. {Hudson}, and N.~V. {Nitta}.
 \newblock {A catalogue of white-light flares observed by Yohkoh}.
 \newblock \emph{\aap}, 409:\penalty0 1107--1125, October 2003.
 \newblock \doi{10.1051/0004-6361:20031187}.
+
+\bibitem[{Matthews} et~al.(2015){Matthews}, {Harra}, {Zharkov}, and
+  {Green}]{2015ApJ...812...35M}
+S.~A. {Matthews}, L.~K. {Harra}, S.~{Zharkov}, and L.~M. {Green}.
+\newblock {Spectroscopic Signatures Related to a Sunquake}.
+\newblock \emph{\apj}, 812:\penalty0 35, October 2015.
+\newblock \doi{10.1088/0004-637X/812/1/35}.
 
 \bibitem[{Neidig} and {Cliver}(1983)]{1983SoPh...88..275N}
 D.~F. {Neidig} and E.~W. {Cliver}.
