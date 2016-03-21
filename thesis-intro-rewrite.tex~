@@ -249,7 +249,7 @@ During the impulsive phase of a solar flare, high energy nonthermal electrons ar
 
 
 
-\subsubsection{White Light Flares}
+\subsubsection{White Light Flares}\label{wlf}
 In 1859 the first white light flare (WLF) was observed by \cite{1859MNRAS..20...13C}. 
 WLFs occur when energy is transported deep into the dense lower atmosphere causing a continuum enhancement in wavelengths with $\lambda > 3600$ Å \citep{1983SoPh...88..275N}. 
 Once thought as rare, work by \cite{2003A&A...409.1107M} helped to show that WLFs are not only associated with the most energetic of solar flares but many of the smaller events as well. Since that first glimpse, the frequency of observations of WLFs have become common mainly due to ever increasing resolution of solar data. 
