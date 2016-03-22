@@ -20,7 +20,8 @@
 
 %angstrom Å
 
-
+\setcounter{page}{1}
+\pagenumbering{arabic}
 \section{Introduction}
 %Chronological soft intro; use some of the lit review,
 %making sure to emphasize the connection to solar flares;Look at early papers predicting sunquakes(Wolff 70s and Kosovichev and Zharkova);the importance of sunquakes

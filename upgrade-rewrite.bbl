@@ -1,4 +1,4 @@
-\begin{thebibliography}{53}
+\begin{thebibliography}{55}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -139,6 +139,21 @@ A.~G. {Emslie} and P.~A. {Sturrock}.
   of Alfven waves}.
 \newblock \emph{\solphys}, 80:\penalty0 99--112, September 1982.
 \newblock \doi{10.1007/BF00153426}.
+
+\bibitem[{Emslie} et~al.(2000){Emslie}, {Miller}, {Vogt}, {H{\'e}noux}, and
+  {Sahal-Br{\'e}chot}]{2000ApJ...542..513E}
+A.~G. {Emslie}, J.~A. {Miller}, E.~{Vogt}, J.-C. {H{\'e}noux}, and
+  S.~{Sahal-Br{\'e}chot}.
+\newblock {H{$\alpha$} Polarization during a Well-observed Solar Flare: Proton
+  Energetics and Implications for Particle Acceleration Processes}.
+\newblock \emph{\apj}, 542:\penalty0 513--520, October 2000.
+\newblock \doi{10.1086/309511}.
+
+\bibitem[{Fletcher} and {Russell}(2013)]{2013AGUFMSH51A2091F}
+L.~{Fletcher} and A.~J. {Russell}.
+\newblock {Propagation of Alfvenic Waves from corona to chromosphere and
+  consequences for solar flares}.
+\newblock \emph{AGU Fall Meeting Abstracts}, December 2013.
 
 \bibitem[{Foukal}(2004)]{2004soas.book.....F}
 P.~V. {Foukal}.
