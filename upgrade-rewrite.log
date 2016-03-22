@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.4)  22 MAR 2016 16:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.4)  22 MAR 2016 23:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -729,7 +729,7 @@ Package caption Info: End \AtBeginDocument code.
 \MPnumerator=\count132
 \makeMPintoPDFobject=\count133
 \everyMPtoPDFconversion=\toks29
-) <upgrade-title-page.pdf, id=148, 597.50829pt x 845.0471pt>
+) <upgrade-title-page.pdf, id=168, 597.50829pt x 845.0471pt>
 File: upgrade-title-page.pdf Graphic file (type pdf)
 
 <use upgrade-title-page.pdf>
@@ -740,7 +740,7 @@ File: upgrade-title-page.pdf Graphic file (type pdf)
 Package pdftex.def Info: upgrade-title-page.pdf used on input line 51.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
-<upgrade-title-page.pdf, id=151, page=1, 597.50829pt x 845.0471pt>
+<upgrade-title-page.pdf, id=171, page=1, 597.50829pt x 845.0471pt>
 File: upgrade-title-page.pdf Graphic file (type pdf)
 
 <use upgrade-title-page.pdf, page 1>
@@ -776,7 +776,7 @@ pdmap/pdftex.map}>]
 \openout2 = `thesis-intro-rewrite.aux'.
 
  (./thesis-intro-rewrite.tex
-<soho-mdi-quake-96.jpg, id=235, 49.3845pt x 46.37325pt>
+<soho-mdi-quake-96.jpg, id=260, 49.3845pt x 46.37325pt>
 File: soho-mdi-quake-96.jpg Graphic file (type jpg)
 
 <use soho-mdi-quake-96.jpg>
@@ -795,7 +795,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--72
 
  []
 
-<solar-atm-plot.jpg, id=264, 411.5375pt x 293.095pt>
+<solar-atm-plot.jpg, id=289, 411.5375pt x 293.095pt>
 File: solar-atm-plot.jpg Graphic file (type jpg)
  <use solar-atm-plot.jpg>
 Package pdftex.def Info: solar-atm-plot.jpg used on input line 77.
@@ -826,12 +826,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--206
 
  []
 
-[5] <flare.png, id=324, 387.046pt x 356.532pt>
+[5] <flare.png, id=349, 387.046pt x 356.532pt>
 File: flare.png Graphic file (type png)
  <use flare.png>
 Package pdftex.def Info: flare.png used on input line 226.
 (pdftex.def)             Requested size: 211.57147pt x 194.89635pt.
- [6 <./flare.png>] [7] <sunquake-cartoon.png, id=386, 877.679pt x 454.498pt>
+ [6 <./flare.png>] [7] <sunquake-cartoon.png, id=411, 877.679pt x 454.498pt>
 File: sunquake-cartoon.png Graphic file (type png)
 
 <use sunquake-cartoon.png>
@@ -887,71 +887,80 @@ Underfull \hbox (badness 10000) in paragraph at lines 293--294
 
 
 (./results.tex
-<29-Mar-14-HMI-Sunquake-Context-Plot.pdf, id=583, 524.96124pt x 236.885pt>
+<29-Mar-14-HMI-Sunquake-Context-Plot.pdf, id=605, 524.96124pt x 236.885pt>
 File: 29-Mar-14-HMI-Sunquake-Context-Plot.pdf Graphic file (type pdf)
 
 <use 29-Mar-14-HMI-Sunquake-Context-Plot.pdf>
 Package pdftex.def Info: 29-Mar-14-HMI-Sunquake-Context-Plot.pdf used on input 
-line 8.
+line 7.
 (pdftex.def)             Requested size: 423.151pt x 190.95045pt.
+
+<rhessi-energy-curve.png, id=612, 455.5419pt x 593.0958pt>
+File: rhessi-energy-curve.png Graphic file (type png)
+
+<use rhessi-energy-curve.png>
+Package pdftex.def Info: rhessi-energy-curve.png used on input line 23.
+(pdftex.def)             Requested size: 317.36526pt x 413.2004pt.
  [18
 
 
  <./29-Mar-14-HMI-Sunquake-Context-Plot.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
-
- []
-
-<rhessi-energy-curve.png, id=618, 455.5419pt x 593.0958pt>
-File: rhessi-energy-curve.png Graphic file (type png)
-
-<use rhessi-energy-curve.png>
-Package pdftex.def Info: rhessi-energy-curve.png used on input line 51.
-(pdftex.def)             Requested size: 317.36526pt x 413.2004pt.
- [19] [20 <./rhessi-energy-curve.png>]
-<29-Mar-14-Flux-Ladder.pdf, id=642, 632.04932pt x 818.80305pt>
+[19 <./rhessi-energy-curve.png>]
+<29-Mar-14-Flux-Ladder.pdf, id=646, 632.04932pt x 818.80305pt>
 File: 29-Mar-14-Flux-Ladder.pdf Graphic file (type pdf)
 
 <use 29-Mar-14-Flux-Ladder.pdf>
-Package pdftex.def Info: 29-Mar-14-Flux-Ladder.pdf used on input line 66.
+Package pdftex.def Info: 29-Mar-14-Flux-Ladder.pdf used on input line 38.
 (pdftex.def)             Requested size: 317.36526pt x 411.13718pt.
 
-<29-Mar-14-Flux-Ladder-Balm-HMI-Only.pdf, id=645, 449.68pt x 325.215pt>
+<29-Mar-14-Flux-Ladder-Balm-HMI-Only.pdf, id=649, 449.68pt x 325.215pt>
 File: 29-Mar-14-Flux-Ladder-Balm-HMI-Only.pdf Graphic file (type pdf)
 
 <use 29-Mar-14-Flux-Ladder-Balm-HMI-Only.pdf>
 Package pdftex.def Info: 29-Mar-14-Flux-Ladder-Balm-HMI-Only.pdf used on input 
-line 76.
+line 48.
 (pdftex.def)             Requested size: 317.36526pt x 229.53464pt.
- [21 <./29-Mar-14-Flux-Ladder.pdf>] [22 <./29-Mar-14-Flux-Ladder-Balm-HMI-Only.
-pdf>]
-<29-Mar-14-A_sqk-Power-Ladder-Balm-HMI-Only.pdf, id=706, 449.68pt x 325.215pt>
+ [20 <./29-Mar-14-Flux-Ladder.pdf>]) [21 <./29-Mar-14-Flux-Ladder-Balm-HMI-Only
+.pdf>]
+\openout2 = `interpretation-and-discussion.aux'.
+
+
+(./interpretation-and-discussion.tex [22
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+
+ []
+
+
+<29-Mar-14-A_sqk-Power-Ladder-Balm-HMI-Only.pdf, id=747, 449.68pt x 325.215pt>
 File: 29-Mar-14-A_sqk-Power-Ladder-Balm-HMI-Only.pdf Graphic file (type pdf)
 
 <use 29-Mar-14-A_sqk-Power-Ladder-Balm-HMI-Only.pdf>
 Package pdftex.def Info: 29-Mar-14-A_sqk-Power-Ladder-Balm-HMI-Only.pdf used on
- input line 112.
+ input line 79.
 (pdftex.def)             Requested size: 317.36526pt x 229.53464pt.
-
-Overfull \hbox (24.94328pt too wide) in paragraph at lines 123--133
+ [23]
+Overfull \hbox (24.94328pt too wide) in paragraph at lines 103--113
  [][] 
  []
 
-) [23 <./29-Mar-14-A_sqk-Power-Ladder-Balm-HMI-Only.pdf>]
-\openout2 = `interpretation-and-discussion.aux'.
 
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
-(./interpretation-and-discussion.tex
+ []
 
-LaTeX Warning: Reference `' on page 24 undefined on input line 5.
-
-) [24
-
-
-]
+[24 <./29-Mar-14-A_sqk-Power-Ladder-Balm-HMI-Only.pdf>]) [25]
 \openout2 = `conclusions-and-thesis-plan.aux'.
 
- (./conclusions-and-thesis-plan.tex
+
+(./conclusions-and-thesis-plan.tex
 Underfull \hbox (badness 10000) in paragraph at lines 19--22
 
  []
@@ -966,7 +975,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--35
 
  []
 
-) [25
+) [26
 
 
 ]
@@ -978,16 +987,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
  []
 
 
-LaTeX Warning: Reference `new1' on page 26 undefined on input line 78.
+LaTeX Warning: Reference `new1' on page 27 undefined on input line 78.
 
-[26
+[27
 
 
-]) [27] (./upgrade-rewrite.bbl [28
+]) [28] (./upgrade-rewrite.bbl [29
 
-] [29])
+] [30] [31])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 88.
- [30]
+ [32]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 88.
  (./upgrade-rewrite.aux
 (./thesis-intro-rewrite.aux) (./lit-review.aux) (./data-and-methodology.aux)
@@ -996,7 +1005,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 88.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 88.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 88.
 Package rerunfilecheck Info: File `upgrade-rewrite.out' has not changed.
-(rerunfilecheck)             Checksum: 87072070F5FBB9B929301041BAB42F2D;2701.
+(rerunfilecheck)             Checksum: FC479AA6D471C2A1A623BA16FA1B3CAB;3055.
 
 
 LaTeX Warning: There were undefined references.
@@ -1007,13 +1016,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 88.
  ) 
 Here is how much of TeX's memory you used:
- 10625 strings out of 493109
- 159272 string characters out of 6135011
- 282155 words of memory out of 5000000
- 13704 multiletter control sequences out of 15000+600000
+ 10655 strings out of 493109
+ 159790 string characters out of 6135011
+ 282859 words of memory out of 5000000
+ 13721 multiletter control sequences out of 15000+600000
  10312 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,18n,45p,2441b,515s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,18n,45p,2441b,561s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
@@ -1032,10 +1041,10 @@ e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 4/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2014
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2014/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on upgrade-rewrite.pdf (32 pages, 899486 bytes).
+Output written on upgrade-rewrite.pdf (34 pages, 905056 bytes).
 PDF statistics:
- 900 PDF objects out of 1000 (max. 8388607)
- 794 compressed objects within 8 object streams
- 191 named destinations out of 1000 (max. 500000)
- 354 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 965 PDF objects out of 1000 (max. 8388607)
+ 854 compressed objects within 9 object streams
+ 204 named destinations out of 1000 (max. 500000)
+ 394 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -34,14 +34,19 @@
 \contentsline {subsection}{\numberline {2.2}Data Sampling}{17}{subsection.2.2}
 \contentsline {section}{\numberline {3}Results and Discussion}{18}{section.3}
 \contentsline {subsection}{\numberline {3.1}RHESSI Hard X-rays}{18}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Emission Captured By IRIS and HMI}{20}{subsection.3.2}
-\contentsline {section}{\numberline {4}Interpretation and Discussion}{24}{section.4}
-\contentsline {section}{\numberline {5}Conclusions and Thesis Plan}{25}{section.5}
-\contentsline {paragraph}{Conclusions}{25}{section*.20}
-\contentsline {paragraph}{Thesis Plan}{25}{section*.21}
-\contentsline {section}{Appendices}{26}{section*.22}
-\contentsline {section}{\numberline {A}Equations}{26}{appendix.A}
-\contentsline {paragraph}{Maxwell's Equations and Ohm's Law}{26}{section*.23}
-\contentsline {paragraph}{Fluid Dynamics Equations}{26}{section*.24}
-\contentsline {paragraph}{MHD Equations}{26}{section*.25}
-\contentsline {paragraph}{Reduced MHD Equations}{27}{section*.26}
+\contentsline {subsection}{\numberline {3.2}Emission Captured By IRIS and HMI}{19}{subsection.3.2}
+\contentsline {section}{\numberline {4}Interpretation and Discussion}{22}{section.4}
+\contentsline {subsection}{\numberline {4.1}Sunquake Impact Momentum}{22}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Partcle Beam}{22}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Radiative Backwarming}{23}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Discussion}{25}{subsection.4.4}
+\contentsline {section}{\numberline {5}Conclusions and Thesis Plan}{26}{section.5}
+\contentsline {paragraph}{Conclusions}{26}{section*.21}
+\contentsline {paragraph}{Thesis Plan}{26}{section*.22}
+\contentsline {section}{Appendices}{27}{section*.23}
+\contentsline {section}{\numberline {A}Equations}{27}{appendix.A}
+\contentsline {paragraph}{Maxwell's Equations and Ohm's Law}{27}{section*.24}
+\contentsline {paragraph}{Fluid Dynamics Equations}{27}{section*.25}
+\contentsline {paragraph}{MHD Equations}{27}{section*.26}
+\contentsline {paragraph}{Reduced MHD Equations}{28}{section*.27}
+\contentsline {subsection}{\numberline {A.1}Sunquake Power-Momentum Relationship}{28}{subsection.A.1}

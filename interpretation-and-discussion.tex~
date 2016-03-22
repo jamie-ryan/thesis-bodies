@@ -1,6 +1,7 @@
 \section{Interpretation and Discussion}
 %NEW%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-The momentum needed to produce the sunquake is
+\subsection{Sunquake Impact Momentum}
+The momentum needed to produce the sunquake is,
 
 \begin{equation}
 p_{sqk}\sim \rho \; l^{3} \; v
@@ -24,14 +25,12 @@ where acoustic emission flux, $F_{sqk} = $ (see equation \ref{Psqk}).
 
 % equation \ref{sqk-momentum-from-power} produces a sunquake momentum of $p_{sqk} \sim 4.73{\times}10^{22}$ g cm s$^{-1}$.
 
-A range of velocities can be input into equations,\ref{sqk-momentum} and \ref{sqk-momentum-from-power}, allowing the consideration of lower and upper limits of acoustic impact momentum. The momentum values resulting from inputing sunquake wavefront velocity of $v_{sqk} = 8.0{\times}10^{8}$ cm s$^{-1}$ \citep{2014ApJ...796...85J} and the photospheric sound speed into equations \ref{sqk-momentum} and \ref{sqk-momentum-from-power} are shown in Table \ref{sqk-momenta}
-
-
+A range of velocities can be input into equations,\ref{sqk-momentum} and \ref{sqk-momentum-from-power}, allowing the consideration of lower and upper limits of acoustic impact momentum. The momentum values resulting from inputing sunquake wavefront velocity of $v_{sqk} = 8.0{\times}10^{8}$ cm s$^{-1}$ \citep{2014ApJ...796...85J} and the photospheric sound speed into equations \ref{sqk-momentum} and \ref{sqk-momentum-from-power} are shown in Table \ref{sqk-momenta}. Taking upper and lower limits for calculated acoustic source momentum as $4.73{\times}10^{22} \leq p_{sqk} \geq 4.82{\times}10^{25}$ g cm s$^{-1}$, comparisons can be made with particle beam and radiation pressure momenta.\\
 \begin{table}[h]
 %\tiny
 \centering
 \begin{tabular}{|c|c|c|}
-Velocity $v$ [cm s$^{-1}$] & Eqn \ref{sqk-momentum} $p_{sqk}$ [g cm s$^{-1}$] & $ Eqn \ref{sqk-momentum-from-power} $p_{sqk}$ [g cm s$^{-1}$]\\
+Velocity $v$ [cm s$^{-1}$] & Eqn \ref{sqk-momentum} $p_{sqk}$ [g cm s$^{-1}$] & Eqn \ref{sqk-momentum-from-power} $p_{sqk}$ [g cm s$^{-1}$]\\
 \hline
 $8.0{\times}10^{8}$ (sunquake wave speed) & $4.82{\times}10^{25}$ & $3.79{\times}10^{25}$\\
 $1.0{\times}10^{6}$ (photospheric sound speed) & $6.03{\times}10^{22}$ & $4.73{\times}10^{22}$\\
@@ -39,7 +38,6 @@ $1.0{\times}10^{6}$ (photospheric sound speed) & $6.03{\times}10^{22}$ & $4.73{\
 \caption{Acoustic impact momenta, caclulated using by inputting values shown in the 'Velocity' column into equations \ref{sqk-momentum} and \ref{sqk-momentum-from-power}. These values provide an upper and lower limit on sunquake impact momentum.}\label{sqk-momenta}
 \end{table}
 
-Taking upper and lower limits for calculated acoustic source momentum as $4.73{\times}10^{22} \leq p_{sqk} \geq 4.82{\times}10^{25}$ g cm s$^{-1}$, comparisons can be made with particle beam and radiation pressure momenta.
 
 \subsection{Partcle Beam}
 Using the nonthermal power, $P_{e}$ from the RHESSI HXR data fit, detailed in Section \ref{rhessiresults}, the flux input by the nonthermal particle beam can be calculated as,
@@ -65,7 +63,8 @@ Which yields a proton momentum of $p_p \sim 5.79{\times}10^18$ g cm s$^{-1}$, an
 
 Comparing $p_{e}$ and $p_{p}$ with the lower limit of $p_{sqk}$, the electron and proton beam carry $\sim 10^{5}$ and $\sim 10^{4}$ times less momentum than $p_sqk$ respectively. This means that even if an electron or proton beam can make it down to the photosphere, it wouldn't have the necessary momentum to cause the sunquake on it's own. In reality, calculated momenta are idealistic, not treating the effects of energy loss due to energy dissapation. The point being that for a particle beam to make it to the photosphere, it has to traverse 9 pressure scale heights, increasing in density with depth. As density increases particles in the beam are more likely to encounter ambient plasma, and as a result are deccelerated, giving up as energy as emission. So if or when the beam reaches the photosphere, much of it's energy and momentum has already been dissapated in the chromosphere, making the generation of a sunquake via just the particle beam even more unlikely. \\
 
-However, energy deposited into the atmosphere by the particle beam can lead to other sunquake generation mechanisms, such as radiative backwarming and shocks which are described in sections \ref{sunprog}. A recent result from \cite{2016ApJ...816...88K} shows that the intensity of Balmer continuum observed in this event could come from either; 23\% of nonthermal electrons with energy $<20$ keV; or the entire population of nomthermal electrons with energy $<40$ keV. This means that a large portion of energy delivered to the lower atmosphere by the electron beam is dissapated causing various continua and emission lines.
+\subsection{Radiative Backwarming}
+Energy deposited into the atmosphere by the particle beam can lead to other sunquake generation mechanisms, such as radiative backwarming and shocks which are described in sections \ref{sunprog}. A recent result from \cite{2016ApJ...816...88K} shows that the intensity of Balmer continuum observed in this event could come from either; 23\% of nonthermal electrons with energy $<20$ keV; or the entire population of nomthermal electrons with energy $<40$ keV. This means that a large portion of energy delivered to the lower atmosphere by the electron beam is dissapated causing various continua and emission lines. \\
 
 The flux values for Balmer and HMI continuum shown in Figure \ref{fluxladder-balm-hmi-only} can be used to estimate the power of the radiative backwarming. The key being whether the radiative backwarming is powerful enough to generate the white light flare and hence the sunquake. The power profiles shown in Figure \ref{powerladder-balm-hmi-only} are calculated by assuming a homogenous energy distribution in the region surrounding each coordinate, it is then possible to use the relation,
 
@@ -73,7 +72,17 @@ The flux values for Balmer and HMI continuum shown in Figure \ref{fluxladder-bal
 P_{Balm} = F_{Balm} \; A_{sqk}  
 \end{equation}\label{Pbalm}
 
-where $P_{Balm}$ is the power of the Balmer continuum emitted from an area equal to the sunquake, $A_{sqk}$. The same data set and coordinate scheme is followed as in Figure \ref{fluxladder-balm-hmi-only}. The Balmer continuum over the sunquake shows an impulsive power $P_{Balm} = 6{\times}10^{13}$ erg.s$^{-1}$ which is thirteen orders of magnitude smaller than the power of the sunquake $P_{sqk} \sim 1.3\pm0.05{\times}10^{26}$ $erg.s^{-1}$. This means that there is not enough energy per second deposited by radiative backwarming to create the sunquake. The HMI continuum power, $P_{HMI}$, over the sunquake location peaks at $P_{HMI} = 2{\times}10^{14}$ erg.s$^{-1}$cm$^{-2}$, which is twelve orders of magnitude less than the $P_{sqk}$ but ten times greater than the Balmer continuum. One of the biproducts of radiative backwarming are white light flares in the photosphere. Balmer continuum radiated outward to the observer, is supposed to be equal in power to that emitted downward \citep{1989SoPh..124..303M}. In that case the white light flare shown in the HMI continuum in Figure \ref{powerladder-balm-hmi-only} is only provided $10\%$ of its power by radiatve backwarming. So radiative backwarming at first glance may not be causing the observed white light emission. However, another way to investigate the energy deposition in the lower atmosphere is by integrating radiative flux over the impulsive phase of the flare. This provides an upper limit for the total flux injected into the system during the impulsive phase, which can be used to calculate the total emission power. The integrated flux is calculated,
+where $P_{Balm}$ is the power of the Balmer continuum emitted from an area equal to the sunquake, $A_{sqk}$. The same data set and coordinate scheme is followed as in Figure \ref{fluxladder-balm-hmi-only}. The Balmer continuum over the sunquake shows an impulsive power $P_{Balm} = 6{\times}10^{13}$ erg.s$^{-1}$ which is thirteen orders of magnitude smaller than the power of the sunquake $P_{sqk} \sim 1.3\pm0.05{\times}10^{26}$ $erg.s^{-1}$. This means that there is not enough energy per second deposited by radiative backwarming to create the sunquake. The HMI continuum power, $P_{HMI}$, over the sunquake location peaks at $P_{HMI} = 2{\times}10^{14}$ erg.s$^{-1}$cm$^{-2}$, which is twelve orders of magnitude less than the $P_{sqk}$ but ten times greater than the Balmer continuum. One of the biproducts of radiative backwarming are white light flares in the photosphere. Balmer continuum radiated outward to the observer, is supposed to be equal in power to that emitted downward \citep{1989SoPh..124..303M}. In that case the white light flare shown in the HMI continuum in Figure \ref{powerladder-balm-hmi-only} is only provided $10\%$ of its power by radiatve backwarming. So radiative backwarming at first glance may not be causing the observed white light emission.
+
+\begin{figure}[H]
+  \begin{center}
+  \includegraphics[width=0.6\textwidth]{29-Mar-14-A_sqk-Power-Ladder-Balm-HMI-Only}
+  \end{center}
+  \caption{Shows radiative power [erg.s$_{-1}$], which is the result of flux data that has been multiplied by the sunquake impact area. The six lines (see legend) represent areas centered on regions 1 to 6, relating to heliocentric coordinates shown in Table \ref{coordtab}. The solid red line is directly over the sunquake location. The top plot is IRIS SG  2825.7 to 2825.8 Balmer Continuum and the bottom plot is SDO HMI continuum.}\label{powerladder-balm-hmi-only}
+\end{figure}
+
+
+However, another way to investigate the energy deposition in the lower atmosphere is by integrating radiative flux over the impulsive phase of the flare. This provides an upper limit for the total flux injected into the system during the impulsive phase, which can be used to calculate the total emission power. The integrated flux is calculated,
 
 \begin{equation}
 F_{imp} = \int_{0}^{\tau} F(t) \; dt = F(t) \; \tau
@@ -85,42 +94,32 @@ where the duration of the impulsive phase $\tau = $ and $F(t)$ is the emitted fl
 P_{imp}=F_{imp} \; A_{sqk}
 \end{equation}\label{e-imp}
 
-where it is assumed that a homogenous energy distribution exists throughout the sunquake impact area. This produces values for each data set tabulated in Table \ref{eimp}. Balmer and HMI continua are the data sets that show the highest integrated energy levels, with comparable values at each coordinate. The fact that Balmer and HMI continua show such similar energies emitted over the impulsive phase means that radiative backwarming is likely causing the white light flare in the photosphere as described in section \ref{wlf}. The highest energy reading in the HMI continuum is over the sunquake, with a value of $1.42{\times}10^{16}$ erg whereas in the Balmer continuum the highest is coordinate three with $2.52{\times}10^{16}$, both of which are ten orders of magnitude smaller than $P_{sqk}$. Meaning that the radiative backwarming mechanism in this case is not powerful enough to produce the sunquake.    
+where it is assumed that a homogenous energy distribution exists throughout the sunquake impact area. This produces values for each data set tabulated in Table \ref{eimp}. 
 
 
+\begin{table}[h]
+%\tiny
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+Coord Number & Coorinates (x,y) [arcsecs] & $E_{Si IV}$ [erg] & $E_{Mg II}$ [erg] & $E_{Balm}$ [erg] & $E_{Mg II w}$ [erg] & $E_{HMI}$ [erg]\\
+\hline
+1 & 518.22, 262.00 & 6.74E+12 & 1.41E+14 & 5.98E+15 & 4.27E+12 & 1.42E+16\\
+2 & 520.22, 263.00 & 5.65E+12 & 1.35E+14 & 1.71E+16 & 7.14E+12 & 1.10E+15\\
+3 & 522.21, 262.00 & 5.18E+12 & 7.83E+13 & 2.52E+16 & 2.91E+12 & 4.82E+15\\
+4 & 522.21, 265.00 & 3.93E+12 & 8.35E+13 & 9.89E+15 & 6.70E+13 & 1.28E+15\\
+5 & 524.26, 265.00 & 3.98E+12 & 1.03E+14 & 4.37E+15 & 1.86E+13 & 8.99E+14\\
+6 & 526.25, 263.82 & 6.91E+12 & 6.34E+13 & 5.24E+15 & 1.74E+12 & 9.88E+14\\
+\end{tabular}
+\caption{Flux integrated over the flare impulsive phase (17:44 to 17:48) is then multiplied by the sunquake impact area to produce a total deposited energy in erg. The values show are for ribbon sample locations 1 to 6.}\label{eimp}
+\end{table}
 
+Balmer and HMI continua are the data sets that show the highest integrated energy levels, with comparable values at each coordinate. The fact that Balmer and HMI continua show such similar energies emitted over the impulsive phase means that radiative backwarming is likely causing the white light flare in the photosphere as described in section \ref{wlf}. The highest energy reading in the HMI continuum is over the sunquake, with a value of $1.42{\times}10^{16}$ erg whereas in the Balmer continuum the highest is coordinate three with $2.52{\times}10^{16}$, both of which are ten orders of magnitude smaller than $P_{sqk}$. For the sake of rigor in interpreting the radiative backwarming contribution, it can also be measured in terms of radiation momentum, $p_{rad}=\frac{E}{c}$ g cm s$^{-1}$, where $E$ is the emitted energy in erg and $c$ is the speed of light in cm s$^{-1}$. Using the integrated Balmer continuum energy value from Table \ref{eimp}, the radiation pressure is $p_{rad} = 2.0{\times}10^{5}$ g cm s$^{-1}$, which is $10^{17}$ times smaller than $p_{sqk}$. Meaning that the radiative backwarming mechanism in this case is not powerful enough to produce the sunquake. \\ 
 
+\subsection{Discussion}
+From the analysis, it is clear that the sunquake is unlikely to be caused by either a particle baem or radiative backwarming, so what else could be causing the sunquake? \cite{2015ApJ...812...35M} show that there is substantial redshifted spectral lines during the impulsive phase that indicate the possible existence of shocks. Momentum associated with a downward shock is predicted to be ....
 
+Another possibility is sunquake production via a transient Lorentz force caused by the recinfiguring magnetic field. However, \cite{2014ApJ...796...85J} show that the change in magnetic field over the sunquake is not large enough to generate a sufficient Lorentz force capable of producing the sunquake.
 
+A purely theoretical idea could be in the form of MHD waves. Dissapation of Alfven waves \citep{1982SoPh...80...99E} has potential as a possible energy transport mechanism maybe capable of producing a sunquake \citep{2015ApJ...812...35M}. Energy in the form of Alfven waves could potentially propagate downward through the solar atmosphere, along the magnetic field. These waves are said to experience with little in the way of dissapation until reaching the temperature minimum region in the upper-photosphere. At which point Alfven waves are dissapated, heating photospheric plasma and causing white light flares. Observation of these waves is challenging, however there have been reports of associated signatures seen in the corona \citep{2009A&A...501L..15B}. 
 
-
-%RHESSI
-The spatial and temporal alignment of 10 t0 100 keV HXR and emission from lower altitudes (Figure \ref{}) is further backed up by \cite{2016ApJ...816...88K}. They show that peak emission during the flare from various continua are in good alignment in space and time with the 30 to 100 keV HXR source.  
-
-\cite{1998Natur.393..317K} suggest that the stimulation of a sunquake by direct particle beam interaction is caused by an injection of electrons aligned with the acoustic impact location. For this reason, the electron beam in the 29th of March flare is a candidate progenitor of the observed sunquake. 
-
-However, further analysis has shown that the momentum carried the electron beam is insufficient to generate the quake. Furthermore the derived proton beam momentum also falls short, meaning that the sunquake is not generated by particle beam collision.    
-
-
-
-$p_{sqk}$ is at least three orders of magnitude higher than electron and proton beam momenta $p_e$ and $p_p$. This means that direct particle collision is unlikely to be causing the sunquake. 
-
-
-%Balmer continuum enhancement is in angreeance with 1D... models by \cite{}
-
-%HMI shows an enhancement of ... which is similar to values claculated by \cite{}. This means that the novel energy conversion method employed in the data reduction produces a reliable result.
-
-
-
-So what is causing the sunquake?
-
-shocks? 
-\cite{2015ApJ...812...35M} show that there is substantial redshifted spectral lines during the impulsive phase that indicate the possible existence of shocks. 
-
-
-Dissapation of Alfven waves?
-\cite{1982SoPh...80...99E} mentioned by \cite{2015ApJ...812...35M} as a possible energy transport mechanism maybe capable of producing a sunquake.
-
-Lorentz force?
-\cite{2014ApJ...796...85J} show that the Lorentz force is not capable of producing the sunquake  
 

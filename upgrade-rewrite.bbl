@@ -1,4 +1,4 @@
-\begin{thebibliography}{55}
+\begin{thebibliography}{57}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -16,6 +16,14 @@ H.~W. {Babcock} and H.~D. {Babcock}.
 \newblock {The Sun's Magnetic Field, 1952-1954.}
 \newblock \emph{\apj}, 121:\penalty0 349, March 1955.
 \newblock \doi{10.1086/145994}.
+
+\bibitem[{Banerjee} et~al.(2009){Banerjee}, {P{\'e}rez-Su{\'a}rez}, and
+  {Doyle}]{2009A&A...501L..15B}
+D.~{Banerjee}, D.~{P{\'e}rez-Su{\'a}rez}, and J.~G. {Doyle}.
+\newblock {Signatures of Alfv{\'e}n waves in the polar coronal holes as seen by
+  EIS/Hinode}.
+\newblock \emph{\aap}, 501:\penalty0 L15--L18, July 2009.
+\newblock \doi{10.1051/0004-6361/200912242}.
 
 \bibitem[{Boerner} et~al.(2012){Boerner}, {Edwards}, {Lemen}, {Rausch},
   {Schrijver}, {Shine}, {Shing}, {Stern}, {Tarbell}, {Title}, {Wolfson},
@@ -362,6 +370,13 @@ F.~{Roddier}.
   surface}.
 \newblock \emph{Academie des Sciences Paris Comptes Rendus Serie B Sciences
   Physiques}, 281:\penalty0 93--95, July 1975.
+
+\bibitem[{Sharykin} et~al.(2015){Sharykin}, {Kosovichev}, and
+  {Zimovets}]{2015ApJ...807..102S}
+I.~N. {Sharykin}, A.~G. {Kosovichev}, and I.~V. {Zimovets}.
+\newblock {Energy Release and Initiation of a Sunquake in a C-class Flare}.
+\newblock \emph{\apj}, 807:\penalty0 102, July 2015.
+\newblock \doi{10.1088/0004-637X/807/1/102}.
 
 \bibitem[{Shibata} and {Magara}(2011)]{2011LRSP....8....6S}
 K.~{Shibata} and T.~{Magara}.
