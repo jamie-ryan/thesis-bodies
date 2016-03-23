@@ -10,7 +10,6 @@ A level-1 auxiliary file: conclusions-and-thesis-plan.aux
 A level-1 auxiliary file: intro-appendix.aux
 The style file: plainnat.bst
 Database file #1: ../Bibliography/Bibliography.bib
-Warning--I didn't find a database entry for ""
 Warning--empty publisher in 2005psci.book.....A
 You've used 57 entries,
             2773 wiz_defined-function locations,
@@ -53,4 +52,4 @@ warning$ -- 1
 while$ -- 218
 width$ -- 0
 write$ -- 831
-(There were 2 warnings)
+(There was 1 warning)
