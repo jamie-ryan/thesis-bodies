@@ -1,4 +1,4 @@
-\begin{thebibliography}{57}
+\begin{thebibliography}{55}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -237,14 +237,6 @@ A.~G. {Kosovichev}.
   spherical Sun}, volume 624 of \emph{ESA Special Publication}, page 134.1,
   October 2006.
 
-\bibitem[{Kosovichev}(2009)]{2009AIPC.1170..547K}
-A.~G. {Kosovichev}.
-\newblock {Solar Oscillations}.
-\newblock In J.~A. {Guzik} and P.~A. {Bradley}, editors, \emph{American
-  Institute of Physics Conference Series}, volume 1170 of \emph{American
-  Institute of Physics Conference Series}, pages 547--559, September 2009.
-\newblock \doi{10.1063/1.3246561}.
-
 \bibitem[{Kosovichev}(2014)]{2014arXiv1402.1249K}
 A.~G. {Kosovichev}.
 \newblock {Sunquakes: helioseismic response to solar flares}.
@@ -358,11 +350,6 @@ E.~{Pedram} and S.~A. {Matthews}.
   Quiet White-Light Flares}.
 \newblock \emph{\solphys}, 277:\penalty0 317--335, April 2012.
 \newblock \doi{10.1007/s11207-011-9922-3}.
-
-\bibitem[{Priest}(1982)]{1982soma.book.....P}
-E.~R. {Priest}.
-\newblock \emph{{Solar magneto-hydrodynamics}}.
-\newblock D.Reidel Publishing Company, Dordrecht, Holland, 1982.
 
 \bibitem[{Roddier}(1975)]{1975CRASB.281...93R}
 F.~{Roddier}.

@@ -1,0 +1,581 @@
+\section{Introduction}
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+During this age of space-born solar astronomy, understanding the highly dynamic environment of the Sun's atmosphere is a study enriched by a wealth of high detail observations. With each newly launched space instrument the spatial resolution of collected data increases, which coupled with those spacecraft that are tailored to capture light of previously unobserved wavelengths, often leads to new phenomena being observed. Eruptive solar flares fall into this category, in that spacecraft have provided observations that challenge the current theoretical view that the standard eruptive flare model (CSHKP model: \citep{1964NASSP..50..451C, 1966Natur.211..695S, 1974SoPh...34..323H, 1976SoPh...50...85K} puts forward.
+
+Solar flares are one of the most energetic events to occur in the Sun's atmosphere, where by stored magnetic energy is released in the form of heat, mass motions, and accelerated particles. This highly dynamic process produces many measurable emission signatures at wavelengths from $\gamma$-rays to radio waves. Many of these observed signatures agree with the CSHKP model, however, this is not the full picture. The standard flare model has been modified to include new observations many times over the years (e.g., \cite{2011LRSP....8....6S}) and is still unable to describe some observed phenomena. 
+
+Sunquakes are an observable feature (shown in Figure \ref{mdiquake96}) during some solar flares that the standard model is unable to explain. It is believed that they are the result of energy and momentum released during the flare impacting the lower solar atmosphere. If a sufficient amount of momentum is imparted on the lowest atmospheric layer, then acoustic waves or 'sunquakes' are produced. The challenges presented in studying this phenomena are mainly associated with the ambiguous nature of the mechanism by which sunquakes are generated. Many ideas for the sunquakes progenitors have been put forward but at this point in time observable signatures do not always show a clear cut evidence aligning with current theories. Therefore this is an exciting time to be investigating the formation mechanisms of sunquakes and could also contribute to our overall understanding of solar flares. 
+
+This work is focused on the determination of the sunquake generation mechanism for the X-class solar flare on the 29th of March 2014. The main emphasis being on whether two of the proposed sunquake progenitors (see section \ref{sunprog}), namely direct particle beam collision and radiative backwarming, leave an energy deposition signature comparable in magnitude to the acoustic impact power at the epicentre of the seismic disturbance.      
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%END OF SOFT INTRO%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\subsection{Eruptive Solar Flares}\label{flares}
+
+Solar flares are the explosive conversion of magnetic energy into mass motions, radiation, electric currents and MHD waves. These events are the most energetic of solar phenomena and can be observed throughout the entire solar atmosphere, with some of the larger flares releasing up to $10^{37}$ erg of energy. Flares are classified by the the Geostationary Operational Environmental Satellite (GOES) see Table \ref{goes}, in this stem, the logarithmic measure of 1 to 8 \AA\ X-ray flux produced by the flare determines it's classification. The GOES system classes flares from X to A-class, in order of high to low flux, so an X-class flare event would be more powerful than an M-class and so on. \\
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|}\label{GOES}
+Classification & Peak Flux Range at 1 to 8 \AA\ ($W.m^{-2}$) \\
+\hline
+X & $10^{-3}$ - $10^{-4}$\\
+M & $10^{-4}$ - $10^{-5}$\\
+C & $10^{-5}$ - $10^{-6}$\\
+B3 & $10^{-6}$ - $10^{-7}$\\
+A & $<10^{-7}$\\
+\end{tabular}
+\caption{shows the GOES flare classification, which is based on the order of magnitude of hard x-ray flux. X class flares produce a flux of $10^{-3}$ - $10^{-4}$ $W.m^{-2}$ and are the most powerful, whilst a weak A class flare can produce less than $10^{-7}$ $W.m^{-2}$.}\label{goes}
+\end{table}
+
+\subsubsection{Standard Eruptive Flare Model}
+The standard solar flare theory, also known as the CSHKP model, is the culmination of research by many authors,\citep{1964NASSP..50..451C, 1966Natur.211..695S, 1974SoPh...34..323H, 1976SoPh...50...85K}, describing the formation and evolution of two-ribbon flares. 
+
+\begin{figure}[H]
+  \begin{center}
+  \includegraphics[width=0.40\textwidth]{flare}
+  \caption{cartoon of the standard 2D solar flare model. Image courtesy of \href{http://ase.tufts.edu/cosmos/print_images.asp?id=47}{www.tufts.edu}}\label{flare-cartoon}
+\end{center}
+\end{figure}
+ 
+
+In this model, a flux tube tethered to the photosphere, has expanded into the corona forming a loop. These extended magnetic loops can become stressed by processes such as convective motions, differential rotation, flux emergence and sun-interplanetary MR. The stressing of a magnetic field is a method of storing magnetic free energy, which can be released via reconnection which reconfigures the magnetic field to a lower (potential) energy state. In the standard eruptive flare model, magnetic free energy is stored high up in the corona, built up by a filament rising through the atmosphere. A filament is cool dense plasma suspended in the corona overlying an active region's polarity inversion line \citep{1955ApJ...121..349B}. It is thought that filaments are suspended up in the corona by magnetic fields in the form of either a sheared arcade or a flux rope which is the focus of the CSHKP model. As the filament (flux rope) rises, it drags the surrounding magnetic loops along with it, which creates a situation where the legs of the loops start to flow inward. As this inward flow causes opposing magnetic legs to get closer to each other, a current sheet develops which stretches along the neutral region. This current sheet eventually becomes thin enough that magnetic reconnection occurs due to a decreased scale-length $l$. This means that conductivity drops and electric currents are suddenly able to dissapate. This causes the time derivative of the magnetic field (induction equation \ref{MHD}) to be dominated by the diffusion term, at which point, magnetic flux will break out of the frozen-in condition and MR can occur. The location where reconnection happens is known as a magnetic null. Considering the 2D case, the magnetic null takes on an 'X' type structure whereby two in-flowing magnetic field lines reconnect to form two out-flowing magnetic field lines. Inflowing magnetic field reconnects in the diffusion region with a configuration of increased magnetic tension or curvature, which drives post-reconnection outflow of the newly connected field. This process reconfigures the magnetic field from an expanding loop with inflowing legs to outflowing flare loop and filament structure. At the point of reconnection, energy is released in the form of heating, accelerated particles and MHD waves. Heating can reach temperatures of $10^7$ K and accelerated particles travel down flare loops causing emission, shocks and sometimes acoustic disturbances in the solar interior or sunquakes. The appearance of two flare ribbons is caused by reconnection occurring simultaneously across an arcade of magnetic loops. Accelerated particles travel down each loop in the arcade, colliding with the chromosphere as they do, at which point bremstrahlung and H$\alpha$ emission are produced, leading to the appearance of footpoints and ribbons respectively. A cascade of these reconnection events occur as the erupting filament rises through each successive loop making up the overlying non-potential magnetic field. When applied to the entire arcade of loops making up the field this leads to the appearance of flare ribbons moving outward from the polarity inversion line. If a filament is not present, \cite{2005psci.book.....A} describes the build up of magnetic free energy as being caused by the evolution of the associated active region, whereby photospheric plasma motions shear the magnetic field arcade causing reconnection. 
+
+
+\subsubsection{Solar Atmosphere}
+For a sunquake to occur, energy released during a solar flare has to traverse four layers of the solar atmosphere, known as the corona, transition region, chromosphere and photosphere. Each region is very different in terms of plasma density meaning energy and momentum have to navigate multiple pressure scale heights. Pressure scale height, $H$, is a measure of the distance over which pressure drops off by a factor of \emph{e}. For example, in the photosphere, $H\sim150$km, whereas in the corona, $H\sim100$Mm. This means that in the photosphere, pressure and density are changing rapidly, making it increasingly likely that energy deposition via heat conduction, particle collisions and shocks will occur. Figure \ref{solatm} shows how temperature and density in each layer of the solar atmosphere change with height. \\
+
+The photosphere is the region where sunquakes manifest as observable concentric circular waves, eminating from a central impact zone, shown in Figure \ref{mdiquake96}. The lowest in altitude of the atmospheric layers, the photosphere forms a shell around the Sun with a radius somewhere between $\sim10$ - $10^{2}$ km, with an effective temperature of $T\sim5800$K and decreasing in temperature with radial distance to $\sim4400$K at the temperature minimum region, see figure \ref{solatm}. Emission from this part of the atmosphere is predominantly in the visible range. The densest atmospheric layer, plasma pressure in the photosphere is dominant over magnetic pressure such that the plasma-beta, $\beta = p_{gas}/p_{mag} >> 1$. Active regions on the photosphere contain sunspots, which are regions of intense magnetic field playing host to footpoints of loops that can extend out into the corona. A sunspot is an approximately circular feature, made up of two main parts, the dark central umbra which is surrounded by the slightly lighter penumbra. The umbra hosts magnetic field lines that are tightly packed and pointing radially away from the Sun, whereas the penumbral magnetic field is more horizontal with respect to the solar surface. With a field strength of $\sim 10^{-1}$ Tesla, sunspots are regions in the photosphere where the magnetic pressure is dominant over plasma pressure, such that $\beta << 1$. Meaning that in these regions convection currents and radiative transfer are inhibited, with the latter being the idea behind a sunspot's dark appearance. \\
+
+
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[width=0.6\textwidth]{solar-atm-plot}
+\caption{The temperature of the solar atmosphere decreases from values near 6,000 degrees Kelvin at the visible photosphere to a minimum value of roughly 4,400 degrees Kelvin about 500 kilometres higher up. The temperature increases with height, slowly at first, then extremely rapidly in the narrow transition region, less than 100 kilometres thick, between the chromosphere and corona, from about $10^{4}$K to about $10^{6}$K. (Courtesy of Eugene Avrett, Smithsonian Astrophysical Observatory.)}\label{solatm}
+  \end{center}
+\end{figure}
+
+
+The next region of the atmosphere is the chromosphere which is situated above the photosphere. Proposed sunquake generation methods (see section \ref{sunprog}) that involve the flow of momentum through the chromosphere are shocks, radiative backwarming and direct particle collision. These progenitors would have to be able to minimise the dissipative effects of the ever increasing plasma density throughout this region to produce a sunquake. Either that or the transfer of energy happens in such a way that the transport continues downard eventually reaching the photosphere. The chromosphere is a few thousand kilometres (2000 - 3000 km) thick and is optically thin to visible light so is difficult to observe against the brightness of the photosphere. The temperature in this layer increases with height from 4400 K at the temperature minimum region to $\sim10^{5}$K near the transition region. As a result, plasma density decreases and $\beta$ drops, crossing unity near the transition region between the upper-chromosphere and corona. This means that the pressure scale height in this region is changing with altitude as a transition from the plasma to magnetic domain occurs. Up in altitude to the interface between the chromosphere and the corona or transition region. This region is a poorly understood layer of the solar atmosphere. What is known, is that; temperatures climb from $\sim10^{5}$ near the chromsphere to $\sim10^{6}$ K at the corona; this region has variable thickness and maybe even orientation; plasma density falls off sharply. The corona is the outer most layer of the solar atmosphere, extending out into interplanetary space. This part of the atmosphere is threaded with expanded and stressed magnetic loops which are tethered at the photosphere. Stressed coronal loops store vast amounts of energy in the form of electric current, which can be released during a solar flare. At which point, energy and momentum are filtered down into deeper layers of the atmosphere, sometimes reaching all the way down to the photosphere and causing a sunquake. With a temperature ranging from $T\sim10^{6}$ - $10^{7}$ K, this the hottest part of the atmosphere. Plasma density in this region is very low, leading to a plasma pressure which is much lower than the magnetic pressure resulting in $\beta << 1$. This means that plasma motions are dominated by magnetic fields leading to magnetic loops that can expand almost unhindered. Information in this section is taken from text books: \cite{2003dysu.book.....D, 2004soas.book.....F}
+
+
+\subsubsection{Energy Transfer}
+The impulsive phase of a solar flare occurs when energy near the reconnection X-point is transported along the magnetic field into the chromosphere. The two basic methods of energy transport during this phase are thermal and non-thermal. In the thermal case, plasma in the top of a flare loop is heated by MR or shocks. In the non-thermal case, particles are imparted enough energy to no longer be described by the thermal Maxwellian distribution, instead exhibiting nonthermal energies. The energy source for nonthermal particles is thought to be MR. During the impulsive phase of a flare, electrons are accelerated to high energies, down newly reconfigured flare loops. These high energy electrons are fed into the dense plasma of the chromosphere and photosphere where they deposit their energy. The collisional thick target model by \cite{1971SoPh...18..489B} says that almost all of the flare energy is carried by the particle beam, therefore, energy dissipated in the lower atmosphere represents a large portion of the flare energy budget.
+
+\subsubsection{Thick Target Model} Assuming that the chromosphere is a thick target , the deposition of energy by accelerated particles is due to collisions between charged particles and ions producing hard X-ray bremsstrahlung emission \citep{1967SvA....11..258K}. Using the thick target model \citep{1971SoPh...18..489B} one can calculate the power, $P_{e}$, injected into the atmosphere by non-thermal electrons.  
+ 
+\begin{equation}\label{pnth}
+P_{e}(E \geq E_{c}) = \int_{E_{C}}^{\infty} EF(E)dE
+\end{equation}
+
+The electron distribution $F(E)$ is controlled by the power law $AE^{-\delta}$, where $E$ is the electron energy, $A$ is the total injected electron rate normalisation factor, $E_{C}$ is the low energy cut off and $\delta$ is the electron distribution spectral index. The value of $E_{C}$ represents the upper boundary between thermal and non-thermal energy contributions to the x-ray spectrum. This means that the total energy associated with non-thermal electron power is a lower limit. Performing the integral in equation \ref{pnth} gives the total non-thermal electron power in the form of equation \ref{pnth1}.
+
+\begin{equation}\label{pnth1}
+P(E \geq E_{c}) = \frac{AE_{C}^{(2-\delta)}}{(\delta - 2)}
+\end{equation}
+
+\subsubsection{Hydrodynamic Response}
+During the impulsive phase of a solar flare, high energy nonthermal electrons are accelerated into the chromosphere. These particles transfer energy to the ambient chromospheric plasma in the form of heat. A consequence of this is the production of a hydrodynamic response in the from of coronal upflows and chromospheric downflows. The upflow is hot chromospheric plasma responding to an increase in temperature by expanding up into the flare loop coined as \emph{chromospheric evaporation}. Coronal upflows emit in soft x-rays. The downflow or \emph{chromospheric condensation} is formed when a steep temperature jump propagating into the chromosphere forms a downward moving shock front. The shock front contains dense, cool plasma which emits H$\alpha$ \citep{1981SoPh...73..269L, 1990ApJ...348..333C, 2015SoPh..tmp...61K}. 
+
+
+
+\subsubsection{White Light Flares}\label{wlf}
+In 1859 the first white light flare (WLF) was observed by \cite{1859MNRAS..20...13C}. 
+WLFs occur when energy is transported deep into the dense lower atmosphere causing a continuum enhancement in wavelengths with $\lambda > 3600$ Å \citep{1983SoPh...88..275N}. 
+Once thought as rare, work by \cite{2003A&A...409.1107M} helped to show that WLFs are not only associated with the most energetic of solar flares but many of the smaller events as well. Since that first glimpse, the frequency of observations of WLFs have become common mainly due to ever increasing resolution of solar data. 
+
+
+Theories that have been put forward to explain WLFs credit Balmer and Paschen continuum emission from free-bound transitions in hydrogen or H$^{-}$ processes \citep{1976GAM.....8.....S}. In fact the emission process producing the white light enhancement dictates where in the atmosphere the emission is coming from. If the WLF is due to hydrogen free-bound emission, this is caused by a temperature increase of $\sim10^{4}$ K in a plasma with a hydrogen number density of $n_{H}>10^{14}$ cm$^{-3}$ meaning WL must be coming from deep in the chromosphere. These conditions produce the opacity required to outshine the background photosphere emission. Whereas, if the WLF is due to H$^{-}$ processes the emission is coming from the photosphere where a modest temperature increase of $\sim10^{2}$ K and a hydrogen number density of $n_{H}>10^{16}$ cm$^{-3}$ are sufficient to satisfy opacity requirements. It is also possible that both WLF flare processes can occur simultaneously, so called radiative backwarming. Balmer/Paschen continua photons emitted in the chromosphere  irradiate the photosphere and are absorbed by H$^{-}$ ions which release emission causing the $10^{2}$ K temperature increase in the upper photosphere \citep{1989SoPh..124..303M}. It is also thought that it is possible to produce WLFs by heating of the upper photosphere by energetic electron beam \citep{1972SoPh...24..414H} and proton beam \citep{1978SoPh...58..363M}.  
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%55
+\subsection{Sunquakes}
+A sunquake occurs when acoustic waves propagate into sub-surface layers of the Sun (see Figure \ref{sunquake-cartoon}a). As acoustic wave-fronts travel into the interior they encounter layers of increasing density causing refraction back toward the solar surface (see Figure \ref{sunquake-cartoon}b). At which point, waves can be observed as circular formations in the surface plasma, expanding outward from a point of origin (see Figure \ref{mdiquake96}) \citep{2014arXiv1402.1249K}. Expansion of sunquake ripples accelerates as the source of leading edge of the circular wave is coming from increasingly deep layers inside the Sun. This effect is caused by the increase in density with internal depth, which leads to a rise in sound speed \citep{1998Natur.393..317K}. It is not unreasonable to suspect that all solar flares produce some level of seismic signature but due to sunquake waves being hard to spot against photospheric background noise, only those with sufficient amplitude are detected. Sunquake morphology can sometimes be anisotropic in that some regions in a wavefront may have a variety of amplitudes, an attribute that is credited to sub-surface deviations in refraction. The anisotropy also extends to the formation of sunquake wavefronts that are not perfectly circular which is thought to happen as a result of moving impact sites \citep{2006ESASP.624E.134K}. 
+
+
+\begin{figure}[h]%\label{sunquake-cartoon}
+  \begin{center}
+  \includegraphics[width=0.99\textwidth]{sunquake-cartoon}
+  \caption{Sunquake cartoon: a) Shows how energy and momentum must traverse through the solar atmosphere before impacting the photosphere to generate a sunquake. b) Shows acoustic wave-fronts propagating into the interior of the Sun. Wave-fronts refract back toward the surface as they encounter increasingly dense sub-surface layers. Waves reaching the surface disturb material in a pattern resembling ripples in a pond. Courtesy of \cite{2014arXiv1402.1249K}}\label{sunquake-cartoon}
+\end{center}
+\end{figure}
+
+
+\subsubsection{Sunquake Generation}\label{sunprog}
+%list and explain current theories of sunquake generation
+%making sure to highlight the different observables that can identify each mechanism, eg wlf = evidence of radiative backwarming
+
+
+The progenitors of sunquakes are still unknown and as a result this is an exciting area of research with discoveries still to be made. The general consensus, in terms of valid mechanisms that could cause this phenomenon is an area of contention, however the following progenitors are thought to be at least partly responsible. Each mechanism is associated with different observable signatures of which each observed sunquake may have some, none or many. This means that a rigid description of the transport of flare energy and momentum to the sub-photosphere is probably unlikely. Instead each candidate progenitor may play a bit part in the process, and there very well maybe mechanisms yet undiscovered. \\
+
+\begin{itemize}
+\item \textbf{Radiative backwarming} as a mechanism for producing sunquakes, was first put forward by \cite{2005ApJ...630.1168D} to account for a spatial correlation between seismic sources and white light emission from the lower atmosphere. During a solar flare, high energy electrons and photons impulsively heat the chromosphere and photosphere leading to an enhancement in white light emission \citep{1989SoPh..124..303M}. This WL enhancement can be generated by either; Balmer continuum generated by hydrogen bound-free emission in the upper-chromosphere, which irradiates the photosphere increasing local plasma temperature; $H^{-}$ emission at deeper altitudes, near the temperature minimum region. In both cases, an impulsive increase in radiation pressure and gas pressure exerted on the photosphere could generate acoustic waves which propagate into the sub-photosphere. Therefore a clear radiative energy contribution from Balmer continuum and general white light emission are considered signatures of radiative backwarming. For backwarming to be responsible for the sunquake, a comparable radiative energy budget in a Balmer or white-light signature would be required.\\
+
+\item \textbf{Sudden magnetic field reconfiguration} was first detailed by \cite{2008ASPC..383..221H}. Solar flares are violent physical processes dictated by the interplay between reconnecting magnetic fields and charged solar plasma.
+If the magnetic field close to the photosphere relaxes to a more horizontal alignment it can impart a Lorentz force on the local plasma environment, resulting in the production of acoustic waves in the sub-photosphere. The key parameter for this mechanism seems to be that the field has to reconfigure in an sufficiently impulsive manner to generate enough force to induce seismic waves. An observable signature of this progenitor would be impulsive changes in magnetic field strength close to the sunquake. \\
+
+\item \textbf{Shocks} are a mechanism originally proposed in initial work by \cite{1995ESASP.376b.341K} and \cite{1998Natur.393..317K}, whereby a shock wave propagates from the upper-chromosphere down to lower altitudes. During a solar flare, particles and heat are directed down toward the chromosphere, at which point chromospheric material reacts by increasing in temperature. This increased temperature causes explosive ablation of chromospheric material both upward and downward. The downward component develops into a shock front carrying energy to the lower atmosphere, which can go on to impact the photosphere generating acoustic waves. If the shock is dissipated at higher altitudes such as the lower chromosphere, heat generated during the deposition process can irradiate the photosphere with high energy photons, causing radiative backwarming \citep{1989SoPh..124..303M}. If the sunquake is caused by a shock then acoustic impacts should occur approximately 100 seconds after the HXR signature associated with the flare impulsive phase, as dictated by the thick target model. Observational signatures of shocks are red or blue shifted wavelengths which can be captured in Dopplergrams or spectroscopic data. \\
+
+\item \textbf{Direct particle collision}, is linked to early work by \cite{1998Natur.393..317K} and observations by \cite{2007ApJ...664..573Z} where the sunquake was spatially aligned with HXR and $\gamma$-ray emission respectively. HXRs are due to the presence of a nonthermal accelerated electron beam giving up collisional energy to the chromosphere. Whereas $\gamma$-rays during a solar flare are an indicator of energetic protons being accelerated along a newly reconfigured magnetic field. Proton beams carry more momentum than electron beams and are able to penetrate through the solar atmosphere to lower altitudes, therefore being more likely to cause a sunquake. If an nonthermal beam of electrons or protons makes it down to the photosphere, it can deposit energy in the form of an acoustic impact which propagates into the subphotoaphere. HXRs and $\gamma$-rays are both observable by the Ramaty High Energy Solar Spectroscopic Imager (RHESSI), see section \ref{rhessi}. \\
+
+\end{itemize}
+%It is also theoretically possible to heat the upper photosphere by resistive dissipation of Alfven waves \citep{1982SoPh...80...99E}
+
+
+\subsubsection{Local Helioseismology}
+%use content from old report...maybe expand a little
+Helioseismology is a tool for probing the interior of the Sun. Most techniques in this field of analysis rely on observations of gravity and acoustic waves on the photosphere that are the result of interior excitation. Studying the frequency and modes of these oscillations has revealed much about the internal structure of the Sun. Local helioseismology is a collection of techniques developed for global helioseismology that have been modified for use in studying local regions in higher spatial resolution. The following section provides an introduction to some of these techniques.
+
+
+\paragraph{Helioseismic Holography}\label{helioholog}
+\cite{1999ApJ...513L.143D} pioneered the use of helioseismic holography to produce seismic images of the solar flare of July 1996 reported to have a sunquake by Kosovichev and Zharkova. Time series egression-power maps at 3.5 and 6 mHz were computed with a 2 mHz bandwidth. It was found that the most powerful acoustic power frequency associated with the flare is centred at 3.5 mHz but has a large amount of noise. However, the 6 mHz range has a much lower ambient noise, therefore producing a better rendering of the seismicity of the flare. It is now standard practice to use the 6 mHz range for helioseismic holographic calculations of egression-power. \\
+Originally the idea of analysing Doppler images of the solar surface in order to observe acoustic sources was put forward by \cite{1975CRASB.281...93R}. Helioseismic holography was developed further in concept by Lindsey and Braun \citep{1990SoPh..126..101L, 1992ApJ...392..739B, 1997ApJ...485..895L} in an effort to to image the solar interior and far-side of the Sun. This technique involves using a Doppler image of a location on the solar surface as a reference wave-field to enable an estimation of that wave-field at a location in the solar interior at a time preceding or proceeding the image. This is achieved by calculating the ingression or egression of the wave-field by assuming that it's evolution is a, convergence to, or divergence from, the point of origin of that wave-field. The technique uses Green's function (eqn \ref{green}, where $\vec{r}$ and $t$ are position and time of an observed signal and $\vec{r}'$ and $t$' are the position and time of the signal earlier in time) which assumes that the acoustic wave propagates from a point source, allowing a signal $\psi(\vec{r},t)$ observed on the surface to be devolved backwards in time.
+
+\begin{equation}\label{green}
+G_{+}(|\vec{r}-\vec{r}'|,t-t')
+\end{equation}
+
+Where $a$ and $b$ constrain the holographic pupil, equation \ref{holog} is then used to devolve the surface signal to calculate the position of subsurface acoustic sources.
+
+\begin{equation}\label{holog}
+H_{+}(\vec{r},z,t)= \int dt'  \int_{a<|\vec{r}-\vec{r}'|<b} d^{2}\vec{r}'G_{+}(|\vec{r}-\vec{r}'|,t-t')\psi(\vec{r}',t')
+\end{equation}
+
+Equation \ref{eggpower} is then used to calculate the egression power associated with the acoustic sources at a time $t$.
+
+\begin{equation}\label{eggpower}
+P(z,\vec{r})=\int dt|H_{+}(\vec{r},z,t)|^{2}dt
+\end{equation}
+
+If egression power is required in terms of frequency then equation \ref{eggpower} can be Fourier transformed into frequency space.
+
+
+\paragraph{Time-Distance}\label{TD}
+The first observation of a sunquake \citep{1998Natur.393..317K} used the time-distance technique to track sunquake wavefronts. The paper by \cite{1993Natur.362..430D} explains how to extract time-distance (TD) information from observations of intensity fluctuations on the solar surface. This technique uses travel times of waves between two locations on the solar surface. The method assumes that the travel time of a wave propagating in the interior of the Sun will be modified by any anomalies that it has to travel through, thus the resulting signal will contain the signatures of those irregularities. For instance, if the wave encounters a flow along it's path of travel, it will propagate faster with the flow than against it, affecting travel time.
+This technique remaps Dopplergrams into polar coordinates, with the point of origin centred on the area of downflowing material during the flare. This remapped image is then Fourier transformed with respect to azimuthal angle, with the resulting image highlighting circular disturbances as a line of positive slope.
+
+\subsubsection{Sunquake Literature Review}
+The idea that solar flares can cause acoustic waves inside the Sun was originally put forward by \citep{1972ApJ...176..833W}. Wolff made the connection that a large solar flare releasing enough energy to heat the photosphere, would generate expansion of photospheric material, which could lead to an impulsive stimulation of oscillations in the Sun's interior. Wolff also commented that it would be difficult to observe interior oscillations with current (in the 1970s) solar velocity measurement techniques.
+
+A little over twenty years later and Wolff's idea was built upon by \cite{1995ESASP.376b.341K}, who showed theoretically that acoustic waves in the solar interior could be generated by a large solar flare, and that they may be detectable. A year later and the first detection of a sunquake was made by \cite{1998Natur.393..317K} during an X class solar flare on July the 9th 1996. Their observational data came from the Solar and Heliospheric Observatory (SOHO) via the Michelson Doppler Imager (MDI) which images the movement of photospheric material by analysing shifts in wavelength of the emitted light. They observed a prominent impulsive downward signature in the Dopplergrams directly over a compact point source which subsequently emanates a set of concentric acoustic waves (see Figure \ref{mdiquake96}). The timing of maximum downward velocity of material derived from the Dopplergrams was out of sync with peak hard x-ray measurements by around a minute. This time delay, coupled with white-light enhancement in the lower atmosphere led to the conclusion that during the flare, accelerated energetic particles heat the cool dense chromosphere causing a shock front which travels downward, depositing energy in lower atmospheric layers, generating a sunquake.
+
+\begin{figure}[hb]
+  \begin{center}
+  \includegraphics[width=0.80\textwidth]{soho-mdi-quake-96}
+\caption{\cite{1998Natur.393..317K} produced SOHO MDI Dopplergrams of the photosphere from the 1996 July 9th, X class solar flare showing the sunquake expanding outward from it's seismic epicentre to a radial distance of $1.2\times10^{8}$ metres. Wave-fronts accelerate from a velocity of 30km/s to 100km/s}\label{mdiquake96}
+\end{center}
+\end{figure}
+
+The first sunquake observation opened up a whole new area of solar physics, leading to subsequent detections associated other flares. The majority of observations show that sunquakes are often the product of highly impulsive flares, with the acoustic source aligning spatially with white light enhancement in the lower solar atmosphere and hard x-ray emission in the upper-atmosphere \citep{2005ApJ...630.1168D, 2007ApJ...664..573Z}. \cite{2005ApJ...630.1168D} went on to calculate the energy needed to stimulate the propagation of an acoustic wave in the sub-photosphere, finding that only $\sim10^{-3}$ of the energy released by a flare is enough to generate a sunquake. This was an important calculation because it forced the solar community to consider that it might be possible for low energy flares to produce sunquakes, leading to subsequent work by \cite{2008SoPh..251..613M} looking at seismicity of M-class flares.
+
+A paper by \cite{2000ApJ...531L..75H} put forward for the first time, that sunquake production may depend on the changing configuration of the local magnetic field. This idea was further reinforced by \cite{2001ApJ...550L.105K} reporting observations of impulsive changes in magnetic field strength at the photosphere during a solar flare. These magnetic transients were shown to approximately correlate in time and space with hard x-rays, impulsive increases in plasma velocity and increased emission. This line of study was continued \citep{2009MNRAS.395L..39M}, investigating the magnetic field variation of the photosphere in many flares. The study found that some flares with seismicity do not have a spatial and temporal correlation between sunquakes and magnetic transients. Some flares have magnetic transients and no seismicity, and some flares have a good co-spatial alignment of acoustic activity and magnetic variability. It was noted that the impulsiveness of the magnetic field variation could be important as to whether a sunquake is generated.
+
+Some of the most intriguing of sunquake observations are those that do not abide by the usual set of observable features, in that they are not necessarily associated with hard x-rays and excess white-light emission. For example, a statistical survey carried out by \cite{2012SoPh..277..317P}, highlighted a flare containing three footpoints with a seismic source that was co-temporal but not co-spatial with it's closest HXR footpoint; and another source which was co-spatial and co-temporal with its nearest HXR footpoint. This showed that a sunquake does not necessarily correlate with locations of peak emission. Another example by \cite{2011ApJ...741L..35Z} reports an observation of two seismic sources associated with footpoints of an erupting flux rope. During the eruption, the magnetic field above each seismic source undergoes an abrupt permanent reconfiguration. The authors cite the possibility that there exists particle beams low enough in population that HXR emission is undetectable. Further papers investigating the same event \citep{2013SoPh..284..315Z} show that there are downward motions of material above the seismic sources and that energy provided by magnetic transients may not be able to account for the acoustic power generated. These observational oddities prove that mechanisms that generate sunquakes are not well understood and there is much research to be done to classify the different progenitors.
+
+\section{Data and Methodology}
+%THIS SHOULD DESCRIBE THE SATELLITE DATA AND THE TECHNIQUES USED TO PROCESS AND ANALYSE THESES DATA.
+\subsection{Observations and Data Reduction}
+Using data collected by spacecraft observing the Sun, energy released during solar flares can be tracked as it is deposited throughout the atmosphere. The X1 flare of the 29th of March 2014 in active region NOAA 12017, was well observed by RHESSI, IRIS and SDO/HMI, collecting HXR, UV and optical emission respectively. The peak of the impulsive phase of the flare occurs at 17:47 UT, at which point all mentioned instruments provide good coverage. The associated sunquake impact is calculated to have area $A_{sqk} \sim 2.6{\times}10^{16}$ $cm^{2}$ and power, $P_{sqk} \sim 1.3\pm0.05{\times}10^{26}$ $erg.s^{-1}$ \citep{2014ApJ...796...85J}.
+
+\subsubsection{The Ramaty High Energy Solar Spectroscopic Imager}\label{rhessi}
+%insert RHESSI background info
+The Ramaty High Energy Solar Spectroscopic Imager (RHESSI) observes solar emission ranging from 1 keV X-rays to 20 MeV $\gamma$-rays produced by energetic particles and nuclear interactions. RHESSI was designed with the aim of understanding impulsive energy release, particle acceleration and transportation in the magnetohydrodynamic environment of the solar atmosphere. Isolating the 10 - 100 keV energy data collected by RHESSI can provide information regarding the intensity and spatial origin of a HXR source. This allows the location of magnetic HXR footpoints to be tracked and the calculation of energy depostion by accelerated electrons. 
+  
+Applying a thick target model fit to RHESSI data is acheived by using the \texttt{ospex} software within SolarSoft (SSWIDL). The entire data set has to be split into short intervals to improve the temporal resolution of fitting, hence increasing the detail seen in the time evolution of the signal. The attenuator state of the instrument has to be taken into account due to differences in sensitivity to incoming photons. Therefore it is important to define intervals for fitting first by the attenuator state as otherwise, \texttt{ospex} will not mitigate for the differences in count sensitivity. Then each attenuator time period can be split further in to smaller time increments. The chi-squared $\kappa^{2}$ of the fit is ....
+
+\subsubsection{The Interface Region Imaging Spectrograph}
+Observing UV ribbons requires a different spacecraft. The Interface Region Spectroscopic Imager (IRIS) captures near-ultraviolet (NUV) and far-ultraviolet (FUV) emission and is designed to observe the chromosphere and transition region at various altitudes. Emission is collected by a slit-jaw imager (SJI) and a spectrometer (SG) simultaneously. The spectrograph is sensitive in both FUV and NUV passbands, which expose 3 CCDs to produce spectra in three UV bands, two FUV and one NUV. Table \ref{iris-sg} shows how each passband relates to emission processes occurring from the upper-chromosphere down to the upper-photosphere.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|}
+Band & Wavelength \AA\ & Temperature $\log{T}$ & Region of Atmosphere\\
+\hline
+FUV 1 & $1331.7 - 1358.4$ & $3.7 - 7.0$ & Upper to lower-chromosphere\\
+FUV 2 & $1389.0 - 1407.0$ & $3.7 - 5.2$ & Upper to lower-chromosphere\\
+NUV & $2782.7 - 2851.1$ & $3.7 - 4.2$ & Chromosphere to upper-photosphere\\
+\end{tabular}
+\caption{The IRIS/SG is capable of observing three passbands, which relate to different plasma temperatures.}\label{iris-sg}
+\end{table}
+
+
+The slit-jaw images, are light collected from a reflective area surrounding the slit. The imager is capable of observing four wavelengths relating to emission at different altitudes as shown by Table \ref{iris-sj}.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+SJI Passband & Wavelength \AA\ & FWHM \AA\ & Temperature $\log{T}$ & Region of Atmosphere\\
+\hline
+C II  & $1330$ & $40$ & $3.7 - 7.0$ & Upper-chromosphere\\
+Si IV  & $1400$ & $40$ & $3.7 - 5.2$ & Upper-chromosphere\\
+Mg II h/k & $2796$ & $4$ & $3.7 - 4.2$ & Lower-chromosphere\\
+Mg II wing & $2832$ & $4$ & $3.7 - 3.8$ & Upper-photosphere\\
+\end{tabular}
+\caption{The IRIS/SJ is capable of observing four passbands, which relate to different plasma temperatures.}\label{iris-sj}
+\end{table}
+
+
+The IRIS spacecraft captured the temporal evolution of the flare between 14:09 and 17:54 UT via its slit-jaw imager and spectrograph at solar coordinates 518", 262", with a spatial resolution of 0.1667" per pixel. The slit-jaw imager data provides coverage of a field of view spanning 167" by 174", of passbands that including 1403, 2796 and 2832 \AA\ at 26, 19 and 75 second cadence respectively. The spectrograph slit has a field of view spanning 14" by 174" and is aligned directly over chromospheric flare ribbons, and the sunquake point of origin. For the majority of the observation, the spectrograph slit is exposed for $\sim9$ seconds at 8 slit locations for a total of 72 seconds cadence per raster. However, during the impulsive phase the IRIS SG shortens its exposure time to around 2.4 seconds in order to mitigate against saturation of the CCDs. Wavelengths observed over three channels include FUV1: 1331.7 - 1358.4 \AA, FUV2: 1389.0 - 1407.0 \AA\ and NUV: 2782.7 - 2851.1 \AA, associated with the transition region, chromosphere and the upper-photosphere. Spectral lines include C II, Si IV and Mg II h and k. IRIS SJI data is the standard level 2 data product provided for scientific research, which has been calibrated to negate dark currents, flat-field and spacecraft rotational effects. In order to observe flare ribbons in the photospheric data captured by IRIS SJI MG II wing channel, a running difference filter is applyed. This effectively removes unwanted background features, highlighting the UV ribbons. IRIS SG data is manually corrected for changing exposure times and wavelength shifts caused by the orbital motions of the spacecraft. IRIS SG data is sampled over a wavelength range of 2825.7 and 2825.8\AA\ which represents a sample of Balmer pseudo-continuum. 
+
+The next stage of the processing requires that IRIS SJ and SG data are converted from relative intensity (DN per pixel) to energy (erg) units. This is acheived by using a method provided in the instrument documentation \citep{2014SoPh..289.2733D} which calculates the conversion factors between relative DN.s$^{-1}$ units and absolute erg s$^{-1}$ cm$^{-2}$ sr$^{-1}$ \AA\ $^{-1}$ units via equation \ref{irisradiometriccal}. Where $I_{dn}$ is relative intensity in units of DN per pixel, $C_{d2p}$ is the DN to photon conversion factor provided by \cite{2014SoPh..289.2733D}, $E_{\lambda}$ is the photon energy, $A_{eff}$ is the effective area, $t_{exp}$ is the exposure time, $d_{\lambda}$ is the wavelength dispersion, $\Omega$ is the solid angle and $I_{abs}$ is the intensity in absolute units.
+
+\begin{equation}\label{irisradiometriccal}
+I_{abs} = \frac{{I_{dn}} \; {C_{d2p}} \; {E_{\lambda}}}{{A_{eff}} \; {t_{exp}} \; {d_{\lambda}} \; {\Omega}} [\text{erg s}^{-1}\text{ cm}^{-2}\text{sr}^{-1}\text{ \AA\ }^{-1}]
+\end{equation}
+%    fout = (array*n_pixels*dn2photon*E_photon)/(A_float*texp*pixlambda*w) ;erg/s.cm^2.sr.Å
+
+
+
+\subsubsection{The Solar Dynamics Observatory's Helioseimic and Magnetic Imager}
+Signatures of energy deposition in the lowest regions of atmosphere are captured by Solar Dynamics Observatory's (SDO) Helioseismic Imager (HMI), which is sensitive to the wing of the photospheric absorption line 6173 \AA\, which is essentially optical continuum. SDO/HMI has three main observables, continuum, dopplergrams and magnetic flux density, each of which can provide valuable insight into the physical conditions existing in photospheric plasma. In particular for this project, optical continuum data can provide information about WLFs intensity, which along with Balmer continuum could be linked to radiative backwarming of photospheric material, which is a possible sunquake progenitor. The point of origin and wave-fronts of the sunquake can also be detected using helioseismic data, which can be used to calculate acoustic power of the quake (see section \ref{helioholog}).
+The HMI instrument onboard SDO observes the entire solar photosphere with 4k x 4k CCD and a pixel size relating to 0.505" by 0.505", with each image having a cadence of 45 seconds. The data are calibrated to correct for cosmic-rays, dark currents, flat-field and spacecraft rotational effects. In this project, HMI continuum data is used primarily to observe white light flares, which are difficult to see against the bright photospheric background. To highlight the positions of flare ribbons in the photosphere, it is helpful to filter and remove other features from the data. Silimarly to \cite{2014ApJ...783...98K}, photospheric continuum data captured by HMI is put through a two stage filtering porcedure. First the data has an unsharp filter applied, so that the filtered image, $I_{filt}=I-$ smooth($I$,10), where $I$ is the original image and the function smooth relates to a 10 pixel boxcar smoothing filter, this is to remove small features such as granulation. The technique is not perfect meaning that some granulation is still visible after the unsharp filter. Second, $I_{filt}$ is subjected to a running difference filter to isolate locations that are white-light enhanced. The running difference filter effectively removes static features leaving behind those pixels that are changing over short time-scales. For the purpose of white light flare analysis, the data yield a strong contrast between flare-enhanced and background pixels after being filtered by a $i-2$ running difference. The next stage is to determine which pixels in the difference image are those that are enhanced during the flare. For the best result, white-light enhanced pixels are identified using a combination of visual inspection and thresholding. Attempts at automating the identification process tend to lead to false positives being triggered by noise or granulation features. \\
+HMI Dopplergrams are used in conjunction with holography techniques to produce a 6mHZ acoustic egression power map (supplied via private communication by Sergei Zharkov) revealing the location of the sunquake. 
+
+As with the IRIS data, the next stage of processing is to convert relative intensity into absolute intensity. To perform this conversion for SDO HMI data the basic equation \ref{irisradiometriccal} is used with values tailored for HMI. A combination of sources \citep{2012SoPh..275...41B, 2012SoPh..275..285C} have been used to find the instrument's properties which are used to fulfil a conversion factor. Where $g$ is the instrument gain, $QE$ is the quantum efficiency of the charged couple device and $r_{ap}$ is the instrument aperture radius, $\Upsilon$ is the relative filter assembly transmittance and all other terms are the same as equation \ref{irisradiometriccal}.
+
+
+\begin{equation}\label{hmiradiometriccal}
+I_{abs} = \frac{I_{dn} \; C_{d2p} \; E_{\lambda}}{A_{eff} \; t_{exp} \; d_{\lambda} \; \Omega} 
+        = \frac{I_{dn} \; g \; QE \; E_{\lambda}}{\pi \; r_{ap}^{2} \; \Upsilon \; t_{exp} \; d_{\lambda} \; \Omega} [\text{erg s}^{-1}\text{ cm}^{-2}\text{sr}^{-1}\text{ \AA\ }^{-1}]
+\end{equation}
+
+
+\subsection{Data Sampling}
+For the IRIS SJI, IRIS SG and SDO HMI data sets, multiple sample points have been chosen based on the moment in time when the IRIS SG slit is directly over the southern flare ribbon and sunquake impact location. These coordinates are sampled across all data sets except RHESSI. Figure \ref{hmicontext} shows the sample coordinates, RHESSI HXR and the 6mHz sunquake egression map, plotted over filtered SDO HMI data in an effort to demonstrate the spatial alignment between HXR (particle beam), UV ribbons and sunquake impact. Table \ref{coordtab} shows how each sample number relates to a heliocentric position in arcseconds.
+
+
+\begin{table}[h]
+
+\begin{tabular}{|c|c|}
+\hline
+Sample Number & Heliocentric Position (x,y)\\
+\hline
+1 & 518.219", 262.000"\\
+2 & 520.215", 263.000"\\
+3 & 522.212", 262.000"\\
+4 & 522.212", 265.000"\\
+5 & 524.256", 265.000"\\
+6 & 526.252", 263.818"\\
+\hline
+\end{tabular}
+\caption{Sample number and the corresponding coordinates in heliocentric units (arcsec).}\label{coordtab}
+\end{table}
+
+
+\section{Results and Discussion}
+
+\subsection{RHESSI Hard X-rays}\label{rhessiresults}
+%RHESSI
+\begin{figure}[H]
+  \begin{center}
+  \includegraphics[width=0.9\textwidth]{29-Mar-14-HMI-Sunquake-Context-Plot}
+  \end{center}
+  \caption{The images show SDO HMI continuum data in reverse colour scheme; with the left image displayng yellow contours representing 50 to 100 keV HXR emission at 80, 90, 92, 94, 96 and 98$\%$ of maximum and 6mHz sunquake power in cyan; the right image shows sample coordinates as green crosses with their associated number relating to Table \ref{coordtab}. Each of the IRIS SJ, IRIS SG and SDO HMI data sets are sampled at the exact same coordinates in heliocentric units.}\label{hmicontext}
+\end{figure}
+
+
+To investigate whether a sunquake to be generated by accelerated paticle collision then the incident beam must be aligned over the acoustic impact location \citep{1998IAUS..185..191K}. To investigate this spatial alignment, RHESSI 50 to 100 keV HXR and sunquake egression power contours are plotted on a reverse colour, filtered HMI continuum image shown in figure \ref{hmicontext}. The contours show a reasonable alignment but a more rigorous way to test the spatial and temporal relationship between nonthermal electrons, sunquake and other emission is to analyse lightcurves from the region of interest.   %explain alignment of different faetures and the significance      
+%need to run hmi_context_plot.pro
+
+RHESSI HXR data are taken from central coordinates 518" by 262", sampling the sunquake epicenter. When the data are fit to a nonthermal electron model, a spectrum is produced which can be used to plot the energy curve shown in Figure \ref{erhessi}. The plot shows 10 - 100 keV nonthermal power over time. The impulsive phase of the flare is visible from 17:46, peaking at 17:47, with the plot showing a double peak profile which climbs from $1.0{\times}10^{28}$ to $2.5{\times}10^{29}$ erg. 
+
+
+
+\begin{figure}[H]
+  \begin{center}
+  \textbf{RHESSI 10 - 100 keV Hard Xray Energy Over Time}\par\medskip
+  \includegraphics[width=0.9\textwidth]{rhessi-energy-curve}
+  \end{center}
+  \caption{Shows the energy evolution of hard x-ray emission collected by RHESSI 10 to 100 keV bins over the sunquake region (518", 262"). HXR emission is due to non-thermal electrons, thus energy is calculated by fitting data to the collisional thick target model. The HXRs impulsive phase begins at around 17:46 and peaks at 17:47, showing temporal alignment with IRIS and HMI datasets shown if Figure \ref{fluxladder}}
+\end{figure}\label{erhessi}
+
+
+
+\subsection{Emission Captured By IRIS and HMI}
+%Si IV, Mg II, Balmer, MG II w, HMI
+Shown in Figure \ref{fluxladder} are lightcurves of emission from the lower solar atmosphere, captured by IRIS and SDO HMI. From top to bottom the plot shows data from IRIS SJ Si IV, IRIS SJ Mg II, IRIS SG Balmer Continuum, IRIS SJ Mg II wing and SDO HMI visible continuum sampled from six coordinates in the flare ribbon. Si IV and Mg II IRIS SJ data, show a distinct cutoff which is caused by over saturation of the instrument CCD, meaning flux measurements during the impulsive phase are a lower estimate. Si IV and Mg II lightcurves are unreliable in the lack of data over the impulsive phase, however, all other datasets show a synchronised impulsive peak, with the exception of MG II wing where only coordinates four and five exhibit a siginifcant enhancement. The red solid line in each data set is sampled from the sunquake location. At first glance the sunquake location in the plots does not seem to have any obvious differences other than a slight time delay in peak Balmer continuum emission. The delay appears to be around 45 seconds after the impulsive phase peak at approximately 17:48 which coincides with the sunquake onset time in certain frequencies \citep{2015ApJ...812...35M}. Mg II wing data shows no enhancement over the sunquake location. HMI continuum shows significant enhancement over the sunquake, which is aligned in time with the impulsive phase. 
+
+
+%LADDER PLOTS
+\begin{figure}[H]
+  \begin{center}
+  \includegraphics[width=0.9\textwidth]{29-Mar-14-Flux-Ladder}
+  \end{center}
+  \caption{Shows flux per wavelength from a unit solid angle or intensity. The six lines (see legend) represent areas centered on regions 1 to 6, relating to heliocentric coordinates shown in Table \ref{coordtab}. The solid red line is directly over the sunquake location. Each plot represents an independant data set, in order from top to bottom the sets are; IRIS SJ 1400 \AA\ (Si IV); IRIS SJ 2796 \AA\ (Mg II); IRIS SG  2825.7 to 2825.8 \AA\ (Balmer Continuum); IRIS SJ 2832 \AA\ (Mg II wing); SDO HMI continuum}\label{fluxladder}
+\end{figure}
+
+
+
+
+\begin{figure}[H]
+  \begin{center}
+  \includegraphics[width=0.9\textwidth]{29-Mar-14-Flux-Ladder-Balm-HMI-Only}
+  \end{center}
+  \caption{Shows flux per wavelength from a unit solid angle. The six lines (see legend) represent areas centered on regions 1 to 6, relating to heliocentric coordinates shown in Table \ref{coordtab}. The solid red line is directly over the sunquake location. Each plot represents an independant data set, in order from top to bottom the sets are; IRIS SJ 1400 \AA\ (Si IV); IRIS SJ 2796 \AA\ (Mg II); IRIS SG  2825.7 to 2825.8 \AA\ (Balmer Continuum); IRIS SJ 2832 \AA\ (Mg II wing); SDO HMI continuum}\label{fluxladder-balm-hmi-only}
+\end{figure}
+
+
+
+
+%\begin{figure}[H]
+%  \begin{center}
+%  \includegraphics[width=0.6\textwidth]{29-Mar-14-A_sqk-Power-Ladder}
+%  \end{center}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+%  \caption{Shows radiative power [erg.s$_{-1}$], which is the result of flux data that has been multiplied by the sunquake impact area. The six lines (see legend) represent areas centered on regions 1 to 6, relating to heliocentric coordinates shown in Table \ref{coordtab}. The solid red line is directly over the sunquake location. Each plot represents an independant data set, in order from top to bottom the sets are; IRIS SJ 1400 (Si IV); IRIS SJ 2796 (Mg II); IRIS SG  2825.7 to 2825.8 (Balmer Continuum); IRIS SJ 2832 (Mg II wing); SDO HMI continuum (HMI).}\label{powerladder}
+%\end{figure}
+
+
+
+
+\section{Interpretation and Discussion}
+%NEW%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Sunquake Impact Momentum}
+The momentum needed to produce the sunquake is,
+
+\begin{equation}
+p_{sqk}\sim \rho \; l^{3} \; v
+\end{equation}\label{sqk-momentum} 
+
+where all terms are tailored for photospheric values, hence density $\rho \sim 10^{-8}$g cm$^{-3}$; sound speed $v \sim 10^{6}$ cm.s$^{-1}$ \citep{2015ApJ...807..102S}. The length-scale, $l \sim  1.82{\times}10^{8}$, corresponds to the sunquake impact diameter, 
+
+\begin{equation}
+l = 2\sqrt{\frac{A_{sqk}}{\pi}}
+\end{equation}\label{lengthscale}
+
+%Equation \ref{sqk-momentum} gives the momentum of the acoustic reponse as $p_{sqk} = 6.03{\times}10^{22}$ g cm s$_{-1}$, which when compared to particle beam momenta, $p_e$ and $p_p$, is $10{5}$ and $10^{4}$ times larger respectively. 
+
+An alternative method of calculating the momentum associated with the sunquake is to use the $P_{sqk}$. By further developement of equation \ref{sqk-momentum} shown in the Appendices section \ref{sqk-ptoP-relation}, sunquake momentum becomes,  
+
+\begin{equation}
+p_{sqk} \; \sim \; \frac{P_{sqk} \; \rho \; v \; l }{F_{sqk}}
+\end{equation}\label{sqk-momentum-from-power}
+
+where acoustic emission flux, $F_{sqk} = $ (see equation \ref{Psqk}).
+
+% equation \ref{sqk-momentum-from-power} produces a sunquake momentum of $p_{sqk} \sim 4.73{\times}10^{22}$ g cm s$^{-1}$.
+
+A range of velocities can be input into equations,\ref{sqk-momentum} and \ref{sqk-momentum-from-power}, allowing the consideration of lower and upper limits of acoustic impact momentum. The momentum values resulting from inputing sunquake wavefront velocity of $v_{sqk} = 8.0{\times}10^{8}$ cm s$^{-1}$ \citep{2014ApJ...796...85J} and the photospheric sound speed into equations \ref{sqk-momentum} and \ref{sqk-momentum-from-power} are shown in Table \ref{sqk-momenta}. Taking upper and lower limits for calculated acoustic source momentum as $4.73{\times}10^{22} \leq p_{sqk} \geq 4.82{\times}10^{25}$ g cm s$^{-1}$, comparisons can be made with particle beam and radiation pressure momenta.\\
+\begin{table}[h]
+%\tiny
+\centering
+\begin{tabular}{|c|c|c|}
+Velocity $v$ [cm s$^{-1}$] & Eqn \ref{sqk-momentum} $p_{sqk}$ [g cm s$^{-1}$] & Eqn \ref{sqk-momentum-from-power} $p_{sqk}$ [g cm s$^{-1}$]\\
+\hline
+$8.0{\times}10^{8}$ (sunquake wave speed) & $4.82{\times}10^{25}$ & $3.79{\times}10^{25}$\\
+$1.0{\times}10^{6}$ (photospheric sound speed) & $6.03{\times}10^{22}$ & $4.73{\times}10^{22}$\\
+\end{tabular}
+\caption{Acoustic impact momenta, caclulated using by inputting values shown in the 'Velocity' column into equations \ref{sqk-momentum} and \ref{sqk-momentum-from-power}. These values provide an upper and lower limit on sunquake impact momentum.}\label{sqk-momenta}
+\end{table}
+
+
+\subsection{Partcle Beam}
+Using the nonthermal power, $P_{e}$ from the RHESSI data fit detailed in Section \ref{rhessiresults}, the flux input by the nonthermal particle beam can be calculated as,
+
+\begin{equation}\label{electronflux}
+F_e = \frac{P_{e}}{A_{HXR}}
+\end{equation}
+
+Flux $F_e$ is in units of erg s$^{-1}$ cm$^{-2}$ and the HXR emission area is determined by the $90\%$ HXR contour in Figure \ref{hmicontext}, rendering $A_{HXR} \sim \pi (2"{\times}7.25{\times}10^{7})^{2} = 6.61{\times}10^{16}$ cm$^{2}$. The resulting flux turns out to be $F_e \sim 10^{44}$ erg s$^{-1}$ cm$^{-2}$ which when multiplied by the sunquake area, can provide an upper limit for the nonthermal power available for generating an acoustic disturbance $P_{e}(A_{sqk}) = \frac{F_e}{A_{sqk}}$. So using the available nonthermal energy, $P_e \sim 2.5{\times}10^{29}$ erg.s$^{-1}$ and $A_{sqk} \sim 2.6{\times}10^{16}$ $cm^{2}$. $P_{e}(A_{sqk}) \sim 10^{28}$ erg s$^{-1}$ and when compared with the sunquake power $P_{sqk} \sim 1.3\pm0.05{\times}10^{26}$ $erg.s^{-1}$ the electron beam has 1000 times more energy than the sunquake. Another interesting quantity to investigate is the momentum of the particle beam. Electron momentum can be calculated by 
+
+
+\begin{equation}\label{electron-momentum}
+p_e=\tau \sqrt{2m_e} P_{e}
+\end{equation}
+
+where $m_e$ is electron mass, $\tau$ is the time duration of flare impulsive phase and $P_{e}$ is described by equation \ref{pnth1} \citep{2015ApJ...807..102S}. Substituting values in to equation \ref{electron-momentum} yields an electron momentum of $p_e \sim 1.35{\times}10^{17}$ g cm s$^{-1}$. Assuming the energy in the electron beam is equal to that in a population of accelerated protons \citep{2000ApJ...542..513E}, then calculation of a theoretical proton beam momentum, where $m_p$ is the proton mass, is by the relation,
+
+\begin{equation}\label{proton-momentum}
+p_p \sim p_e \sqrt{\frac{m_p}{m_e}}
+\end{equation}
+
+Which yields a proton momentum of $p_p \sim 5.79{\times}10^18$ g cm s$^{-1}$, an order of magnitude greater than $p_e$. This is because $m_p ~ 2000m_e$ meaning the square root in equation \ref{proton-momentum} renders the result $p_p \sim 44.7p_e$. 
+
+Comparing $p_{e}$ and $p_{p}$ with the lower limit of $p_{sqk}$, the electron and proton beam carry $\sim 10^{5}$ and $\sim 10^{4}$ times less momentum than $p_sqk$ respectively. This means that even if an electron or proton beam can make it down to the photosphere, it wouldn't have the necessary momentum to cause the sunquake on its own. In reality, calculated momenta are idealistic, not treating the effects of energy loss due to energy dissapation. The point being that for a particle beam to make it to the photosphere, it has to traverse 9 pressure scale heights, increasing in density with depth. As density increases particles in the beam are more likely to encounter ambient plasma, and as a result are deccelerated, giving up as energy as emission. So if or when the beam reaches the photosphere, much of its energy and momentum has already been dissapated in the chromosphere, making the generation of a sunquake via just the particle beam even more unlikely. \\
+
+\subsection{Radiative Backwarming}
+Energy deposited into the atmosphere by the particle beam can lead to other sunquake generation mechanisms, such as radiative backwarming and shocks which are described in sections \ref{sunprog}. A recent result from \cite{2016ApJ...816...88K} shows that the intensity of Balmer continuum observed in this event could come from either; 23\% of nonthermal electrons with energy $<20$ keV; or the entire population of nomthermal electrons with energy $<40$ keV. This means that a large portion of energy delivered to the lower atmosphere by the electron beam is dissapated causing various continua and emission lines. \\
+
+The flux values for Balmer and HMI continuum shown in Figure \ref{fluxladder-balm-hmi-only} can be used to estimate the power of the radiative backwarming. The key being whether the radiative backwarming is powerful enough to generate the white light flare and hence the sunquake. The power profiles shown in Figure \ref{powerladder-balm-hmi-only} are calculated by assuming a homogenous energy distribution in the region surrounding each coordinate, it is then possible to use the relation,
+
+\begin{equation}
+P_{Balm} = F_{Balm} \; A_{sqk}  
+\end{equation}\label{Pbalm}
+
+where $P_{Balm}$ is the power of the Balmer continuum emitted from an area equal to the sunquake, $A_{sqk}$. The same data set and coordinate scheme is followed as in Figure \ref{fluxladder-balm-hmi-only}. The Balmer continuum over the sunquake shows an impulsive power $P_{Balm} = 6{\times}10^{13}$ erg.s$^{-1}$ which is thirteen orders of magnitude smaller than the power of the sunquake $P_{sqk} \sim 1.3\pm0.05{\times}10^{26}$ $erg.s^{-1}$. This means that there is not enough energy per second deposited by radiative backwarming to create the sunquake. The HMI continuum power, $P_{HMI}$, over the sunquake location peaks at $P_{HMI} = 2{\times}10^{14}$ erg.s$^{-1}$cm$^{-2}$, which is twelve orders of magnitude less than the $P_{sqk}$ but ten times greater than the Balmer continuum. One of the biproducts of radiative backwarming are white light flares in the photosphere. Balmer continuum radiated outward to the observer, is supposed to be equal in power to that emitted downward \citep{1989SoPh..124..303M}. In that case the white light flare shown in the HMI continuum in Figure \ref{powerladder-balm-hmi-only} is only provided $10\%$ of its power by radiatve backwarming. So radiative backwarming at first glance may not be causing the observed white light emission.
+
+\begin{figure}[H]
+  \begin{center}
+  \includegraphics[width=0.9\textwidth]{29-Mar-14-A_sqk-Power-Ladder-Balm-HMI-Only}
+  \end{center}
+  \caption{Shows radiative power [erg.s$_{-1}$], which is the result of flux data that has been multiplied by the sunquake impact area. The six lines (see legend) represent areas centered on regions 1 to 6, relating to heliocentric coordinates shown in Table \ref{coordtab}. The solid red line is directly over the sunquake location. The top plot is IRIS SG  2825.7 to 2825.8 Balmer Continuum and the bottom plot is SDO HMI continuum.}\label{powerladder-balm-hmi-only}
+\end{figure}
+
+
+However, another way to investigate the energy deposition in the lower atmosphere is by integrating radiative flux over the impulsive phase of the flare. This provides an upper limit for the total flux injected into the system during the impulsive phase, which can be used to calculate the total emission power. The integrated flux is calculated,
+
+\begin{equation}
+F_{imp} = \int_{0}^{\tau} F(t) \; dt = F(t) \; \tau
+\end{equation}\label{f-imp}
+ 
+where the duration of the impulsive phase $\tau = $ and $F(t)$ is the emitted flux at time $t$. The total power emitted during the impulsive phase, $F_{imp}$ is
+
+\begin{equation}
+P_{imp}=F_{imp} \; A_{sqk}
+\end{equation}\label{e-imp}
+
+where it is assumed that a homogenous energy distribution exists throughout the sunquake impact area. This produces values for each data set tabulated in Table \ref{eimp}. 
+
+
+\begin{table}[h]
+%\tiny
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+Coord Number & Coorinates (x,y) [arcsecs] & $E_{Si IV}$ [erg] & $E_{Mg II}$ [erg] & $E_{Balm}$ [erg] & $E_{Mg II w}$ [erg] & $E_{HMI}$ [erg]\\
+\hline
+1 & 518.22, 262.00 & 6.74E+12 & 1.41E+14 & 5.98E+15 & 4.27E+12 & 1.42E+16\\
+2 & 520.22, 263.00 & 5.65E+12 & 1.35E+14 & 1.71E+16 & 7.14E+12 & 1.10E+15\\
+3 & 522.21, 262.00 & 5.18E+12 & 7.83E+13 & 2.52E+16 & 2.91E+12 & 4.82E+15\\
+4 & 522.21, 265.00 & 3.93E+12 & 8.35E+13 & 9.89E+15 & 6.70E+13 & 1.28E+15\\
+5 & 524.26, 265.00 & 3.98E+12 & 1.03E+14 & 4.37E+15 & 1.86E+13 & 8.99E+14\\
+6 & 526.25, 263.82 & 6.91E+12 & 6.34E+13 & 5.24E+15 & 1.74E+12 & 9.88E+14\\
+\end{tabular}
+\caption{Flux integrated over the flare impulsive phase (17:44 to 17:48) is then multiplied by the sunquake impact area to produce a total deposited energy in erg. The values show are for ribbon sample locations 1 to 6.}\label{eimp}
+\end{table}
+
+Balmer and HMI continua are the data sets that show the highest integrated energy levels, with comparable values at each coordinate. The fact that Balmer and HMI continua show such similar energies emitted over the impulsive phase means that radiative backwarming is likely causing the white light flare in the photosphere as described in section \ref{wlf}. The highest energy reading in the HMI continuum is over the sunquake, with a value of $1.42{\times}10^{16}$ erg whereas in the Balmer continuum the highest is coordinate three with $2.52{\times}10^{16}$, both of which are ten orders of magnitude smaller than $P_{sqk}$. For the sake of rigor in interpreting the radiative backwarming contribution, it can also be measured in terms of radiation momentum, $p_{rad}=\frac{E}{c}$ g cm s$^{-1}$, where $E$ is the emitted energy in erg and $c$ is the speed of light in cm s$^{-1}$. Using the integrated Balmer continuum energy value from Table \ref{eimp}, the radiation pressure is $p_{rad} = 2.0{\times}10^{5}$ g cm s$^{-1}$, which is $10^{17}$ times smaller than $p_{sqk}$. Meaning that the radiative backwarming mechanism in this case is not powerful enough to produce the sunquake. \\ 
+
+
+
+\section{Conclusions and Thesis Plan}
+Calculations estimate that the sunquake is generated by an input momentum in the range $4.73{\times}10^{22} \leq p_{sqk} \geq 4.82{\times}10^{25}$ g cm s$^{-1}$. 50 to 100 keV HXR measurements show the impulsive phase of the flare occurs from 17:46 to 17:47. HXR contours and nonthermal power curve show that there is a energetic particle beam directly over the sunquake. When compared to the sunquake power the nonthermal electron beam has 1000 times more energy, which is enough to cause the sunquake. However, further inspection reveals that the electron beam has insufficient by five orders of magnitude in momentum to generate the sunquake. A proton beam is also considered, this is a theoretical upper limit calculation of the momentum carried by such a beam. It turns out that the proton beam is also lacking the momentum to cause the sunquake by four orders of magnitude. For these reasons it is unlikely that a nonthermal particle beam is capable of producing a sunquake in this event. Instead, nonthermal energy is deposited in the lower solar atmosphere giving rise to various emission. The Balmer continuum sampled from the sunquake location emits at a power that is thirteen orders of magnitude smaller than the power of the sunquake. Whilst radiative backwarming radiation momentum calculations yield a result that is seventeen orders of magnitude to small. These calculations performed on the Balmer continuum data show that there is not enough energy or momentum in the radiative backwarming to generate the sunquake. HMI continuum sampled from the sunquake location emits at a power which is lacking by twelve orders of magnitude when compared to that needed to produce the sunquake. Also HMI continuum emits approximately ten times more power than Balmer continuum, meaning it is unlikely that radiative backwarming is causing the white light flare. Energies integrated over the impulsive phase of the flare for Balmer and HMI continua show a similar results. Both being short of energy by ten orders of magnitude, reiterating that radiative backwarming is not generating the sunquake. There must be some other energy source involved in producing the acoustic source. 
+
+From the analysis, it is clear that the sunquake is unlikely to be caused by either a particle baem or radiative backwarming, so what else could be causing the sunquake? \cite{2015ApJ...812...35M} show that there is substantial redshifted spectral lines during the impulsive phase that indicate the possible existence of shocks. Momentum associated with a downward shock is predicted to be .... Another possibility is sunquake production via a transient Lorentz force caused by the recinfiguring magnetic field. However, \cite{2014ApJ...796...85J} show that the change in magnetic field over the sunquake is not large enough to generate a sufficient Lorentz force capable of producing the sunquake. A purely theoretical idea could be in the form of MHD waves. Dissapation of Alfven waves \citep{1982SoPh...80...99E} has potential as a possible energy transport mechanism maybe capable of producing a sunquake \citep{2015ApJ...812...35M}. Energy in the form of Alfven waves could potentially propagate downward through the solar atmosphere, along the magnetic field. These waves are said to experience with little in the way of dissapation until reaching the temperature minimum region in the upper-photosphere. At which point Alfven waves are dissapated, heating photospheric plasma and causing white light flares. Observation of these waves is challenging, however there have been reports of associated signatures seen in the corona \citep{2009A&A...501L..15B}. 
+
+%radiative backwarming conclusions
+\paragraph{Thesis Plan}
+Current Project) Lower Atmospheric Signatures in a Solar Flare Associated with Seismicity\\
+Start: September 2014\\
+Finish: April/May 2016\\
+
+Project 2) Sunquakes; A Statistical Study\\
+Start: April/May 2016\\
+Finish: February 2017\\
+
+The idea for this project is a statistical overview of many sunquake events, by developing new tools and using those developed in the first project energy. Using SDO AIA and HMI, physical properties such as energy, momentum, plasma velocity and magnetic lorentz force will be determined for each event, providing an extensive investigation into the nature of sunquakes. Using a combination of bith AIA and HMI allows the solar atmosphere to be sampled at various temperatures, which will provide information regarding energy transport from the corona to the phtosphere. This project will help to increase our knowledge of energy transport during solar flares and generation mechanisms for sunquakes. The project will also provide the statistics associated with a collection of many events and their properties. 
+
+Project 3) Is Energy Dissipation of Alfven Waves in the Lower Solar Atmosphere Capable of Producing a Sunquake? \\
+Start: April/May 2016\\
+Finish: February 2017\\
+
+The main aim is to search for observational signatures of Alfven waves during solar flares that generate sunquakes. The literature describes dissapation of Alfven waves as producing white light flares \citep{1982SoPh...80...99E, 2013AGUFMSH51A2091F}. Using SDO HMI the energy output of white light flares can be measured. Comparing HMI continuum energy measurements to energy carried by Alfven waves will provide much needed insight into these illusive MHD waves. Results from such a study stands to advance our understanding of the generation of both white light flares and sunquakes.   
+
+\appendix
+\appendixpage
+\addappheadtotoc
+%
+% \begin{figure}%[H]
+%   \begin{center}
+%   \includegraphics[width=0.8\textwidth]{}
+%   \end{center}
+%   \caption{Left panel shows data over the quake location, right panel shows data over the ribbon location. From top to bottom, plots show lightcurves from IRIS Si IV, Mg II, Balmer wavelengths and Mg II wing, with the bottom panel showing the lightcurve from SDO HMI.}\label{lcseries-bold}
+% \end{figure}
+
+%insert figure showing ribbon coords oplot
+%\graphicspath{ {~/PhD/Thesis/upgrade-plots/}}
+
+
+%contains energy time plots for quake and ribbon locations
+%also contains energy tables
+
+
+%\includegraphics[trim=left bottom right top, clip]{file}
+\subsection{Solar Magnetohydrodynamics}\label{MHD}
+In the context of the Sun, and the importance of magnetic fields for processes such as solar flares, MHD builds on the following physical assumptions; a magnetic field can manipulate a plasma by exerting a force on it. Leading to the formation of structure or movement via acceleration; a magnetic field can store the energy required for later release as a solar flare; material wrapped in a magnetic field is thermally protected from it's surroundings; a magnetic field can act as a funnel for plasma and fast particles; and finally, a magnetic field can drive instabilities and support waves \citep{2003dysu.book.....D}.
+ 
+\subsection{Induction Equation and the Magnetic Reynolds Number}
+The induction equation expresses the time derivative of the magnetic field in terms of its diffusion $\eta\nabla^{2}\vec{B}$ and advection $\nabla\times(\vec{v}\times\vec{B})$ in the form, 
+
+
+\begin{equation}\label{induction}
+\frac{\partial \vec{B}}{\partial t}=\nabla\times(\vec{v}\times\vec{B})+\eta\nabla^{2}\vec{B}  
+\end{equation}
+
+where magnetic diffusivity $=\eta =\frac{1}{\mu_{0}\sigma}$. \\
+
+The magnetic Reynolds number, $R_m$, is the ratio of diffusion to advection in a magnetic field. Where $l$, $v$ and $\sigma$ are typical length-scale, velocity and conductivity respectively, $R_m$ can be written,  
+
+\begin{equation}\label{reynolds}
+R_{m} = \frac{l_{0}v_{0}}{\eta} \sim \frac{\nabla\times(\vec{v}\times\vec{B})}{\eta\nabla^{2}\vec{B}}=\mu_{0}\sigma v l
+\end{equation}
+
+This ratio can be used to diagnose which part of the induction equation is dominating the MHD of the system. \\
+
+If $R_m >> 1$ then advection is the major force changing the magnetic field, hence:
+\begin{equation}\label{r>>1}
+\frac{\partial \vec{B}}{\partial t}=\nabla\times(\vec{v}\times\vec{B})
+\end{equation}
+\\
+
+Whereas, if $R_m << 1$ then diffusion is the dominant force acting on the magnetic field, leading to:
+\begin{equation}\label{r<<1}
+\frac{\partial \vec{B}}{\partial t}=\eta\nabla^{2}\vec{B}
+\end{equation}
+
+If diffusion is dominant, the magnetic field $\vec{B}$ will be varying on a length-scale $L_0$, and so will diffuse with velocity \ref{diffvel}, over the time-scale \ref{difftime} \citep{2003dysu.book.....D}.
+
+\begin{equation}\label{diffvel}
+v_d=\frac{L_0}{\tau_d} = \frac{\eta}{L_0}
+\end{equation}
+
+
+\begin{equation}\label{difftime}
+\tau_d = \frac{L_{0}^{2}}{\eta}
+\end{equation}
+
+%check Foukal pg 125 in the pdf
+
+
+%puts .tex file here
+%\include{example}
+\subsection{Plasma Beta}
+The plasma $\beta$ is the ratio of plasma pressure, $p_{plasma}$, and magnetic pressure, $p_{mag}$. A measure of dominance of plasma or magnetic pressure in an MHD system can be expressed as, 
+
+\begin{equation}\label{beta}
+\beta=\frac{p_{plasma}}{p_mag} = \frac{2p_{0}\mu}{B_{0}^2}
+\end{equation}
+
+so if $\beta << 1$ then magnetic pressure is dominant and if $\beta >> 1$ then plasma pressure is dominant. In the context of the solar atmosphere, the magnetic domain of the corona has $\beta << 1$ and the dense plasma domain of the photosphere has $\beta >> 1$.
+
+\subsection{Pressure Scale Height}
+Another useful relationship to use is pressure scale height, where $g$ is acceleration due to gravity and $T_0$ is uniform temperature, pressure scale height, $H=\frac{P_0}{\rho_{0}g} = \frac{\Re T_{0}}{g}$. When combined with pressure, $p$ for a magneto static plasma with uniform temperature, $p=p_{0}\exp^{\frac{-z}{H}}$, where $z$ is altitude, we have a measure of the height, $H$, over which the pressure of a plasma fall off by a factor of $\exp$. 
+
+\subsection{Flux Tubes}
+Magnetic fields are made up of discreet bundles of magnetic flux known as \emph{flux tubes}. A magnetic flux tube can be thought of as cylindrical in geometry and containing magnetic field lines parallel in orientation to the length of the cylinder. The cross-sectional radius of the tube and magnetic field strength are both variant, magnetic flux contained within the tube however, is constant. Where $\vec{B}$ is magnetic field vector and $\vec{dS}$ is a cross-sectional surface element of the tube, flux $F$ follows the relationship.
+
+\begin{equation}\label{fluxtube}       
+F = \int_{S} \vec{B}.\vec{dS}
+\end{equation}
+
+
+
+\subsection{Sunquake Power-Momentum Relationship}\label{sqk-ptoP-relation}
+Equation \ref{sqk-momentum} is derived using the following steps. Where $F_{sqk}$ is the acoustic energy emitted by the sunquake area ($A_{sqk}$) per second, sunquake acoustic power is, 
+\begin{equation}
+P_{sqk} = F_{sqk} \; A_{sqk} = F_{sqk} \; l^2
+\end{equation}\label{Psqk}
+Rearranging equations \ref{sqk-momentum} and \ref{Psqk} for $l^{2}$ yields,
+\begin{equation}
+l^2 = \frac{P_{sqk}}{F_{sqk}} = \frac{p_{sqk}}{\rho \; v \; l} 
+\end{equation}\label{l^2}
+which can then be manipulated into the form shown in equation \ref{sqk-momentum}. 
+
+
+

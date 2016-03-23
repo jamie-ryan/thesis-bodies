@@ -1,50 +1,37 @@
 \select@language {english}
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}
-\contentsline {subsection}{\numberline {1.1}Solar Atmosphere}{1}{subsection.1.1}
-\contentsline {subsubsection}{\numberline {1.1.1}The Photosphere}{1}{subsubsection.1.1.1}
-\contentsline {subsubsection}{\numberline {1.1.2}Chromosphere}{2}{subsubsection.1.1.2}
-\contentsline {subsubsection}{\numberline {1.1.3}Transition Region}{3}{subsubsection.1.1.3}
-\contentsline {subsubsection}{\numberline {1.1.4}Corona}{3}{subsubsection.1.1.4}
-\contentsline {subsection}{\numberline {1.2}Solar Magnetohydrodynamics}{3}{subsection.1.2}
-\contentsline {subsubsection}{\numberline {1.2.1}Flux Tubes}{4}{subsubsection.1.2.1}
-\contentsline {subsubsection}{\numberline {1.2.2}MHD Equations}{4}{subsubsection.1.2.2}
-\contentsline {subsubsection}{\numberline {1.2.3}Induction Equation and the Magnetic Reynolds Number}{4}{subsubsection.1.2.3}
-\contentsline {subsubsection}{\numberline {1.2.4}Plasma Beta}{5}{subsubsection.1.2.4}
-\contentsline {subsubsection}{\numberline {1.2.5}Pressure Scale Height}{5}{subsubsection.1.2.5}
-\contentsline {subsubsection}{\numberline {1.2.6}Magnetic Reconnection}{5}{subsubsection.1.2.6}
-\contentsline {paragraph}{A Basic 2D model of Magnetic Reconnection.}{5}{section*.4}
-\contentsline {subsection}{\numberline {1.3}Eruptive Solar Flares}{6}{subsection.1.3}
-\contentsline {subsubsection}{\numberline {1.3.1}Standard Eruptive Flare Model}{6}{subsubsection.1.3.1}
-\contentsline {subsubsection}{\numberline {1.3.2}Energy Transfer}{7}{subsubsection.1.3.2}
-\contentsline {subsubsection}{\numberline {1.3.3}Thick Target Model}{7}{subsubsection.1.3.3}
-\contentsline {subsubsection}{\numberline {1.3.4}Hydrodynamic Response}{7}{subsubsection.1.3.4}
-\contentsline {subsubsection}{\numberline {1.3.5}White Light Flares}{8}{subsubsection.1.3.5}
-\contentsline {subsection}{\numberline {1.4}Sunquakes}{8}{subsection.1.4}
-\contentsline {subsubsection}{\numberline {1.4.1}Sunquake Generation}{8}{subsubsection.1.4.1}
-\contentsline {subsubsection}{\numberline {1.4.2}Local Helioseismology}{9}{subsubsection.1.4.2}
-\contentsline {paragraph}{Theoretical Helioseismic Response}{10}{section*.8}
-\contentsline {paragraph}{Helioseismic Holography}{10}{section*.9}
-\contentsline {paragraph}{Time-Distance}{11}{section*.10}
-\contentsline {subsubsection}{\numberline {1.4.3}Sunquake Literature Review}{14}{subsubsection.1.4.3}
-\contentsline {section}{\numberline {2}Data and Methodology}{15}{section.2}
-\contentsline {subsection}{\numberline {2.1}Observations and Data Reduction}{15}{subsection.2.1}
-\contentsline {subsubsection}{\numberline {2.1.1}The Ramaty High Energy Solar Spectroscopic Imager}{15}{subsubsection.2.1.1}
-\contentsline {subsubsection}{\numberline {2.1.2}The Interface Region Imaging Spectrograph}{15}{subsubsection.2.1.2}
-\contentsline {subsubsection}{\numberline {2.1.3}The Solar Dynamics Observatory's Helioseimic and Magnetic Imager}{16}{subsubsection.2.1.3}
-\contentsline {subsection}{\numberline {2.2}Data Sampling}{17}{subsection.2.2}
-\contentsline {section}{\numberline {3}Results and Discussion}{18}{section.3}
-\contentsline {subsection}{\numberline {3.1}RHESSI Hard X-rays}{18}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Emission Captured By IRIS and HMI}{19}{subsection.3.2}
-\contentsline {section}{\numberline {4}Interpretation and Discussion}{22}{section.4}
-\contentsline {subsection}{\numberline {4.1}Sunquake Impact Momentum}{22}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Partcle Beam}{22}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Radiative Backwarming}{23}{subsection.4.3}
-\contentsline {section}{\numberline {5}Conclusions and Thesis Plan}{26}{section.5}
-\contentsline {paragraph}{Thesis Plan}{26}{section*.21}
-\contentsline {section}{Appendices}{28}{section*.22}
-\contentsline {section}{\numberline {A}Equations}{28}{appendix.A}
-\contentsline {paragraph}{Maxwell's Equations and Ohm's Law}{28}{section*.23}
-\contentsline {paragraph}{Fluid Dynamics Equations}{28}{section*.24}
-\contentsline {paragraph}{MHD Equations}{28}{section*.25}
-\contentsline {paragraph}{Reduced MHD Equations}{29}{section*.26}
-\contentsline {subsection}{\numberline {A.1}Sunquake Power-Momentum Relationship}{29}{subsection.A.1}
+\contentsline {subsection}{\numberline {1.1}Eruptive Solar Flares}{1}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1}Standard Eruptive Flare Model}{2}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.2}Solar Atmosphere}{3}{subsubsection.1.1.2}
+\contentsline {subsubsection}{\numberline {1.1.3}Energy Transfer}{4}{subsubsection.1.1.3}
+\contentsline {subsubsection}{\numberline {1.1.4}Thick Target Model}{4}{subsubsection.1.1.4}
+\contentsline {subsubsection}{\numberline {1.1.5}Hydrodynamic Response}{5}{subsubsection.1.1.5}
+\contentsline {subsubsection}{\numberline {1.1.6}White Light Flares}{5}{subsubsection.1.1.6}
+\contentsline {subsection}{\numberline {1.2}Sunquakes}{5}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}Sunquake Generation}{6}{subsubsection.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2}Local Helioseismology}{7}{subsubsection.1.2.2}
+\contentsline {paragraph}{Helioseismic Holography}{7}{section*.6}
+\contentsline {paragraph}{Time-Distance}{8}{section*.7}
+\contentsline {subsubsection}{\numberline {1.2.3}Sunquake Literature Review}{8}{subsubsection.1.2.3}
+\contentsline {section}{\numberline {2}Data and Methodology}{11}{section.2}
+\contentsline {subsection}{\numberline {2.1}Observations and Data Reduction}{11}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}The Ramaty High Energy Solar Spectroscopic Imager}{11}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}The Interface Region Imaging Spectrograph}{11}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}The Solar Dynamics Observatory's Helioseimic and Magnetic Imager}{12}{subsubsection.2.1.3}
+\contentsline {subsection}{\numberline {2.2}Data Sampling}{13}{subsection.2.2}
+\contentsline {section}{\numberline {3}Results and Discussion}{14}{section.3}
+\contentsline {subsection}{\numberline {3.1}RHESSI Hard X-rays}{14}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Emission Captured By IRIS and HMI}{16}{subsection.3.2}
+\contentsline {section}{\numberline {4}Interpretation and Discussion}{18}{section.4}
+\contentsline {subsection}{\numberline {4.1}Sunquake Impact Momentum}{18}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Partcle Beam}{18}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Radiative Backwarming}{19}{subsection.4.3}
+\contentsline {section}{\numberline {5}Conclusions and Thesis Plan}{21}{section.5}
+\contentsline {subsection}{\numberline {5.1}Thesis Plan}{22}{subsection.5.1}
+\contentsline {section}{Appendices}{23}{section*.19}
+\contentsline {subsection}{\numberline {.1}Solar Magnetohydrodynamics}{23}{subsection.Alph0.1}
+\contentsline {subsection}{\numberline {.2}Induction Equation and the Magnetic Reynolds Number}{23}{subsection.Alph0.2}
+\contentsline {subsection}{\numberline {.3}Plasma Beta}{23}{subsection.Alph0.3}
+\contentsline {subsection}{\numberline {.4}Pressure Scale Height}{24}{subsection.Alph0.4}
+\contentsline {subsection}{\numberline {.5}Flux Tubes}{24}{subsection.Alph0.5}
+\contentsline {subsection}{\numberline {.6}Sunquake Power-Momentum Relationship}{24}{subsection.Alph0.6}

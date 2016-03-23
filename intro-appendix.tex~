@@ -18,110 +18,79 @@
 
 
 %\includegraphics[trim=left bottom right top, clip]{file}
-\section{Equations}\label{mhdeqns}
-\paragraph{Maxwell's Equations and Ohm's Law}
-Maxwell's equations and Ohm's law describe electromagnetism in terms of magnetic induction $\vec{B}$, magnetic permeability of free space $\mu$, electric field $\vec{E}$, electrical permittivity of free space $\epsilon_{0}$, charge density $\rho_{c}$ and electric current density $\vec{j}$ \\ 
-
-\textbf{Ampère's Law}
-\begin{equation}\label{max1:ampere}
-\nabla\times\vec{B}=\mu_{0}(\vec{j}+\epsilon_{0}\frac{\partial \vec{E}}{\partial t})
-\end{equation}
-
-\textbf{Faraday's Law}
-\begin{equation}\label{max2:faraday}
-\nabla\times\vec{E}=-\frac{\partial \vec{B}}{\partial t}
-\end{equation}
-
-\textbf{Gauss's Law}
-\begin{equation}\label{max3:gauss}
-\nabla\cdot\vec{E}=\frac{\rho_{c}}{\epsilon_{0}}
-\end{equation}
-
-\textbf{No Magnetic Monopoles}
-\begin{equation}\label{max4:nomonopole}
-\nabla\cdot\vec{B}=0
-\end{equation}
-
-with Ohm's law as,
-
-\begin{equation}\label{ohmslaw}
-\vec{j}=\sigma(\vec{E}+\vec{v}\times\vec{B})
-\end{equation}
-
-where $\sigma$ is electrical conductivity. 
-
-\paragraph{Fluid Dynamics Equations}
-The fluid dynamics relations are written in terms of density $\rho$, velocity $\vec{v}$, time $t$, pressure $p$, gas constant $\Re$ and temperature $T$. 
-%$\frac{d}{dt}=\frac{\partial}{\partial t}+ \vec{v}\cdot\nabla$, sometimes reffered to as the material derivative, is a way of stating the rate of change with respect to time of the  
-
-\begin{equation}\label{motion}
-\rho\frac{d\vec{v}}{dt}=-\nabla p
-\end{equation}
+\subsection{Solar Magnetohydrodynamics}\label{MHD}
+In the context of the Sun, and the importance of magnetic fields for processes such as solar flares, MHD builds on the following physical assumptions; a magnetic field can manipulate a plasma by exerting a force on it. Leading to the formation of structure or movement via acceleration; a magnetic field can store the energy required for later release as a solar flare; material wrapped in a magnetic field is thermally protected from it's surroundings; a magnetic field can act as a funnel for plasma and fast particles; and finally, a magnetic field can drive instabilities and support waves \citep{2003dysu.book.....D}.
  
-\begin{equation}\label{masscontinuity}
-\frac{d\rho}{dt}+\rho\nabla\cdot\vec{v}=0
+\subsection{Induction Equation and the Magnetic Reynolds Number}
+The induction equation expresses the time derivative of the magnetic field in terms of its diffusion $\eta\nabla^{2}\vec{B}$ and advection $\nabla\times(\vec{v}\times\vec{B})$ in the form, 
+
+
+\begin{equation}\label{induction}
+\frac{\partial \vec{B}}{\partial t}=\nabla\times(\vec{v}\times\vec{B})+\eta\nabla^{2}\vec{B}  
 \end{equation}
 
-\begin{equation}\label{perfectgaslaw}
-p=\Re\rho T
+where magnetic diffusivity $=\eta =\frac{1}{\mu_{0}\sigma}$. \\
+
+The magnetic Reynolds number, $R_m$, is the ratio of diffusion to advection in a magnetic field. Where $l$, $v$ and $\sigma$ are typical length-scale, velocity and conductivity respectively, $R_m$ can be written,  
+
+\begin{equation}\label{reynolds}
+R_{m} = \frac{l_{0}v_{0}}{\eta} \sim \frac{\nabla\times(\vec{v}\times\vec{B})}{\eta\nabla^{2}\vec{B}}=\mu_{0}\sigma v l
 \end{equation}
 
-Equation \ref{motion} is the eqn. of motion describing how the forces are exerted on the fluid are equal to the negative gradient of plasma pressure. Equation \ref{masscontinuity} is the eqn. of mass continuity (mass is conserved), whilst equation \ref{perfectgaslaw} is the perfect gas law relating plasma pressure, density and temperature. 
+This ratio can be used to diagnose which part of the induction equation is dominating the MHD of the system. \\
 
-\paragraph{MHD Equations}
-Another way to write the relationship between $\vec{B}$ and $\vec{v}$ is the equation of motion \ref{motion} modified by the Lorentz force.
+If $R_m >> 1$ then advection is the major force changing the magnetic field, hence:
+\begin{equation}\label{r>>1}
+\frac{\partial \vec{B}}{\partial t}=\nabla\times(\vec{v}\times\vec{B})
+\end{equation}
+\\
 
-\begin{equation}\label{motion1}
-\rho\frac{d\vec{v}}{dt}=-\nabla p+\vec{j}\times\vec{B}
+Whereas, if $R_m << 1$ then diffusion is the dominant force acting on the magnetic field, leading to:
+\begin{equation}\label{r<<1}
+\frac{\partial \vec{B}}{\partial t}=\eta\nabla^{2}\vec{B}
 \end{equation}
 
-The pressure gradient $-\nabla p$ describes the change from high to low plasma pressure. The Lorentz force, $\vec{j}\times\vec{B}$ acts perpendicularly to the magnetic field, therefore accelerated plasma in a direction parallel to the magnetic field is caused by other forces. If equation \ref{new1} is substituted into the Lorentz force,
-\begin{equation}\label{lorentzsub1}
-\vec{j}\times\vec{B} = (\nabla\times\frac{\vec{B}}{\mu})\times\vec{B}
-\end{equation}
+If diffusion is dominant, the magnetic field $\vec{B}$ will be varying on a length-scale $L_0$, and so will diffuse with velocity \ref{diffvel}, over the time-scale \ref{difftime} \citep{2003dysu.book.....D}.
 
-
-\begin{equation}\label{maghydstat}
-\rho\frac{d\vec{v}}{dt}= -\nabla p + (\vec{B}\cdot\nabla)\frac{\vec{B}}{\mu}-\nabla(\frac{B^2}{2\mu}) 
-\end{equation}
-
-Because $-\nabla(\frac{B^2}{2\mu}$ is in the same form as $-\nabla p$ it can be said to be the \emph{magnetic pressure}, providing a force pointing from high to low magnetic pressure as $B^2$ changes with position.
-
-\paragraph{Reduced MHD Equations}
-Based on assumptions:
-\begin{itemize}
-\item $v<<v_{c}$, typical plasma velocities are much slower than the sound speed 
-\item All the effects of radiation, viscosity, electric charge density and displacement currents are negligable 
-\end{itemize}
-It is possible to reduce Maxwell's equations into the following form:
-
-\textbf{Ampère's Law}
-\begin{equation}\label{max1:ampere}
-\nabla\times\vec{B}=\mu_{0}\vec{j}
-\end{equation}
-
-\textbf{Faraday's Law}
-\begin{equation}\label{max2:faraday}
-\nabla\times\vec{E}=-\frac{\partial \vec{B}}{\partial t}
-\end{equation}
-
-\textbf{Gauss's Law}
-\begin{equation}\label{max3:gauss}
-\nabla\cdot\vec{E}=0
-\end{equation}
-
-\textbf{No Magnetic Monopoles}
-\begin{equation}\label{max4:nomonopole}
-\nabla\cdot\vec{B}=0
+\begin{equation}\label{diffvel}
+v_d=\frac{L_0}{\tau_d} = \frac{\eta}{L_0}
 \end{equation}
 
 
+\begin{equation}\label{difftime}
+\tau_d = \frac{L_{0}^{2}}{\eta}
+\end{equation}
+
+%check Foukal pg 125 in the pdf
 
 
-\paragraph{Sunquake Power-Momentum Relationship}
+%puts .tex file here
+%\include{example}
+\subsection{Plasma Beta}
+The plasma $\beta$ is the ratio of plasma pressure, $p_{plasma}$, and magnetic pressure, $p_{mag}$. A measure of dominance of plasma or magnetic pressure in an MHD system can be expressed as, 
+
+\begin{equation}\label{beta}
+\beta=\frac{p_{plasma}}{p_mag} = \frac{2p_{0}\mu}{B_{0}^2}
+\end{equation}
+
+so if $\beta << 1$ then magnetic pressure is dominant and if $\beta >> 1$ then plasma pressure is dominant. In the context of the solar atmosphere, the magnetic domain of the corona has $\beta << 1$ and the dense plasma domain of the photosphere has $\beta >> 1$.
+
+\subsection{Pressure Scale Height}
+Another useful relationship to use is pressure scale height, where $g$ is acceleration due to gravity and $T_0$ is uniform temperature, pressure scale height, $H=\frac{P_0}{\rho_{0}g} = \frac{\Re T_{0}}{g}$. When combined with pressure, $p$ for a magneto static plasma with uniform temperature, $p=p_{0}\exp^{\frac{-z}{H}}$, where $z$ is altitude, we have a measure of the height, $H$, over which the pressure of a plasma fall off by a factor of $\exp$. 
+
+\subsection{Flux Tubes}
+Magnetic fields are made up of discreet bundles of magnetic flux known as \emph{flux tubes}. A magnetic flux tube can be thought of as cylindrical in geometry and containing magnetic field lines parallel in orientation to the length of the cylinder. The cross-sectional radius of the tube and magnetic field strength are both variant, magnetic flux contained within the tube however, is constant. Where $\vec{B}$ is magnetic field vector and $\vec{dS}$ is a cross-sectional surface element of the tube, flux $F$ follows the relationship.
+
+\begin{equation}\label{fluxtube}       
+F = \int_{S} \vec{B}.\vec{dS} \text{ [T cm}^{-2}]
+\end{equation}
+
+
+
+\subsection{Sunquake Power-Momentum Relationship}\label{sqk-ptoP-relation}
 Equation \ref{sqk-momentum} is derived using the following steps. Where $F_{sqk}$ is the acoustic energy emitted by the sunquake area ($A_{sqk}$) per second, sunquake acoustic power is, 
 \begin{equation}
-P_{sqk} = F_{sqk} \; A_{sqk} = F_{sqk} \; l^2
+P_{sqk} = F_{sqk} \; A_{sqk} = F_{sqk} \; l^2 \text{ [erg s}^{-1}]
 \end{equation}\label{Psqk}
 Rearranging equations \ref{sqk-momentum} and \ref{Psqk} for $l^{2}$ yields,
 \begin{equation}

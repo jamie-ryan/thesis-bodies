@@ -1,30 +1,7 @@
-%Mark says: This should describe the aims of your research study and why the research problem is important. It should also set the scene for everything that follows.
-
-%Lucie says: 
-%*Fact check my %mythology, %science-history and %modern-day-view paragraphs.
-%*Fusion
-%*Structure
-%*Energy transport from core to photosphere
-%*Atmosphere (show classic T, rho plot)
-%*Magnetic field (permeates entire Sun ands atmosphere)
-%   *a couple of statements about internal dynamo
-%   *field transported by ("frozen-in") bouyant plasma in the convection zone (flux tubes created by dynamo)
-%   *Sunspots to coronal loops
-%*Magnetic activity
-%   *reconnection
-%   *cme
-%   *flares   
-%*Sunquakes
-%*My science question
-
-
-%angstrom Å
-
+\section{Introduction}
 \setcounter{page}{1}
 \pagenumbering{arabic}
-\section{Introduction}
-%Chronological soft intro; use some of the lit review,
-%making sure to emphasize the connection to solar flares;Look at early papers predicting sunquakes(Wolff 70s and Kosovichev and Zharkova);the importance of sunquakes
+
 During this age of space-born solar astronomy, understanding the highly dynamic environment of the Sun's atmosphere is a study enriched by a wealth of high detail observations. With each newly launched space instrument the spatial resolution of collected data increases, which coupled with those spacecraft that are tailored to capture light of previously unobserved wavelengths, often leads to new phenomena being observed. Eruptive solar flares fall into this category, in that spacecraft have provided observations that challenge the current theoretical view that the standard eruptive flare model (CSHKP model: \citep{1964NASSP..50..451C, 1966Natur.211..695S, 1974SoPh...34..323H, 1976SoPh...50...85K} puts forward.
 
 Solar flares are one of the most energetic events to occur in the Sun's atmosphere, where by stored magnetic energy is released in the form of heat, mass motions, and accelerated particles. This highly dynamic process produces many measurable emission signatures at wavelengths from $\gamma$-rays to radio waves. Many of these observed signatures agree with the CSHKP model, however, this is not the full picture. The standard flare model has been modified to include new observations many times over the years (e.g., \cite{2011LRSP....8....6S}) and is still unable to describe some observed phenomena. 
@@ -33,170 +10,9 @@ Sunquakes are an observable feature (shown in Figure \ref{mdiquake96}) during so
 
 This work is focused on the determination of the sunquake generation mechanism for the X-class solar flare on the 29th of March 2014. The main emphasis being on whether two of the proposed sunquake progenitors (see section \ref{sunprog}), namely direct particle beam collision and radiative backwarming, leave an energy deposition signature comparable in magnitude to the acoustic impact power at the epicentre of the seismic disturbance.      
 
-\begin{figure}[hb]
-  \begin{center}
-  \includegraphics[width=0.80\textwidth]{soho-mdi-quake-96}
-\caption{\cite{1998Natur.393..317K} produced SOHO MDI Dopplergrams of the photosphere from the 1996 July 9th, X class solar flare showing the sunquake expanding outward from it's seismic epicentre to a radial distance of $1.2\times10^{8}$ metres. Wave-fronts accelerate from a velocity of 30km/s to 100km/s}\label{mdiquake96}
-\end{center}
-\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%END OF SOFT INTRO%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Solar Atmosphere}
-The solar atmosphere can be described as having four components, the corona, transition region, chromosphere and photosphere. 
-
-%see Figure \ref{solatmpics}.
-
-%\begin{figure}[H]%\label{solatmpics}
-%  \begin{center}
-%  \includegraphics[width=0.20\textwidth]{2014_03_29_17_19_42_HMI_Int}%photsphere
-%  \includegraphics[width=0.20\textwidth]{2014_03_29_17_19_42_AIA_304}%chromosphere
-%  \includegraphics[width=0.20\textwidth]{2014_03_29_17_19_42_AIA_171}%tr
-%  \includegraphics[width=0.20\textwidth]{2014_03_29_17_19_42_AIA_193}%corona
-%  \caption{ Images taken from the Solar Dynamics Observatory (SDO) instruments, the Helioseismic Magnetic Imager(HMI) and the Atmospheric Imaging Assembly (AIA) displaying the four main components of the solar atmosphere. From left to right layers of the solar atmosphere are increasing in altitude and temperature from the photosphere (SDO/HMI 6173 \AA\ continuum), to the chromosphere (SDO/AIA 304 \AA) through the transition region (SDO/AIA 171 \AA) then up to the corona (SDO/AIA 193 \AA). Images courtesy of \href{www.helioviewer.org}{www.helioviewer.org}}\label{solatmpics}
-%\end{center}
-%\end{figure}
-
-
-For a sunquake to occur, energy released during a solar flare has to traverse these four layers propagating through many pressure scale heights as it does so. Pressure scale height, $H$, is a measure of the distance over which pressure drops off by a factor of \emph{e}. For example, in the photosphere, $H\sim150$km, whereas in the corona, $H\sim100$Mm. This means that in the photosphere, pressure and density are changing rapidly, making it increasingly likely that energy deposition via heat conduction, particle collisions and shocks will occur. Figure \ref{solatm} shows how temperature and density in each layer of the solar atmosphere change with height. Information in this section is taken from text books: \cite{2003dysu.book.....D, 2004soas.book.....F}
-
-
-\subsubsection{The Photosphere}
-The photosphere is the region where sunquakes manifest as observable concentric circular waves, eminating from a central impact zone, shown in Figure \ref{mdiquake96}. The lowest in altitude of the atmospheric layers, the photosphere forms a shell around the Sun with a radius somewhere between $\sim10$ - $10^{2}$ km, with an effective temperature of $T\sim5800$K and decreasing in temperature with radial distance to $\sim4400$K, see figure \ref{solatm}. Emission from this part of the atmosphere is predominantly in the visible range. Contained in the photosphere, are neutral hydrogen atoms, ions and electrons. When a neutral hydrogen atom captures a free electron it forms H$^{-}$ ions, which via absorption of UV and infrared radiation increases the opacity of the region. Even though it is thought that electron capture is a rare occurrence, the population of H$^{-}$ ions is large enough to count for the majority of the photospheric opacity. The densest atmospheric layer, plasma pressure in the photosphere is dominant over magnetic pressure such that the plasma-beta, $\beta = p_{gas}/p_{mag} >> 1$. Because of frozen-in theorem photospheric plasma dictates the motions of and to some extent, the morphology of the local magnetic field.
-
-Granules are observed over almost the entire photosphere and are the physical representation of convection currents. Seen as the bright central part of the granule, buoyant, heated plasma rises from a region known as the convective zone, underneath the photosphere. As the material cools, it loses it's buoyancy and falls back toward the interior forming the darker areas surrounding the granule known as intergranular lanes.
-
-Active regions on the photosphere contain sunspots, which are regions of intense magnetic field playing host to footpoints of loops that can extend out into interplanetary space. An active region is formed of at least two sunspots of opposing polarity. 
-A sunspot is an approximately circular feature, made up of two main parts, the dark central umbra which is surrounded by the slightly lighter penumbra. The umbra hosts magnetic field lines that are tightly packed and pointing radially away from the Sun, whereas the penumbral magnetic field is more horizontal with respect to the solar surface. With a field strength of $\sim 10^{-1}$ Tesla, sunspots are regions in the photosphere where the magnetic pressure is dominant over plasma pressure, such that $\beta << 1$. Meaning that in these regions convection currents and radiative transfer are inhibited, with the latter being the idea behind a sunspot's dark appearance. \\
-
-
-
-\begin{figure}[H]
-  \begin{center}
-    \includegraphics[width=0.6\textwidth]{solar-atm-plot}
-\caption{The temperature of the solar atmosphere decreases from values near 6,000 degrees Kelvin at the visible photosphere to a minimum value of roughly 4,400 degrees Kelvin about 500 kilometres higher up. The temperature increases with height, slowly at first, then extremely rapidly in the narrow transition region, less than 100 kilometres thick, between the chromosphere and corona, from about $10^{4}$K to about $10^{6}$K. (Courtesy of Eugene Avrett, Smithsonian Astrophysical Observatory.)}\label{solatm}
-  \end{center}
-\end{figure}
-
-\subsubsection{Chromosphere}
-The next region of the atmosphere is the chromosphere which is situated above the photosphere. Proposed sunquake generation methods (see section \ref{sunprog}) that involve the flow of momentum through the chromosphere are shocks, radiative backwarming and direct particle collision. These progenitors would have to be able to minimise the dissipative effects of the ever increasing plasma density throughout this region to produce a sunquake. Either that or the transfer of energy happens in such a way that the transport continues downard eventually reaching the photosphere. The chromosphere is a few thousand kilometres (2000 - 3000 km) thick and is optically thin to visible light so is difficult to observe against the brightness of the photosphere. The temperature in this layer increases with height from 4400 K at the temperature minimum region to $\sim10^{5}$K near the transition region. As a result, plasma density decreases and $\beta$ drops, crossing unity near the transition region between the upper-chromosphere and corona. This means that the pressure scale height in this region is changing with altitude as a transition from the plasma to magnetic domain occurs. The chromosphere is observable in H$\alpha$ line which results from photoelectric processes. Whereas collisionally produced Ca II and Mg II line emission are observable in NUV wavelengths. Sunspots still exert enough influence to control chromospheric plasma and thus are still observable. In this region, dense material suspended in magnetic fields, or filaments, can be observed in absorption, or emission at the limb (prominence). Filaments are thought to be the source of mass for coronal mass ejections (CME) due to their location over active regions and a sudden emptying of material during eruptive flares with a CME. 
-
-\subsubsection{Transition Region}
-Up in altitude to the interface between the chromosphere and the corona or transition region. This region is a poorly understood layer of the solar atmosphere. What is known, is that; temperatures climb from $\sim10^{5}$ near the chromsphere to $\sim10^{6}$ K at the corona; this region has variable thickness and maybe even orientation; plasma density falls off sharply. This region can be observed in NUV wavelengths such as Si IV.  
-
-\subsubsection{Corona}
-The corona is the outer most layer of the solar atmosphere, extending out into interplanetary space. This part of the atmosphere is threaded with expanded and stressed magnetic loops which are tethered at the photosphere. Stressed coronal loops store vast amounts of energy in the form of electric current, which can be released during a solar flare. At which point, energy and momentum are filtered down into deeper layers of the atmosphere, sometimes reaching all the way down to the photosphere and causing a sunquake. With a temperature ranging from $T\sim10^{6}$ - $10^{7}$ K, this the hottest part of the atmosphere. Plasma density in this region is very low, leading to a plasma pressure which is much lower than the magnetic pressure resulting in $\beta << 1$. This means that plasma motions are dominated by magnetic fields leading to magnetic loops that can expand almost unhindered. This region is visible in UV emission by super heated plasma and via white light due to Thompson scattering of photospheric light by free electrons and dust in the coronal magnetic field. 
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%MHD of solar flares%%%%%%%%%%%%%%%%%%%%%%%%%%%5
-\subsection{Solar Magnetohydrodynamics}\label{MHD}
-Most structures observed in the solar atmosphere are a direct result of interplay between plasma and the Sun's dynamic magnetic field. Understanding the relationship between a magnetic field and a plasma is important for describing the workings of solar flares, and hence could help to understand sunquakes. Magnetohydrodynamics (MHD) is a method to determine the continuous macroscopic behaviour of plasma in a magnetic field, thus individual particles are not considered \citep{1982soma.book.....P}. A plasma can be treated as a continuous material if distances between particles are much larger than the mean-free path, or larger than the ion gyro-radius. Where $T$ is plasma temperature, $\lambda_{MFP}$ is mean-free path and $n$ is number of particles in the plasma, equation \ref{meanfreepath} describes the mean-free path. 
-
-\begin{equation}\label{meanfreepath}
-\lambda_{MFP}\approx300(\frac{T}{10^{6}K})^{2}(\frac{n}{10^{17}m^{-3}})^{-1}m
-\end{equation}
-
-Equation \ref{iongyroradius} is the relationship between particle mass $m$, velocity perpendicular to the magnetic field $v_{\bot}$, charge $q$ and magnetic field strength $B$  which governs the circular motion of a charged particle around a uniform magnetic field or the ion gyro radius. 
-
-\begin{equation}\label{iongyroradius}
-r_{g}=\frac{mv_{\bot}}{|q|B}
-\end{equation}
-
-In the context of the Sun, and the importance of magnetic fields for processes such as solar flares, MHD builds on the following physical assumptions; a magnetic field can manipulate a plasma by exerting a force on it. Leading to the formation of structure or movement via acceleration; a magnetic field can store the energy required for later release as a solar flare; material wrapped in a magnetic field is thermally protected from it's surroundings; a magnetic field can act as a funnel for plasma and fast particles; and finally, a magnetic field can drive instabilities and support waves \citep{2003dysu.book.....D}.
-
-%\subsubsection{Magnetic Structure}\label{MHDeqns}
-\subsubsection{Flux Tubes}
-Magnetic fields are made up of discreet bundles of magnetic flux known as \emph{flux tubes}. A magnetic flux tube can be thought of as cylindrical in geometry and containing magnetic field lines parallel in orientation to the length of the cylinder. The cross-sectional radius of the tube and magnetic field strength are both variant, magnetic flux contained within the tube however, is constant. Where $\vec{B}$ is magnetic field vector and $\vec{dS}$ is a cross-sectional surface element of the tube, flux $F$ follows the relationship.
-
-\begin{equation}\label{fluxtube}       
-F = \int_{S} \vec{B}.\vec{dS}
-\end{equation}
-
-
-\subsubsection{MHD Equations}
-The basics of MHD are a built from a combination of Maxwell's electromagnetic equations, material equations, Ohm's law and the fluid dynamics relations. Please see section \ref{mhdeqns} in the appendices. Maxwell's equations and Ohm's law describe electromagnetism in terms of magnetic induction $\vec{B}$, magnetic permeability of free space $\mu$, electric field $\vec{E}$, electrical permittivity of free space $\epsilon_{0}$, charge density $\rho_{c}$ and electric current density $\vec{j}$ \\ 
-
- 
-\subsubsection{Induction Equation and the Magnetic Reynolds Number}
-The induction equation expresses the time derivative of the magnetic field in terms of its diffusion $\eta\nabla^{2}\vec{B}$ and advection $\nabla\times(\vec{v}\times\vec{B})$ in the form, 
-
-
-\begin{equation}\label{induction}
-\frac{\partial \vec{B}}{\partial t}=\nabla\times(\vec{v}\times\vec{B})+\eta\nabla^{2}\vec{B}  
-\end{equation}
-
-where magnetic diffusivity $=\eta =\frac{1}{\mu_{0}\sigma}$. \\
-
-The magnetic Reynolds number, $R_m$, is the ratio of diffusion to advection in a magnetic field. Where $l$, $v$ and $\sigma$ are typical length-scale, velocity and conductivity respectively, $R_m$ can be written,  
-
-\begin{equation}\label{reynolds}
-R_{m} = \frac{l_{0}v_{0}}{\eta} \sim \frac{\nabla\times(\vec{v}\times\vec{B})}{\eta\nabla^{2}\vec{B}}=\mu_{0}\sigma v l
-\end{equation}
-
-This ratio can be used to diagnose which part of the induction equation is dominating the MHD of the system. \\
-
-If $R_m >> 1$ then advection is the major force changing the magnetic field, hence:
-\begin{equation}\label{r>>1}
-\frac{\partial \vec{B}}{\partial t}=\nabla\times(\vec{v}\times\vec{B})
-\end{equation}
-\\
-
-Whereas, if $R_m << 1$ then diffusion is the dominant force acting on the magnetic field, leading to:
-\begin{equation}\label{r<<1}
-\frac{\partial \vec{B}}{\partial t}=\eta\nabla^{2}\vec{B}
-\end{equation}
-
-If diffusion is dominant, the magnetic field $\vec{B}$ will be varying on a length-scale $L_0$, and so will diffuse with velocity \ref{diffvel}, over the time-scale \ref{difftime} \citep{2003dysu.book.....D}.
-
-\begin{equation}\label{diffvel}
-v_d=\frac{L_0}{\tau_d} = \frac{\eta}{L_0}
-\end{equation}
-
-
-\begin{equation}\label{difftime}
-\tau_d = \frac{L_{0}^{2}}{\eta}
-\end{equation}
-
-%check Foukal pg 125 in the pdf
-
-
-%puts .tex file here
-%\include{example}
-\subsubsection{Plasma Beta}
-The plasma $\beta$ is the ratio of plasma pressure, $p_{plasma}$, and magnetic pressure, $p_{mag}$. A measure of dominance of plasma or magnetic pressure in an MHD system can be expressed as, 
-
-\begin{equation}\label{beta}
-\beta=\frac{p_{plasma}}{p_mag} = \frac{2p_{0}\mu}{B_{0}^2}
-\end{equation}
-
-so if $\beta << 1$ then magnetic pressure is dominant and if $\beta >> 1$ then plasma pressure is dominant. In the context of the solar atmosphere, the magnetic domain of the corona has $\beta << 1$ and the dense plasma domain of the photosphere has $\beta >> 1$.
-
-\subsubsection{Pressure Scale Height}
-Another useful relationship to use is pressure scale height, where $g$ is acceleration due to gravity and $T_0$ is uniform temperature, pressure scale height, $H=\frac{P_0}{\rho_{0}g} = \frac{\Re T_{0}}{g}$. When combined with pressure, $p$ for a magneto static plasma with uniform temperature, $p=p_{0}\exp^{\frac{-z}{H}}$, where $z$ is altitude, we have a measure of the height, $H$, over which the pressure of a plasma fall off by a factor of $\exp$. 
-
-
-%\subsubsection{Flux Emergence}\label{flux-emerge}
-%The exact physical processes governing the trigger mechanism of solar flares are not well understood, however, magnetic reconnection (MR) is the commonly accepted theory. So how does MR occur? The process begins with magnetic energy being transported from the solar interior to the atmosphere via flux emergence. At the beginning of a bi-polar active regions life-cycle, a magnetic flux tube emerges from the convective zone. This is due to a high magnetic field strength creating a situation where the plasma density in the flux tube is lower than that of the surrounding plasma. At this point the flux tube becomes buoyant and rises up through the convective zone, emerging at the photosphere. The newly emerged flux rope expands into the atmosphere, driven by a Lorentz force exerted by strong electric currents flowing transversely across the magnetic field lines. Currents that are flowing along the magnetic field in the flux tube do not generate a Lorentz force and thus play no part in the early expansion. Instead, the field-aligned current is fed into the upper portion of the expanding magnetic field, high up in the corona. In this region, magnetic pressure is much greater than the plasma pressure which leads to high conductivity. If conductivity is high then resistivity is low meaning that dissipation of electric current does not occur, instead the current is stored as energy, which is released during a solar flare. So as a result of flux emergence, a situation has arisen whereby a magnetic flux tube exists that stretches from the sub-photosphere out into the corona. 
-
-\subsubsection{Magnetic Reconnection}\label{MR}
-To understand sunquakes, it is vital to comprehend the physics of eruptive solar flare events. The energy released during a flare is thought to originate from the stressed coronal magnetic field, eventually travelling to the photosphere to cause a sunquake. Magnetic reconnection (MR) is the fundamental process associated with this energy release. MR is the study of a magnetic field and it's ability to reconfigure from a high to a low energy state, as a result, it is thought to occur in many situations throughout the universe. In the context of solar physics, consider a flux tube tethered to the photosphere, which has expanded into the corona forming a loop. These extended magnetic loops can become stressed by processes such as convective motions, differential rotation, flux emergence and sun-interplanetary MR. The stressing of a magnetic field is a method of storing magnetic free energy, which can be released via reconnection which reconfigures the magnetic field to a lower (potential) energy state. Magnetic free energy released by MR, manifests in the form of accelerated particles, kinetic mass motions, heating and MHD waves, making this a highly dynamic process with many observable after effects. This is convenient in that magnetic fields cannot be observed directly, making the study of related energy release signatures important for investigating many solar MHD phenomena. For instance, the production of solar flares is thought to be driven by reconnection because many of the observed energy release signatures are explained by MR theory. Some of these signatures include emission such as $\gamma$-rays, hard and soft X-rays, UV, optical, microwaves and radio (See section \ref{flares}).
-
-\paragraph{A Basic 2D model of Magnetic Reconnection.}
-When an electrically charged plasma exists in combination with a frozen-in magnetic field, MR is not possible because $R_{m} >> 1$ (see equation \ref{reynolds}), meaning the diffusion term in the induction equation becomes negligible and conductivity is high. MR is only possible if electric currents are able to dissipate electric currents and thus conductivity has to drop which can happen when scale length $l$ is decreased, if diffusivity $\nu$ increases or if both occur. If any of these situations exists, then the time derivative of the magnetic field (induction equation \ref{MHD}) will be dominated by the diffusion term, at which point, magnetic flux will break out of the frozen-in condition and MR can occur. The location where reconnection happens is known as a magnetic null, which is a region where magnetic field strength drops to zero. This being the 2D case, the magnetic null takes on an 'X' type structure whereby two in-flowing magnetic field lines reconnect to form two out-flowing magnetic field lines. 
-%\begin{figure}[H]
-%  \begin{center}
-%  \includegraphics[width=0.40\textwidth]{2d-reconnection}
-%  \caption{A graphic representation of the 2D reconnection model. Inflowing magnetic field lines reconnect in the diffusion zone.}\label{2d-reconnection}
-%\end{center}
-%\end{figure}%\label{2d-reconnection}
-%, see figure \ref{2dreconnection}
-At the moment of MR, the meeting of two anti-parallel magnetic field lines causes a magnetically neutral region of continuous change from negative to positive field. This condition is sustained by the conservation of the magnetic and plasma pressure contributions from the anti-parallel field lines on either side of the continuous neutral region. Inflowing magnetic field reconnects in the diffusion region with a configuration of increased magnetic tension or curvature, which drives post-reconnection outflow of the newly connected field. 
-
-%Also, because the frozen-in condition is broken, plasma can move freely without the magnetic field and is ejected out along the neutral region.
-
-%The Lorentz force generated by inflowing magnetic field lines has an associated electric field which induces high currents in the form of a current sheet in the diffusion region. ?????WHY IS THIS IMPORTANT???
-
 
 
 \subsection{Eruptive Solar Flares}\label{flares}
@@ -226,8 +42,27 @@ The standard solar flare theory, also known as the CSHKP model, is the culminati
   \caption{cartoon of the standard 2D solar flare model. Image courtesy of \href{http://ase.tufts.edu/cosmos/print_images.asp?id=47}{www.tufts.edu}}\label{flare-cartoon}
 \end{center}
 \end{figure}
+ 
 
-In this model, magnetic free energy is stored high up in the corona, built up by a filament rising through the atmosphere. A filament is cool dense plasma suspended in the corona overlying an active region's polarity inversion line \citep{1955ApJ...121..349B}. It is thought that filaments are suspended up in the corona by magnetic fields in the form of either a sheared arcade or a flux rope which is the focus of the CSHKP model. As the filament (flux rope) rises, it drags the surrounding magnetic loops along with it, which creates a situation where the legs of the loops start to flow inward. As this inward flow causes opposing magnetic legs to get closer to each other, a current sheet develops which stretches along the neutral region. This current sheet eventually becomes thin enough that magnetic reconnection occurs, reconfiguring the magnetic field from inflowing legs to outflowing flare loop and filament structure. At this point energy is released in the form of heating, accelerated particles and MHD waves. Heating can reach temperatures of $10^7$ K and accelerated particles travel down flare loops causing emission, shocks and sometimes acoustic disturbances in the solar interior or sunquakes. The appearance of two flare ribbons is caused by reconnection occurring simultaneously across an arcade of magnetic loops. Accelerated particles travel down each loop in the arcade, colliding with the chromosphere as they do, at which point bremstrahlung and H$\alpha$ emission are produced, leading to the appearance of footpoints and ribbons respectively. A cascade of these reconnection events occur as the erupting filament rises through each successive loop making up the overlying non-potential magnetic field. When applied to the entire arcade of loops making up the field this leads to the appearance of flare ribbons moving outward from the polarity inversion line. If a filament is not present, \cite{2005psci.book.....A} describes the build up of magnetic free energy as being caused by the evolution of the associated active region, whereby photospheric plasma motions shear the magnetic field arcade causing reconnection. 
+In this model, a flux tube tethered to the photosphere, has expanded into the corona forming a loop. These extended magnetic loops can become stressed by processes such as convective motions, differential rotation, flux emergence and sun-interplanetary MR. The stressing of a magnetic field is a method of storing magnetic free energy, which can be released via reconnection which reconfigures the magnetic field to a lower (potential) energy state. In the standard eruptive flare model, magnetic free energy is stored high up in the corona, built up by a filament rising through the atmosphere. A filament is cool dense plasma suspended in the corona overlying an active region's polarity inversion line \citep{1955ApJ...121..349B}. It is thought that filaments are suspended up in the corona by magnetic fields in the form of either a sheared arcade or a flux rope which is the focus of the CSHKP model. As the filament (flux rope) rises, it drags the surrounding magnetic loops along with it, which creates a situation where the legs of the loops start to flow inward. As this inward flow causes opposing magnetic legs to get closer to each other, a current sheet develops which stretches along the neutral region. This current sheet eventually becomes thin enough that magnetic reconnection occurs due to a decreased scale-length $l$. This means that conductivity drops and electric currents are suddenly able to dissapate. This causes the time derivative of the magnetic field (induction equation \ref{MHD}) to be dominated by the diffusion term, at which point, magnetic flux will break out of the frozen-in condition and MR can occur. The location where reconnection happens is known as a magnetic null. Considering the 2D case, the magnetic null takes on an 'X' type structure whereby two in-flowing magnetic field lines reconnect to form two out-flowing magnetic field lines. Inflowing magnetic field reconnects in the diffusion region with a configuration of increased magnetic tension or curvature, which drives post-reconnection outflow of the newly connected field. This process reconfigures the magnetic field from an expanding loop with inflowing legs to outflowing flare loop and filament structure. At the point of reconnection, energy is released in the form of heating, accelerated particles and MHD waves. Heating can reach temperatures of $10^7$ K and accelerated particles travel down flare loops causing emission, shocks and sometimes acoustic disturbances in the solar interior or sunquakes. The appearance of two flare ribbons is caused by reconnection occurring simultaneously across an arcade of magnetic loops. Accelerated particles travel down each loop in the arcade, colliding with the chromosphere as they do, at which point bremstrahlung and H$\alpha$ emission are produced, leading to the appearance of footpoints and ribbons respectively. A cascade of these reconnection events occur as the erupting filament rises through each successive loop making up the overlying non-potential magnetic field. When applied to the entire arcade of loops making up the field this leads to the appearance of flare ribbons moving outward from the polarity inversion line. If a filament is not present, \cite{2005psci.book.....A} describes the build up of magnetic free energy as being caused by the evolution of the associated active region, whereby photospheric plasma motions shear the magnetic field arcade causing reconnection. 
+
+
+\subsubsection{Solar Atmosphere}
+For a sunquake to occur, energy released during a solar flare has to traverse four layers of the solar atmosphere, known as the corona, transition region, chromosphere and photosphere. Each region is very different in terms of plasma density meaning energy and momentum have to navigate multiple pressure scale heights. Pressure scale height, $H$, is a measure of the distance over which pressure drops off by a factor of \emph{e}. For example, in the photosphere, $H\sim150$km, whereas in the corona, $H\sim100$Mm. This means that in the photosphere, pressure and density are changing rapidly, making it increasingly likely that energy deposition via heat conduction, particle collisions and shocks will occur. Figure \ref{solatm} shows how temperature and density in each layer of the solar atmosphere change with height. \\
+
+The photosphere is the region where sunquakes manifest as observable concentric circular waves, eminating from a central impact zone, shown in Figure \ref{mdiquake96}. The lowest in altitude of the atmospheric layers, the photosphere forms a shell around the Sun with a radius somewhere between $\sim10$ - $10^{2}$ km, with an effective temperature of $T\sim5800$K and decreasing in temperature with radial distance to $\sim4400$K at the temperature minimum region, see figure \ref{solatm}. Emission from this part of the atmosphere is predominantly in the visible range. The densest atmospheric layer, plasma pressure in the photosphere is dominant over magnetic pressure such that the plasma-beta, $\beta = p_{gas}/p_{mag} >> 1$. Active regions on the photosphere contain sunspots, which are regions of intense magnetic field playing host to footpoints of loops that can extend out into the corona. A sunspot is an approximately circular feature, made up of two main parts, the dark central umbra which is surrounded by the slightly lighter penumbra. The umbra hosts magnetic field lines that are tightly packed and pointing radially away from the Sun, whereas the penumbral magnetic field is more horizontal with respect to the solar surface. With a field strength of $\sim 10^{-1}$ Tesla, sunspots are regions in the photosphere where the magnetic pressure is dominant over plasma pressure, such that $\beta << 1$. Meaning that in these regions convection currents and radiative transfer are inhibited, with the latter being the idea behind a sunspot's dark appearance. \\
+
+
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[width=0.5\textwidth]{solar-atm-plot}
+\caption{The temperature of the solar atmosphere decreases from values near 6,000 degrees Kelvin at the visible photosphere to a minimum value of roughly 4,400 degrees Kelvin about 500 kilometres higher up. The temperature increases with height, slowly at first, then extremely rapidly in the narrow transition region, less than 100 kilometres thick, between the chromosphere and corona, from about $10^{4}$K to about $10^{6}$K. (Courtesy of Eugene Avrett, Smithsonian Astrophysical Observatory.)}\label{solatm}
+  \end{center}
+\end{figure}
+
+
+The next region of the atmosphere is the chromosphere which is situated above the photosphere. Proposed sunquake generation methods (see section \ref{sunprog}) that involve the flow of momentum through the chromosphere are shocks, radiative backwarming and direct particle collision. These progenitors would have to be able to minimise the dissipative effects of the ever increasing plasma density throughout this region to produce a sunquake. Either that or the transfer of energy happens in such a way that the transport continues downard eventually reaching the photosphere. The chromosphere is a few thousand kilometres (2000 - 3000 km) thick and is optically thin to visible light so is difficult to observe against the brightness of the photosphere. The temperature in this layer increases with height from 4400 K at the temperature minimum region to $\sim10^{5}$K near the transition region. As a result, plasma density decreases and $\beta$ drops, crossing unity near the transition region between the upper-chromosphere and corona. This means that the pressure scale height in this region is changing with altitude as a transition from the plasma to magnetic domain occurs. Up in altitude to the interface between the chromosphere and the corona or transition region. This region is a poorly understood layer of the solar atmosphere. What is known, is that; temperatures climb from $\sim10^{5}$ near the chromsphere to $\sim10^{6}$ K at the corona; this region has variable thickness and maybe even orientation; plasma density falls off sharply. The corona is the outer most layer of the solar atmosphere, extending out into interplanetary space. This part of the atmosphere is threaded with expanded and stressed magnetic loops which are tethered at the photosphere. Stressed coronal loops store vast amounts of energy in the form of electric current, which can be released during a solar flare. At which point, energy and momentum are filtered down into deeper layers of the atmosphere, sometimes reaching all the way down to the photosphere and causing a sunquake. With a temperature ranging from $T\sim10^{6}$ - $10^{7}$ K, this the hottest part of the atmosphere. Plasma density in this region is very low, leading to a plasma pressure which is much lower than the magnetic pressure resulting in $\beta << 1$. This means that plasma motions are dominated by magnetic fields leading to magnetic loops that can expand almost unhindered. Information in this section is taken from text books: \cite{2003dysu.book.....D, 2004soas.book.....F}
 
 
 \subsubsection{Energy Transfer}
@@ -266,7 +101,7 @@ Theories that have been put forward to explain WLFs credit Balmer and Paschen co
 A sunquake occurs when acoustic waves propagate into sub-surface layers of the Sun (see Figure \ref{sunquake-cartoon}a). As acoustic wave-fronts travel into the interior they encounter layers of increasing density causing refraction back toward the solar surface (see Figure \ref{sunquake-cartoon}b). At which point, waves can be observed as circular formations in the surface plasma, expanding outward from a point of origin (see Figure \ref{mdiquake96}) \citep{2014arXiv1402.1249K}. Expansion of sunquake ripples accelerates as the source of leading edge of the circular wave is coming from increasingly deep layers inside the Sun. This effect is caused by the increase in density with internal depth, which leads to a rise in sound speed \citep{1998Natur.393..317K}. It is not unreasonable to suspect that all solar flares produce some level of seismic signature but due to sunquake waves being hard to spot against photospheric background noise, only those with sufficient amplitude are detected. Sunquake morphology can sometimes be anisotropic in that some regions in a wavefront may have a variety of amplitudes, an attribute that is credited to sub-surface deviations in refraction. The anisotropy also extends to the formation of sunquake wavefronts that are not perfectly circular which is thought to happen as a result of moving impact sites \citep{2006ESASP.624E.134K}. 
 
 
-\begin{figure}[hb]%\label{sunquake-cartoon}
+\begin{figure}[h]%\label{sunquake-cartoon}
   \begin{center}
   \includegraphics[width=0.99\textwidth]{sunquake-cartoon}
   \caption{Sunquake cartoon: a) Shows how energy and momentum must traverse through the solar atmosphere before impacting the photosphere to generate a sunquake. b) Shows acoustic wave-fronts propagating into the interior of the Sun. Wave-fronts refract back toward the surface as they encounter increasingly dense sub-surface layers. Waves reaching the surface disturb material in a pattern resembling ripples in a pond. Courtesy of \cite{2014arXiv1402.1249K}}\label{sunquake-cartoon}
@@ -299,20 +134,6 @@ If the magnetic field close to the photosphere relaxes to a more horizontal alig
 %use content from old report...maybe expand a little
 Helioseismology is a tool for probing the interior of the Sun. Most techniques in this field of analysis rely on observations of gravity and acoustic waves on the photosphere that are the result of interior excitation. Studying the frequency and modes of these oscillations has revealed much about the internal structure of the Sun. Local helioseismology is a collection of techniques developed for global helioseismology that have been modified for use in studying local regions in higher spatial resolution. The following section provides an introduction to some of these techniques.
 
-\paragraph{Theoretical Helioseismic Response}\label{helioresp}
-The localised helioseismic response to an impact that generates a sunquake can be calculated. If the surface impact occurs in a small volume, the radial component of the resulting helioseismic velocity, $v_r$ can be calculated with:
-%\sum_{n=1}^{\infty} 2^{-n} = 1
-\begin{equation}
-v_{r}(R, \theta, \phi, t) = \sum_{nlm} \frac{P_{0}}{M_{\odot}I_{nl}}(2l+1)P_{l}(\cos\theta)\cos(\omega_{nl}t)e^{-\gamma_{nl}t}
-\end{equation}
-
-The total momentum transferred by the impact is $P_{0}$, $M_{\odot}$ is solar mass, $I_{nl}$ is the mode inertia, $P_{l}$ is the Legendre polynomial, $\omega_{nl}$ are the mode eigenfrequencies, $\gamma_{nl}$ are their damping times and $(2l+1)$ is a geometric factor. The collective terms $M_{\odot}I_{nl}$ are known as the \emph{mode mass} meaning that the mode amplitude driven by the impact is proportional to the total momentum over the mode mass.    
-
-\begin{equation}
-v_{r}(R, \theta, \phi, t) \propto \sum_{nlm} \frac{P_{0}}{M_{\odot}I_{nl}}
-\end{equation}
-
-A total momentum of $10^{24}$ g.cm/s was calculated by \cite{2009AIPC.1170..547K} as the momentum associated with the maximum observed amplitude in a sunquake. Using this technique, it is possible to extract the frequency at which wave amplitude is at a maximum, which turns out to be in the 4 to 5 mHz range.
 
 \paragraph{Helioseismic Holography}\label{helioholog}
 \cite{1999ApJ...513L.143D} pioneered the use of helioseismic holography to produce seismic images of the solar flare of July 1996 reported to have a sunquake by Kosovichev and Zharkova. Time series egression-power maps at 3.5 and 6 mHz were computed with a 2 mHz bandwidth. It was found that the most powerful acoustic power frequency associated with the flare is centred at 3.5 mHz but has a large amount of noise. However, the 6 mHz range has a much lower ambient noise, therefore producing a better rendering of the seismicity of the flare. It is now standard practice to use the 6 mHz range for helioseismic holographic calculations of egression-power. \\
