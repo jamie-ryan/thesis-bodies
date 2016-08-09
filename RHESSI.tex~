@@ -1,0 +1,38 @@
+The Reuven Ramaty High Energy Solar Spectroscopic Imager (RHESSI) is capable of viewing the Sun in X-ray and $\gamma$-ray wavelengths, which are generally produced during high energy events, such as solar flares.
+
+This project focuses on 3 to 100 keV X-rays which are associated with heating and non-thermal particle kinematics resulting from magnetic restructuring during solar flares. Soft X-rays, ranging between 3 and 10 keV tend to highlight newly formed flare loops, harboring hot thermal plasma. Hard X-rays or photons with energy greater than 10 keV trace the footpoints of newly formed flare loops. This occurs when a population of nonthermal particles stored in the coronal magnetic field are accelerated by the reconfiguring magnetic field depositing energy and momentum in the chromosphere. Under the thick target regime, non-thermal emission is described as a bremsstrahlung, \emph{free-free} process with a photon flux at Earth, $I(\epsilon)$ [ph s$^{-1}$ cm$^{-2}$ keV$^{-1}$], which is proportional to the integral of the source electron distribution, $F(E)$ [e s$^{-1}$ cm$^{-2}$ keV$^{-1}$] as,
+
+\begin{equation}
+I(\epsilon)=\frac{1}{4 \pi R^{2}} \, \int^{\infty}_{\epsilon} \, \int_{V} n(r) \, F(E,r) \, Q(\epsilon, E) \, dE \, d^{3}r
+\end{equation}\label{hxr-emission}
+
+At Earth, $R$ is set to 1 AU, $n(r)$ is the density of the ambient plasma that nonthermal electrons interact with, $Q(\epsilon, E)$ is the bremsstrahlung cross-section, where $\epsilon$ and $E$ are the photon and electron kinetic energy respectively in keV units. 
+
+The collisional thick target model assumes that the nonthermal electron distribution can be described as a power-law of electrons being accelerated out of the thermal or Maxwellian distribution, 
+
+\begin{equation}
+$F(E) \prop E^{-\delta}$
+\end{equation}\label{elecdist}
+
+The point at which electron energies cross over from the thermal domain to non-thermal is known as the energy cut off or $E_C$. The spectral index, $\delta$, determines the slope of the power-law. The number of non-thermal particles being accelerated per second, above an energy $E_C$ is expressed as  
+
+\begin{equation}
+N(E>E_C) = \int^{\infty}_{E_C} \, F(E) \, dE
+\end{equation}\label{totalelecnum}
+
+The power $P$ in erg s$^{-1}$ carried by $N$ nonthermal electrons is,
+
+\begin{equation}
+P(E>E_C) = \int^{\infty}_{E_C} \, F(E) \, E \, dE \, = 1.6\times{10^{-9}} \, \frac{\delta - 1}{\delta - 2}N \, E_C
+\end{equation}\label{totalelecpow}  
+
+
+The nonthermal power is then converted to energy by multiplying by the elapsed time $\delta{t}$,
+
+\begin{equation}
+U_{N}(E > E_C) = P(E > E_C) \, \delta{t}
+\end{equation}\label{totalelecenergy} 
+
+The thick target is a model that describes nonthermal electrons being stopped by the denser lower atmosphere, with hard X-ray signatures taking the form of footpoints highlightimg the tether points of newly formed flare loops. Energy losses due to deposition in the chromosphere, $\frac{dU}{dt}=$Coulomb rate. The thin target regime is used to describe energy losses of nonthermal particles in the more diffuse regions of the solar atmosphere, namely the corona. In this case energy losses through deposition are negligable, with $\frac{dU}{dt}=0$.
+
+Using the non-relativistic form of the bremsstrahlung cross-section, $Q(\epsilon,E)$ the photon flux, $I(\epsilon)$ is expressed as being proportional to a power-law of the photon energy, $\epsilon^{\gamma}$, where $\gamma = \delta -1$.
